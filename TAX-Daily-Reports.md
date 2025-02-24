@@ -5,6 +5,8 @@
 2025-02-25
 * Yesterday:
 	- Meeting: Onboarding session 2 sharing
+	- Onboarding Handbook - Chapter 3
+		- Money Forward Business Company Video & Slide
 	- Catchup Onboarding Items:
 		* Dev Environments:
 			* Heroku Endpoints:
@@ -19,15 +21,12 @@
 			* CircleCI: https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web?branch=master
 			* Figma: https://www.figma.com/design/uYfC3l77g2hNJExD9yYcNq/%5BTA%5DFY24_Design?node-id=7429-38963&t=1e23OIQUT40YAWQQ-0
 			* Rollbar Account: 
-				* Request > DONE
-	- Onboarding Handbook - Chapter 3
+				* Request > DONE > Waiting for approval
+* Today:
 	- Read TA documents:
 		* Accelerator document
 		* PMO document
 		* Product Overview document: Reacher will introduce...
-
-* Today:
-	- TBD
 
 2025-02-24
 * Lastday
