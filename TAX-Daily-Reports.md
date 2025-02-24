@@ -17,8 +17,14 @@
 			* Staging: https://tax-adjustment.test.mfw.work
 			* Production: https://tax-adjustment.moneyforward.com/
 			* CircleCI: https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web?branch=master
-			- Figma: https://www.figma.com/design/uYfC3l77g2hNJExD9yYcNq/%5BTA%5DFY24_Design?node-id=7429-38963&t=1e23OIQUT40YAWQQ-0
+			* Figma: https://www.figma.com/design/uYfC3l77g2hNJExD9yYcNq/%5BTA%5DFY24_Design?node-id=7429-38963&t=1e23OIQUT40YAWQQ-0
+			* Rollbar Account: 
+				* Request > DONE
 	- Onboarding Handbook - Chapter 3
+	- Read TA documents:
+		* Accelerator document
+		* PMO document
+		* Product Overview document: Reacher will introduce...
 
 * Today:
 	- TBD
