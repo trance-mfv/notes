@@ -6,18 +6,19 @@
 * Yesterday:
 	- Meeting: Onboarding session 2 sharing
 	- Catchup Onboarding Items:
-		- Dev Environments:
-			- Heroku Endpoints:
-				- Deploy: https://dashboard.heroku.com/apps/tax-milestone-dependabot/deploy/github
-				- Next Release: https://tax-adjustment-next-release.herokuapp.com/
-				- Upgrade Ruby Rails Nodejs: https://upgrade-ruby-rails-nodejs.herokuapp.com/
-				- Dependabot: https://tax-milestone-dependabot.herokuapp.com/home
-				- Web Dev: https://tax-adjustment-web-dev.herokuapp.com/home
-			- Diagnosis: https://diagnosis.tax-adjustment.test.mfw.work
-			- Staging: https://tax-adjustment.test.mfw.work
-			- Production: https://tax-adjustment.moneyforward.com/
-			- CircleCI: https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web?branch=master
+		* Dev Environments:
+			* Heroku Endpoints:
+				* Deploy: https://dashboard.heroku.com/apps/tax-milestone-dependabot/deploy/github
+				* Next Release: https://tax-adjustment-next-release.herokuapp.com/
+				* Upgrade Ruby Rails Nodejs: https://upgrade-ruby-rails-nodejs.herokuapp.com/
+				* Dependabot: https://tax-milestone-dependabot.herokuapp.com/home
+				* Web Dev: https://tax-adjustment-web-dev.herokuapp.com/home
+			* Diagnosis: https://diagnosis.tax-adjustment.test.mfw.work
+			* Staging: https://tax-adjustment.test.mfw.work
+			* Production: https://tax-adjustment.moneyforward.com/
+			* CircleCI: https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web?branch=master
 			- Figma: https://www.figma.com/design/uYfC3l77g2hNJExD9yYcNq/%5BTA%5DFY24_Design?node-id=7429-38963&t=1e23OIQUT40YAWQQ-0
+	- Onboarding Handbook - Chapter 3
 
 * Today:
 	- TBD
@@ -30,6 +31,7 @@
 	- Continue exploring the codebase, project structure 
 	- Continue setting up local development environment
 	- Onboarding session 2 sharing
+	- Onboarding Handbook - Chapter 3
 * Blocker:
 	- Access to resources: 
 		- Jira => Nas will help to request permission
