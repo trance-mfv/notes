@@ -76,6 +76,11 @@ pkill -USR1 puma-dev
 cd /rails-app/ rails s
 ```
 
+### References
+
+- [Puma-dev And Using It With Rails Applications](https://blog.saeloun.com/2024/07/12/rails-puma-dev/)
+- [puma-dev](https://github.com/puma/puma-dev)
+
 ## ERRORS
 
 ### installing mysql2
