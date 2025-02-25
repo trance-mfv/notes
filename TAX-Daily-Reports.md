@@ -2,27 +2,47 @@
 
 ## Daily Reports
 
+2025-02-26
+* Yesterday:
+	- Access to Jira, Rollbar.
+	- Meeting: Onboarding session 2 sharing
+	- Development environment setup: running tax_adjustment_web in Docker container
+	- Read TA documents:
+		* Accelerator document
+		* PMO document
+		* Product Overview document: Reacher will introduce...
+* Today:
+	-
+
 2025-02-25
 * Yesterday:
-	- Meeting: Onboarding session 2 sharing
-	- Onboarding Handbook - Chapter 3
+	- Training: Onboarding Handbook - Chapter 3
 		- Money Forward Business Company Video & Slide
 	- Catchup Onboarding Items:
 		* Dev Environments:
 			* Heroku Endpoints:
-				* Deploy: https://dashboard.heroku.com/apps/tax-milestone-dependabot/deploy/github
-				* Next Release: https://tax-adjustment-next-release.herokuapp.com/
-				* Upgrade Ruby Rails Nodejs: https://upgrade-ruby-rails-nodejs.herokuapp.com/
-				* Dependabot: https://tax-milestone-dependabot.herokuapp.com/home
-				* Web Dev: https://tax-adjustment-web-dev.herokuapp.com/home
-			* Diagnosis: https://diagnosis.tax-adjustment.test.mfw.work
-			* Staging: https://tax-adjustment.test.mfw.work
+				* Deploy: https://dashboard.heroku.com/apps/tax-milestone-dependabot/deploy/github ==> DONE
+				* Next Release: https://tax-adjustment-next-release.herokuapp.com/ 
+				x Upgrade Ruby Rails Nodejs: https://upgrade-ruby-rails-nodejs.herokuapp.com/ ==> Cannot access
+				? Dependabot: https://tax-milestone-dependabot.herokuapp.com/home
+					* Phoenix 2 	1587-2295 
+					* The selected provider is not available. Please contact your authorized administrator or person in charge.
+				? Web Dev: https://tax-adjustment-web-dev.herokuapp.com/home
+					* Phoenix 2 	1587-2295 
+					* The selected provider is not available. Please contact your authorized administrator or person in charge.
+			? Diagnosis: https://diagnosis.tax-adjustment.test.mfw.work
+				* Phoenix 2 	1587-2295 
+				* The selected provider is not available. Please contact your authorized administrator or person in charge.
+			* Staging: https://tax-adjustment.test.mfw.work ==> DONE
 			* Production: https://tax-adjustment.moneyforward.com/
-			* CircleCI: https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web?branch=master
-			* Figma: https://www.figma.com/design/uYfC3l77g2hNJExD9yYcNq/%5BTA%5DFY24_Design?node-id=7429-38963&t=1e23OIQUT40YAWQQ-0
+			* CircleCI: https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web?branch=master ==> DONE
+			* Figma: https://www.figma.com/design/uYfC3l77g2hNJExD9yYcNq/%5BTA%5DFY24_Design?node-id=7429-38963&t=1e23OIQUT40YAWQQ-0 ==> DONE
 			* Rollbar Account: 
 				* Request > DONE > Waiting for approval
+	- Development environment setup: running tax_adjustment_web in local machine
 * Today:
+	- Meeting: Onboarding session 2 sharing
+	- Development environment setup: running tax_adjustment_web in Docker container
 	- Read TA documents:
 		* Accelerator document
 		* PMO document
