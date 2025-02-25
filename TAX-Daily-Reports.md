@@ -4,8 +4,10 @@
 
 2025-02-26
 * Yesterday:
-	- Access to Jira, Rollbar.
-	- Meeting: Onboarding session 2 sharing
+	- Granted access to Jira, Rollbar.
+	- Meeting: 
+		- Onboarding session 2 sharing
+		- MFBC Monthly All-Hands
 	- Development environment setup: running tax_adjustment_web in Docker container
 	- Read TA documents:
 		* Accelerator document
@@ -22,13 +24,8 @@
 		* Dev Environments:
 			* Heroku Endpoints:
 				* Deploy: https://dashboard.heroku.com/apps/tax-milestone-dependabot/deploy/github ==> DONE
-				* Next Release: https://tax-adjustment-next-release.herokuapp.com/ ==> DONE
 				x Upgrade Ruby Rails Nodejs: https://upgrade-ruby-rails-nodejs.herokuapp.com/ ==> Cannot access
 				? Dependabot: https://tax-milestone-dependabot.herokuapp.com/home ==> ACCESS with ERROR
-					Error message:
-						* Phoenix 2 	1587-2295 
-						* The selected provider is not available. Please contact your authorized administrator or person in charge.
-				? Web Dev: https://tax-adjustment-web-dev.herokuapp.com/home ==> ACCESS with ERROR
 					Error message:
 						* Phoenix 2 	1587-2295 
 						* The selected provider is not available. Please contact your authorized administrator or person in charge.
@@ -36,6 +33,8 @@
 				Error message:
 					* Phoenix 2 	1587-2295 
 					* The selected provider is not available. Please contact your authorized administrator or person in charge.
+			* Next Release: https://tax-adjustment-next-release.herokuapp.com/ ==> DONE
+			* Dev: https://tax-adjustment-web-dev.herokuapp.com/home
 			* Staging: https://tax-adjustment.test.mfw.work ==> DONE
 			* Production: https://tax-adjustment.moneyforward.com/
 			* CircleCI: https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web?branch=master ==> DONE
@@ -46,6 +45,12 @@
 
 * Today:
 	- Meeting: Onboarding session 2 sharing
+		- BA - external service 
+		- SmartHR - external service: Import employee data from SmartHR
+		- Employee master
+		- YETA (year end tax adjustment): procedure 
+			- Create YETA
+			- Statuses: Not requested, Requested, Submitted, Withdrawn, Not Finalized
 	- Development environment setup: running tax_adjustment_web in Docker container
 	- Read TA documents:
 		* Accelerator document
