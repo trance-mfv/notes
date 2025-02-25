@@ -22,17 +22,20 @@
 		* Dev Environments:
 			* Heroku Endpoints:
 				* Deploy: https://dashboard.heroku.com/apps/tax-milestone-dependabot/deploy/github ==> DONE
-				* Next Release: https://tax-adjustment-next-release.herokuapp.com/ 
+				* Next Release: https://tax-adjustment-next-release.herokuapp.com/ ==> DONE
 				x Upgrade Ruby Rails Nodejs: https://upgrade-ruby-rails-nodejs.herokuapp.com/ ==> Cannot access
-				? Dependabot: https://tax-milestone-dependabot.herokuapp.com/home
+				? Dependabot: https://tax-milestone-dependabot.herokuapp.com/home ==> ACCESS with ERROR
+					Error message:
+						* Phoenix 2 	1587-2295 
+						* The selected provider is not available. Please contact your authorized administrator or person in charge.
+				? Web Dev: https://tax-adjustment-web-dev.herokuapp.com/home ==> ACCESS with ERROR
+					Error message:
+						* Phoenix 2 	1587-2295 
+						* The selected provider is not available. Please contact your authorized administrator or person in charge.
+			? Diagnosis: https://diagnosis.tax-adjustment.test.mfw.work ==> ACCESS with ERROR
+				Error message:
 					* Phoenix 2 	1587-2295 
 					* The selected provider is not available. Please contact your authorized administrator or person in charge.
-				? Web Dev: https://tax-adjustment-web-dev.herokuapp.com/home
-					* Phoenix 2 	1587-2295 
-					* The selected provider is not available. Please contact your authorized administrator or person in charge.
-			? Diagnosis: https://diagnosis.tax-adjustment.test.mfw.work
-				* Phoenix 2 	1587-2295 
-				* The selected provider is not available. Please contact your authorized administrator or person in charge.
 			* Staging: https://tax-adjustment.test.mfw.work ==> DONE
 			* Production: https://tax-adjustment.moneyforward.com/
 			* CircleCI: https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web?branch=master ==> DONE
@@ -40,6 +43,7 @@
 			* Rollbar Account: 
 				* Request > DONE > Waiting for approval
 	- Development environment setup: running tax_adjustment_web in local machine
+
 * Today:
 	- Meeting: Onboarding session 2 sharing
 	- Development environment setup: running tax_adjustment_web in Docker container
@@ -49,7 +53,7 @@
 		* Product Overview document: Reacher will introduce...
 
 2025-02-24
-* Lastday
+* Yesterday:
 	- Exploring the project structure
 	- Setting up local development environment with Docker
 * Today:
@@ -65,6 +69,12 @@
 	- bin/rails s 
 		- seed data? Jeff helped Vinne but still need more seed data to run
 		- foreman: why not used to run with Procfile
+* References:
+	- puma-dev with MFID: https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2437513217/Using+puma-dev+with+MFID+staging+on+local
+	- Docker Desktop alternatives for M1 Mac: https://alex-moss.medium.com/docker-desktop-alternatives-for-m1-mac-918a2dcda10
+	- Colima - container runtime for macOS: https://github.com/abiosoft/colima
+	- NotebookLM: https://notebooklm.google.com/notebook/74096525-707c-44ae-889e-696d12a0385a?original_referer=https:%2F%2Fwww.google.com%23&pli=1
+	- Gemini: https://gemini.google.com/app/655c6104fd094c22
 
 2025-02-21
 * Yesterday: 
