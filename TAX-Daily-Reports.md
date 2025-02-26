@@ -8,7 +8,10 @@
 	- Continue exploring the TAXW application: procedure feature
 	- Read TA System guide book
 * Today:
-	-
+	-	Meeting: 
+		- Onboarding Session 3 Sharing
+		- Ruby Seminar: CA Team
+	- Fixed the issue with webpacker to run TAXW in Docker container
 
 2025-02-26
 * Yesterday:
@@ -17,6 +20,7 @@
 		- Onboarding session 2 sharing
 		- MFBC Monthly All-Hands
 	- Development environment setup: running tax_adjustment_web in Docker container
+		- issue: webpacker
 	- Tested the local TAXW app and its features, e.g. create a new group and create a new employee
 	- Read TA documents:
 		* Tax Adjustment Introduction: https://docs.google.com/document/d/1O1lBP7_qzlpG47l0CDX4EPUn81p-fvuYCqYsc0yVFNk/edit?tab=t.0#heading=h.ng8d1pecyn9
@@ -37,6 +41,8 @@
 						networks:
 							- traefik
 			```
+		- Webpacker has been retired following the release of Rails 7.0: https://github.com/rails/webpacker
+			- With Rails 7, we're replacing Webpacker, Turbolinks, UJS with import maps plus Turbo and Stimulus from Hotwire as the defaults: https://world.hey.com/dhh/rails-7-will-have-three-great-answers-to-javascript-in-2021-8d68191b
 		? work with a colleague on a task to get familiar with the codebase, business logic and workflow
 	- Continue exploring the TAXW application: procedure feature
 	- Read TA System guide book
