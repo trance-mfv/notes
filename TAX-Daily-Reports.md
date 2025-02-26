@@ -2,6 +2,14 @@
 
 ## Daily Reports
 
+2025-02-27
+* Yesterday:
+	- Meeting: Onboarding Session 3 Sharing
+	- Continue exploring the TAXW application: procedure feature
+	- Read TA System guide book
+* Today:
+	-
+
 2025-02-26
 * Yesterday:
 	- Granted access to Jira, Rollbar.
@@ -9,12 +17,29 @@
 		- Onboarding session 2 sharing
 		- MFBC Monthly All-Hands
 	- Development environment setup: running tax_adjustment_web in Docker container
+	- Tested the local TAXW app and its features, e.g. create a new group and create a new employee
 	- Read TA documents:
-		* Accelerator document
-		* PMO document
-		* Product Overview document: Reacher will introduce...
+		* Tax Adjustment Introduction: https://docs.google.com/document/d/1O1lBP7_qzlpG47l0CDX4EPUn81p-fvuYCqYsc0yVFNk/edit?tab=t.0#heading=h.ng8d1pecyn9
 * Today:
-	-
+	- Meeting: Onboarding Session 3 Sharing
+		+ tax_adjustment_web 
+			- Dockerfile-dev: to update node_12 to node_14
+			```
+			RUN echo "deb https://deb.nodesource.com/node_14.x/
+			```
+		+ tax_adjustment_web 
+			- docker-compose-env.yml: missing mongodb service
+			```
+			  mongo:
+				image: mongo:latest
+				ports:
+					- "27019:27017"
+						networks:
+							- traefik
+			```
+		? work with a colleague on a task to get familiar with the codebase, business logic and workflow
+	- Continue exploring the TAXW application: procedure feature
+	- Read TA System guide book
 
 2025-02-25
 * Yesterday:
