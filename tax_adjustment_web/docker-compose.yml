@@ -1,0 +1,37 @@
+version: '3.9'
+
+x-app_container: &app_container
+  image: 'tax_adjustment_web:3.1.4'
+  build:
+    context: .
+    dockerfile: Dockerfile-dev
+  tty: true
+  stdin_open: true
+  volumes:
+    - ./:/app
+    - ./Gemfile:/app/Gemfile
+    - ./Gemfile.lock:/app/Gemfile.lock
+  env_file:
+    - .env.docker
+  networks:
+    - traefik
+
+services:
+  app:
+    <<: *app_container
+    command: bash -c "rm -f tmp/pids/server.pid && bundle install && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    ports:
+      - "3000:3000"
+    environment:
+      RAILS_ENV: development
+      WEBPACKER_DEV_SERVER_HOST: host.docker.internal
+      WEBPACKER_DEV_SERVER_PUBLIC: localhost:3035
+      
+  sidekiq:
+    <<: *app_container
+    command: 'bundle exec sidekiq -C config/sidekiq.yml'
+
+networks:
+  traefik:
+    external: true
+    name: traefik_proxy

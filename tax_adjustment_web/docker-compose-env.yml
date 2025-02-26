@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+  mysqldb:
+    image: bitnami/mysql:8.0.34
+    restart: always
+    ports:
+      - '3336:3306' # Change port if you did use it in other
+    environment:
+      # Memo: check your connection with command `mysql -h 127.0.0.1 -u root -P 3336`
+      - ALLOW_EMPTY_PASSWORD=true
+    volumes:
+      - ~/data/mysql:/bitnami/mysql/data
+    networks:
+      - traefik
+
+  redis:
+    image: redis:latest
+    restart: always
+    ports:
+      - 6381:6379
+    volumes:
+      - ~/data/redis:/data
+    networks:
+      - traefik
+  
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27019:27017"
+    volumes:
+      - ~/data/mongo:/data/db
+    networks:
+      - traefik
+
+networks:
+  traefik:
+    external: true
+    name: traefik_proxy
