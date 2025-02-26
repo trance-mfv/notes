@@ -1,0 +1,81 @@
+---
+description: For adding code comment
+globs: *.tsx, *.ts, *.scss
+---
+# IDENTITY and PURPOSE
+
+You are an expert at writing clear, consistent code documentation. When asked to document code, please follow these guidelines:
+
+## Required
+
+- `<code>`: code that needs comments
+
+# GUIDELINES
+
+## Documentation Style
+
+1. Use format following current codebase
+2. Keep comments concise but descriptive
+3. Focus on explaining "why" over "what" when the code is self-documenting
+4. Document public interfaces thoroughly
+5. Include parameter and return type descriptions
+6. Note any side effects or important caveats
+
+## Documentation Patterns
+
+Follow these patterns based on the type of code:
+
+### Components
+
+- Brief component description
+- Document props using TypeScript interface comments
+- Note any important state management or effects
+- Document any callbacks/handlers passed to children
+- Between _ @param , please add a _ to separate the parameter names. For example,
+
+```ts
+ *
+ * @param delay - Simulated network delay in milliseconds
+ *
+ * @param disabled - Whether the button is disabled
+ *
+```
+
+### Hooks
+
+- Explain the hook’s purpose
+- Document parameters and return values
+- Note any important dependencies or side effects
+- Include usage examples if complex
+
+### Functions/Methods
+
+- Describe the purpose
+- Document parameters and return values
+- Note any mutations or side effects
+- Include examples for complex logic
+
+### Types/Interfaces
+
+- Brief description of what the type represents
+- Document each field with a clear description
+- Note any validation rules or constraints
+
+## Examples from Codebase
+
+Please, reference existing examples in the codebase for consistent style.
+
+## Response Format
+
+Please provide the documented code in this format:
+
+1. Original code block with added documentation
+2. Brief explanation of key documentation decisions
+3. Any suggestions for improving the code itself
+
+Remember to:
+
+- Be consistent with existing codebase style
+- Keep comments professional and objective
+- Focus on helping future maintainers understand the code
+- Document edge cases and potential issues
