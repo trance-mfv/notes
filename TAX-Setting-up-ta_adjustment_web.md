@@ -6,48 +6,112 @@
 
 1. First, create the external network that both compose files use:
 ```bash
-docker network create traefik_proxy
+$ docker network create traefik_proxy
 ```
 
 2. Start the dependencies (MySQL and Redis):
 ```bash
-docker compose -f docker-compose-env.yml up -d
+$ docker compose -f docker-compose-env.yml up -d
 ```
 
 3. Build and start the application:
 ```bash
 # Build the image
-docker compose build
+$ docker compose build
+
+# Build the image no cache
+$ docker-compose build --no-cache --build-arg BUNDLE_GITHUB__COM={personal-access-token}
 
 # Start the services
-docker compose up -d
+$ docker compose up -d
 ```
 
-After running these commands:
-- MySQL will be available on `localhost:3336`
-- Redis will be available on `localhost:6381`
-- The Rails application will be available on `localhost:3000`
+4. Create the database and run the migrations:
 
-**Additional notes:**
+```bash
+$ docker exec tax_adjustment_web-app-1 bundle exec rails db:create
+$ docker exec tax_adjustment_web-app-1 bundle exec rails db:migrate
+
+# Run the data patches
+$ docker exec tax_adjustment_web-app-1 bundle exec rails r data_patch/2022/1212_setup_municipalities_master_data.rb
+$ docker exec tax_adjustment_web-app-1 bundle exec rails r data_patch/2022/0512_update_postal_code.rb
+```
+
+**NOTES:**
 - The application code is mounted as a volume, so any changes you make will be reflected without rebuilding
-- The database credentials in `.env` match the MySQL container setup
-- Sidekiq will process background jobs using Redis
+- The database environment variables in `.env` match the MySQL container setup
+
+```
+DATABASE_NAME=tax_adjustment_web
+DATABASE_USERNAME=root
+DATABASE_PASSWORD=
+DATABASE_HOSTNAME=mysqldb
+```
+
+- Update the Redis URLs to use the container names instead of `localhost`. Docker's internal DNS will resolve this name to the correct container IP address:
+```
+# REDIS_URL
+REDIS_URL=redis://redis:6379/5
+
+# SIDEKIQ
+SIDEKIQ_REDIS_URL=redis://redis:6379/0
+
+#NAVIS_CACHE
+TA_CACHING_NAVIS_REDIS_URL=redis://redis:6379/1
+```
+
+- Update the MongoDB URLs to use the container names instead of `localhost`. Docker's internal DNS will resolve this name to the correct container IP address:
+```
+MONGODB_HOSTS_AND_PORT=mongodb://mongo:27017
+```
+
+- If you're not sure where Redis is configured in your application, you can search for Redis-related code:
+
+```bash
+$ docker exec tax_adjustment_web-app-1 grep -r "Redis" --include="*.rb" config/
+```
+
+- Restart your application container to apply the changes if needed:
+
+```bash
+$ docker restart tax_adjustment_web-app-1
+```
+
 - You can view logs using:
 ```bash
 # All services
-docker compose logs -f
+$ docker compose logs -f
 
 # Specific service
-docker compose logs -f app
+$ docker compose logs -f tax_adjustment_web-app-1
 ```
 
 To stop everything:
 ```bash
 # Stop the app
-docker compose down
+$ docker compose down
 
 # Stop the dependencies
-docker compose -f docker-compose-env.yml down
+$ docker compose -f docker-compose-env.yml down
+```
+
+5. Run `webpack-dev-server` from host machine
+
+- In your `docker-compose.yml`, you need to expose your host machine's `webpack-dev-server` to the Docker container:
+
+```yml
+  app:
+    # other configs ...
+    environment:
+      RAILS_ENV: development
+      WEBPACKER_DEV_SERVER_HOST: host.docker.internal
+      WEBPACKER_DEV_SERVER_PUBLIC: localhost:3035
+```
+
+- Run `webpack-dev-server` from host machine
+
+```bash
+$ ./bin/webpack-dev-server
 ```
 
 ## Run the app in local machine
@@ -248,6 +312,94 @@ Benefits of using TCP/IP (host-based):
 - More flexible for different configurations
 - Easier to set up in some cases
 
+### Error with webpack-dev-server
+
+```bash
+ERROR in ./node_modules/@hotwired/turbo/dist/turbo.es2017-esm.js 74:19
+Module parse failed: Unexpected token (74:19)
+File was processed with these loaders:
+ * ./node_modules/babel-loader/lib/index.js
+You may need an additional loader to handle the result of these loaders.
+|   const element = target instanceof Element ? target : target instanceof Node ? target.parentElement : null;
+|   const candidate = element ? element.closest("input, button") : null;
+>   return candidate?.type == "submit" ? candidate : null;
+| }
+| function clickCaptured(event) {
+ℹ ｢wdm｣: Failed to compile.
+```
+
+**Solution: Downgrade Turbo Rails**
+
+The error occurs because you're using Turbo Rails 8.0.4, which uses modern JavaScript features that your current Babel configuration doesn't support.
+
+Here's how to downgrade to a compatible version:
+
+1. Update your `package.json` to use an older version of Turbo Rails:
+
+```json
+{
+  "dependencies": {
+    "@hotwired/turbo-rails": "^7.3.0",
+    // other dependencies remain the same
+  }
+}
+```
+
+2. Run npm or yarn to update the package:
+
+```bash
+npm install
+# or if you use yarn
+yarn install
+```
+
+3. Keep your current application.js setup:
+
+```javascript
+import "@hotwired/turbo-rails"
+// disable Turbo Drive on whole application
+Turbo.session.drive = false
+```
+
+**Why This Works**
+
+- Turbo Rails 7.x versions use JavaScript syntax that's compatible with your current Babel configuration
+- You'll still have access to Turbo Streams which your application is using
+- You won't need to modify your Babel configuration
+
+## Alternative Solutions
+
+If downgrading isn't an option, you have two other choices:
+
+1. **Add the Babel plugin** as suggested in my previous response
+
+  - install Babel plugin
+  ```
+  npm install --save-dev @babel/plugin-proposal-optional-chaining
+  ```
+
+  - update your `babel.config.js` file to include this plugin
+
+  ```javascript
+  plugins: [
+    '@babel/plugin-proposal-optional-chaining'
+  ]
+  ```
+
+2. **Selectively import Turbo features** instead of the whole package:
+
+```javascript
+// Instead of importing the whole package
+// import "@hotwired/turbo-rails"
+
+// Import only the specific parts you need
+import { StreamActions, StreamElement } from "@hotwired/turbo"
+// Configure what you need
+// No need to disable Turbo Drive since you're not importing it
+```
+
+The downgrade approach is simplest and most reliable given your current setup.
+
 ## Appendix
 
 ### Run the app with Docker
@@ -279,7 +431,29 @@ docker network create traefik_proxy
 
 2. Start the dependencies (MySQL and Redis):
 ```bash
-docker compose -f docker-compose-env.yml up -d
+$ docker compose -f docker-compose-env.yml up -d
+
+# To verify `redis` and `mysqldb` are connected to the traefix network:
+
+$ docker network inspect traefik_proxy
+# you should see them listed in the output under the "Containers" section
+```
+
+To verify services, `redis` and `mysqldb` are running:
+
+```bash
+# To connect to the MySQL container:
+$ docker exec -it tax_adjustment_web-mysqldb-1 mysql -u root
+
+# OR to connect to the MySQL container from the host machine
+$ mysql -h 127.0.0.1 -u root -P 3336
+
+# To connect to the Redis container:
+$ docker exec -it tax_adjustment_web-redis-1 redis-cli      
+
+# OR to connect to the Redis container from the host machine
+$ redis-cli -h 127.0.0.1 -p 6381
+
 ```
 
 3. Build and start the application:
@@ -292,33 +466,15 @@ docker compose up -d
 ```
 
 After running these commands:
-- MySQL will be available on `localhost:3336`
-- Redis will be available on `localhost:6381`
-- The Rails application will be available on `localhost:3000`
+- MySQL will be available on `localhost:3336` in host machine 
+- Redis will be available on `localhost:6381` in host machine
+- The Rails application will be available on `localhost:3000` in host machine
 
-#### Additional notes:
-- The application code is mounted as a volume, so any changes you make will be reflected without rebuilding
-- The database credentials in `.env` match the MySQL container setup
-- Sidekiq will process background jobs using Redis
-- You can view logs using:
-```bash
-# All services
-docker compose logs -f
+### Webpacker Error
 
-# Specific service
-docker compose logs -f app
-```
+- TBD
 
-To stop everything:
-```bash
-# Stop the app
-docker compose down
-
-# Stop the dependencies
-docker compose -f docker-compose-env.yml down
-```
-
-### Component Breakdown
+### Docker Component Breakdown
 
 #### 1. Dockerfile-dev Explanation:
 ```Dockerfile
@@ -734,7 +890,32 @@ docker-compose logs --tail=50 -f app sidekiq
 
 The `-f` (or `--follow`) flag is particularly useful during development as it shows logs in real-time as they're generated.
 
-### installing old version of nodejs 14.21.3
+### docker-compose-env.yml - MongoDB Permission Issues
+
+```bash
+$ docker-compose -f docker-compose-env.yml logs mongo
+mongo-1  | chown: changing ownership of '/data/db': Permission denied
+```
+
+**Solution:**
+
+[Link](https://stackoverflow.com/questions/67498836/docker-chown-changing-ownership-of-data-db-operation-not-permitted)
+
+For Mac user running Colima.
+
+I had the same problem on Mac and it turns out it was a problem when using the default Colima settings. 
+Changing the `vmType` to `vz` and `mountType` to `virtiofs`.
+
+To fix this run:
+
+```bash
+colima delete
+colima start --edit # and update vmType and mountType
+```
+
+### Run the app locally
+
+#### installing old version of nodejs 14.21.3
 
 I got stuck with some errors when using `asdf` to install nodejs 14.21.3. So use `nvm`!
 
@@ -775,7 +956,7 @@ $ nvm install 14.21.3
 $ nvm use 14.21.3
 ```
 
-### install yarn
+#### install yarn
 
 After installing node, install yarn globally using npm.
 
