@@ -2,16 +2,34 @@
 
 ## Daily Reports
 
+2025-02-28
+* Yesterday:
+	- Meeting: 
+		- TAX: Sprint Review
+		- Onboarding Session 4 Sharing
+	- Continue exploring the TAXW application
+	- Continue reading TA System guide book
+* Today:
+	- Meeting: 
+		- TAX: Sprint Retrospective
+		- [TA] Backlog Refinement
+		- Tech Seminar (Bi-Monthly)
+	- Continue exploring the TAXW application
+
 2025-02-27
 * Yesterday:
-	- Meeting: Onboarding Session 3 Sharing
-	- Continue exploring the TAXW application: procedure feature
-	- Read TA System guide book
-* Today:
-	-	Meeting: 
+	- Meeting: 
 		- Onboarding Session 3 Sharing
 		- Ruby Seminar: CA Team
+	- Continue exploring the TAXW application: procedure feature
 	- Fixed the issue with webpacker to run TAXW in Docker container
+	- Read TA System guide book
+* Today:
+	- Meeting: 
+		- TAX: Sprint Review
+		- Onboarding Session 4 Sharing
+	- Continue exploring the TAXW application
+	- Continue reading TA System guide book
 
 2025-02-26
 * Yesterday:
