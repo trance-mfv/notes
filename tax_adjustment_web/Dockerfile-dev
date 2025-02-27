@@ -1,0 +1,56 @@
+FROM ruby:3.1.4-slim-buster AS base
+
+RUN apt update \
+      && apt upgrade -y \
+      && apt install -y --no-install-recommends \
+          git \
+          jq \
+          curl \
+          g++ \
+          openssh-client \
+          make \
+          gcc \
+          default-libmysqlclient-dev \
+          libxrender1 \
+          libfontconfig1 \
+          libxext6 \
+          fonts-ipafont-gothic \
+          fonts-ipafont-mincho \
+          fonts-vlgothic \
+          fonts-wqy-zenhei \
+          libjemalloc2; \
+          rm -rf /var/lib/apt/lists/*
+
+RUN apt update
+RUN apt install -y gnupg apt-transport-https
+RUN curl --silent --show-error --location https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+RUN echo "deb https://deb.nodesource.com/node_14.x/ stretch main" > /etc/apt/sources.list.d/nodesource.list
+RUN apt update
+RUN apt install -y nodejs
+
+RUN curl --silent --show-error --location https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" > /etc/apt/sources.list.d/yarn.list
+RUN apt update
+RUN apt install -y yarn
+
+RUN apt update \
+      && apt install -y --no-install-recommends imagemagick; \
+          rm -rf /var/lib/apt/lists/*
+
+RUN  bundle config set force_ruby_platform true
+
+WORKDIR /app
+
+COPY ./Gemfile /app/Gemfile
+COPY ./Gemfile.lock /app/Gemfile.lock
+
+ARG BUNDLE_GITHUB__COM
+
+ENV BUNDLER_VERSION 2.1.4
+ENV BUNDLE_GITHUB__COM=$BUNDLE_GITHUB__COM
+
+RUN bundle install
+
+COPY . /app
+
+EXPOSE 3000
