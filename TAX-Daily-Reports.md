@@ -2,15 +2,74 @@
 
 ## Daily Reports
 
+2025-03-03
+* Last Day:
+	- Meeting: 
+		- TAX: Sprint Retrospective
+		- [TA] Backlog Refinement
+		- Tech Seminar (Bi-Monthly)
+	- Continue exploring the TAXW application
+* Today:
+	- Meeting: Sprint Planning
+	
 2025-02-28
 * Yesterday:
 	- Meeting: 
 		- TAX: Sprint Review
 		- Onboarding Session 4 Sharing
 	- Continue exploring the TAXW application
-	- Continue reading TA System guide book
+	- Continue reading TAX Infrastructure document:
+		- SRE Team is moving ECS to EKS for all services of the company
+		- TAX services will be migrated to EKS in the future
 * Today:
 	- Meeting: 
+		- Onboarding Session 5 Sharing
+			- Questions: 
+				- Infrastructure of TAX: ECS Cluster (Subnet Group private), mongoDB missing in the architecture diagram
+				- applying SOLID principle? i18n?
+				- DB: use enum attributes?
+			- sonarqube: 
+				- code smells, code coverage tool => c0 >= 90%
+			- Feature Flag:
+				- Tools: flagd (openfeature)
+			- TAX Infrastructure:　https://moneyforward.kibe.la/notes/199474 
+				- MFV plan: moving to service platform (K8s)
+				- AWS Infrastructure: https://aws.amazon.com/containers/
+					- Region: Tokyo (ap-northeast-1)
+					- Elastic Container Registry (ECR)
+					- Elastic Container Service (ECS) hosted on Fargate
+					- AWS Fargate: a serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes (EKS)
+					- CloudFront
+					- RDS: Aurora MySQL Cluster
+					- ElastiCache Redis
+				- CircleCI
+				- Heroku
+				- Virtual Private Cloud (VPC)
+					- region: Tokyo
+					- AZ: 3
+					- subnets: 3 public, 3 private
+					- NAT Gateways: We have NAT for 3 availability zones
+					- Internet Gateway: communication between VPC and the internet
+				- Application Load Balancer (ALB)
+				- SSH/Tunnel:
+					- SSH access via port 22
+					- to connect to production database and container debugging
+					- For staging: directly SSH from local to AWS via the Bastion host.
+					- For production: use PWS to join MFJ network before accessing the Bastion host. 
+
+			- Lead time tracking and monitoring:
+				- Lead time: time from first commit to merge PR
+				- Time to merge: time from create PR to merge PR
+				- Time to deploy: time from merge PR to deploy to production
+
+			```
+			|------------- lead time -------------|
+			|               |--- time to merge ---|
+			---------------------------------------
+			^               ^                     ^
+			first commit    create PR          merge PR
+			```
+
 		- TAX: Sprint Retrospective
 		- [TA] Backlog Refinement
 		- Tech Seminar (Bi-Monthly)
