@@ -944,7 +944,7 @@ export NVM_DIR="$HOME/.nvm"
 3. Install nodejs 14.21.3
 
 ```bash
-# I had to switch the arch to x86 before installing the nodejs.
+# Start a new zsh shell with x86_64 architecture before installing the nodejs.
 $ arch -x86_64 zsh
 
 $ nvm install 14.21.3
