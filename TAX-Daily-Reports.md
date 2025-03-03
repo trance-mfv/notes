@@ -2,15 +2,32 @@
 
 ## Daily Reports
 
+2025-03-04
+* Last Day:
+	- Meeting: Sprint Planning
+	- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+
+* Today:
+	- Meeting: Bi-weekly MFG All-hands Video
+
 2025-03-03
 * Last Day:
 	- Meeting: 
 		- TAX: Sprint Retrospective
 		- [TA] Backlog Refinement
 		- Tech Seminar (Bi-Monthly)
-	- Continue exploring the TAXW application
+	- Continue exploring the TAXW application and infra
 * Today:
 	- Meeting: Sprint Planning
+	- Tickets:
+		- [TAXW-1450](https://moneyforward.atlassian.net/browse/TAXW-1450) Fix search function based on whether My Number is registered or not
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+* Tasks:
+	- Navis:
+		- New Office: https://biz-admin.test.mfw.work/app/tenant_registration/new
+		- ERP: 
+			- New Business Plan: https://erp-stg1.ebisubook.com/change_erp_contract/new
+			- Home: https://erp-stg1.ebisubook.com/home
 	
 2025-02-28
 * Yesterday:
