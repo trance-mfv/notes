@@ -2,19 +2,47 @@
 
 ## Daily Reports
 
+2025-03-05
+* Yesterday:
+	- Meeting: 
+		- MFV Monthly All-hands
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+* Today:
+	- Meeting:
+		- MFV Monthly All-hands
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+
+2025-03-04
+* Yesterday:
+	- Meeting: 
+		- Backlog Refinement Sprint 111
+		- Bi-weekly MFG All-hands Video
+		- Auto reading sharing
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+
+* Today:
+	- Meeting: 
+		- MFV Monthly All-hands
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+
 2025-03-04
 * Last Day:
 	- Meeting: Sprint Planning
 	- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 
 * Today:
-	- Meeting: Bi-weekly MFG All-hands Video
+	- Meeting: 
+		- - Backlog Refinement Sprint 111
+		- Bi-weekly MFG All-hands Video
+		- Auto reading sharing
 
 2025-03-03
-* Last Day:
+* Yesterday:
 	- Meeting: 
-		- TAX: Sprint Retrospective
-		- [TA] Backlog Refinement
 		- Tech Seminar (Bi-Monthly)
 	- Continue exploring the TAXW application and infra
 * Today:
@@ -28,6 +56,7 @@
 		- ERP: 
 			- New Business Plan: https://erp-stg1.ebisubook.com/change_erp_contract/new
 			- Home: https://erp-stg1.ebisubook.com/home
+			- Credit card number: 4111111111111111
 	
 2025-02-28
 * Yesterday:
