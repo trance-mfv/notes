@@ -31,6 +31,12 @@ services:
     <<: *app_container
     command: 'bundle exec sidekiq -C config/sidekiq.yml'
 
+  # webpacker-dev-server:
+  #   <<: *app_container
+  #   command: './bin/webpack-dev-server'
+  #   networks:
+  #     - traefik
+
 networks:
   traefik:
     external: true
