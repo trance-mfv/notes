@@ -2,6 +2,18 @@
 
 ## Daily Reports
 
+2025-03-06
+* Yesterday:
+	- Meeting:
+		- MFV Monthly All-hands
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+* Today:
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+			- Review specs
+			- Update PR
+
 2025-03-05
 * Yesterday:
 	- Meeting: 
