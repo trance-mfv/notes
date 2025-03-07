@@ -2,7 +2,45 @@
 
 ## Daily Reports
 
-2025-03-06
+### 2025-03-10
+
+* Yesterday:
+	- Meeting:
+		- TAX: Sprint Retrospective:
+		- Bi-weekly TA and SRE team meeting:
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
+
+* Today:
+	- Meeting:
+
+### 2025-03-07
+* Yesterday:
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+* Today:
+	- Meeting:
+		- TAX: Sprint Retrospective:
+			- First sprint, I've received amazing supports from the team, which helped me moving faster
+			- Bye to Aaron
+		- Bi-weekly TA and SRE team meeting
+			- Decrease EC2 instance type: currently t3.large (temporarily increased for a task), to reduce back to t3.medium
+			- TA to provide checklist for SRE to check the connections through API calls:
+				1. TA calls external service: 
+					- MFID, Navis, SmartHR, Money Forward Business
+					- Mailing system
+				2. other services call TA: Uluru
+					- External endpoint
+					- Internal endpoint
+			- Documents:
+				- CloudTransfer domains
+
+	- Tasks: 
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
+			- Issue found by Reacher: after updating the eligibility to ta_employees, specialists have to recalculate Report to make the export pdf correct
+
+### 2025-03-06
 * Yesterday:
 	- Meeting:
 		- MFV Monthly All-hands
@@ -14,7 +52,7 @@
 			- Review specs
 			- Update PR
 
-2025-03-05
+### 2025-03-05
 * Yesterday:
 	- Meeting: 
 		- MFV Monthly All-hands
@@ -26,7 +64,7 @@
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 
-2025-03-04
+### 2025-03-04
 * Yesterday:
 	- Meeting: 
 		- Backlog Refinement Sprint 111
@@ -41,7 +79,7 @@
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 
-2025-03-04
+### 2025-03-04
 * Last Day:
 	- Meeting: Sprint Planning
 	- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
@@ -52,7 +90,7 @@
 		- Bi-weekly MFG All-hands Video
 		- Auto reading sharing
 
-2025-03-03
+### 2025-03-03
 * Yesterday:
 	- Meeting: 
 		- Tech Seminar (Bi-Monthly)
@@ -70,7 +108,7 @@
 			- Home: https://erp-stg1.ebisubook.com/home
 			- Credit card number: 4111111111111111
 	
-2025-02-28
+### 2025-02-28
 * Yesterday:
 	- Meeting: 
 		- TAX: Sprint Review
@@ -133,7 +171,7 @@
 		- Tech Seminar (Bi-Monthly)
 	- Continue exploring the TAXW application
 
-2025-02-27
+### 2025-02-27
 * Yesterday:
 	- Meeting: 
 		- Onboarding Session 3 Sharing
@@ -148,7 +186,7 @@
 	- Continue exploring the TAXW application
 	- Continue reading TA System guide book
 
-2025-02-26
+### 2025-02-26
 * Yesterday:
 	- Granted access to Jira, Rollbar.
 	- Meeting: 
@@ -182,7 +220,7 @@
 	- Continue exploring the TAXW application: procedure feature
 	- Read TA System guide book
 
-2025-02-25
+### 2025-02-25
 * Yesterday:
 	- Training: Onboarding Handbook - Chapter 3
 		- Money Forward Business Company Video & Slide
@@ -223,7 +261,7 @@
 		* PMO document
 		* Product Overview document: Reacher will introduce...
 
-2025-02-24
+### 2025-02-24
 * Yesterday:
 	- Exploring the project structure
 	- Setting up local development environment with Docker
@@ -247,7 +285,7 @@
 	- NotebookLM: https://notebooklm.google.com/notebook/74096525-707c-44ae-889e-696d12a0385a?original_referer=https:%2F%2Fwww.google.com%23&pli=1
 	- Gemini: https://gemini.google.com/app/655c6104fd094c22
 
-2025-02-21
+### 2025-02-21
 * Yesterday: 
 	- Completed training courses: 
 		- Information Security Orientation 
@@ -256,7 +294,7 @@
 * Today:
 	- Continue exploring the codebase, project structure 
 
-2025-02-20
+### 2025-02-20
 * Yesterday:
 	- Onboarding Session Sharing
 	- Meeting: Engineering All Hands
@@ -264,7 +302,7 @@
 	- Training: Information Security and Personal Confidential Information Protection
 	- Training: Technical Onboarding
 
-2025-02-19
+### 2025-02-19
 * Today: 
 	- Onboarding Session Sharing
 	- Meeting: Engineering All Hands
