@@ -24,6 +24,10 @@
         - Login with Github account
         - Request access: use this Slack channel #contact_cio_managed-tools
         - Request Users Access: use this Slack channel #sonarqube, fill in email, type: FREE, add and project: Tax Adjustment
+        - Config VSCode IDE to connect SonarQube: 
+            - Install SonarQube extension: `SonarQube for IDE`
+            - Generate user token
+            - Connect to SonarQube server: `sonar.mfvn.dev`
 
 ### Communication
     - Slack channels by category:
