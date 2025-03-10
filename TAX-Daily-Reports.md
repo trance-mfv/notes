@@ -32,6 +32,15 @@
 * Today:
 	- Meeting:
 		- Review TA2024 Season
+			- we had four incidents
+			- Development in FY2024:
+				- Fixed tax reduction
+				- (Beta)Auto reading of insurance certificate
+				- Auto calculation of housing loan deduction
+				- Navis Linkage Step 1
+				- Support tax reform
+				- Support Tatsuzin linkage file specification change
+				- Support SmartHR linkage file specification change
 		- 1:1 with Charlie
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
