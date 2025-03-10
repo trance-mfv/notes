@@ -2,18 +2,41 @@
 
 ## Daily Reports
 
-### 2025-03-10
+### 2025-03-11
 
 * Yesterday:
 	- Meeting:
-		- TAX: Sprint Retrospective:
-		- Bi-weekly TA and SRE team meeting:
+		- Review TA2024 Season
+		- 1:1 with Charlie
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+			- Continue working with the recalculation issue
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
 
 * Today:
 	- Meeting:
+		- 
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+
+### 2025-03-10
+
+* Last day:
+	- Meeting:
+		- TAX: Sprint Retrospective:
+		- Bi-weekly TA and SRE team meeting
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+			- Recalculation issue found by Reacher
+
+* Today:
+	- Meeting:
+		- Review TA2024 Season
+		- 1:1 with Charlie
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+			- Continue working with the recalculation issue
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
 
 ### 2025-03-07
 * Yesterday:
@@ -35,6 +58,7 @@
 					- Internal endpoint
 			- Documents:
 				- CloudTransfer domains
+		- 3 new Teams: https://docs.google.com/presentation/d/1RKcO62lW-l7OjSQZkvwkQy6gWEHvUYI-929cCRLWfDo/edit#slide=id.g3311ae265ca_0_989
 
 	- Tasks: 
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
