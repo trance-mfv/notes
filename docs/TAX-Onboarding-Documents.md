@@ -19,6 +19,11 @@
     - Figma: Design tool, e.g. prototyping
     - Miro: Collaboration and communication tool for team collaboration
     - Google Accounts: Drive, Calendar, etc.
+    - SonarQube: Code quality and security tool
+        - Link: https://sonar.mfvn.dev/projects
+        - Login with Github account
+        - Request access: use this Slack channel #contact_cio_managed-tools
+        - Request Users Access: use this Slack channel #sonarqube, fill in email, type: FREE, add and project: Tax Adjustment
 
 ### Communication
     - Slack channels by category:
