@@ -367,7 +367,7 @@ Turbo.session.drive = false
 - You'll still have access to Turbo Streams which your application is using
 - You won't need to modify your Babel configuration
 
-## Alternative Solutions
+#### Alternative Solutions
 
 If downgrading isn't an option, you have two other choices:
 
