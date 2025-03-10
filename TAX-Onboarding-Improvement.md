@@ -2,14 +2,12 @@
 
 ## Table of Contents
 
-- [TAX Onboarding Improvement](#tax-onboarding-improvement)
-  - [Draft Ideas](#draft-ideas)
+- [Draft Ideas](#draft-ideas)
     - [Trance](#trance)
     - [Vinnie](#vinnie)
     - [Edgar](#edgar)
-	- [Ideas collected from Edgar and Vinnie](#ideas-collected-from-edgar-and-vinnie)
-	- [Final Ideas After Discussions with Nas](#final-ideas-after-discussions-with-nas)
-
+- [Ideas collected from Edgar and Vinnie](#ideas-collected-from-edgar-and-vinnie)
+- [Final Ideas After Discussions with Nas](#final-ideas-after-discussions-with-nas)
 
 ## Draft Ideas
 
@@ -63,14 +61,14 @@
             - Notify the QA team
             - View CI/CD result
 
-## Vinnie
+### Vinnie
 * Demo:
     - The Onboarding Sharing Sessions are very helpful; however, it is not easy to catch up all information without a real demo. It'd be great if we  can demonstrate the system in action in these sessions.
         -Example: basic steps to use the system: 
             - Using MFID to create a new user, 
             - Using Navis to create a tenant, 
 
-## Edgar
+### Edgar
 * Document:
     - [Gitflow Process document](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2489221231/GitFlow+Process)
         - Some minor points are missing, e.g. git flow for subtasks
