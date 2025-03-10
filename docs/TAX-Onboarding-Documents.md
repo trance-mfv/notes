@@ -3,18 +3,21 @@
 ## Accounts
 
 ### SRE
-    - Github
+    - Github: Version control system: source code management and collaboration
         - Repo: https://github.com/moneyforward/tax_adjustment_web
-    - Jira
-    - Confluence
-    - Heroku
-    - CircleCI (CI/CD)
+    - Jira: Project management and issue tracking tool
+    - Confluence: Knowledge base and documentation platform for team collaboration
+    - Heroku: Cloud platform for app deployment and scaling
+    - CircleCI (CI/CD): Continuous integration and deployment platform for automated testing and deployment
+    - Rollbar: Error monitoring and tracking tool for identifying and fixing application issues
     
 ### Company Tools
-    - Slack
-    - Kibela
-    - Figma
-    - Miro
+    - Slack: Team communication and collaboration tool
+    - Kibela: Knowledge base and documentation platform for team collaboration
+        - https://moneyforward.kibe.la/
+        - MFV: https://moneyforward.kibe.la/groups/1454
+    - Figma: Design tool, e.g. prototyping
+    - Miro: Collaboration and communication tool for team collaboration
     - Google Accounts: Drive, Calendar, etc.
 
 ### Communication
@@ -82,6 +85,19 @@
 ### Way of work
 
 ### Product overview
+- Tax Adjustment Web: 
+    - MFID: 
+        - Staging: https://id.test.musubu.co.in/oauth/applications/260
+    - ERP: 
+        - Staging: https://erp-stg1.ebisubook.com/home
+    - Payroll: 
+        - Staging: https://payroll.ebisubook.co.in/
+    - Rollbar: https://app.rollbar.com/a/moneyforward/fix/items?isSnoozed=false&prj=486797
+    - CI/CD Pipeline: https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web
+    - Heroku: 
+        - Dependabot:https://dashboard.heroku.com/apps/tax-milestone-dependabot
+        - web-dev: https://dashboard.heroku.com/apps/tax-adjustment-web-dev
+        - next-release: https://dashboard.heroku.com/apps/tax-adjustment-web-dev
 
 ### Technical architect:
 
