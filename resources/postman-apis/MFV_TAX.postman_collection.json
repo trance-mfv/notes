@@ -1,0 +1,1633 @@
+{
+	"info": {
+		"_postman_id": "dea23640-fe17-4b0b-a751-066e0b072f53",
+		"name": "MFV_TAX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19537156"
+	},
+	"item": [
+		{
+			"name": "Navis",
+			"item": [
+				{
+					"name": "search office",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{navis_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{navis_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"identification_codes\": [\n        \"44079047\"\n    ],\n    \"page\": 1,\n    \"per_page\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{navis_host}}/internal_api/tenants/search",
+							"host": [
+								"{{navis_host}}"
+							],
+							"path": [
+								"internal_api",
+								"tenants",
+								"search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get tenant user list",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{navis_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{navis_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{navis_host}}/internal_api/tenants/42386/tenant_users?per_page=10000",
+							"host": [
+								"{{navis_host}}"
+							],
+							"path": [
+								"internal_api",
+								"tenants",
+								"42386",
+								"tenant_users"
+							],
+							"query": [
+								{
+									"key": "edited_at_from",
+									"value": "2022-11-15",
+									"disabled": true
+								},
+								{
+									"key": "edited_at_to",
+									"value": "2022-11-16",
+									"disabled": true
+								},
+								{
+									"key": "tenant_user_uids[]",
+									"value": "42317",
+									"disabled": true
+								},
+								{
+									"key": "tenant_user_uids[]",
+									"value": "42327",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "per_page",
+									"value": "10000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get navis deleted accounts",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{navis_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{navis_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{navis_host}}/internal_api/deleted_accounts?deleted_at_from=2023-09-25",
+							"host": [
+								"{{navis_host}}"
+							],
+							"path": [
+								"internal_api",
+								"deleted_accounts"
+							],
+							"query": [
+								{
+									"key": "deleted_at_from",
+									"value": "2023-09-25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get tenant user info by mfid",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{navis_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{navis_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{navis_host}}/internal_api/users/180147/user_belongings",
+							"host": [
+								"{{navis_host}}"
+							],
+							"path": [
+								"internal_api",
+								"users",
+								"180147",
+								"user_belongings"
+							],
+							"query": [
+								{
+									"key": "edited_at_from",
+									"value": "2022-11-15",
+									"disabled": true
+								},
+								{
+									"key": "edited_at_to",
+									"value": "2022-11-16",
+									"disabled": true
+								},
+								{
+									"key": "tenant_user_uids[]",
+									"value": "42317",
+									"disabled": true
+								},
+								{
+									"key": "tenant_user_uids[]",
+									"value": "42327",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get tenant user info by uid",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{navis_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{navis_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{navis_host}}/internal_api/tenant_users/692399",
+							"host": [
+								"{{navis_host}}"
+							],
+							"path": [
+								"internal_api",
+								"tenant_users",
+								"692399"
+							],
+							"query": [
+								{
+									"key": "edited_at_from",
+									"value": "2022-11-15",
+									"disabled": true
+								},
+								{
+									"key": "edited_at_to",
+									"value": "2022-11-16",
+									"disabled": true
+								},
+								{
+									"key": "tenant_user_uids[]",
+									"value": "42317",
+									"disabled": true
+								},
+								{
+									"key": "tenant_user_uids[]",
+									"value": "42327",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user activation permission",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{navis_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{navis_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{navis_host}}/internal_api/tenant_users/237018/service_activation_permission",
+							"host": [
+								"{{navis_host}}"
+							],
+							"path": [
+								"internal_api",
+								"tenant_users",
+								"237018",
+								"service_activation_permission"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user access permission",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{navis_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{navis_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{navis_host}}/internal_api/tenant_users/42327/access_permission",
+							"host": [
+								"{{navis_host}}"
+							],
+							"path": [
+								"internal_api",
+								"tenant_users",
+								"42327",
+								"access_permission"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get office info",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{navis_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{navis_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{navis_host}}/internal_api/tenants/19200",
+							"host": [
+								"{{navis_host}}"
+							],
+							"path": [
+								"internal_api",
+								"tenants",
+								"19200"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "set user full access permission",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{navis_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{navis_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"tenant_uid\": 19200,\n        \"display_name\": \"123123123名称未設定\",\n        \"family_name\": null,\n        \"given_name\": null,\n        \"middle_name\": null\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{navis_host}}/internal_api/tenant_users/230832/tenant_user_fullaccess_role",
+							"host": [
+								"{{navis_host}}"
+							],
+							"path": [
+								"internal_api",
+								"tenant_users",
+								"230832",
+								"tenant_user_fullaccess_role"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create tenant user",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{navis_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{navis_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"operating_tenant_user_uid\": 231819,\n  \"email\": \"ptest20@ptest.vn\",\n  \"display_name\": \"a\",\n  \"family_name\": \"a\",\n  \"given_name\": \"\",\n  \"middle_name\": \"\",\n  \"employee_code\": null\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{navis_host}}/internal_api/tenants/33064/tenant_users",
+							"host": [
+								"{{navis_host}}"
+							],
+							"path": [
+								"internal_api",
+								"tenants",
+								"33064",
+								"tenant_users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create tenant user (loginID)",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{navis_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{navis_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic dkJtaW9xNGk3dFluZlZwZDpqUFlzN2FoYU1ZS1JlR2JV",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"operating_tenant_user_uid\": 231819,\n  \"email\": \"nguyen.phi.phung+member1@moneyforward.vn\",\n  \"display_name\": \"Phoneix Nguyen\",\n  \"login_id\": \"apr2501\",\n  \"temporary_password\": \"Phung123456\",\n  \"family_name\": \"上島\",\n  \"given_name\": \"太郎\",\n  \"middle_name\": \"K\",\n  \"employee_code\": null,\n  \"product\": \"login-id-pj\"\n}"
+						},
+						"url": {
+							"raw": "{{navis_host}}/internal_api/tenants/33064/login_id_tenant_users",
+							"host": [
+								"{{navis_host}}"
+							],
+							"path": [
+								"internal_api",
+								"tenants",
+								"33064",
+								"login_id_tenant_users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TA",
+			"item": [
+				{
+					"name": "My Page",
+					"item": [
+						{
+							"name": "get withholding slip",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{ta_pass}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{ta_user}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Basic dXNlcm5hbWU6cGFzc3dvcmQ=",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "{{ta_host}}/api/mypage/tenants/33064/tenant_users/686385/withholding_slips",
+									"host": [
+										"{{ta_host}}"
+									],
+									"path": [
+										"api",
+										"mypage",
+										"tenants",
+										"33064",
+										"tenant_users",
+										"686385",
+										"withholding_slips"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "PA",
+					"item": [
+						{
+							"name": "ta-pa get employee info",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "username",
+											"value": "{{ta_user}}",
+											"type": "string"
+										},
+										{
+											"key": "password",
+											"value": "{{ta_pass}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{ta_host}}/api/pa/offices/33064/tax_adjustments/miwTyfeKFNk00wlLK4s95A/next_year_dependent_deduction_employees",
+									"host": [
+										"{{ta_host}}"
+									],
+									"path": [
+										"api",
+										"pa",
+										"offices",
+										"33064",
+										"tax_adjustments",
+										"miwTyfeKFNk00wlLK4s95A",
+										"next_year_dependent_deduction_employees"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Navis",
+					"item": [
+						{
+							"name": "get deleteable tenant user",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{ta_pass}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{ta_user}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{ta_host}}/navis/tenant_users/231820/deletable",
+									"host": [
+										"{{ta_host}}"
+									],
+									"path": [
+										"navis",
+										"tenant_users",
+										"231820",
+										"deletable"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Senju",
+					"item": [
+						{
+							"name": "get employee submission request",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{ta_pass}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{ta_user}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "X-Mfc-Tenant-Uid",
+										"value": "42386"
+									},
+									{
+										"key": "X-Mfc-Tenant-User-Uid",
+										"value": "732429",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{ta_host}}/api/senju/action_requested_documents?page=1&per_page=10&action_types=SUBMISSION&action_status=WAITING",
+									"host": [
+										"{{ta_host}}"
+									],
+									"path": [
+										"api",
+										"senju",
+										"action_requested_documents"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "per_page",
+											"value": "10"
+										},
+										{
+											"key": "action_types",
+											"value": "SUBMISSION"
+										},
+										{
+											"key": "action_status",
+											"value": "WAITING"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get employee withdraw request",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{ta_pass}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{ta_user}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "X-Mfc-Tenant-Uid",
+										"value": "42393"
+									},
+									{
+										"key": "X-Mfc-Tenant-User-Uid",
+										"value": "732431"
+									}
+								],
+								"url": {
+									"raw": "{{ta_host}}/api/senju/submitted_documents?page=1&per_page=10&document_statuses=RETURNED",
+									"host": [
+										"{{ta_host}}"
+									],
+									"path": [
+										"api",
+										"senju",
+										"submitted_documents"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "per_page",
+											"value": "10"
+										},
+										{
+											"key": "document_statuses",
+											"value": "RETURNED"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "https://tax-adjustment.test.mfw.work/api/senju/action_requested_documents?page=1&per_page=10&action_types=SUBMISSION&action_status=WAITING",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "X-Mfc-Tenant-Uid",
+										"value": "42386"
+									},
+									{
+										"key": "X-Mfc-Tenant-User-Uid",
+										"value": "732430"
+									},
+									{
+										"key": "Authorization",
+										"value": "Basic SjR4a1cxUFBGb3J4R3JJNTVHeTR6cmZmTmh1dmFvRER5VTA6UFpEeUdZVk9OVlc4cDJWeVJYbWIxTUdNYzgwbWlDM1pIVFE="
+									}
+								],
+								"url": {
+									"raw": "https://tax-adjustment.test.mfw.work/api/senju/action_requested_documents?page=1&per_page=10&action_types=SUBMISSION&action_status=WAITING",
+									"protocol": "https",
+									"host": [
+										"tax-adjustment",
+										"test",
+										"mfw",
+										"work"
+									],
+									"path": [
+										"api",
+										"senju",
+										"action_requested_documents"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "per_page",
+											"value": "10"
+										},
+										{
+											"key": "action_types",
+											"value": "SUBMISSION"
+										},
+										{
+											"key": "action_status",
+											"value": "WAITING"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "tax_adjustments",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{ta_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{ta_user}}",
+									"type": "string"
+								},
+								{
+									"key": "showPassword",
+									"value": false,
+									"type": "boolean"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{ta_host}}/api/offices/33064/tax_adjustments",
+							"host": [
+								"{{ta_host}}"
+							],
+							"path": [
+								"api",
+								"offices",
+								"33064",
+								"tax_adjustments"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "My Cloud Number",
+			"item": [
+				{
+					"name": "get employee number",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{mycloudnumber_aut}}"
+							}
+						],
+						"url": {
+							"raw": "{{mycloudnumber_host}}/internal_api/v1/offices/22858/employee_my_number_statuses",
+							"host": [
+								"{{mycloudnumber_host}}"
+							],
+							"path": [
+								"internal_api",
+								"v1",
+								"offices",
+								"22858",
+								"employee_my_number_statuses"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PA",
+			"item": [
+				{
+					"name": "bonuses",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{pa_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{pa_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{pa_host}}/api/ta/offices/{{tenant_user}}/bonuses?identifier={{pa_identifier}}&with_tenant=1",
+							"host": [
+								"{{pa_host}}"
+							],
+							"path": [
+								"api",
+								"ta",
+								"offices",
+								"{{tenant_user}}",
+								"bonuses"
+							],
+							"query": [
+								{
+									"key": "identifier",
+									"value": "{{pa_identifier}}"
+								},
+								{
+									"key": "with_tenant",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Employee Bonus",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{pa_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{pa_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{pa_host}}/api/ta/offices/{{tenant_user}}/bonuses/I0jTd6rUy6RrJ5tyALTCFw?identifier={{pa_identifier}}&with_tenant=1",
+							"host": [
+								"{{pa_host}}"
+							],
+							"path": [
+								"api",
+								"ta",
+								"offices",
+								"{{tenant_user}}",
+								"bonuses",
+								"I0jTd6rUy6RrJ5tyALTCFw"
+							],
+							"query": [
+								{
+									"key": "identifier",
+									"value": "{{pa_identifier}}"
+								},
+								{
+									"key": "with_tenant",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Office Payroll",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic dHFUZ0k3a2FzZFNNVDRPZ0xRTVgydzpDMXA0anhPOFNzOHZvRzJNWlZneE53"
+							}
+						],
+						"url": {
+							"raw": "{{pa_host}}/api/ta/offices/{{tenant_user}}/payrolls?identifier={{pa_identifier}}&with_tenant=24110",
+							"host": [
+								"{{pa_host}}"
+							],
+							"path": [
+								"api",
+								"ta",
+								"offices",
+								"{{tenant_user}}",
+								"payrolls"
+							],
+							"query": [
+								{
+									"key": "identifier",
+									"value": "{{pa_identifier}}"
+								},
+								{
+									"key": "with_tenant",
+									"value": "24110"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Employee Payroll",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{pa_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{pa_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic e3tQQV9VU0VSfX06e3tQQV9QQVNTfX0="
+							}
+						],
+						"url": {
+							"raw": "{{pa_host}}/api/ta/offices/{{tenant_user}}/payrolls/{{pa_payroll_id}}?identifier={{pa_identifier}}&with_tenant=24110",
+							"host": [
+								"{{pa_host}}"
+							],
+							"path": [
+								"api",
+								"ta",
+								"offices",
+								"{{tenant_user}}",
+								"payrolls",
+								"{{pa_payroll_id}}"
+							],
+							"query": [
+								{
+									"key": "identifier",
+									"value": "{{pa_identifier}}"
+								},
+								{
+									"key": "with_tenant",
+									"value": "24110"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "fetch_specified_employees",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "qF0CVGHhDPkHVzkyi1YV9dtIGhO14Q0d",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "X-API-KEY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-API-KEY",
+								"value": "qF0CVGHhDPkHVzkyi1YV9dtIGhO14Q0d"
+							},
+							{
+								"key": "X-WEBHOOK-SIGNATURE",
+								"value": "35367ae76bb14fb823383b5b93e5cbd31b91c78c1272c3cfe77525d4442f4e8d"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 1234,\n  \"upload_id\": \"15a4fd05-4034-4a17-aada-8e60a3c4b037\",\n  \"key\": \"f09afe12-5b02-4886-b0fc-90d345ed85ee\",\n  \"zip_key\": \"bf98dc96-5a57-401a-aba3-b7106e08d39c\",\n  \"defined_paper_id\": 123,\n  \"status\": \"success\",\n  \"chips\": [\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"normal\",\n    \"name\": \"電話番号\",\n    \"key\": \"insurance_type\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"new\",\n    \"name\": \"電話番号\",\n    \"key\": \"new_or_old1\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"insurance_company_name\",\n    \"name\": \"電話番号\",\n    \"key\": \"insurance_company_name\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"insurance_kind\",\n    \"name\": \"電話番号\",\n    \"key\": \"insurance_kind\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"insurance_term\",\n    \"name\": \"電話番号\",\n    \"key\": \"insurance_term\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"insurance_policyholder_name\",\n    \"name\": \"電話番号\",\n    \"key\": \"insurance_policyholder_name\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"beneficiary_name\",\n    \"name\": \"電話番号\",\n    \"key\": \"beneficiary_name\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": 123,\n    \"name\": \"電話番号\",\n    \"key\": \"insurance_premium_amount\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"2024-01-05\",\n    \"name\": \"電話番号\",\n    \"key\": \"payment_started_at\",\n    \"matrix_row_number\": 1\n    }\n  ],\n  \"filenames\": [\n    \"example1\",\n    \"example2\"\n  ],\n  \"message\": \"Finished to process\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/uluru/insurances",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"uluru",
+								"insurances"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "fetch_specified_employees",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "X-API-KEY",
+										"value": "qF0CVGHhDPkHVzkyi1YV9dtIGhO14Q0d"
+									},
+									{
+										"key": "X-WEBHOOK-SIGNATURE",
+										"value": "3e6ea7c260f7c984a240f353706db3d28fccf657e029335d28f5c9d3721c37b0",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": 1234,\n  \"upload_id\": \"e4ae7506-50fa-4903-9027-a77ecf0723bb\",\n  \"key\": \"576648e7-6b7c-469e-b3a8-3122d08d145e\",\n  \"zip_key\": \"bf98dc96-5a57-401a-aba3-b7106e08d39c\",\n  \"defined_paper_id\": 123,\n  \"status\": \"success\",\n  \"chips\": [\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"個人年金\",\n    \"name\": \"電話番号\",\n    \"key\": \"insurance_type\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"old\",\n    \"name\": \"電話番号\",\n    \"key\": \"new_or_old\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"insurance_company_name\",\n    \"key\": \"insurance_company_name\",\n    \"name\": \"電話番号\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"insurance_kind\",\n    \"name\": \"電話番号\",\n    \"key\": \"insurance_kind\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"insurance_term\",\n    \"name\": \"電話番号\",\n    \"key\": \"insurance_term\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"insurance_policyholder_name\",\n    \"name\": \"電話番号\",\n    \"key\": \"insurance_policyholder_name\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"beneficiary_name\",\n    \"name\": \"電話番号\",\n    \"key\": \"beneficiary_name\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"fasfsa\",\n    \"name\": \"電話番号\",\n    \"key\": \"insurance_premium_amount\",\n    \"matrix_row_number\": 1\n    },\n    {\n    \"id\": 123,\n    \"defined_chip_id\": 1001,\n    \"status\": \"verify_success\",\n    \"verified_input\": \"2024-01-05\",\n    \"name\": \"電話番号\",\n    \"key\": \"payment_started_at\",\n    \"matrix_row_number\": 1\n    }\n  ],\n  \"filenames\": [\n    \"example1\",\n    \"example2\"\n  ],\n  \"message\": \"Finished to process\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/uluru/insurances",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"uluru",
+										"insurances"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Permitted-Cross-Domain-Policies",
+									"value": "none"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "strict-origin-when-cross-origin"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-store, must-revalidate, private, max-age=0"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "Fri, 01 Jan 1990 00:00:00 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Security-Policy",
+									"value": "default-src 'self' https:; font-src 'self' https: data: https://fonts.googleapis.com; img-src 'self' data: blob: https://www.googletagmanager.com https://www.google-analytics.com https://*.s3.amazonaws.com https://www.google.com https://*.moneyforward.com https://*.bedore.jp https://*.karte.io; object-src 'none'; frame-src 'self' https://www.googletagmanager.com https://bid.g.doubleclick.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com http://localhost:3000 http://localhost:3035 ws://localhost:3035; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com http://localhost:3000 http://localhost:3035 ws://localhost:3035 https://static.zdassets.com https://widget-mediator.zopim.com; connect-src 'self' https: https://www.google-analytics.com http://localhost:3000 http://localhost:3035 ws://localhost:3035 wss://widget-mediator.zopim.com"
+								},
+								{
+									"key": "X-Request-Id",
+									"value": "a9e6b1bb-85ce-4abd-bb88-709a243b5908"
+								},
+								{
+									"key": "X-Runtime",
+									"value": "0.756812"
+								},
+								{
+									"key": "X-MiniProfiler-Original-Cache-Control",
+									"value": "no-store"
+								},
+								{
+									"key": "X-MiniProfiler-Ids",
+									"value": "fgyc7zjsmb00ni15y69y,xkp79c7m9941650rrkhu,rra1qkxp3tdi7ind2bcj,ixj46f87bxu63bqqqmdl,p59edo3cv6dby0t1ncqw,9am3d0s681ag1kq35bhh"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "__profilin=p%3Dt; path=/; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": false\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Office Payroll Group",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{pa_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{pa_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{pa_host}}/api/ta/offices/{{tenant_user}}/payroll_groups?identifier={{pa_identifier}}&with_tenant=1",
+							"host": [
+								"{{pa_host}}"
+							],
+							"path": [
+								"api",
+								"ta",
+								"offices",
+								"{{tenant_user}}",
+								"payroll_groups"
+							],
+							"query": [
+								{
+									"key": "identifier",
+									"value": "{{pa_identifier}}"
+								},
+								{
+									"key": "with_tenant",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ERP",
+			"item": [
+				{
+					"name": "get_contract",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{erp_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{erp_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{erp_host}}/internal/api/v1/offices/19200/contract?service_name=ta",
+							"host": [
+								"{{erp_host}}"
+							],
+							"path": [
+								"internal",
+								"api",
+								"v1",
+								"offices",
+								"19200",
+								"contract"
+							],
+							"query": [
+								{
+									"key": "service_name",
+									"value": "ta"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_single_plan_contract",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{erp_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{erp_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{erp_host}}/internal/api/v1/offices/19200/single_plan_contract/ta",
+							"host": [
+								"{{erp_host}}"
+							],
+							"path": [
+								"internal",
+								"api",
+								"v1",
+								"offices",
+								"19200",
+								"single_plan_contract",
+								"ta"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_billable_contracts",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{erp_pass}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{erp_user}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{erp_host}}/internal/api/v1/billable_contracts?product_id=ta",
+							"host": [
+								"{{erp_host}}"
+							],
+							"path": [
+								"internal",
+								"api",
+								"v1",
+								"billable_contracts"
+							],
+							"query": [
+								{
+									"key": "product_id",
+									"value": "ta"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SmartHR",
+			"item": [
+				{
+					"name": "procedures",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{smarthr_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{smarthr_host}}/api//v1/year_end_adjustment/procedures?year=2021",
+							"host": [
+								"{{smarthr_host}}"
+							],
+							"path": [
+								"api",
+								"",
+								"v1",
+								"year_end_adjustment",
+								"procedures"
+							],
+							"query": [
+								{
+									"key": "year",
+									"value": "2021"
+								},
+								{
+									"key": "access_token",
+									"value": "{{smarthr_token}}",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "crews",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{smarthr_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{smarthr_host}}/api/v1/crews?sort=emp_status&per_page=100",
+							"host": [
+								"{{smarthr_host}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"crews"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "emp_status"
+								},
+								{
+									"key": "access_token",
+									"value": "{{smarthr_token}}",
+									"disabled": true
+								},
+								{
+									"key": "per_page",
+									"value": "100"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "procedures-crews-docs",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{smarthr_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{smarthr_host}}/api//v1/year_end_adjustment/procedures/9b611328-bbf8-4021-a94b-a7a06b4b4a37/crews/00830e94-f253-4eab-bdf1-389c27e3d27e/docs?year=2023",
+							"host": [
+								"{{smarthr_host}}"
+							],
+							"path": [
+								"api",
+								"",
+								"v1",
+								"year_end_adjustment",
+								"procedures",
+								"9b611328-bbf8-4021-a94b-a7a06b4b4a37",
+								"crews",
+								"00830e94-f253-4eab-bdf1-389c27e3d27e",
+								"docs"
+							],
+							"query": [
+								{
+									"key": "access_token",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "year",
+									"value": "2023"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CDB",
+			"item": [
+				{
+					"name": "get next year employee and dependent info",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "{{ta_user}}",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "{{ta_pass}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{ta_host}}/api/cdb/offices/33064/tax_adjustments/miwTyfeKFNk00wlLK4s95A/next_year_dependent_deduction_employees",
+							"host": [
+								"{{ta_host}}"
+							],
+							"path": [
+								"api",
+								"cdb",
+								"offices",
+								"33064",
+								"tax_adjustments",
+								"miwTyfeKFNk00wlLK4s95A",
+								"next_year_dependent_deduction_employees"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "7c73ee51-ca62-4c96-951a-d0b32762ad47",
+		"name": "External Api From TA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19537156"
+	},
+	"item": [
+		{
+			"name": "Senju get submitted_documents",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "username",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Mfc-Tenant-Uid",
+						"value": "22858",
+						"type": "text"
+					},
+					{
+						"key": "X-Mfc-Tenant-User-Uid",
+						"value": "208244",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/senju/submitted_documents?page=1&per_page=1&document_statuses=RETURNED",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"",
+						"api",
+						"senju",
+						"submitted_documents"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "1"
+						},
+						{
+							"key": "action_types",
+							"value": "SUBMISSION",
+							"disabled": true
+						},
+						{
+							"key": "action_status",
+							"value": "WAITING",
+							"disabled": true
+						},
+						{
+							"key": "X-Mfc-Tenant-Uid",
+							"value": "22858",
+							"disabled": true
+						},
+						{
+							"key": "document_statuses",
+							"value": "RETURNED"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
