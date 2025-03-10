@@ -1,5 +1,16 @@
 # TAX Onboarding Improvement
 
+## Table of Contents
+
+- [TAX Onboarding Improvement](#tax-onboarding-improvement)
+  - [Draft Ideas](#draft-ideas)
+    - [Trance](#trance)
+    - [Vinnie](#vinnie)
+    - [Edgar](#edgar)
+	- [Ideas collected from Edgar and Vinnie](#ideas-collected-from-edgar-and-vinnie)
+	- [Final Ideas After Discussions with Nas](#final-ideas-after-discussions-with-nas)
+
+
 ## Draft Ideas
 
 ### Trance
@@ -67,7 +78,7 @@
 * Communication:
     - Slack channels are evolving everyday, so we should have a Confluence page for the public channels (this channel is for xxx, can we use VNese in it or not etc.)
 
-## Ideas collected from the discussion with Edgar and Vinnie:
+## Ideas collected from Edgar and Vinnie
 
 1. Onboarding Buddy
     Category: Implementation/Process, Teamwork
