@@ -210,7 +210,7 @@ Benefits of using TCP/IP (host-based):
 - More flexible for different configurations
 - Easier to set up in some cases
 
-#### installing old version of nodejs 14.21.3
+### installing old version of nodejs 14.21.3
 
 I got stuck with some errors when using `asdf` to install nodejs 14.21.3. So use `nvm`!
 
