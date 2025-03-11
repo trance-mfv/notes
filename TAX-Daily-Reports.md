@@ -10,14 +10,14 @@
 		- 1:1 with Charlie
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
-			- Continue working with the recalculation issue
+			- Continue working with the recalculation issue. Paired with Reacher to debug the issue
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
 
 * Today:
-	- Meeting:
-		- 
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+			- Review code and possible edge cases and refactor if needed
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
 
 ### 2025-03-10
 
