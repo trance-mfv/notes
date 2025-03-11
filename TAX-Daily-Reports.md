@@ -2,6 +2,20 @@
 
 ## Daily Reports
 
+### 2025-03-12
+
+* Yesterday:
+	- Tasks: 
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+			- Reviewed code and refactor regarding the `municipality_ids` as Reacher's suggestion
+			- Discussed with Pat about the edge cases: the possibility when employee's municipality is not (OR is changed during the job) in the list of tax_adjustment.municipality_ids
+
+* Today: 
+	- Tasks:
+		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
+			- Following up if any issue
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
+		
 ### 2025-03-11
 
 * Yesterday:
@@ -17,6 +31,31 @@
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 			- Review code and possible edge cases and refactor if needed
+			- Discussed with Pat about the edge cases:
+				emp 1 => muni = 1 && target => manual value id = 1
+				emp 2 => muni = 2 && target => manual value id = 1
+				emp 3 => muni = 1 &&target => manual value id = 1
+
+				==> print 2 employees
+
+				---- case 2
+				municipality_ids = [1, 3]
+
+				emp 1 => muni = 1 && target => not target => manual value id = 1 ==> nil
+				emp 3 => muni = 1 && target
+
+				==> print 3
+
+				---- case 3
+				municipality_ids = [1, 3]
+
+				emp 1 => muni = 1 && target => not target => manual value id = 1 ==> nil
+				emp 2 => muni = 2 && target => not target => manual value id = 1
+				emp 3 => muni = 1 && target
+
+				==> print 2 + 3
+
+
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
 
 ### 2025-03-10
