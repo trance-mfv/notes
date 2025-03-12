@@ -27,7 +27,7 @@
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 			- Following up if any issue
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
-	- Daily Meeting:
+	- Notes: Impact Analysis - more details in the meeting minutes
 		- Devs: No code changes without Jira tickets
 		- Impact Analysis is mandatory before any release and should be shared with QA in advance so they understand what to check
 		- Types of Impact Analysis:
