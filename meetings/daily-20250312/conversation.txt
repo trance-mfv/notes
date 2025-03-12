@@ -1,0 +1,174 @@
+[Nazmul / alam.nazmul] 09:19:29
+So finally, it has been released to the market and there was silly bug and even though it is a severe Not CBIT2, but still it's a very silly bug because of this silly process of our lifting so what we decided in essay and in hris
+
+[Nazmul / alam.nazmul] 09:19:48
+So we will not change any code without any Jira ticket. That's the first thing. And whenever we are going to release this thing, we must have the impact analysis of this modification, fix or implementation.
+
+[Nazmul / alam.nazmul] 09:20:02
+This impact analysis must be shared with the QA site so that they can understand what to check.
+
+[Nazmul / alam.nazmul] 09:20:07
+In advance so yeah it's it should be kind of must thing in every time So without that do that ticket We will not do any coding or without that impact analysis, we are not going to release that data ticket.
+
+[Nazmul / alam.nazmul] 09:20:26
+Yeah, let's document this if it has not been clearly documented and all should have the same understanding.
+
+[Nas] 09:20:34
+Yeah.
+
+[Nazmul / alam.nazmul] 09:20:34
+One is that about say your uh topic, right?
+
+[Phoenix] 09:20:39
+Yeah, just right. Thank you. Namos then.
+
+[Nazmul / alam.nazmul] 09:20:41
+Yeah, it's actually a very serious issue may happen because of without impact analysis, without data ticket and just released because of some refactoring Especially this tech depth area. So you need to very much careful about it we easily refactor, modify something without informing anyone.
+
+[Nas] 09:21:03
+Yeah.
+
+[Reacher] 09:21:05
+Yeah, from the impact analytics so must be doing for on on team, not especially for dev team because Some steps were quite very complicated.
+
+[Reacher] 09:21:21
+So POA and PDM for maybe zone for investigate and provide impact analysis tool because the dev team just reset on the show cost.
+
+[Reacher] 09:21:35
+Maybe some program related busy clothing.
+
+[Nazmul / alam.nazmul] 09:21:41
+Exactly, Richard. So there are three areas. One area is coding. So if it is new code, then of course there is no side effect maybe but if it is a modification then the dev side know the best way it has been modified and
+
+[Nazmul / alam.nazmul] 09:21:57
+Which area might be impacted. So that's the areas we need to consider. At the same time, we also need to discuss with PDM side Especially for new requirement if there is any impact or not.
+
+[Reacher] 09:21:59
+Yeah, yeah.
+
+[Reacher] 09:22:09
+Yeah, yeah.
+
+[Nazmul / alam.nazmul] 09:22:09
+So they need to also think about if this issue this new project is there whether there is any side effect or impact on the other previous project developed already.
+
+[Nazmul / alam.nazmul] 09:22:20
+So yeah, together we need to decide that this is the impact area At the same time, phonics from her experience or QA side from their experience, they can come up with a use case point of view, what might be the impact they can think?
+
+[Phoenix] 09:22:35
+Yes, I think so. I think we have two kinds of the impact analysis.
+
+[Nas] 09:22:42
+Oh.
+
+[Phoenix] 09:22:42
+One from the business or business logic and one from the impact from the coding So for impact from behind a course i think only engineer can revive.
+
+[Phoenix] 09:22:58
+Provided.
+
+[Nazmul / alam.nazmul] 09:22:58
+Yes. So at this moment the phonics main point is this engineering side impact. I think a business side impact PDM or QSI, they are trying to catch up that part but if we change something in the code side so that recent incident, what I said is basically the impact for the code side chains
+
+[Nazmul / alam.nazmul] 09:23:17
+And no awareness or no escalation about the changes.
+
+[Phoenix] 09:23:23
+Yes.
+
+[Nazmul / alam.nazmul] 09:23:24
+But you have points so we need to think about we should put in the release note or test planning that impact areas clearly and then we need to categorize two impact areas one is business side impact areas. And another is uh
+
+[Nas] 09:23:25
+Hmm.
+
+[Nazmul / alam.nazmul] 09:23:42
+Coding engineering side impact areas.
+
+[Nas] 09:23:47
+Sla in the… the test plan uh step plan phase uh actually the development plan the last stack, the implementation yes so it's difficult to the team to input the impact scope for this that's why So I think we can…
+
+[Nas] 09:24:11
+Luisine in another file. Yeah, maybe… we in the Horn implementation we can we still need to up to date for the impact.
+
+[Nas] 09:24:22
+I'll back on the line. Maybe we can in
+
+[Nazmul / alam.nazmul] 09:24:27
+I will discuss with you and also Phonics and other member a key member. So there might be a change in the organization and you remember maybe distributed with the engineering side yeah That's a discussion matter is still under discussion maybe
+
+[Nas] 09:24:38
+Oh.
+
+[Nazmul / alam.nazmul] 09:24:41
+Phonics knew something from Yamato-san. Already? Not yet.
+
+[Phoenix] 09:24:47
+Yes, yes.
+
+[Nazmul / alam.nazmul] 09:24:49
+Okay. Maybe Beepley, right? It will be announced maybe this week. I don't know. It will be announced soon.
+
+[Nazmul / alam.nazmul] 09:24:57
+Okay, nice discussion. So if someone can take a note and put this note somewhere here in the meeting minutes or somewhere in the slack channel so this will
+
+[Reacher] 09:25:09
+Yeah, thank you, Asana. Yeah, I think we can enlist the limiting today.
+
+[Nas] 09:25:11
+Yeah, okay.
+
+[Reacher] 09:25:18
+So enough, long time you got any. So can you any?
+
+[Nas] 09:25:23
+Okay, are you ready? Let's make it.
+
+[Edgar / vo.hoang.long] 09:25:27
+Yes. Together.
+
+[Asher] 09:25:27
+Yeah. Yeah.
+
+[Reacher] 09:25:27
+Yeah.
+
+[Vinnie (Nguyen Khoa Dang)] 09:25:27
+Yes.
+
+[Luna MFV] 09:25:27
+Yo.
+
+[Gwen] 09:25:30
+Do you get a…
+
+[Nazmul / alam.nazmul] 09:25:31
+Thank you.
+
+[Nas] 09:25:32
+Thank you. Bonette.
+
+[Key (Nguyễn Ngọc Khánh)] 09:25:33
+It is one.
+
+[Pat] 09:25:33
+New one.
+
+[Vinnie (Nguyen Khoa Dang)] 09:25:33
+I think you're wrong.
+
+[Gwen] 09:25:34
+Everyone.
+
+[Edgar / vo.hoang.long] 09:25:34
+See you.
+
+[Jeff Nguyen] 09:25:34
+Here.
+
+[Luna MFV] 09:25:35
+Thank you.
+
+[Asher] 09:25:38
+Have a nice.
+

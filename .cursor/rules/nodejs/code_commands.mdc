@@ -1,0 +1,74 @@
+---
+description: This is for running commands to check typescript, run tests, update graphql
+globs: 
+---
+# Goal
+
+
+## Packages
+The pacakges that these commands apply to are:
+
+packages/core
+packages/main
+packages/app-shared
+packages/reports
+
+
+## Reference files
+
+Root       [package.json](mdc:package.json)
+Apps/app   [package.json](mdc:apps/app/package.json)
+API        [package.json](mdc:packages/api/package.json)
+Core       [package.json](mdc:packages/core/package.json)
+Main       [package.json](mdc:packages/main/package.json)
+app-shared [package.json](mdc:packages/app-shared/package.json)
+reports    [package.json](mdc:packages/reports/package.json)
+
+
+## Generate CSS Modules
+
+If you are in the root directory the command is:
+
+```
+pnpm [PACKAGE NAME] typegen:scss
+```
+
+If you are in one of the pacakges the command is:
+
+```
+pnpm typegen:scss
+```
+
+## Run typescript check
+
+This is the command to run the type script check. Run it for each packages seperately if in the root directory
+
+
+If you are in the root directory the command is:
+
+```
+pnpm [PACKAGE NAME] tsc
+```
+
+If you are in one of the pacakges the command is:
+
+```
+pnpm tsc
+```
+
+## Running tests
+
+The command to run tests is the following, run it for each pacakge seperate if in the root directory. Specify the relative file path if you want to only run a specific test.
+
+```
+pnpm [PACKAGE NAME] test [RELATIVE FILE PATH]
+```
+
+## Update graphql
+
+The command to update the graphql is the followiong:
+
+```
+pnpm api codegen
+```
+
