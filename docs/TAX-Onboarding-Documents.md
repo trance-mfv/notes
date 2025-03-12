@@ -111,6 +111,19 @@
                 - [Release on Mar 13, 2025 ](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147650/Release+on+Mar+13+2025) 
             - Sprint Review:[TAX-Sprint 110 Review](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147675/TAX-Sprint+110+Review)
         ```
+    - Gitflow:
+        - Milestone branch: `milestone/<mm-dd>`; e.g. milestone/mar-13
+        - Feature branch: `[feature]/TAXW-<ticket-id>-<description>`; e.g. feature/TAXW-1324-disable-electric-submit
+        - Development branch: `develop`
+        - QA branch: `heroku/<branch-name>`; e.g. heroku/dependabot
+
+    - Pull Request:
+        - Title: [JIRA_Ticket] xxxx
+            - Example: [TAXW-1324] Disable "Electric Submit"
+        - Description: 
+            - Screenshots or screencasts to provide evidence of the self-test from your side.
+        - Reviewer:
+            - Add @ta_dev_mfv_reviewers as a reviewer
 
 ### Product overview
 - Tax Adjustment Web: 
