@@ -92,6 +92,25 @@
 ### Team structure
 
 ### Way of work
+    - Implementation Flow:
+        - implement -> self test -> báo QA -> QA confirm passed -> review -> merge
+    - Implementation Branches :
+        - implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-name>) -> notify QA (JIRA ticket) -> QA confirm passed -> review -> merge PR
+    - Sprint: 
+        - 2 weeks
+        - Tasks in Sprint
+        - Releases in Sprint
+        - Sprint Review
+
+        ```
+        - Example: TAX-111
+            - [TAX-111 (Mar 03 - Mar 14)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147519/TAX-111+Mar+03+-+Mar+14) 
+            - Tasks in Sprint: [TAX-111 tasks ](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147540/TAX-111+tasks)
+            - Releases in Sprint: tickets will be released in during the sprint
+                - [Release on Mar 06, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147623/Release+on+Mar+06+2025)
+                - [Release on Mar 13, 2025 ](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147650/Release+on+Mar+13+2025) 
+            - Sprint Review:[TAX-Sprint 110 Review](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147675/TAX-Sprint+110+Review)
+        ```
 
 ### Product overview
 - Tax Adjustment Web: 
