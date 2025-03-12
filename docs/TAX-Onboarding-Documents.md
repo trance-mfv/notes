@@ -38,9 +38,10 @@
             
         - MFV Level (`#mfv_xxx`):
             - IT support: #contact_mfv-corp-it-support
-            - #mfv_ta_onboard
-            - #mfv_ta_random
-            - #mfv_ta_vn
+            - #mfv_ta_onboard: TA VN Onboarding Team
+            - #mfv_ta_random: TA VN Team - Random talks
+            - #mfv_ta_vn: TA VN Team 
+            - #mfv_ta_dev_vn: TA Dev VN Team (including former TA Devs)
             - #mfv-absence-notification
             - #mfv-announcement
             - #mfv-base-timesheet-notify
@@ -62,7 +63,7 @@
             - #mfg_pr
             
         - TA Level (`#ta_xxx`):
-            - #ta_dev_all
+            - #ta_dev_all: クラウド年末調整の開発チームのチャンネル/ Cloud Tax Adjustment development team channel
             - #ta_dev_aweb_notification_production
             - #ta_dev_aweb_notification_staging
             - #ta_dev_env_rollbar
@@ -74,8 +75,7 @@
             - #ta_dev_staging_rollbar
             - #ta_monitoring_production
             - #ta_monitoring_staging
-            - #ta_design
-            - #ta_random
+            - #ta_design: TA Design Team (JP + VN)
             
         - Incident & Monitoring:
             - #incident_tracking
@@ -85,7 +85,7 @@
             - #cursor-ai
             - #hcm-ruby
             - #mf_orientation_new_entry_training
-            - #ae-ta-dev (private channel)
+            - #ae-ta-dev (private channel): TA Dev VN Team
 
 ## Team and Product
 
@@ -121,3 +121,41 @@
 ## Release Plan
 
 ### Project/Release Plan
+
+## Documentation
+- [Tech documents](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1659600905/Tech+documents)
+- [TA System Guidebook](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1668513853/TA+System+guidebook)
+
+## Installation
+
+### SonarQube Extension in VSCode
+
+1. Install the SonarQube Extension for IDE
+    - Open VSCode
+    - Go to Extensions (Cmd + Shift + X)
+    - Search for SonarQube and click Install
+
+2. Install Node.js v18.20.7
+    - SonarQube requires Node.js v18.18+, so you need to install the correct version
+
+3. Configure Node.js Path in SonarQube Settings
+    - Run this command to get the path of the newly installed Node.js: npm config list
+    - Copy the Node.js path (e.g., /Users/your-username/.nvm/versions/node/v18.20.7/bin/node)
+    - Paste this path into SonarQube Extension settings in VSCode
+
+4. Generate User Token on SonarQube
+    - Go to https://sonar.mfvn.dev/account/security
+    - Click Generate User Token
+    - Name/Expires in: Set as you wish
+    - Type: Select User Token
+    - Copy the generated token for the next step
+
+5. Set Up SonarQube Connection in VSCode
+    - Open VSCode, press Cmd + Shift + P
+    - Select Connect SonarQube Server
+    - Enter the information from Step 4 (URL, Token)
+    - Save the connection
+
+6. Configure the Project
+    - After setting up the connection, SonarQube Extension will display a popup to configure the project
+Select tax_adjustment when prompted
