@@ -8,6 +8,8 @@
     - Jira: Project management and issue tracking tool
     - Confluence: Knowledge base and documentation platform for team collaboration
     - Heroku: Cloud platform for app deployment and scaling
+        - Request `#contact_cio_managed-tools` to get access to the moneyforwardvietnam team
+        - Shared account: tran.kinh.ly+herokutateam@moneyforward.co.jp
     - CircleCI (CI/CD): Continuous integration and deployment platform for automated testing and deployment
     - Rollbar: Error monitoring and tracking tool for identifying and fixing application issues
     
@@ -91,54 +93,77 @@
 
 ### Team structure
 
-### Way of work
-    - Implementation Flow:
-        - implement -> self test -> báo QA -> QA confirm passed -> review -> merge
-    - Implementation Branches :
-        - implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-name>) -> notify QA (JIRA ticket) -> QA confirm passed -> review -> merge PR
-    - Sprint: 
-        - 2 weeks
-        - Tasks in Sprint
-        - Releases in Sprint
-        - Sprint Review
+## Way of work
 
-        ```
-        - Example: TAX-111
-            - [TAX-111 (Mar 03 - Mar 14)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147519/TAX-111+Mar+03+-+Mar+14) 
-            - Tasks in Sprint: [TAX-111 tasks ](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147540/TAX-111+tasks)
-            - Releases in Sprint: tickets will be released in during the sprint
-                - [Release on Mar 06, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147623/Release+on+Mar+06+2025)
-                - [Release on Mar 13, 2025 ](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147650/Release+on+Mar+13+2025) 
-            - Sprint Review:[TAX-Sprint 110 Review](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147675/TAX-Sprint+110+Review)
-        ```
-    - Gitflow:
-        - Milestone branch: `milestone/<mm-dd>`; e.g. milestone/mar-13
-        - Feature branch: `[feature]/TAXW-<ticket-id>-<description>`; e.g. feature/TAXW-1324-disable-electric-submit
-        - Development branch: `develop`
-        - QA branch: `heroku/<branch-name>`; e.g. heroku/dependabot
+### Daily Standup
 
-    - Pull Request:
-        - Title: [JIRA_Ticket] xxxx
-            - Example: [TAXW-1324] Disable "Electric Submit"
-        - Description: 
-            - Screenshots or screencasts to provide evidence of the self-test from your side.
-        - Reviewer:
-            - Add @ta_dev_mfv_reviewers as a reviewer
+#### Daily Init (Chorei)
+- Initiator: Are you ready? 
+- Others: Yes/Yo
+- Initiator: Let's make it.
+- Everyone: Together
+
+#### Code Convention
+- [Code convention](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1715634206/Code+convention)
+
+#### Implementation Flow:
+
+implement -> self test -> báo QA -> QA confirm passed -> review -> merge
+
+#### Implementation Branches :
+
+implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-name>) -> notify QA (JIRA ticket) -> QA confirm passed -> review -> merge PR
+
+#### Sprint: 
+
+- 2 weeks
+- Tasks in Sprint
+- Releases in Sprint
+- Sprint Review
+
+**Example: TAX-111**
+
+| Sprint Information | Link |
+|-------------------|------|
+| Sprint Period | [TAX-111 (Mar 03 - Mar 14)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147519/TAX-111+Mar+03+-+Mar+14) |
+| Tasks in Sprint | [TAX-111 tasks](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147540/TAX-111+tasks) |
+| Sprint Review | [TAX-Sprint 110 Review](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147675/TAX-Sprint+110+Review) |
+
+**Releases in Sprint:**
+- [Release on Mar 06, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147623/Release+on+Mar+06+2025)
+- [Release on Mar 13, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147650/Release+on+Mar+13+2025)
+
+#### Gitflow:
+
+| Branch Type | Format | Example |
+|-------------|--------|---------|
+| Milestone | `milestone/<mm-dd>` | milestone/mar-13 |
+| Feature | `[feature]/<JIRA-Ticket-ID>-<description>` | feature/TAXW-1324-disable-electric-submit |
+| Development | `develop` | develop |
+| QA | `heroku/<branch-name>` | heroku/dependabot |
+
+#### Pull Request:
+
+| Component | Format | Example/Details |
+|-----------|--------|----------------|
+| Title | `[JIRA_Ticket] Description` | [TAXW-1324] Disable "Electric Submit" |
+| Description | Include evidence of self-testing | Screenshots or screencasts to provide evidence of the self-test from your side |
+| Reviewer | Add team reviewer group | @ta_dev_mfv_reviewers |
 
 ### Product overview
-- Tax Adjustment Web: 
-    - MFID: 
-        - Staging: https://id.test.musubu.co.in/oauth/applications/260
-    - ERP: 
-        - Staging: https://erp-stg1.ebisubook.com/home
-    - Payroll: 
-        - Staging: https://payroll.ebisubook.co.in/
-    - Rollbar: https://app.rollbar.com/a/moneyforward/fix/items?isSnoozed=false&prj=486797
-    - CI/CD Pipeline: https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web
-    - Heroku: 
-        - Dependabot:https://dashboard.heroku.com/apps/tax-milestone-dependabot
-        - web-dev: https://dashboard.heroku.com/apps/tax-adjustment-web-dev
-        - next-release: https://dashboard.heroku.com/apps/tax-adjustment-web-dev
+
+#### Tax Adjustment Web
+
+| Service | Environment | Link |
+|---------|-------------|------|
+| MFID | Staging | [Link](https://id.test.musubu.co.in/oauth/applications/260) |
+| ERP | Staging | [Link](https://erp-stg1.ebisubook.com/home) |
+| Payroll | Staging | [Link](https://payroll.ebisubook.co.in/) |
+| Rollbar | - | [Link](https://app.rollbar.com/a/moneyforward/fix/items?isSnoozed=false&prj=486797) |
+| CI/CD Pipeline | - | [Link](https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web) |
+| Heroku | Dependabot | [Link](https://dashboard.heroku.com/apps/tax-milestone-dependabot) |
+| | web-dev | [Link](https://dashboard.heroku.com/apps/tax-adjustment-web-dev) |
+| | next-release | [Link](https://dashboard.heroku.com/apps/tax-adjustment-web-dev) |
 
 ### Technical architect:
 
