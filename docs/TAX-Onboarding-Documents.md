@@ -32,66 +32,29 @@
             - Connect to SonarQube server: `sonar.mfvn.dev`
 
 ### Communication
-    - Slack channels by category:
-        
-        - External Connections:
-            - #contact_cio_managed-tools
-            - #contact_ciso_security
-            
-        - MFV Level (`#mfv_xxx`):
-            - IT support: #contact_mfv-corp-it-support
-            - #mfv_ta_onboard: TA VN Onboarding Team
-            - #mfv_ta_random: TA VN Team - Random talks
-            - #mfv_ta_vn: TA VN Team 
-            - #mfv_ta_dev_vn: TA Dev VN Team (including former TA Devs)
-            - #mfv-absence-notification
-            - #mfv-announcement
-            - #mfv-base-timesheet-notify
-            - #mfv-corporate-incident-announcement
-            - #mfv-hcm-football-club
-            - #mfv-random-hcmc
-            - #mfv-welcome-onboard
-            - #mfv_hcm-ruby
-            - #mfv-forwardian-radio
-            
-        - Corp. Level (`#mfw_xxx`):
-            - #mfw_action-required
-            - #mfw_announcement
-            - #mfw_events
-            - #mfw_critical_incident_announcement
-            - #mfg_action-required
-            - #mfg_announcement
-            - #mfg_events
-            - #mfg_pr
-            
-        - TA Level (`#ta_xxx`):
-            - #ta_dev_all: クラウド年末調整の開発チームのチャンネル/ Cloud Tax Adjustment development team channel
-            - #ta_dev_aweb_notification_production
-            - #ta_dev_aweb_notification_staging
-            - #ta_dev_env_rollbar
-            - #ta_dev_production_billings_report
-            - #ta_dev_production_notifications
-            - #ta_dev_production_rollbar
-            - #ta_dev_staging_billings_report
-            - #ta_dev_staging_notifications
-            - #ta_dev_staging_rollbar
-            - #ta_monitoring_production
-            - #ta_monitoring_staging
-            - #ta_design: TA Design Team (JP + VN)
-            
-        - Incident & Monitoring:
-            - #incident_tracking
-            - #msb_info
-            
-        - Other:
-            - #cursor-ai
-            - #hcm-ruby
-            - #mf_orientation_new_entry_training
-            - #ae-ta-dev (private channel): TA Dev VN Team
+    - Frequent used Slack channels
+        - #contact_cio_managed-tools
+        - #contact_mfv-corp-it-support: IT support
+        - #mfv_ta_onboard: TA VN Onboarding Team
+        - #mfv_ta_random: TA VN Team - Random talks
+        - #mfv_ta_vn: TA VN Team 
+        - #mfv_ta_dev_vn: TA Dev VN Team (including former TA Devs)        
+        - #ta_dev_all: クラウド年末調整の開発チームのチャンネル/ Cloud Tax Adjustment development team channel
+        - #ta_design: TA Design Team (JP + VN)
+        - #ta_core: TA Core Team
+        - #ta_random            
+        - #ae-ta-dev (private channel): TA Dev VN Team
 
 ## Team and Product
 
 ### Team structure
+
+![TAX Team structure](../assets/images/tax-team-structure.png)
+
+Manager: Nas
+QA: Phoenix, Sasa, Higuma (outsourcing)
+Accelerator: Luna, Gwen
+Dev: Reacher, Hugo, Jeff, Key, Pat, Edgar, Asher, Vinnie, Scarlett, Axel
 
 ## Way of work
 
@@ -151,6 +114,11 @@ implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-
 | Reviewer | Add team reviewer group | @ta_dev_mfv_reviewers |
 
 ### Product overview
+PA: Payroll
+TA: Tax Adjustment
+SG: Support Group
+MFID: Money Forward ID - openid connect
+ERP: Employee Record Processing
 
 #### Tax Adjustment Web
 
@@ -216,3 +184,54 @@ implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-
 6. Configure the Project
     - After setting up the connection, SonarQube Extension will display a popup to configure the project
 Select tax_adjustment when prompted
+
+## Appendix
+
+### Slack channels by category:
+    
+    - External Connections:
+        - #contact_cio_managed-tools
+        - #contact_ciso_security
+        
+    - MFV Level (`#mfv_xxx`):
+        - IT support: #contact_mfv-corp-it-support
+        - #mfv_ta_onboard: TA VN Onboarding Team
+        - #mfv_ta_random: TA VN Team - Random talks
+        - #mfv_ta_vn: TA VN Team 
+        - #mfv_ta_dev_vn: TA Dev VN Team (including former TA Devs)
+        - #mfv-absence-notification
+        - #mfv-announcement
+        - #mfv-base-timesheet-notify
+        - #mfv-corporate-incident-announcement
+        - #mfv-hcm-football-club
+        - #mfv-random-hcmc
+        - #mfv-welcome-onboard
+        - #mfv_hcm-ruby
+        - #mfv-forwardian-radio
+        
+    - Corp. Level (`#mfw_xxx`):
+        - #mfw_action-required
+        - #mfw_announcement
+        - #mfw_events
+        - #mfw_critical_incident_announcement
+        - #mfg_action-required
+        - #mfg_announcement
+        - #mfg_events
+        - #mfg_pr
+        
+    - TA Level (`#ta_xxx`):
+        - #ta_dev_all: クラウド年末調整の開発チームのチャンネル/ Cloud Tax Adjustment development team channel
+        - #ta_dev_aweb_notification_[production/staging]
+        - #ta_dev_[production/staging_billings]_report
+        - #ta_monitoring_[production/staging]
+        - #ta_design: TA Design Team (JP + VN)
+        
+    - Incident & Monitoring:
+        - #incident_tracking
+        - #msb_info
+        
+    - Other:
+        - #cursor-ai
+        - #hcm-ruby
+        - #mf_orientation_new_entry_training
+        - #ae-ta-dev (private channel): TA Dev VN Team
