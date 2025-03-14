@@ -83,9 +83,21 @@ TO DO => IN PROGRESS => REVIEW
 #### Sprint: 
 
 - 2 weeks
-- Tasks in Sprint
-- Releases in Sprint
-- Sprint Review
+- Sprint Planning: 
+    - Meeting on Monday
+    - Tasks in Sprint
+    - Releases in Sprint
+- Sprint Review:
+    - Meeting on Thursday
+    - Review tickets/demo
+- Sprint Retrospective:
+    - Meeting on Friday
+
+- Other meetings: 
+    - Team Sync-up (on Friday)
+    - Backlog Refinement
+    - Bi-weekly TA and SRE team
+    - 1:1 meeting
 
 **Example: TAX-111**
 
