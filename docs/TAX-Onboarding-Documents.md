@@ -77,6 +77,9 @@ implement -> self test -> báo QA -> QA confirm passed -> review -> merge
 
 implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-name>) -> notify QA (JIRA ticket) -> QA confirm passed -> review -> merge PR
 
+#### JIRA Ticket:
+TO DO => IN PROGRESS => REVIEW
+
 #### Sprint: 
 
 - 2 weeks
