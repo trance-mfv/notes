@@ -2,6 +2,20 @@
 
 ## Daily Reports
 
+### 2025-03-17
+* Last Friday:
+	- Meeting: 
+		- [TA Dev] Team Sync-up
+		- HR Dev. monthly meeting / HRプロダクト開発部月次MTG
+		- Sprint Planning 112
+		- [TA] Backlog Refinement
+	- Tasks: 
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+
+* Today: 
+	- Meeting: 
+		- TAX: Sprint Planning
+
 ### 2025-03-14
 * Yesterday:
 	- Meeting:
@@ -10,13 +24,17 @@
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 			- Following up if any issue
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
-			- Continue working on this
+			- Continued work on this
 
 * Today: 
 	- Meeting: 
 		- [TA Dev] Team Sync-up
+		- HR Dev. monthly meeting / HRプロダクト開発部月次MTG
+		- Sprint Planning 112
 		- [TA] Backlog Refinement
-		
+	- Tasks: 
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+
 ### 2025-03-13
 * Yesterday: 
 	- Meeting:
