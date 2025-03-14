@@ -75,6 +75,8 @@
 		- Types of Impact Analysis:
 			- Code/Engineering Impact
 			- Business Logic Impact
+	- Ref:
+		![Metting Minutes](./daily-20250312/meeting-minutes.md)
 
 ### 2025-03-11
 
