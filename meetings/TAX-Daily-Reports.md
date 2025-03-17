@@ -8,13 +8,16 @@
 		- TAX: Sprint Planning
 	- Tasks: 
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+			- Hugo and Luna walked me through the flows of importing employee data from Cloud Payroll and CSV files
 
 * Today: 
 	- Meeting: 
 		- Bi-weekly MFG All-hands Video
 		- [TA] Calculation Incident Analysis
 	- Tasks: 
-
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+			- Continue working on importing employee data from Cloud Payroll and CSV files
+			
 ### 2025-03-17
 * Last Friday:
 	- Meeting: 
@@ -61,6 +64,11 @@
 			# errors.attributes.[attribute_name].[error_type]
 			# errors.messages.[error_type]
 			```
+
+			- Hugo and Luna walked me through the flows of importing employee data from Cloud Payroll and CSV files.
+			- Question Luna to: 
+				1. Verify if this requirement needs to show the same error message as BE for FE side: "In case of inputting other than numeric characters (Including Blank space character), we restrict the user DO NOT input other than numeric characters"
+				2. Requirement wording: "In case of inputting numeric characters but the length is not 12 characters"
 
 ### 2025-03-14
 * Yesterday:
