@@ -1,0 +1,933 @@
+[Nas] 10:32:12
+I think everyone so we can stack the string lending Okay, can you see my cesarean?
+
+[Trance] 10:32:20
+Yes.
+
+[Nas] 10:32:21
+Okay. Okay, so let's stack the swing lending.
+
+[Nas] 10:32:27
+Okay in this wing we will be the swing 112 we will start from the muck.
+
+[Nas] 10:32:35
+17 to 20… Like March 29th.
+
+[Nas] 10:32:40
+Okay, sorry. Okay, I will move to the thoughts in swing.
+
+[Nas] 10:32:49
+112. First of all, the relay in this ring.
+
+[Nas] 10:32:57
+Yeah, I think in this thing we just have to release and for the Mach 20.
+
+[Nas] 10:33:05
+Who we really uh the tickets uh the s work by run.
+
+[Nas] 10:33:10
+Reboot the table yeah they see the uh feedback you see the… in the feedback and enrollment list Maybe in number…
+
+[Nas] 10:33:27
+I can see the number for the ticket. And this is just the… improvement from native team we just allow in last ring but uh Because last week, I don't have enough effort to… That's the… So we will move in…
+
+[Nas] 10:33:51
+This ring and uh For the Mach 27 we will… really the display whether the certificate electronic in the student premium direction.
+
+[Nas] 10:34:05
+Yeah, you see also the… feedback and improvement.
+
+[Nas] 10:34:11
+Yeah is still in the notes, sir. Seven.
+
+[Nas] 10:34:18
+Okay. Yeah, from QI Sci, can you say a bit for them?
+
+[Phoenix] 10:34:25
+Yes, okay. From QSA, in this spring. For the ROS map, Rojesk.
+
+[Phoenix] 10:34:34
+We will finish the test execution on test environment for SE blending.
+
+[Phoenix] 10:34:40
+And we were conflicted. Test scale variation for minus instrument.
+
+[Phoenix] 10:34:47
+And complete the test plan reaction for auto-reglin insurrence and Service platform moderation.
+
+[Phoenix] 10:34:56
+About night we have an improvement uh QA will repair test guide and uh complete the test execution for the related tickets and smoke test for its release.
+
+[Phoenix] 10:35:10
+The song for QA, sir.
+
+[Nas] 10:35:14
+Okay.
+
+[Nas] 10:35:20
+For the miners in both instrument can win and Yuko, can you confirm this?
+
+[Nas] 10:35:27
+The PAD on earth we still have one pup to injury considering
+
+[Nas] 10:35:39
+This one. Do you have the final decision?
+
+[Nas] 10:35:44
+We ignore the requirement. When?
+
+[Yoko Saito] 10:35:54
+I think I put a comment. Oh, don't.
+
+[Yoko Saito] 10:35:59
+No.
+
+[Yoko Saito] 10:36:03
+No.
+
+[Nas] 10:36:06
+In…
+
+[Nas] 10:36:14
+E. Yeah, we discussed about the setting.
+
+[Nas] 10:36:19
+So you mean the dessert on Slack or this theory?
+
+[Yoko Saito] 10:36:20
+Yeah.
+
+[Yoko Saito] 10:36:25
+I saw Tara on this PRD.
+
+[Nas] 10:36:32
+Let's see.
+
+[Yoko Saito] 10:36:34
+Sorry, let me confirm. Not until…
+
+[Nas] 10:36:38
+Okay.
+
+[Nas] 10:36:44
+Because i think this here is
+
+[Yoko Saito] 10:36:45
+Yeah, but basically i'm okay with the warning misses So…
+
+[Nas] 10:36:51
+Oh.
+
+[Gwen] 10:36:55
+Yeah.
+
+[Nas] 10:36:56
+Okay.
+
+[Gwen] 10:37:00
+This is maybe a wish oh maybe um It's made more effort and have high risk for getting to So instead, we are at the a warning message.
+
+[Nas] 10:37:15
+Hmm.
+
+[Gwen] 10:37:20
+Whenever a user at the minus value the warning message will appear and We're going to use it.
+
+[Nas] 10:37:29
+So… Okay, so play a pet, the PIDA when?
+
+[Gwen] 10:37:29
+Warranties, sir.
+
+[Nas] 10:37:34
+And maybe you need to empty. Are you already a sister?
+
+[Gwen] 10:37:37
+Yeah, after I received it. No, no.
+
+[Nas] 10:37:40
+And now we see another thing. Okay, sod yeah that team will follow it and maybe we'll finish the implement for this.
+
+[Nas] 10:37:51
+Pity.
+
+[Gwen] 10:37:52
+After receive uh your code excit you uh picked the VOD.
+
+[Yoko Saito] 10:37:59
+Yeah. And then on our looked at the RPRD looked at the you have an action item now.
+
+[Yoko Saito] 10:38:08
+So, um. I know, Gwen.
+
+[Nas] 10:38:13
+An item.
+
+[Yoko Saito] 10:38:13
+So I'm okay with the um the warning message or as long as the specialist verifies each employee's insurance And if they can see if they can see the data that contains negative values, then that is okay so are I just want to uh
+
+[Yoko Saito] 10:38:37
+She… how it works.
+
+[Yoko Saito] 10:38:41
+If are the specialists can see the negative values are autographs so or easily then that is okay
+
+[Gwen] 10:38:50
+Yeah, I intend to do it. As a housing law.
+
+[Gwen] 10:38:56
+Line of phone to one. I will at the example for the warning.
+
+[Yoko Saito] 10:38:58
+Yep.
+
+[Gwen] 10:39:05
+Especially in one side.
+
+[Nas] 10:39:09
+Mm-hmm. Okay.
+
+[Yoko Saito] 10:39:13
+Yep.
+
+[Nas] 10:39:16
+Okay, so… When Lee had me update the PD, yeah.
+
+[Nas] 10:39:21
+Thank you. Okay, thank you. Yeah, thank you, Yuko and Will.
+
+[Yoko Saito] 10:39:23
+Thank you
+
+[Nas] 10:39:29
+Okay, so we will move to… The Deaf side.
+
+[Nas] 10:39:36
+Yeah, in this ring we will sell uh focus on the SD plane linkage.
+
+[Nas] 10:39:42
+Because, yeah, we test feedback uh NDR file because we already finished the implementation And for… auto reading payloads. Yeah.
+
+[Nas] 10:39:58
+In last week we just tested implement maybe 40% and in this ring we will continue with bottom And the persona.
+
+[Nas] 10:40:14
+Okay, so for the minus input instrument Yeah, for a setup actually we finished on water park.
+
+[Nas] 10:40:21
+Except a setting on the on up so uh When you go decide to don't needs this function so we function we read another ticket to one link message Yeah, maybe Bart Weavers in check for it. I will assign other people.
+
+[Yoko Saito] 10:40:38
+Okay, yeah, thank you.
+
+[Nas] 10:40:41
+Okay, thank you. You know, move to NIST either.
+
+[Nas] 10:40:47
+Relationship matter revision when already say with the team last week.
+
+[Nas] 10:40:54
+We in this week we will in this ring we will start to implement this Yeah, and… Key and Vinny will finish it for this project.
+
+[Nas] 10:41:07
+Okay. Yeah, and for the feedback and enrollment yeah we are Yep.
+
+[Gwen] 10:41:14
+Sorry, Anas, where a bit. How about the relationship master vision i think i just shared a picture team for the For the moment beforehand.
+
+[Gwen] 10:41:29
+Because this period and does not receive any feedback from BDMC for Bungal.
+
+[Gwen] 10:41:37
+From the cycle and uh virtual So I don't know.
+
+[Gwen] 10:41:43
+Is implementing the simple part first on Yep.
+
+[Nas] 10:41:50
+Yeah. Actually. Yeah, currently we will implement in the same time PA review. If you have any general that we can visit so don't worry about that from that
+
+[Yoko Saito] 10:42:06
+Yeah. The PRD will be are done by end of this week. So we have a plan to review all of the PRD by end of this week.
+
+[Gwen] 10:42:07
+Oh.
+
+[Nas] 10:42:15
+Yeah.
+
+[Yoko Saito] 10:42:25
+If our…
+
+[Yoko Saito] 10:42:30
+If you still have something you can do this week, then that's okay but Please make sure that the PRD is not the approved or debuted by our managers So it's possible uh it will be changed During this week.
+
+[Nas] 10:42:53
+Yeah. Yeah, from that team, we will yeah actually for the chain uh it's accessible in this phase because uh currently the BAD in the reviewing But we still have some steps to uh can implement first for symbol we will do the technical design or the impact and align yeah
+
+[Yoko Saito] 10:43:04
+Yep.
+
+[Nas] 10:43:15
+So in this week. We will finish the reviewing so in this week, maybe the final line for the building because that
+
+[Yoko Saito] 10:43:16
+Okay.
+
+[Yoko Saito] 10:43:21
+Okay. Okay. Okay.
+
+[Gwen] 10:43:26
+Yeah, don't worry. I see. I realized something where i realized where So, yeah, I think it's good to a.m.
+
+[Nas] 10:43:26
+Okay.
+
+[Nas] 10:43:43
+Yeah, actually, we don't need to wait to the final live day before we implement them. Yeah.
+
+[Nas] 10:43:51
+If you have M&A black, we can change it. It's okay.
+
+[Nas] 10:43:55
+Okay, thank you, Wayne.
+
+[Gwen] 10:43:56
+Is it? Basically.
+
+[Nas] 10:44:01
+Okay, move to some feedback and enrollment.
+
+[Nas] 10:44:09
+Yeah, in last week. Lunache with him for the feature yeah we gratitude, feedback and roman so in the same we will Lemon is, yeah.
+
+[Nas] 10:44:31
+And another side is technical depth. Yeah, for the future flock.
+
+[Nas] 10:44:38
+Yeah, for the future track in last week uh we have the plan to eliminate it but uh the onboarding session and uh pockets on the auto reading payload so he cannot do the focus on the future flux.
+
+[Nas] 10:44:58
+But in this way, maybe he can come back with this Yeah, another thing either.
+
+[Nas] 10:45:07
+In person from the tech yeah i just still so busy still so busy to finish the kibal.
+
+[Nas] 10:45:17
+From everything intact. But uh maybe i will confirm with CITO team.
+
+[Nas] 10:45:27
+Okay, I think… Yep.
+
+[Yoko Saito] 10:45:28
+I'm sorry, Nas out. So what's this project encryption or intact system so are the tax, all of tax data will be encrypted
+
+[Nas] 10:45:41
+Actually, we need to confirm with the CFO. Yeah, for the purpose on this project you can say Because we have some information need to envy.
+
+[Yoko Saito] 10:45:54
+Oh, okay.
+
+[Nas] 10:45:55
+But some blasts, maybe North So for example, Lukina D or email Yeah. We will… by on the document form.
+
+[Nas] 10:46:11
+Yeah. Yeah, and this is a standard die two and three.
+
+[Yoko Saito] 10:46:12
+Okay.
+
+[Nas] 10:46:18
+Data or the information. From the cattle team.
+
+[Yoko Saito] 10:46:20
+Mm-hmm. And…
+
+[Nas] 10:46:22
+Yeah, and we need to lead down on the field we we think is the uh spatial personal information or the uh past work or anything yeah first call email or login link currently we do not agree.
+
+[Nas] 10:46:39
+But because we need to because we need to you dispute you sus or the future on the in the ta so we need to confer with them if they need to We need to confirm it. After that, we will confirm with BDM.
+
+[Nas] 10:46:58
+Yeah, if we uh improve the field. Maybe affect you the finsen on the TA.
+
+[Nas] 10:47:06
+So EPDM, except for that we were doing every four days to you.
+
+[Nas] 10:47:12
+Yet you see the step from the this route check.
+
+[Yoko Saito] 10:47:18
+Okay, I'll have a look at this keyword later then. Thank you.
+
+[Nas] 10:47:23
+Okay.
+
+[Nazmul / alam.nazmul] 10:47:29
+Additionally, that point is, according to ciso We have a standard data encryption policy for any personal data.
+
+[Nas] 10:47:30
+Okay.
+
+[Yoko Saito] 10:47:38
+Okay. Okay.
+
+[Nazmul / alam.nazmul] 10:47:39
+So we have to follow that in case we cannot follow that we have to get the confirmation from CISO that this is the reason we cannot follow it And then look at it so currently we are now listing how to where we are actually what kind of data
+
+[Yoko Saito] 10:47:49
+Okay.
+
+[Nazmul / alam.nazmul] 10:47:56
+We are dealing personal data and which data is encrypted and which data is not encrypted After that, we are going to conduct contact with the CISO office that this is our current situation We cannot encrypt this kind of data, even though according to your definition we shouldn't keep
+
+[Yoko Saito] 10:48:02
+Okay.
+
+[Yoko Saito] 10:48:09
+Okay.
+
+[Nazmul / alam.nazmul] 10:48:15
+If a CISO is strongly pushing that, you know, we have to comply with that encryption, then we need to discuss with you that CISO is a telling this but we cannot and keep this data to for this feature in that case what we will do with this feature
+
+[Yoko Saito] 10:48:30
+Okay, got it. And I think one I should… I should know that uh which data will be encrypted in this project first.
+
+[Nazmul / alam.nazmul] 10:48:41
+Yep. Please check these two documents. One is this kibela place what reader and nas is mentioning And what is the actual expectation from cis office which is a standard of encryption.
+
+[Yoko Saito] 10:48:54
+Yep.
+
+[Nazmul / alam.nazmul] 10:48:56
+Yeah, you can understand the gap. Actually, previously we were discussing with Haradasan, but it looks like complicated with Harathasan and we took it from our side and to confirm what we need to do from a dev side.
+
+[Yoko Saito] 10:48:59
+Yes. Yeah. Thank you.
+
+[Yoko Saito] 10:49:05
+Oh. Oh.
+
+[Yoko Saito] 10:49:14
+Okay. Okay, yeah.
+
+[Nas] 10:49:18
+Yeah, after I confirmed with the setup team, I will back to you.
+
+[Nas] 10:49:23
+And sharing with you.
+
+[Yoko Saito] 10:49:26
+Okay, thank you for our clarification. That helps.
+
+[Nas] 10:49:33
+Okay, I think that's some for the task in the swing.
+
+[Nas] 10:49:39
+One, one, two. Do you have any question or concern?
+
+[Nazmul / alam.nazmul] 10:49:44
+I just want to confirm about again the tech depth so currently the tech tip in the next test pin we are considering two things one is a recent caption still will continue and another is a feature flag FFP, right?
+
+[Nas] 10:49:59
+Yes.
+
+[Nas] 10:50:04
+Actually, I just laid out some of the technical depth in this case. You can check it And maybe check-a-da.
+
+[Nas] 10:50:13
+The status for The project, for example the feature flag or the aneurysm Yeah, we have some of the technical dev i just realized that's it in the uh the roadmap schedule.
+
+[Nazmul / alam.nazmul] 10:50:30
+Okay. In my mind also, I'm not sure if cytosan is okay so don't those things which are which already we decide like we would like to do it within this fy 25 so those take depth even though it is tech depth it should move to
+
+[Nas] 10:50:34
+Okay.
+
+[Nazmul / alam.nazmul] 10:50:49
+Actually the main mustard schedule as a roadmap item.
+
+[Yoko Saito] 10:50:57
+Sorry, could you say it again?
+
+[Nazmul / alam.nazmul] 10:50:59
+Okay, so we lease down that those are the tech depth.
+
+[Nazmul / alam.nazmul] 10:51:04
+And when both you me and the technical side acknowledge and confirm that those tactic need to address For example, encryption or encryption improvement of CSV file When we all agreed that we will consider this tech depth as a this year task so in that case, I think it's better to move this tech depth to the
+
+[Yoko Saito] 10:51:04
+Yeah.
+
+[Yoko Saito] 10:51:28
+Yeah. Yeah. Yes. Yeah.
+
+[Nazmul / alam.nazmul] 10:51:28
+Master schedule as a main map item. So what should be in one place?
+
+[Yoko Saito] 10:51:32
+Okay, okay. Yeah.
+
+[Nazmul / alam.nazmul] 10:51:35
+To avoid this discussion but yeah engineering side we can manage the tech depth in different ways like in jira or summer I think we don't need this tech depth in this sheet in a separate sheet
+
+[Yoko Saito] 10:51:37
+Yeah.
+
+[Nas] 10:51:48
+Okay. Yeah.
+
+[Yoko Saito] 10:51:48
+Mm-hmm. Oh, okay.
+
+[Nazmul / alam.nazmul] 10:51:51
+Is it okay?
+
+[Yoko Saito] 10:51:53
+Yeah, yes, that's okay. Uh… to just on our… She or… Could you share the Jira project link?
+
+[Nazmul / alam.nazmul] 10:52:08
+I'll take depth.
+
+[Yoko Saito] 10:52:09
+Yeah. Okay. Okay. Yeah.
+
+[Nas] 10:52:09
+On the ticket. Yeah, on the tick there you can… to the ticket this epic yeah for this epic i will re i just read the epic for the technical depth Yeah, okay, so we have some of the technical that we need to solve
+
+[Yoko Saito] 10:52:18
+Okay.
+
+[Yoko Saito] 10:52:24
+Mm-hmm.
+
+[Yoko Saito] 10:52:29
+Yeah, thank you. That's so helpful.
+
+[Nazmul / alam.nazmul] 10:52:33
+So when the tech debt is confirmed from PDM side and from my side then this puts this tech debit directly in the musters schedule sheet, one seat.
+
+[Nas] 10:52:43
+Okay. So yeah, okay, I agree.
+
+[Nas] 10:52:48
+Consider it.
+
+[Yoko Saito] 10:52:48
+Yeah, but you already have an tab so
+
+[Yoko Saito] 10:52:58
+It's up to you. If you want to march then or that is okay but or if we want to separate tabs, then that is okay as well.
+
+[Yoko Saito] 10:53:08
+It's up to you.
+
+[Nazmul / alam.nazmul] 10:53:12
+Okay. So in that case.
+
+[Nas] 10:53:13
+Okay.
+
+[Nazmul / alam.nazmul] 10:53:16
+Yeah, from management yeah my point of view separate is better because if we merge then of course we need to put like this is a our initial this is kind of take the some tag is needed for that project
+
+[Yoko Saito] 10:53:32
+Then our then are the separate tabs okay? I will take the technical debt technical depth when needed so
+
+[Nazmul / alam.nazmul] 10:53:36
+Okay.
+
+[Nazmul / alam.nazmul] 10:53:44
+Yeah, that is okay. So just for for make it sure that Yeah, there are some other activities other than this other schedule project roadmap there are some other activities that is in in this sheet.
+
+[Nas] 10:53:45
+Hmm.
+
+[Yoko Saito] 10:53:56
+Yep. Yes.
+
+[Nazmul / alam.nazmul] 10:54:00
+Okay, then.
+
+[Nas] 10:54:02
+Yeah, okay. Okay, because some of the technical dev may be the must-have for example for the migration to come to the survey platform or feature flag And recent, I think this is the What's up the… actually this is the…
+
+[Nas] 10:54:21
+Technical debt but it's in a motive from the a symbol for the center die from MAPC or anything yeah Okay, so if you want to keep it, I will… leave it in here.
+
+[Nas] 10:54:38
+Okay. Okay, another question.
+
+[Nas] 10:54:45
+From team.
+
+[Nas] 10:54:51
+Okay, if you don't have any question for the task in this ring, I will be… move to the next season uh maybe when you say we steam a bit for the relationship master revision yeah to have anybody to know about this project and
+
+[Nas] 10:55:11
+Okay, win. Please.
+
+[Gwen] 10:55:14
+Okay, I wish you a message away.
+
+[Gwen] 10:55:31
+Can you see my screen now?
+
+[Yoko Saito] 10:55:36
+Yep.
+
+[Gwen] 10:55:39
+I will share a rough content for this theory. As well, the relationship master revision So currently, as you know.
+
+[Gwen] 10:55:50
+Ta has many options for the relationship, but it's fine have some different from other approaches so we have uh this period to uh to That's it.
+
+[Gwen] 10:56:15
+This.
+
+[Gwen] 10:56:21
+Iterate uh iterate that recency to be the same as all the project.
+
+[Gwen] 10:56:28
+Pa SI, as much and so i think Yeah. And as you can see, in this table, the SEs option uh for uh the relationship of a household dependents and Actually, since one more option as a supporter It's the same, have the same
+
+[Gwen] 10:56:55
+Option outline this table. Except for the first three option here optical husband has been involved is only for the household.
+
+[Gwen] 10:57:06
+And in this theory, we will integrate some item so as uh at me some option.
+
+[Gwen] 10:57:16
+Like that is for detail you can simply you can read it here the the yellow.
+
+[Gwen] 10:57:23
+The yellow one is the need to fix or do you need to and that new Option.
+
+[Gwen] 10:57:34
+Okay. And four. It's all about the target user and issue and the goal solution for this uh You define the relationship of TA.
+
+[Gwen] 10:57:51
+Okay. Actually, the target theatre.
+
+[Gwen] 10:57:57
+Procedure uh we used to do procedure Not this site yet uh but i think we do just applying this big change to from fy 2025 only.
+
+[Gwen] 10:58:13
+Not the only year because of uh because of uh we need to run a data patch to migrate data And you have some risk when Do you deducer.
+
+[Gwen] 10:58:27
+Submarine on the own data. So, yeah, the team from FY25 is the best but uh it's still under discussion.
+
+[Gwen] 10:58:41
+Okay. For the effective… authentic places. We will have many affected places like Niva's Nishua.
+
+[Gwen] 10:58:50
+Function from the direct UI input and output. From on the UI, on the employee side a specialist site costs uh These are two sides of Portugal.
+
+[Gwen] 10:59:09
+Option. Select option for householder dependent in sporting Okay, I will skip this part.
+
+[Gwen] 10:59:22
+So it's just on right on ui you can see it here In… I will move to the… Next item is PDF.
+
+[Gwen] 10:59:37
+So the effective places on the BDF is the first one is basic uh basic uh basic nutrition statement uh report Sorry, basic deduction statement from Okay, you can access this from many place.
+
+[Gwen] 10:59:55
+This is Elizabeth here. When business applies.
+
+[Gwen] 11:00:01
+A block on the report like this I have a small sale to represent for delicacy of our I said.
+
+[Gwen] 11:00:16
+Of… occupant who is eligible for the e-commerce deduction deduction So let's take note that we have some love spectacular condition to make that dependent from a normal dependent to eligible for income adjustment position.
+
+[Gwen] 11:00:38
+I write down here Okay, it's about the basic form. Move on to the next report uh next form we have a declaration of dependent deduction statement We still have many places uh we still have many options to assess this form.
+
+[Gwen] 11:01:02
+And for the effective places, we have some small a cell here in each block.
+
+[Gwen] 11:01:10
+A block of the employee applicants. Block of dependent over 16 years old And the sixth thing is in retirement dependent also the supporter the supporter and we have to support it.
+
+[Gwen] 11:01:29
+Sales here of Prism. One of the uh yeah
+
+[Gwen] 11:01:36
+Okay, this most effective PDF form for this period, please change.
+
+[Gwen] 11:01:45
+Okay, move on to the next form we have uh we only sleep and payment payroll payment report.
+
+[Gwen] 11:01:54
+Costa. Yeah, the effective places uh place only the obstructural That's actually only On the scrub column uh we we were displayed dependent.
+
+[Gwen] 11:02:15
+Over 16 years and under and 16 years old. From the fifth person from the fifth person portion.
+
+[Gwen] 11:02:24
+So Lisa has a come up. Like this.
+
+[Gwen] 11:02:30
+This contains the recessive text. Here so we need to fix this too Okay. It's all about the PDF.
+
+[Gwen] 11:02:43
+From Cindy. One, two, three animation, everyone.
+
+[Gwen] 11:02:51
+If not, I will move on to next. Place.
+
+[Gwen] 11:02:57
+And move on to the next effective place we have a comparison uh the change on comparison screen So the competition screen will display some information on on the screen.
+
+[Gwen] 11:03:17
+So on the dependent uh this guy in screen We have this year, next year and before are submitted we have this this block.
+
+[Gwen] 11:03:30
+Be present for the relationship so we'll fix this
+
+[Gwen] 11:03:36
+Applicant or applicant or applicant plot of assisting to the internal clock supports it And under 16 pendants also.
+
+[Gwen] 11:03:48
+It is a comparison screen. We do not display the screen the efficiency of household on this Pacey.
+
+[Gwen] 11:04:00
+Basic information of employee. So we do not need to fix the relationship with a sick view of a household debt.
+
+[Gwen] 11:04:14
+Okay, it's all about computer sunscreen. Okay, move on. Yes.
+
+[Nas] 11:04:18
+Oh, wait. Sorry for the comparison phase uh if the last year we chose sun was so… for the comparison in this year we see Chai, awesome. Still.
+
+[Gwen] 11:04:37
+Yeah, I think it's still… It's weird.
+
+[Gwen] 11:04:42
+Last year, but we don't have last year on dependency
+
+[Nas] 11:04:49
+I just… Just be for support. Let's see.
+
+[Gwen] 11:04:49
+It's the features before submit this year and next year.
+
+[Nas] 11:04:54
+Okay, okay. Okay, thank you.
+
+[Gwen] 11:04:54
+Yeah. Okay.
+
+[Gwen] 11:05:01
+Okay, any questions? No.
+
+[Gwen] 11:05:06
+No? Okay. Okay, thank you. I will move on to importing exporting information Okay, start from the csv important is 14 from CSV. We will allow the user to import the new function also And for the own option.
+
+[Nas] 11:05:06
+I get no information.
+
+[Gwen] 11:05:27
+I'll automatically convert the uh the old option to the new option.
+
+[Gwen] 11:05:37
+Like if the user with the some scope.
+
+[Gwen] 11:05:45
+Option we will allow user to import it and converted to this one child Cool.
+
+[Gwen] 11:05:56
+Yeah, for you. Automatically converted.
+
+[Gwen] 11:06:00
+What do you think?
+
+[Gwen] 11:06:05
+And one more thing about invalidation. Uh if uh Currently, we have some validation for importing w uh which is audited and this one so uh we we must allow user to import important and then you believe Thank you.
+
+[Gwen] 11:06:28
+Okay, move on to the importing from Cloud Viral. This is a pa Because of PA still not have purely exact key which is the response from the ABI?
+
+[Gwen] 11:06:45
+For these new options so applications and tipto
+
+[Gwen] 11:06:53
+And we will recite after pay uh pa team has a particular specification for this.
+
+[Gwen] 11:07:04
+But it's the option. Okay. And move on to the importing from Smart Chatrix. And I say I see I saw that many options from HR, as has been certified the menu options so we just Honestly, convert.
+
+[Gwen] 11:07:31
+This option of son and daughter to child also on the upset.
+
+[Gwen] 11:07:39
+Is already existing. Already exists on smart site so we don't need to We don't need to do too. Excellent.
+
+[Gwen] 11:07:51
+Notify smartphones hmr to implement new option a new additional option here.
+
+[Gwen] 11:08:02
+Okay it's all about this March HR. I used to compare it.
+
+[Gwen] 11:08:10
+So please give it. Okay, move on to the sporting function of uh 8 tab.
+
+[Gwen] 11:08:26
+We still have uh we have struck clearly on this csv file so we change and SI places, I expire.
+
+[Gwen] 11:08:39
+That's what you eat before.
+
+[Gwen] 11:08:44
+We still have the abstract column so that's it. To much degree option.
+
+[Gwen] 11:08:53
+Hopefully you or five.
+
+[Gwen] 11:08:59
+We will have these two tests. Honi Nunjoho and Fuyoshin Suku Tech.
+
+[Gwen] 11:09:08
+If you choose to have a checklist The prison for diversity of household and preserve of dependent So we need to update it to match the new option And finally, SML5.
+
+[Gwen] 11:09:32
+We have these tech. Reflect only content of the Abstractly, I can say.
+
+[Gwen] 11:09:42
+We need to assist that too.
+
+[Gwen] 11:09:47
+About the final part of this theory, it's about migrate the existing data for the old data.
+
+[Gwen] 11:09:55
+Old procedure. It's only… Yeah, it's under discussing so I used to, let's say, still not write out navigate and decorate for these two options so this was after we discuss
+
+[Gwen] 11:10:21
+This content. Okay. So what about this priority? Do you have that?
+
+[Gwen] 11:10:29
+Push it on this one.
+
+[Nas] 11:10:34
+So for my reason, it's been this project to apply for on data or just from 2025 we will have the decision in this week right
+
+[Gwen] 11:10:46
+Yeah, I think.
+
+[Nas] 11:10:48
+Okay.
+
+[Yoko Saito] 11:10:50
+Gwen, have we already confirmed that our target team can accept these changes?
+
+[Gwen] 11:10:58
+Um… Sorry.
+
+[Gwen] 11:11:05
+I wrote down it here. We use the importing, which is blue as a raw text.
+
+[Gwen] 11:11:13
+So long, thanks. Yeah. So it's also accept the new belief
+
+[Gwen] 11:11:21
+Whatever we put is to reflect to the report.
+
+[Yoko Saito] 11:11:22
+You…
+
+[Yoko Saito] 11:11:26
+Okay. And have you confirmed that are the smart HR don't have a plan to change those on lessonship.
+
+[Gwen] 11:11:37
+Yeah, yeah. Yes, of course.
+
+[Yoko Saito] 11:11:38
+Paris?
+
+[Gwen] 11:11:41
+It's already exist like uh
+
+[Yoko Saito] 11:11:43
+Yeah, it already exists or they don't have any plan to change it I'm wondering if our day will have an understanding value.
+
+[Gwen] 11:11:48
+Yes.
+
+[Yoko Saito] 11:11:55
+We say child. From smart HR side.
+
+[Gwen] 11:12:00
+You mean this option?
+
+[Yoko Saito] 11:12:03
+Yeah, so… Currently, I understand that currently um our disability to our Hazabaru say are 299
+
+[Yoko Saito] 11:12:16
+But… they may change this variable to tired. Cool?
+
+[Gwen] 11:12:23
+Okay.
+
+[Yoko Saito] 11:12:24
+In small HR side, so have you confirmed that they don't have such a prime?
+
+[Gwen] 11:12:29
+No, I don't. I will confirm it. Yeah, thank you. I will ask them to come on Well, sure.
+
+[Yoko Saito] 11:12:31
+Okay. Yeah. Greece.
+
+[Reacher] 11:12:51
+When we apply this release music for on data or just from 2025?
+
+[Gwen] 11:12:58
+No, like I said, it's still under discussing.
+
+[Reacher] 11:13:06
+Okay.
+
+[Gwen] 11:13:07
+If you have any comments, please… edit here you are concerned so i can uh collect your concern and make a decision after discussing with Saito and rachel
+
+[Yoko Saito] 11:13:23
+Yeah, it's true.
+
+[Nas] 11:13:25
+For Richard, maybe you can refine your you can commend your opinion for this one maybe we need to if we will Great team, one team, right? What either… a friend or this friend, your opinion for this one.
+
+[Nas] 11:13:43
+Maybe a PDF will consider about that.
+
+[Gwen] 11:14:21
+Okay. Okay, any question?
+
+[Gwen] 11:14:28
+Okay, what?
+
+[Gwen] 11:14:33
+Okay, if there is no version left where you stop my suffering and pass it to Anas.
+
+[Nas] 11:14:41
+Okay.
+
+[Gwen] 11:14:48
+Okay.
+
+[Nas] 11:14:51
+Yeah, okay, back to my… I think… when systems disability is the last section for the swing lending.
+
+[Nas] 11:15:05
+So… Do you have any reason or concern?
+
+[Nas] 11:15:12
+If we can continue to if not, I think we can finish the swing learning.
+
+[Nas] 11:15:25
+No.
+
+[Nas] 11:15:29
+Okay, if you don't have any concern for… The swing
+

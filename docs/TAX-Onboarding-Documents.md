@@ -163,6 +163,8 @@ Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
 - [Release on Mar 06, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147623/Release+on+Mar+06+2025)
 - [Release on Mar 13, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147650/Release+on+Mar+13+2025)
 
+[**Overall Timeline**](https://moneyforward.atlassian.net/jira/software/projects/TAXW/boards/836/timeline)
+
 #### Gitflow:
 
 | Branch Type | Format | Example |
