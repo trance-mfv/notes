@@ -44,6 +44,23 @@
 
 	- Tasks:
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+			```
+			# List all loaded translations In Rails console
+			I18n.backend.load_translations # for all locale files
+			I18n.backend.send(:translations)[:ja]  # for Japanese translations
+			I18n.available_locales # for all available locales
+			YourModel.model_name.i18n_key
+
+			# List all error activerecord messages
+			I18n.t('activerecord.errors.messages')
+
+			# message lookup order in Rails
+			# activerecord.errors.models.[model_name].attributes.[attribute_name].[error_type]
+			# activerecord.errors.models.[model_name].[error_type]
+			# activerecord.errors.messages.[error_type]
+			# errors.attributes.[attribute_name].[error_type]
+			# errors.messages.[error_type]
+			```
 
 ### 2025-03-14
 * Yesterday:
