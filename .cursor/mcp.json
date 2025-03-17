@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+      "mysql": {
+        "command": "npx",
+        "args": ["-y", "@f4ww4z/mcp-mysql-server"],
+        "env": {
+          "MYSQL_HOST": "localhost",
+          "MYSQL_USER": "nguyen.tung.trang",
+          "MYSQL_PASSWORD": "",
+          "MYSQL_DATABASE": "tax_adjustment_web"
+        }
+      }
+    }
+  }
