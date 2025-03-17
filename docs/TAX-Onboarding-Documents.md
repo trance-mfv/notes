@@ -4,14 +4,25 @@
 
 ### SRE
     - Github: Version control system: source code management and collaboration
+        - Request channel: #contact_cio_managed-tools
         - Repo: https://github.com/moneyforward/tax_adjustment_web
-    - Jira: Project management and issue tracking tool
+    - Jira: Project management and issue tracking 
+        - Access Request Channel: #contact_cio_managed-tools
+        - Change Fullname Request Channel: #contact_mfv-corp-it-support
+            1. Is it Jira Request? 
+                - Yes 
+            2. What kind of  request do you want? 
+                - Jira Account Request
+            3. Change my Jira account Full name as <nickname> (<Original Fullname>)
     - Confluence: Knowledge base and documentation platform for team collaboration
+        - Request channel: #contact_mfv-corp-it-support
     - Heroku: Cloud platform for app deployment and scaling
         - Request `#contact_cio_managed-tools` to get access to the moneyforwardvietnam team
         - Shared account: tran.kinh.ly+herokutateam@moneyforward.co.jp
     - CircleCI (CI/CD): Continuous integration and deployment platform for automated testing and deployment
     - Rollbar: Error monitoring and tracking tool for identifying and fixing application issues
+    - Timesheet Data Sync: 
+        - Request channel: #contact_mfv-corp-it-support
     
 ### Company Tools
     - Slack: Team communication and collaboration tool
@@ -20,6 +31,7 @@
         - MFV: https://moneyforward.kibe.la/groups/1454
     - Figma: Design tool, e.g. prototyping
     - Miro: Collaboration and communication tool for team collaboration
+        - Request channel: #contact_cio_managed-tools
     - Google Accounts: Drive, Calendar, etc.
     - SonarQube: Code quality and security tool
         - Link: https://sonar.mfvn.dev/projects
@@ -30,6 +42,7 @@
             - Install VSCode extension: `SonarQube for IDE`
             - Generate user token
             - Connect to SonarQube server: `sonar.mfvn.dev`
+    - Kollabe: Agile Planning Poker
 
 ### Communication
     - Frequent used Slack channels
@@ -58,18 +71,16 @@ Dev: Reacher, Hugo, Jeff, Key, Pat, Edgar, Asher, Vinnie, Scarlett, Axel
 
 ## Way of work
 
-### Daily Standup
-
-#### Daily Init (Chorei)
+### Daily Init (Chorei)
 - Initiator: Are you ready? 
 - Others: Yes/Yo
 - Initiator: Let's make it.
 - Everyone: Together
 
-#### Code Convention
+### Code Convention
 - [Code convention](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1715634206/Code+convention)
 
-#### Implementation Flow:
+### Implementation Flow:
 
 implement -> self test -> báo QA -> QA confirm passed -> review -> merge
 
@@ -77,16 +88,49 @@ implement -> self test -> báo QA -> QA confirm passed -> review -> merge
 
 implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-name>) -> notify QA (JIRA ticket) -> QA confirm passed -> review -> merge PR
 
+#### Process Assign Reviewers for PRs:
+[Details from Reacher's messages](https://moneyforward.slack.com/archives/C08DTPV33M2/p1741750961563679)
+
+- Basically, assign all devs as reviewers
+
+**Pull Requests**
+
+1. PR from *Task Branch* to *Milestones Branch* OR directly from *Task Branch* to *Release Branch* (for smaller tasks)
+    - Assign devs made commits to the *Task Branch* as reviewers
+
+where, 
+- Task Branch: feature/<JIRA-Ticket-ID>-<description>
+- Milestones Branch: milestone/<mm-dd>
+- Release Branch: develop
+
+Refer conversation: https://moneyforward.slack.com/archives/C07D8EDBQ6S/p1741747181259769
+Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10647
+
+2. PR from *Milestones Branch* to *Release Branch*
+    - Assgin all devs
+
+Refer conversation: https://moneyforward.slack.com/archives/C07D8EDBQ6S/p1741748295200559
+Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
+
+
+
 #### JIRA Ticket:
 
 **Workflow**
-    TO DO => IN PROGRESS => REVIEW
+    TO DO => IN PROGRESS => REVIEW (QA + PR) => DONE
 
 **Structure**
-Epic
-    - Task
-        - Sub-task
-    - Bug
+
+    Epic
+    ├── Story
+    ├── Task
+    │   └── Sub-task
+    ├── Bug Report
+    └── Internal Bug
+
+**Backlog**
+
+![Backlog](../assets/images/tax-backlog.png)
 
 #### Sprint: 
 
@@ -155,6 +199,8 @@ ERP: Employee Record Processing
 | Heroku | Dependabot | [Link](https://dashboard.heroku.com/apps/tax-milestone-dependabot) |
 | | web-dev | [Link](https://dashboard.heroku.com/apps/tax-adjustment-web-dev) |
 | | next-release | [Link](https://dashboard.heroku.com/apps/tax-adjustment-web-dev) |
+
+Ref: [Confluence](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1634730702/Environments)
 
 ### Technical architect:
 
