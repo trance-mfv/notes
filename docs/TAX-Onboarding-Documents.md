@@ -3,46 +3,57 @@
 ## Accounts
 
 ### SRE
-    - Github: Version control system: source code management and collaboration
-        - Request channel: #contact_cio_managed-tools
-        - Repo: https://github.com/moneyforward/tax_adjustment_web
-    - Jira: Project management and issue tracking 
-        - Access Request Channel: #contact_cio_managed-tools
-        - Change Fullname Request Channel: #contact_mfv-corp-it-support
-            1. Is it Jira Request? 
-                - Yes 
-            2. What kind of  request do you want? 
-                - Jira Account Request
-            3. Change my Jira account Full name as <nickname> (<Original Fullname>)
-    - Confluence: Knowledge base and documentation platform for team collaboration
-        - Request channel: #contact_mfv-corp-it-support
-    - Heroku: Cloud platform for app deployment and scaling
-        - Request `#contact_cio_managed-tools` to get access to the moneyforwardvietnam team
-        - Shared account: tran.kinh.ly+herokutateam@moneyforward.co.jp
-    - CircleCI (CI/CD): Continuous integration and deployment platform for automated testing and deployment
-    - Rollbar: Error monitoring and tracking tool for identifying and fixing application issues
-    - Timesheet Data Sync: 
-        - Request channel: #contact_mfv-corp-it-support
+- Github: Version control system: source code management and collaboration
+    - Request channel: #contact_cio_managed-tools
+    - Repo: https://github.com/moneyforward/tax_adjustment_web
+- Jira: Project management and issue tracking 
+    - Access Request Channel: #contact_cio_managed-tools
+    - Change Fullname Request Channel: #contact_mfv-corp-it-support
+        1. Is it Jira Request? 
+            - Yes 
+        2. What kind of  request do you want? 
+            - Jira Account Request
+        3. Change my Jira account Full name as <nickname> (<Original Fullname>)
+- Confluence: Knowledge base and documentation platform for team collaboration
+    - Request channel: #contact_mfv-corp-it-support
+- Heroku: Cloud platform for app deployment and scaling
+    - Request `#contact_cio_managed-tools` to get access to the moneyforwardvietnam team
+    - Shared account: tran.kinh.ly+herokutateam@moneyforward.co.jp
+- CircleCI (CI/CD): Continuous integration and deployment platform for automated testing and deployment
+    - Request channel: #contact_cio_managed-tools
+- Rollbar: Error monitoring and tracking tool for identifying and fixing application issues
+    - Request channel: #contact_cio_managed-tools
+- Timesheet Data Sync: 
+    - Request channel: #contact_mfv-corp-it-support
     
 ### Company Tools
-    - Slack: Team communication and collaboration tool
-    - Kibela: Knowledge base and documentation platform for team collaboration
-        - https://moneyforward.kibe.la/
-        - MFV: https://moneyforward.kibe.la/groups/1454
-    - Figma: Design tool, e.g. prototyping
-    - Miro: Collaboration and communication tool for team collaboration
-        - Request channel: #contact_cio_managed-tools
-    - Google Accounts: Drive, Calendar, etc.
-    - SonarQube: Code quality and security tool
-        - Link: https://sonar.mfvn.dev/projects
-        - Login with Github account
-        - Request access: use this Slack channel #contact_cio_managed-tools
-        - Request Users Access: use this Slack channel #sonarqube, fill in email, type: FREE, add and project: Tax Adjustment
-        - Config VSCode IDE to connect SonarQube: 
-            - Install VSCode extension: `SonarQube for IDE`
-            - Generate user token
-            - Connect to SonarQube server: `sonar.mfvn.dev`
-    - Kollabe: Agile Planning Poker
+- Slack: Team communication and collaboration tool
+- Kibela: Knowledge base and documentation platform for team collaboration
+    - Request channel: #contact_cio_managed-tools
+    - https://moneyforward.kibe.la/
+    - MFV: https://moneyforward.kibe.la/groups/1454
+- Figma: Design tool, e.g. prototyping
+    - Request channel: #contact_cio_managed-tools
+- Miro: Collaboration and communication tool for team collaboration
+    - Request channel: #contact_cio_managed-tools
+- Google Accounts: docs, speadsheets, presentations, Drive, Calendar, etc.
+    - To change to use nickname, e.g. <nickname> MFV
+- Zoom:
+    - Request channel: #contact_cio_managed-tools
+    - To change display name to `<nickname> MFV`
+- SonarQube: Code quality and security tool
+    - Request channel: #contact_cio_managed-tools
+    - Link: https://sonar.mfvn.dev/projects
+    - Login with Github account
+    - Request access: use this Slack channel #contact_cio_managed-tools
+    - Request Users Access: use this Slack channel #sonarqube, fill in email, type: FREE, add and project: Tax Adjustment
+    - Config VSCode IDE to connect SonarQube: 
+        - Install VSCode extension: `SonarQube for IDE`
+        - Generate user token
+        - Connect to SonarQube server: `sonar.mfvn.dev`
+- GlobalProtect: VPN tool
+    - Enable to connect to the company resources
+- Kollabe: Agile Planning Poker
 
 ### Communication
     - Frequent used Slack channels
@@ -82,13 +93,17 @@ Dev: Reacher, Hugo, Jeff, Key, Pat, Edgar, Asher, Vinnie, Scarlett, Axel
 
 ### Implementation Flow:
 
+```
 implement -> self test -> báo QA -> QA confirm passed -> review -> merge
+```
 
-#### Implementation Branches :
+Example with dev branches :
 
+```
 implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-name>) -> notify QA (JIRA ticket) -> QA confirm passed -> review -> merge PR
+```
 
-#### Process Assign Reviewers for PRs:
+### Process Assign Reviewers for PRs:
 [Details from Reacher's messages](https://moneyforward.slack.com/archives/C08DTPV33M2/p1741750961563679)
 
 - Basically, assign all devs as reviewers
@@ -112,9 +127,7 @@ Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10647
 Refer conversation: https://moneyforward.slack.com/archives/C07D8EDBQ6S/p1741748295200559
 Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
 
-
-
-#### JIRA Ticket:
+### JIRA Ticket:
 
 **Workflow**
     TO DO => IN PROGRESS => REVIEW (QA + PR) => DONE
@@ -132,7 +145,7 @@ Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
 
 ![Backlog](../assets/images/tax-backlog.png)
 
-#### Sprint: 
+### Sprint: 
 
 - 2 weeks
 - Sprint Planning: 
@@ -165,7 +178,7 @@ Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
 
 [**Overall Timeline**](https://moneyforward.atlassian.net/jira/software/projects/TAXW/boards/836/timeline)
 
-#### Gitflow:
+### Gitflow:
 
 | Branch Type | Format | Example |
 |-------------|--------|---------|
@@ -174,7 +187,7 @@ Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
 | Development | `develop` | develop |
 | QA | `heroku/<branch-name>` | heroku/dependabot |
 
-#### Pull Request:
+### Pull Request:
 
 | Component | Format | Example/Details |
 |-----------|--------|----------------|
@@ -189,7 +202,7 @@ SG: Support Group
 MFID: Money Forward ID - openid connect
 ERP: Employee Record Processing
 
-#### Tax Adjustment Web
+### Tax Adjustment Web
 
 | Service | Environment | Link |
 |---------|-------------|------|
@@ -306,3 +319,27 @@ Select tax_adjustment when prompted
         - #hcm-ruby
         - #mf_orientation_new_entry_training
         - #ae-ta-dev (private channel): TA Dev VN Team
+
+### Onboarding Checklists:
+
+| Tool/Service | Details | Status | Request Channel |
+|--------------|---------|--------|-----------------|
+| Github | Repo: https://github.com/moneyforward/tax_adjustment_web | | #contact_cio_managed-tools |
+| Slack | To change to `<nickname>` | Done | - |
+| IDEs | JetBrain/VSCode/Cursor  | | #contact_cio_managed-tools |
+| Cursor | License registration link | | #contact_cio_managed-tools |
+| Zoom | To change display name to `<nickname>` | | #contact_cio_managed-tools |
+| Kibela | - | Done | #contact_cio_managed-tools |
+| Google Accounts | Docs, speadsheets, presentations, Drive, Calendar, etc. | | #contact_cio_managed-tools |
+| Google Display Name | To change to use nickname, e.g. `<nickname> MFV` | | - |
+| JIRA | - | | #contact_cio_managed-tools |
+| Confluence | - | | #contact_mfv-corp-it-support |
+| JIRA Fullname Change | `<nickname> (Original Fullname)` | | #contact_mfv-corp-it-support |
+| Heroku | Request access to the `moneyforwardvietnam` team | | #contact_cio_managed-tools |
+| CircleCI | - | | #contact_cio_managed-tools |
+| Rollbar | - | | #contact_cio_managed-tools |
+| Figma | - | | #contact_cio_managed-tools |
+| Miro | - | | #contact_cio_managed-tools |
+| SonarQube | - | | #contact_cio_managed-tools |
+| Datadog | - | | #contact_cio_managed-tools |
+| GlobalProtect | VPN tool - to enable to connect to the company resources | | - |
