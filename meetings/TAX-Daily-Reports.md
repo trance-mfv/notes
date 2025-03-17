@@ -2,6 +2,19 @@
 
 ## Daily Reports
 
+### 2025-03-18
+* Yesterday: 
+	- Meeting: 
+		- TAX: Sprint Planning
+	- Tasks: 
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+
+* Today: 
+	- Meeting: 
+		- Bi-weekly MFG All-hands Video
+		- [TA] Calculation Incident Analysis
+	- Tasks: 
+
 ### 2025-03-17
 * Last Friday:
 	- Meeting: 
@@ -15,6 +28,7 @@
 * Today: 
 	- Meeting: 
 		- TAX: Sprint Planning
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 
 ### 2025-03-14
 * Yesterday:
