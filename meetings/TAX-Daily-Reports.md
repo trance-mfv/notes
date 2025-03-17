@@ -27,7 +27,22 @@
 
 * Today: 
 	- Meeting: 
-		- TAX: Sprint Planning
+		- TAX: [Sprint Planning](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786133/TAX-112+Mar+17+-+Mar+28)
+			- [Sprint 112 - Tasks](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786155/TAX-112+tasks)
+			
+			```
+			Summary of the conversation between Nazmul and Yoko:
+
+			The discussion primarily revolves around technical debt, encryption of data, and project planning.
+
+			Technical Debt: Nazmul and Yoko discuss how to handle technical debt, specifically regarding items that have been acknowledged as needing to be addressed within the fiscal year 25. They debate whether to keep a separate sheet for technical debt or include it in the master schedule. Ultimately, they decide that having separate tabs is preferable.   
+
+			Data Encryption: Yoko raises a question about project encryption, specifically whether all tax data will be encrypted. Nazmul clarifies that they need to confirm with the CFO about the specifics of the project, as some information may need to be encrypted while other data may not. Nazmul explains that they are working to determine what kind of data they are dealing with, which data is encrypted, and which is not, and will then discuss with the CISO office. 
+			
+			Project Planning and Clarification: Yoko seeks clarification on certain projects and tasks, such as the relationship master revision, and tasks within the swing 112. They discuss the importance of PRD (Product Requirements Document) review and the ongoing implementation of various features and improvements.   
+			```
+
+	- Tasks:
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 
 ### 2025-03-14
