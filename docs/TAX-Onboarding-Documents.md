@@ -2,58 +2,48 @@
 
 ## Accounts
 
-### SRE
-- Github: Version control system: source code management and collaboration
-    - Request channel: #contact_cio_managed-tools
+### SRE and Company Tools
+*Notes: Request via #contact_cio_managed-tools*
+
+- **Github**: Version control system: source code management and collaboration
     - Repo: https://github.com/moneyforward/tax_adjustment_web
-- Jira: Project management and issue tracking 
-    - Access Request Channel: #contact_cio_managed-tools
+- **Jira**: Project management and issue tracking 
     - Change Fullname Request Channel: #contact_mfv-corp-it-support
-        1. Is it Jira Request? 
-            - Yes 
-        2. What kind of  request do you want? 
-            - Jira Account Request
-        3. Change my Jira account Full name as <nickname> (<Original Fullname>)
-- Confluence: Knowledge base and documentation platform for team collaboration
+        - Change Fullname to `<nickname> (<real name>)`
+- **Confluence**: Knowledge base and documentation platform
     - Request channel: #contact_mfv-corp-it-support
-- Heroku: Cloud platform for app deployment and scaling
-    - Request `#contact_cio_managed-tools` to get access to the moneyforwardvietnam team
-    - Shared account: tran.kinh.ly+herokutateam@moneyforward.co.jp
-- CircleCI (CI/CD): Continuous integration and deployment platform for automated testing and deployment
-    - Request channel: #contact_cio_managed-tools
-- Rollbar: Error monitoring and tracking tool for identifying and fixing application issues
-    - Request channel: #contact_cio_managed-tools
-- Timesheet Data Sync: 
-    - Request channel: #contact_mfv-corp-it-support
-    
-### Company Tools
-- Slack: Team communication and collaboration tool
-- Kibela: Knowledge base and documentation platform for team collaboration
-    - Request channel: #contact_cio_managed-tools
+- **IDEs and Development Tools**
+    - JetBrain/VSCode/Cursor
+    - Cursor: [License registration link](https://cursor.com/team/accept-invite?code=084223bacfee104259a2067c1dbb0f386ab7ce533d83daeb)
+- **Heroku**: Cloud platform for app deployment and scaling
+    - User: `TA Team`
+    - Team: `moneyforwardvietnam`
+- **CircleCI**: Continuous integration and deployment platform
+    - Organization `moneyforward`
+- **Rollbar**: Error monitoring and tracking tool
+    - Login with Google account
+    - Project: `tax_adjustment`
+- **Slack**: Team communication and collaboration tool ✅
+    - Change display name to `<nickname>` or `<nickname> (<real/email name>)`
+- **Kibela**: Knowledge base and documentation platform ✅
     - https://moneyforward.kibe.la/
     - MFV: https://moneyforward.kibe.la/groups/1454
-- Figma: Design tool, e.g. prototyping
-    - Request channel: #contact_cio_managed-tools
-- Miro: Collaboration and communication tool for team collaboration
-    - Request channel: #contact_cio_managed-tools
-- Google Accounts: docs, speadsheets, presentations, Drive, Calendar, etc.
-    - To change to use nickname, e.g. <nickname> MFV
-- Zoom:
-    - Request channel: #contact_cio_managed-tools
-    - To change display name to `<nickname> MFV`
-- SonarQube: Code quality and security tool
-    - Request channel: #contact_cio_managed-tools
+- **Figma**: Design tool
+- **Miro**: Collaboration tool
+- **Google Accounts**: Docs, spreadsheets, presentations, Drive, Calendar, etc.
+    - Change display name to `<nickname> MFV`
+- **Zoom**: Video conferencing
+    - Change display name to `<nickname> MFV`
+- **SonarQube**: Code quality and security tool
     - Link: https://sonar.mfvn.dev/projects
     - Login with Github account
-    - Request access: use this Slack channel #contact_cio_managed-tools
-    - Request Users Access: use this Slack channel #sonarqube, fill in email, type: FREE, add and project: Tax Adjustment
-    - Config VSCode IDE to connect SonarQube: 
-        - Install VSCode extension: `SonarQube for IDE`
-        - Generate user token
-        - Connect to SonarQube server: `sonar.mfvn.dev`
-- GlobalProtect: VPN tool
+    - Project: `tax_adjustment_web`
+- **Datadog**: Monitoring platform
+    - Organization: `Money Forward, Inc.`
+    - Board: Tax Adjustment (All in One)
+- **GlobalProtect**: VPN tool
     - Enable to connect to the company resources
-- Kollabe: Agile Planning Poker
+- **Kollabe**: Agile Planning Poker
 
 ### Communication
     - Frequent used Slack channels
@@ -322,24 +312,24 @@ Select tax_adjustment when prompted
 
 ### Onboarding Checklists:
 
-| Tool/Service | Details | Status | Request Channel |
-|--------------|---------|--------|-----------------|
-| Github | Repo: https://github.com/moneyforward/tax_adjustment_web | | #contact_cio_managed-tools |
-| Slack | To change to `<nickname>` | Done | - |
-| IDEs | JetBrain/VSCode/Cursor  | | #contact_cio_managed-tools |
-| Cursor | License registration link | | #contact_cio_managed-tools |
-| Zoom | To change display name to `<nickname>` | | #contact_cio_managed-tools |
-| Kibela | - | Done | #contact_cio_managed-tools |
-| Google Accounts | Docs, speadsheets, presentations, Drive, Calendar, etc. | | #contact_cio_managed-tools |
-| Google Display Name | To change to use nickname, e.g. `<nickname> MFV` | | - |
-| JIRA | - | | #contact_cio_managed-tools |
-| Confluence | - | | #contact_mfv-corp-it-support |
-| JIRA Fullname Change | `<nickname> (Original Fullname)` | | #contact_mfv-corp-it-support |
-| Heroku | Request access to the `moneyforwardvietnam` team | | #contact_cio_managed-tools |
-| CircleCI | - | | #contact_cio_managed-tools |
-| Rollbar | - | | #contact_cio_managed-tools |
-| Figma | - | | #contact_cio_managed-tools |
-| Miro | - | | #contact_cio_managed-tools |
-| SonarQube | - | | #contact_cio_managed-tools |
-| Datadog | - | | #contact_cio_managed-tools |
-| GlobalProtect | VPN tool - to enable to connect to the company resources | | - |
+#### Onboarding Checklist
+
+**Account Access**
+- [ ] **Github** - Repo: https://github.com/moneyforward/tax_adjustment_web
+- [x] **Slack** - Change display name to `<nickname>`
+- [ ] **IDEs** - JetBrain/VSCode/Cursor
+- [ ] **Zoom** - Change display name to `<nickname> MFV`
+- [x] **Kibela** - Access to knowledge base
+- [ ] **Google Accounts** - Docs, spreadsheets, presentations, Drive, Calendar
+- [ ] **Google Display Name** - Change to `<nickname> MFV`
+- [ ] **JIRA** - Project management access
+- [ ] **JIRA Fullname** - Change to `<nickname> (Original Fullname)`
+- [ ] **Confluence** - Documentation platform access
+- [ ] **Heroku** - Access to the `moneyforwardvietnam` team
+- [ ] **CircleCI** - Access to organization `moneyforward`
+- [ ] **Rollbar** - Access to `tax_adjustment`
+- [ ] **Figma** - Design tool access
+- [ ] **Miro** - Collaboration tool access
+- [ ] **SonarQube** - Access to project `tax_adjustment_web`
+- [ ] **Datadog** - Access to Tax Adjustment board
+- [ ] **GlobalProtect** - VPN tool for company resource access
