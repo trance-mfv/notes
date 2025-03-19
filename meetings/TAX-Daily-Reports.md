@@ -32,6 +32,7 @@
 	- Tasks: 
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 			- Continue working on this
+	- Impact Analysis template: https://docs.google.com/document/d/18Ne7nmBAoxdjdasnIifXa3U2CscT4C6YUntHq7w4-ck/edit?tab=t.0 
 	- New members: to introduce daily reports to Axel and Vinz. They can join our daily from tomorrow as observers and start to report from the following week.
 	- AI: 
 		Slack:https://moneyforward.slack.com/archives/C07PRMPJJCF/p1742349763297379
