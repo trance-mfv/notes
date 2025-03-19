@@ -2,6 +2,64 @@
 
 ## Daily Reports
 
+### 2025-03-20
+* Yesterday: 
+	- Meeting: 
+		- Engineering All Hands
+	- Tasks: 
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+			- Follow up with QA
+* Today: 
+	- Meeting: 
+		
+	- Tasks: 
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+			- Continue working on this
+
+### 2025-03-19
+* Yesterday: 
+	- Meeting: 
+		- Bi-weekly MFG All-hands Video
+		- [TA] Calculation Incident Analysis
+	- Tasks: 
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+			- Completed the issues
+	- New members: Axel and Vinz having all the required accesses for the project
+
+* Today: 
+	- Meeting: 
+		- Engineering All Hands
+	- Tasks: 
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+			- Continue working on this
+	- New members: to introduce daily reports to Axel and Vinz. They can join our daily from tomorrow as observers and start to report from the following week.
+	- AI: 
+		Slack:https://moneyforward.slack.com/archives/C07PRMPJJCF/p1742349763297379
+		```
+		Mick (Nguyễn Văn Minh)
+		09:02
+		Hi All,
+		I would like to share with you an AI Code Review Bot. It works based on OpenAi and Github Actions with following features:
+		:white_check_mark: Fetches PR diffs and reviews them using OpenAI
+		:white_check_mark: Provides general feedback on the PR
+		:white_check_mark: Posts inline comments on specific lines of code
+		:white_check_mark: Suggests improvements when the PR is not approved
+		:white_check_mark: Approves PRs if no issues are found
+		It's easy to integrate the bot to your project using GitHub Actions.
+		You can check the source here: https://github.com/moneyforward/ai-code-review-bot
+		You can also see an example of a review from the bot: https://github.com/moneyforward/ai-code-review-bot/pull/3
+		```
+
+		Slack: https://moneyforward.slack.com/archives/C088PRULK99/p1742347248883249
+		```
+		li.​aaron エロン リー
+		08:20
+		Based on the discussion with 
+		@Ben Hirayama
+		-san yesterday, I updated some of our Cursor rules settings. Also, I added the mcp.json to the frontend project. Please help review it :pray-nya:
+		https://github.com/moneyforward/ca_mid_web_frontend/pull/4160
+		```
+
 ### 2025-03-18
 * Yesterday: 
 	- Meeting: 
@@ -14,6 +72,32 @@
 	- Meeting: 
 		- Bi-weekly MFG All-hands Video
 		- [TA] Calculation Incident Analysis
+		
+		![Wrong Calculation](../assets/images/wrong-calculation-incident-mortem.png)
+
+		```
+		Countermeasures:
+
+		**- Missing communication with PdM team**
+
+		* More Direct: "Improve communication with the Product Management (PdM) team."
+		* Focusing on the Impact: "Establish consistent communication channels with the PdM team to prevent information gaps."
+		* Actionable: "Implement regular meetings with the PdM team to ensure alignment."
+
+		**- Dedicate resources to review improvement tickets**
+
+		* More Specific: "Allocate dedicated time and personnel to review and prioritize improvement tickets."
+		* Focusing on Efficiency: "Establish a process for timely review of improvement tickets."
+		* More Actionable: "Assign a team member to manage and review improvement tickets on a weekly basis."
+
+		**- Enhance system knowledge and documentation**
+
+		* More Actionable: "Create and maintain up-to-date system documentation."
+		* Focusing on Training: "Provide regular training sessions to enhance team members' system knowledge."
+		* More Specific: "Develop a plan to document legacy systems and share that knowledge across the team."
+		* Focus on Knowledge Transfer: "Implement knowledge transfer sessions, and improve the existing documentation"
+		```
+
 	- Tasks: 
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 			- Continue working on importing employee data from Cloud Payroll and CSV files
