@@ -72,11 +72,40 @@ Dev: Reacher, Hugo, Jeff, Key, Pat, Edgar, Asher, Vinnie, Scarlett, Axel
 
 ## Way of work
 
-### Daily Init (Chorei)
+### Daily Meeting
+
+**Structure:**
+    - Host: Mr. Reacher/Mr. Nas
+    - Guests: team TA, Nazmul-san and Saito-san
+    - Language: English (Vnese sometimes :face_with_hand_over_mouth:)
+    
+    ```
+    - <Name>
+        - Last day (Yesterday)
+            - Meeting: 
+            + <Meeting name list here>
+            - Tasks/Tickets: 
+            + <Ticket + status list here>
+        - Today
+            - Meeting: 
+            - Tasks/Tickets:
+
+    * Notes: No blockers listed, blockers will be discussed among the team in separated conversations
+    ```
+
+    Nazmul: Division Manager in MFJ, manages teams TA, SI, AT
+    Saito (Yoko): LPdM in MFJ, handling business, communications with teams CS, Sale, Biz, Strategy....
+
+**Example** [TA2024 Daily](https://docs.google.com/document/d/1BTKD6_zrRXJRBtBLq0Wf2E7KVlDDRruT_nId0Y3Rdw8/edit?tab=t.0)
+
+**Init**
+
+```
 - Initiator: Are you ready? 
-- Others: Yes/Yo
+- Everyone: Yes/Yo
 - Initiator: Let's make it.
 - Everyone: Together
+```
 
 ### Code Convention
 - [Code convention](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1715634206/Code+convention)
