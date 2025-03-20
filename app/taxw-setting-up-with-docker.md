@@ -1,4 +1,4 @@
-# TAX - Setting up tax_adjustment_web
+# TAX - Setting up tax_adjustment_web with Docker
 
 ## Run the app with Docker
 
