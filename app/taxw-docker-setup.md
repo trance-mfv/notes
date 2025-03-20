@@ -232,9 +232,16 @@ The error occurs while trying to install the nio4r gem (version 2.5.8) on macOS 
 
 This is a known issue with nio4r on newer versions of macOS/Ruby. 
 
-In Gemfile, add:
+Run this command:
+
+```bash
+bundle config build.nio4r --with-cflags="-Wno-incompatible-pointer-types"
+```
+
+Or workaround with new gem version in Gemfile, add:
 
 ```
+# Be careful with the version
 gem 'nio4r', '~> 2.7', '>= 2.7.1'
 ```
 
