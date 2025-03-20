@@ -2,6 +2,24 @@
 
 ## Daily Reports
 
+### 2025-03-21
+* Yesterday: 
+	- Meeting: 
+		- TA Incident Analysis - Final Result
+	- Tasks: 
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+			- Fixed specs
+	- Axel and Vinz are setting up TAXW environment
+* Today: 
+	- Meeting: 
+		- TA Management MTG
+		- HR Solution Dept. Monthly AllHands
+		- Bi-weekly TA and SRE team
+		- [TA Dev] Team Sync-up
+	- Tasks: 
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
+			- 
+
 ### 2025-03-20
 * Yesterday: 
 	- Meeting: 
@@ -11,10 +29,11 @@
 			- Follow up with QA
 * Today: 
 	- Meeting: 
-		
+		- TA Incident Analysis - Final Result
 	- Tasks: 
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 			- Continue working on this
+	- New members: Axel and Vinz to set up TAXW environment
 
 ### 2025-03-19
 * Yesterday: 
@@ -34,6 +53,7 @@
 			- Continue working on this
 	- Impact Analysis template: https://docs.google.com/document/d/18Ne7nmBAoxdjdasnIifXa3U2CscT4C6YUntHq7w4-ck/edit?tab=t.0 
 	- New members: to introduce daily reports to Axel and Vinz. They can join our daily from tomorrow as observers and start to report from the following week.
+	- ![QA Org Chart](../assets/images/qa-org-chart.png)
 	- AI: 
 		Slack:https://moneyforward.slack.com/archives/C07PRMPJJCF/p1742349763297379
 		```
