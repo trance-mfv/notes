@@ -30,6 +30,9 @@
 * Today: 
 	- Meeting: 
 		- TA Incident Analysis - Final Result
+			- [Incorrect Calculation of Withholding Tax Amount (MKTBGS-726) Incident Analysis](https://miro.com/app/board/uXjVIQed0Ac=/)
+			- [Calculation Incident Analysis](https://miro.com/app/board/uXjVIZGKMG0=/)
+			- [Slack](https://moneyforward.slack.com/archives/C02AU5MJASE/p1712310394284599?thread_ts=1712137791.252779&cid=C02AU5MJASE)
 	- Tasks: 
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 			- Continue working on this
