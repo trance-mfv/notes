@@ -113,7 +113,7 @@ Dev: Reacher, Hugo, Jeff, Key, Pat, Edgar, Asher, Vinnie, Scarlett, Axel
 ### Implementation Flow:
 
 ```
-implement -> self test -> báo QA -> QA confirm passed -> review -> merge
+implement -> self test -> notify QA on JIRA ticket -> QA confirm passed -> review -> merge
 ```
 
 Example with dev branches :
@@ -121,6 +121,16 @@ Example with dev branches :
 ```
 implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-name>) -> notify QA (JIRA ticket) -> QA confirm passed -> review -> merge PR
 ```
+
+#### Smoke Test Workflow:
+
+Branching strategy:
+```
+`origin/milestones/<mmm-dd>` -- merged to --> `origin/develop` -- merged to --> `origin/master` -- pushed to --> `origin/heroku/web_dev_deployment`
+```
+
+Notify QA to conduct smoke test on the `web-dev` environment before testing on `production`
+
 
 ### Process Assign Reviewers for PRs:
 [Details from Reacher's messages](https://moneyforward.slack.com/archives/C08DTPV33M2/p1741750961563679)
