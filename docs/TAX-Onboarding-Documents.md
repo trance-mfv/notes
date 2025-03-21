@@ -224,20 +224,50 @@ Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
 | Description | Include evidence of self-testing | Screenshots or screencasts to provide evidence of the self-test from your side |
 | Reviewer | Add team reviewer group | @ta_dev_mfv_reviewers |
 
-### Product overview
-PA: Payroll
-TA: Tax Adjustment
-SG: Support Group
-MFID: Money Forward ID - openid connect
-ERP: Employee Record Processing
+## Product
 
-### Tax Adjustment Web
+### Product overview
+
+[Reference](https://docs.google.com/document/d/1OE3KmSQsdMsyfauXQzvZ0T1sIloy-bwNogLHuDkDOeE/edit?tab=t.0)
+
+**Environments**
+
+- Test environment
+    - Heroku
+        - Heroku web dev: https://tax-adjustment-web-dev.herokuapp.com/ 
+        - Heroku dependabot: https://tax-milestone-dependabot.herokuapp.com
+        - Heroku next release: https://tax-adjustment-next-release.herokuapp.com 
+
+- Staging environment
+    - Diagnosis: https://diagnosis.tax-adjustment.test.mfw.work 
+    - Tax Adjustment: https://tax-adjustment.test.mfw.work 
+    - Tax Adjustment Employee: https://tax-adjustment.test.mfw.work/my 
+    - Tax Adjustment Aweb: https://tax-adjustment.test.mfw.work/aweb
+
+- Production environment
+    - Tax Adjustment: https://tax-adjustment.moneyforward.com/ 
+
+**External services**
+
+- MFID
+    - Authentication service
+    - [Staging - MFID Developer Console](https://id.test.musubu.co.in/oauth/applications)
+- PA (Payroll)
+    - https://payroll.ebisubook.co.in/ 
+- Smart HR(Third party service)
+    - https://smarthr.co.jp/en/ 
+- Navis
+    - https://biz-admin.test.mfw.work/ 
+- My-number
+    - https://mynumber.test.mfw.work 
+- SG (Support Group)
+- ERP (Employee Record Processing)
+    - https://erp-stg1.ebisubook.com/home
+
+**Tax Adjustment Web**
 
 | Service | Environment | Link |
 |---------|-------------|------|
-| MFID | Staging | [Link](https://id.test.musubu.co.in/oauth/applications/260) |
-| ERP | Staging | [Link](https://erp-stg1.ebisubook.com/home) |
-| Payroll | Staging | [Link](https://payroll.ebisubook.co.in/) |
 | Rollbar | - | [Link](https://app.rollbar.com/a/moneyforward/fix/items?isSnoozed=false&prj=486797) |
 | CI/CD Pipeline | - | [Link](https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web) |
 | Heroku | Dependabot | [Link](https://dashboard.heroku.com/apps/tax-milestone-dependabot) |
@@ -246,7 +276,7 @@ ERP: Employee Record Processing
 
 Ref: [Confluence](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1634730702/Environments)
 
-### Technical architect:
+## Technical architect:
 
 - Architecture overview, DDD
 
@@ -351,8 +381,6 @@ Select tax_adjustment when prompted
 
 ### Onboarding Checklists:
 
-#### Onboarding Checklist
-
 **Account Access**
 - [ ] **Github** - Repo: https://github.com/moneyforward/tax_adjustment_web
 - [x] **Slack** - Change display name to `<nickname>`
@@ -372,3 +400,5 @@ Select tax_adjustment when prompted
 - [ ] **SonarQube** - Access to project `tax_adjustment_web`
 - [ ] **Datadog** - Access to Tax Adjustment board
 - [ ] **GlobalProtect** - VPN tool for company resource access
+
+### 
