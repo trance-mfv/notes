@@ -2,6 +2,22 @@
 
 ## Daily Reports
 
+### 2025-03-22
+* Last Friday: 
+	- Meeting: 
+		- TA Management MTG
+		- HR Solution Dept. Monthly AllHands
+		- Bi-weekly TA and SRE team
+		- [TA Dev] Team Sync-up
+	- Tasks: 
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
+			- To do Impact Analysis
+		- [TAXW-1326](https://moneyforward.atlassian.net/browse/TAXW-1326) Export PDF
+			- To do Impact Analysis
+* Today:
+	- Meeting: 
+	- Tasks:
+
 ### 2025-03-21
 * Yesterday: 
 	- Meeting: 
@@ -12,13 +28,33 @@
 	- Axel and Vinz are setting up TAXW environment
 * Today: 
 	- Meeting: 
-		- TA Management MTG
+		- [TA Management MTG](https://docs.google.com/document/d/1RD2GCG2ZdkFOVlNm8Fign_Lp0gAjLWKzt1CHMGrxF-w/edit?tab=t.0)
+			- [Impact Analysis Workflow](https://docs.google.com/document/d/18Ne7nmBAoxdjdasnIifXa3U2CscT4C6YUntHq7w4-ck/edit?tab=t.m4doym6nuu9j)
+			- [TA Team Org](https://docs.google.com/document/d/1W_vfGqB9dPSHBdkpPmjWKjt4uvHZf3DO860IC0uuBH4/edit?tab=t.0)
 		- HR Solution Dept. Monthly AllHands
 		- Bi-weekly TA and SRE team
 		- [TA Dev] Team Sync-up
 	- Tasks: 
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
-			- 
+			- To do Impact Analysis
+	
+	- Important Notice 
+		- Yoko Saito: The following PRDs are ready for your review
+			- [TA][PRD] Issue No.127 (changed the target end date from 14th)
+			- [TA][PRD]Relationship Master Revision
+			- Please review by COB 21th. Once you've finished your review, please comment that you've done so. Thanks!
+		- Nas/dam.phu.duong: e đang arrange tasks của bug & internal bug....nên mọi người xem có cái nào để các bạn mới check or fix dc thì assign nha. Có thể từ dễ đến khó :smile:
+			- https://moneyforward.atlassian.net/browse/TAXW-1486
+			- https://moneyforward.atlassian.net/browse/TAXW-29
+		- Reacher/tran.​ngoc.​hai: cái này là cái hwa Luna nó test ra trên prod
+			- https://moneyforward.atlassian.net/browse/TAXW-300
+		- [Offboarding Process](https://moneyforward.kibe.la/notes/318640):
+		- [Important] Data Storage and Transfer Guidelines for Offboarding Employees
+			- Hi everyone,
+			- To prevent data loss and ensure a smooth transition when an employee leaves MFV, please follow these guidelines:
+				+ Store important files in shared drives instead of personal Google Drive.
+				+ Before leaving, transfer ownership of any necessary files to your successor or relevant team members.
+				+ Files left in a personal Google Drive will be moved to the “retired-gws” folder after offboarding.
 
 ### 2025-03-20
 * Yesterday: 
@@ -37,6 +73,7 @@
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 			- Continue working on this
 	- New members: Axel and Vinz to set up TAXW environment
+	- Git graph command: `git log --all --decorate --oneline --graph` => alias: `gloga`
 
 ### 2025-03-19
 * Yesterday: 
