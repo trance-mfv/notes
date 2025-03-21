@@ -337,3 +337,4 @@ Create a new Office (Navis Tenant) in Navis:
     - New Business Plan: https://erp-stg1.ebisubook.com/change_erp_contract/new
     - Home: https://erp-stg1.ebisubook.com/home
     - Credit card number: 4111111111111111
+    - New Credit card number: 4100000000000100
