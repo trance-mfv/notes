@@ -319,3 +319,21 @@ Turbo.session.drive = false
 - Turbo Rails 7.x versions use JavaScript syntax that's compatible with your current Babel configuration
 - You'll still have access to Turbo Streams which your application is using
 - You won't need to modify your Babel configuration
+
+### 404 Not Found - After login
+
+After login, user will be redirected to ERP: https://erp-internal-api-stg1.ebisubook.com/sso?login_hint=dinh.trong.dat%40moneyforward.co.jp and get 404 error.
+
+**Reason:**
+
+The tenant of the user has not been created in Navis.
+
+**Solution:**
+
+Create a new Office (Navis Tenant) in Navis:
+  - Navis Tenant: https://biz-admin.test.mfw.work/app/tenant
+  - Navis Tenant Registration: https://biz-admin.test.mfw.work/app/tenant_registration/new
+  - After create a new Office, user need to create a new Business Plan in ERP:
+    - New Business Plan: https://erp-stg1.ebisubook.com/change_erp_contract/new
+    - Home: https://erp-stg1.ebisubook.com/home
+    - Credit card number: 4111111111111111
