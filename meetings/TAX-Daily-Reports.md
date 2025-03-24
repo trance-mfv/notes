@@ -34,6 +34,14 @@
 * Today:
 	- Meeting: 
 		- 1:1 with Nas
+			- New Challenges for Team: Technical documentation, Impact analysis
+			- Dev will execute test cases
+				- Roadmap project:
+					- Dev executes testing on Test environment
+					- QA will test on Staging environment
+				- Feedback/Improvement:
+					- Dev executes testing on Test & Staging environment
+
 	- Tasks:
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
 	- Impact Analysis: 
