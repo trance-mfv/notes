@@ -2,7 +2,24 @@
 
 ## Daily Reports
 
-### 2025-03-22
+### 2025-03-25
+* Yesterday:
+	- Meeting: 
+		- 1:1 with Nas
+	- Tasks:
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
+	- Impact Analysis: 
+		- [Guidelines and Template](https://docs.google.com/document/d/18Ne7nmBAoxdjdasnIifXa3U2CscT4C6YUntHq7w4-ck/edit?tab=t.m4doym6nuu9j#heading=h.ho9ao49zxkir)
+		- [Workflow](https://miro.com/app/board/uXjVIasAcJg=/)
+		- [Reference from Asher](https://docs.google.com/document/d/1LwIvqstXuTOmvUSL1MjdNlccy4v5IZOq7jXbdcj7EOQ/edit?tab=t.0#heading=h.ufmkxd1r30zc)
+* Today:
+	- Meeting: 
+		- 1:1 with Nas
+	- Tasks:
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
+			- To do Impact Analysis
+
+### 2025-03-24
 * Last Friday: 
 	- Meeting: 
 		- TA Management MTG
@@ -16,7 +33,13 @@
 			- To do Impact Analysis
 * Today:
 	- Meeting: 
+		- 1:1 with Nas
 	- Tasks:
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
+	- Impact Analysis: 
+		- [Guidelines and Template](https://docs.google.com/document/d/18Ne7nmBAoxdjdasnIifXa3U2CscT4C6YUntHq7w4-ck/edit?tab=t.m4doym6nuu9j#heading=h.ho9ao49zxkir)
+		- [Workflow](https://miro.com/app/board/uXjVIasAcJg=/)
+		- [Reference from Asher](https://docs.google.com/document/d/1LwIvqstXuTOmvUSL1MjdNlccy4v5IZOq7jXbdcj7EOQ/edit?tab=t.0#heading=h.ufmkxd1r30zc)
 
 ### 2025-03-21
 * Yesterday: 
