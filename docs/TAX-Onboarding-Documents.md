@@ -44,6 +44,8 @@
 - **GlobalProtect**: VPN tool
     - Enable to connect to the company resources
 - **Kollabe**: Agile Planning Poker
+- **TestRail**:
+    - Link: https://moneyforward.tmxtestrail.com
 
 ### Communication
     - Frequent used Slack channels
@@ -122,6 +124,25 @@ Example with dev branches :
 implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-name>) -> notify QA (JIRA ticket) -> QA confirm passed -> review -> merge PR
 ```
 
+### Impact Analysis Flow:
+
+[Workflow](https://miro.com/app/board/uXjVIasAcJg=/)
+
+1. Before implementation: 
+    - Initiate the impact analysis document (along with Technical Document) and store in team's Drive:
+        - In `Developement side`: https://drive.google.com/drive/u/0/folders/1BO8snrI4aT_gG5R9TXxOmv7uvHhtDvQ1
+        - Add folder: `<JIRA-Ticket-ID>`, e.g. `TAXW-1324`
+2. During implementation: 
+    - Devs need to input updates to the impact analysis. 
+    - QAs update changes to test scopes and test cases accordingly.
+3. After implementation:
+    - Devs need to finalize the impact analysis.
+    - Attach the impact analysis document to the JIRA ticket and notify QAs.
+
+**Who will review the impact analysis document?**
+- Team lead
+- Cross-review conducted by other team members
+
 #### Smoke Test Workflow:
 
 Branching strategy:
@@ -155,6 +176,11 @@ Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10647
 
 Refer conversation: https://moneyforward.slack.com/archives/C07D8EDBQ6S/p1741748295200559
 Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
+
+3. Sonar
+- C0 >= 96.2
+- C1 >= 82.5
+- Tech debt >= 294 
 
 ### JIRA Ticket:
 
@@ -259,7 +285,8 @@ Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
 - Navis
     - https://biz-admin.test.mfw.work/ 
 - My-number
-    - https://mynumber.test.mfw.work 
+    - https://mynumber.test.mfw.work  
+    - Employee list: https://mynumber.test.mfw.work/employees
 - SG (Support Group)
 - ERP (Employee Record Processing)
     - https://erp-stg1.ebisubook.com/home
