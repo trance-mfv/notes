@@ -2,22 +2,34 @@
 
 ## Daily Reports
 
+### 2025-03-26
+* Yesterday:
+	- Meeting: 
+		- [TA] Onboarding: Sharing Session 1
+		- MFBC Monthly All-hands video
+	- Tasks:
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
+			- Follow up with QA
+* Today:
+	- Meeting: 
+		- [TA] Onboarding: Sharing Session 1
+	- Tasks:
+		-
+		
 ### 2025-03-25
 * Yesterday:
 	- Meeting: 
 		- 1:1 with Nas
 	- Tasks:
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
-	- Impact Analysis: 
-		- [Guidelines and Template](https://docs.google.com/document/d/18Ne7nmBAoxdjdasnIifXa3U2CscT4C6YUntHq7w4-ck/edit?tab=t.m4doym6nuu9j#heading=h.ho9ao49zxkir)
-		- [Workflow](https://miro.com/app/board/uXjVIasAcJg=/)
-		- [Reference from Asher](https://docs.google.com/document/d/1LwIvqstXuTOmvUSL1MjdNlccy4v5IZOq7jXbdcj7EOQ/edit?tab=t.0#heading=h.ufmkxd1r30zc)
+			- Done Impact Analysis
 * Today:
 	- Meeting: 
-		- 1:1 with Nas
+		- [TA] Onboarding: Sharing Session 1
+		- MFBC Monthly All-hands video
 	- Tasks:
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
-			- To do Impact Analysis
+			- Follow up with QA
 
 ### 2025-03-24
 * Last Friday: 
@@ -46,6 +58,7 @@
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
 	- Impact Analysis: 
 		- [Guidelines and Template](https://docs.google.com/document/d/18Ne7nmBAoxdjdasnIifXa3U2CscT4C6YUntHq7w4-ck/edit?tab=t.m4doym6nuu9j#heading=h.ho9ao49zxkir)
+		- [Team Drive](https://drive.google.com/drive/u/0/folders/1BO8snrI4aT_gG5R9TXxOmv7uvHhtDvQ1)
 		- [Workflow](https://miro.com/app/board/uXjVIasAcJg=/)
 		- [Reference from Asher](https://docs.google.com/document/d/1LwIvqstXuTOmvUSL1MjdNlccy4v5IZOq7jXbdcj7EOQ/edit?tab=t.0#heading=h.ufmkxd1r30zc)
 
