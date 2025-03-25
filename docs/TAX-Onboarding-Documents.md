@@ -47,60 +47,51 @@
 - **TestRail**:
     - Link: https://moneyforward.tmxtestrail.com
 
-### Communication
-    - Frequent used Slack channels
-        - #contact_cio_managed-tools
-        - #contact_mfv-corp-it-support: IT support
-        - #mfv_ta_onboard: TA VN Onboarding Team
-        - #mfv_ta_random: TA VN Team - Random talks
-        - #mfv_ta_vn: TA VN Team 
-        - #mfv_ta_dev_vn: TA Dev VN Team (including former TA Devs)        
-        - #ta_dev_all: クラウド年末調整の開発チームのチャンネル/ Cloud Tax Adjustment development team channel
-        - #ta_design: TA Design Team (JP + VN)
-        - #ta_core: TA Core Team
-        - #ta_random            
-        - #ae-ta-dev (private channel): TA Dev VN Team
+## Communication
+  - TA VN
+    - Team (all members): #mfv_ta_vn
+    - Devs (all devs): #mfv_ta_dev_vn
+    - Devs (internal): #ae-ta-dev
+    - Onboarding Team: #mfv_ta_onboard
+    - Random talks: #mfv_ta_random
 
-## Team and Product
+  - Cloud Tax Adjustment
+    - #ta_dev_all: Cloud Tax Adjustment development team channel
+    - #ta_design: TA Design Team (JP + VN)
+    - #ta_core: TA Core Team
+    - #ta_random: Random talks
+  
+  - IT support: 
+    - #contact_cio_managed-tools 
+    - #contact_mfv-corp-it-support
 
-### Team structure
+## Team structure
 
-![TAX Team structure](../assets/images/tax-team-structure.png)
+[Team Members](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1749319707/Release+Planning+and+Tracking#Team-Members)
 
-Manager: Nas
-QA: Phoenix, Sasa, Higuma (outsourcing)
-Accelerator: Luna, Gwen
-Dev: Reacher, Hugo, Jeff, Key, Pat, Edgar, Asher, Vinnie, Scarlett, Axel
+- Division Manager: Nazmul-san
+- LPdM: Saito-san
+- Designer: Rachel-san
+- Leader: Nas
+- QAs: Phoenix, Sasa, Higuma (outsourcing)
+- Accelerators: Luna, Gwen
+- Devs: Reacher, Hugo, Jeff, Key, Pat, Edgar, Asher, Vinnie, Scarlett, Axel
 
-## Way of work
+**New Team structure (planned to apply on early April 2025)**
+![Team structure](../assets/images/tax-team-structure.png)
 
-### Daily Meeting
+## Daily Meeting
 
 **Structure:**
-    - Host: Mr. Reacher/Mr. Nas
-    - Guests: team TA, Nazmul-san and Saito-san
-    - Language: English (Vnese sometimes :face_with_hand_over_mouth:)
-    
-    ```
-    - <Name>
-        - Last day (Yesterday)
-            - Meeting: 
-            + <Meeting name list here>
-            - Tasks/Tickets: 
-            + <Ticket + status list here>
-        - Today
-            - Meeting: 
-            - Tasks/Tickets:
+- Host: Mr. Reacher/Mr. Nas
+- Guests: team TA, Nazmul-san and Saito-san
+- Language: English (Vnese sometimes :face_with_hand_over_mouth:)
+	
+	*Note:*
+	- **Nazmul-san**: Division Manager in MFJ, manages teams TA, SI, AT
+	- **Saito-san (Yoko)**: LPdM in MFJ, handling business, communications with teams CS, Sale, Biz, Strategy....
 
-    * Notes: No blockers listed, blockers will be discussed among the team in separated conversations
-    ```
-
-    Nazmul: Division Manager in MFJ, manages teams TA, SI, AT
-    Saito (Yoko): LPdM in MFJ, handling business, communications with teams CS, Sale, Biz, Strategy....
-
-**Example** [TA2024 Daily](https://docs.google.com/document/d/1BTKD6_zrRXJRBtBLq0Wf2E7KVlDDRruT_nId0Y3Rdw8/edit?tab=t.0)
-
-**Init**
+**End of Meeting**: The team has a special closing ritual
 
 ```
 - Initiator: Are you ready? 
@@ -108,6 +99,49 @@ Dev: Reacher, Hugo, Jeff, Key, Pat, Edgar, Asher, Vinnie, Scarlett, Axel
 - Initiator: Let's make it.
 - Everyone: Together
 ```
+
+**Example** [TA2024 Daily](https://docs.google.com/document/d/1BTKD6_zrRXJRBtBLq0Wf2E7KVlDDRruT_nId0Y3Rdw8/edit?tab=t.0)
+```
+- <Name>
+	- Last day (Yesterday)
+		- Meeting: <list here>
+		- Tasks/Tickets: <Ticket + status list here>
+	- Today
+		- Meeting: 
+		- Tasks/Tickets:
+
+* Notes: No blockers listed, blockers will be discussed among the team in separated conversations
+```
+
+## Sprint
+
+**Scrum** (partial implementation)
+
+**Current Scrum Team**: Devs + QAs
+- Note: PdM team not a part of the Scrum Team
+
+**Timeline**: 2 weeks
+- Sprint Planning: Monday
+- Sprint Review: Thursday
+- Sprint Retrospective: Friday
+- Release: Weekly
+
+---
+*Example: TAX-112 (Mar-17 - Mar-28)*
+- [Sprint Planning (Mar-17 - Mar-28)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786133/TAX-112+Mar+17+-+Mar+28)
+	- [Tasks in TAX-Sprint 112](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786155/TAX-112+tasks)
+- Releases in Sprint:
+	1. [Release on Mar 20, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786238/Release+on+Mar+20+2025)
+		- [Release Checklist (Mar 20, 2025)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786261/Release+Checklist+-+Mar+20+2025)
+	2. [Release on Mar 27, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786282/Release+on+Mar+27+2025)
+		- [Release Checklist (Mar 27, 2025)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786311/Release+Checklist+-+Mar+27+2025)
+- Sprint Review:
+	- [TAX-Sprint 112 Review](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786340/TAX-Sprint+112+Review)
+- [Overall Timeline](https://moneyforward.atlassian.net/jira/software/projects/TAXW/boards/836/timeline)
+
+*Example: [JIRA - Sprint Planning Structure](../assets/images/tax-sprint-planning.png)*
+
+## Way of work
 
 ### Code Convention
 - [Code convention](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1715634206/Code+convention)
@@ -199,39 +233,6 @@ Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
 **Backlog**
 
 ![Backlog](../assets/images/tax-backlog.png)
-
-### Sprint: 
-
-- 2 weeks
-- Sprint Planning: 
-    - Meeting on Monday
-    - Tasks in Sprint
-    - Releases in Sprint
-- Sprint Review:
-    - Meeting on Thursday
-    - Review tickets/demo
-- Sprint Retrospective:
-    - Meeting on Friday
-
-- Other meetings: 
-    - Team Sync-up (on Friday)
-    - Backlog Refinement
-    - Bi-weekly TA and SRE team
-    - 1:1 meeting
-
-**Example: TAX-111**
-
-| Sprint Information | Link |
-|-------------------|------|
-| Sprint Period | [TAX-111 (Mar 03 - Mar 14)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147519/TAX-111+Mar+03+-+Mar+14) |
-| Tasks in Sprint | [TAX-111 tasks](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147540/TAX-111+tasks) |
-| Sprint Review | [TAX-Sprint 110 Review](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147675/TAX-Sprint+110+Review) |
-
-**Releases in Sprint:**
-- [Release on Mar 06, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147623/Release+on+Mar+06+2025)
-- [Release on Mar 13, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2561147650/Release+on+Mar+13+2025)
-
-[**Overall Timeline**](https://moneyforward.atlassian.net/jira/software/projects/TAXW/boards/836/timeline)
 
 ### Gitflow:
 
