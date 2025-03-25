@@ -15,7 +15,7 @@
 		- [TA] Onboarding: Sharing Session 1
 	- Tasks:
 		-
-		
+
 ### 2025-03-25
 * Yesterday:
 	- Meeting: 
@@ -30,6 +30,20 @@
 	- Tasks:
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
 			- Follow up with QA
+	- [Review Workflow:](https://moneyforward.slack.com/archives/C08J7RL9CTT/p1742885107235459)
+		- Ready for QA => Testing
+		- if issue found: Testing => Implementing
+		- if minor issue found: Testing (not impacted parts)
+	- New joinner: some tasks
+		- Axel and Vinz: will help to update the Docker build for TAXW
+			- Questions: 
+				- Dockerfile-dev: `RUN yarn install && RUN assets:precompile` => do we need to re-build the Docker image when updates to Stimulus controllers or CSSS?
+				- Does production use Docker image? Should we use the Dockerfile to match with production environment? => to check with Nas/Reacher
+				- `mysqldb` service: wait/read/write timeout? do we need extra-config for db?
+				- update .gitignore to include .env.docker and .vscode and .cursor
+				- Need a Jira ticket for this? No impact analysis and QA involvement needed
+		- Tune and Cillian: will help to update the dev environment installation guide in README file
+			- Question: Need a Jira ticket for this? No impact analysis and QA involvement needed?
 
 ### 2025-03-24
 * Last Friday: 
