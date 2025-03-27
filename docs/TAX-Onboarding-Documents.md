@@ -115,10 +115,11 @@
 
 ## Sprint
 
-**Scrum** (partial implementation)
+**Scrum** 
+- Partial implementation
 
-**Current Scrum Team**: Devs + QAs
-- Note: PdM team not a part of the Scrum Team
+**Scrum Team**: 
+- Devs + QAs
 
 **Timeline**: 2 weeks
 - Sprint Planning: Monday
@@ -127,26 +128,30 @@
 - Release: Weekly
 
 ---
-*Example: TAX-112 (Mar-17 - Mar-28)*
-- [Sprint Planning (Mar-17 - Mar-28)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786133/TAX-112+Mar+17+-+Mar+28)
-	- [Tasks in TAX-Sprint 112](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786155/TAX-112+tasks)
-- Releases in Sprint:
-	1. [Release on Mar 20, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786238/Release+on+Mar+20+2025)
-		- [Release Checklist (Mar 20, 2025)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786261/Release+Checklist+-+Mar+20+2025)
-	2. [Release on Mar 27, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786282/Release+on+Mar+27+2025)
-		- [Release Checklist (Mar 27, 2025)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786311/Release+Checklist+-+Mar+27+2025)
-- Sprint Review:
-	- [TAX-Sprint 112 Review](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786340/TAX-Sprint+112+Review)
-- [Overall Timeline](https://moneyforward.atlassian.net/jira/software/projects/TAXW/boards/836/timeline)
+Example: 
+- Sprint: TAX-112 (Mar-17 - Mar-28)
+	- [Sprint Planning (Mar-17 - Mar-28)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786133/TAX-112+Mar+17+-+Mar+28)
+		- [Tasks in TAX-Sprint 112](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786155/TAX-112+tasks)
+
+	- Releases in Sprint:
+		1. [Release on Mar 20, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786238/Release+on+Mar+20+2025)
+			- [Release Checklist (Mar 20, 2025)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786261/Release+Checklist+-+Mar+20+2025)
+		2. [Release on Mar 27, 2025](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786282/Release+on+Mar+27+2025)
+			- [Release Checklist (Mar 27, 2025)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786311/Release+Checklist+-+Mar+27+2025)
+
+	- Sprint Review:
+		- [TAX-Sprint 112 Review](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786340/TAX-Sprint+112+Review)
+
+	- [Overall Timeline](https://moneyforward.atlassian.net/jira/software/projects/TAXW/boards/836/timeline)
 
 *Example: [JIRA - Sprint Planning Structure](../assets/images/tax-sprint-planning.png)*
 
-## Way of work
+## Coding Convention
+- [Coding convention](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1715634206/Code+convention)
 
-### Code Convention
-- [Code convention](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1715634206/Code+convention)
+## Workflow
 
-### Implementation Flow:
+### Implementation Workflow
 
 ```
 implement -> self test -> notify QA on JIRA ticket -> QA confirm passed -> review -> merge
@@ -158,36 +163,18 @@ Example with dev branches :
 implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-name>) -> notify QA (JIRA ticket) -> QA confirm passed -> review -> merge PR
 ```
 
-### Impact Analysis Flow:
+**Gitflow**
 
-[Workflow](https://miro.com/app/board/uXjVIasAcJg=/)
-
-1. Before implementation: 
-    - Initiate the impact analysis document (along with Technical Document) and store in team's Drive:
-        - In `Developement side`: https://drive.google.com/drive/u/0/folders/1BO8snrI4aT_gG5R9TXxOmv7uvHhtDvQ1
-        - Add folder: `<JIRA-Ticket-ID>`, e.g. `TAXW-1324`
-2. During implementation: 
-    - Devs need to input updates to the impact analysis. 
-    - QAs update changes to test scopes and test cases accordingly.
-3. After implementation:
-    - Devs need to finalize the impact analysis.
-    - Attach the impact analysis document to the JIRA ticket and notify QAs.
-
-**Who will review the impact analysis document?**
-- Team lead
-- Cross-review conducted by other team members
-
-#### Smoke Test Workflow:
-
-Branching strategy:
-```
-`origin/milestones/<mmm-dd>` -- merged to --> `origin/develop` -- merged to --> `origin/master` -- pushed to --> `origin/heroku/web_dev_deployment`
-```
-
-Notify QA to conduct smoke test on the `web-dev` environment before testing on `production`
+* **Branch Types:**
+  * Milestone: `milestone/<mm-dd>` (Example: `milestone/mar-13`)
+  * Feature: `[feature]/<JIRA-Ticket-ID>-<description>` 
+		- Example: `feature/TAXW-1324-disable-electric-submit`
+  * Development: `develop`
+  * QA: `heroku/<branch-name>` 
+		- Example: `heroku/dependabot`
 
 
-### Process Assign Reviewers for PRs:
+### Pull Request Workflow
 [Details from Reacher's messages](https://moneyforward.slack.com/archives/C08DTPV33M2/p1741750961563679)
 
 - Basically, assign all devs as reviewers
@@ -216,6 +203,52 @@ Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
 - C1 >= 82.5
 - Tech debt >= 294 
 
+**Pull Request**
+
+* **Title**
+  * Format: `[JIRA_Ticket] Description`
+  * Example: `[TAXW-1324] Disable "Electric Submit"`
+
+* **Description**
+  * Include evidence of self-testing
+  * Screenshots or screencasts to provide evidence of the self-test from your side
+
+* **Reviewer**
+  * Add team reviewer group
+  * Example: `@ta_dev_mfv_reviewers`
+
+
+### Impact Analysis Workflow
+
+[Workflow](https://miro.com/app/board/uXjVIasAcJg=/)
+
+1. Before implementation: 
+    - Initiate the impact analysis document (along with Technical Document) and store in team's Drive:
+        - In `Developement side`: https://drive.google.com/drive/u/0/folders/1BO8snrI4aT_gG5R9TXxOmv7uvHhtDvQ1
+        - Add folder: `<JIRA-Ticket-ID>`, e.g. `TAXW-1324`
+2. During implementation: 
+    - Devs need to input updates to the impact analysis. 
+    - QAs update changes to test scopes and test cases accordingly.
+3. After implementation:
+    - Devs need to finalize the impact analysis.
+    - Attach the impact analysis document to the JIRA ticket and notify QAs.
+
+**Who will review the impact analysis document?**
+- Team lead
+- Cross-review conducted by other team members
+
+### Testing Workflow
+TBD - To discuss with the QA team
+
+### Smoke Test Workflow:
+
+Branching strategy:
+```
+`origin/milestones/<mmm-dd>` -- merged to --> `origin/develop` -- merged to --> `origin/master` -- pushed to --> `origin/heroku/web_dev_deployment`
+```
+
+Notify QA to conduct smoke test on the `web-dev` environment before testing on `production`
+
 ### JIRA Ticket:
 
 **Workflow**
@@ -233,23 +266,6 @@ Example PR: https://github.com/moneyforward/tax_adjustment_web/pull/10692
 **Backlog**
 
 ![Backlog](../assets/images/tax-backlog.png)
-
-### Gitflow:
-
-| Branch Type | Format | Example |
-|-------------|--------|---------|
-| Milestone | `milestone/<mm-dd>` | milestone/mar-13 |
-| Feature | `[feature]/<JIRA-Ticket-ID>-<description>` | feature/TAXW-1324-disable-electric-submit |
-| Development | `develop` | develop |
-| QA | `heroku/<branch-name>` | heroku/dependabot |
-
-### Pull Request:
-
-| Component | Format | Example/Details |
-|-----------|--------|----------------|
-| Title | `[JIRA_Ticket] Description` | [TAXW-1324] Disable "Electric Submit" |
-| Description | Include evidence of self-testing | Screenshots or screencasts to provide evidence of the self-test from your side |
-| Reviewer | Add team reviewer group | @ta_dev_mfv_reviewers |
 
 ## Product
 
