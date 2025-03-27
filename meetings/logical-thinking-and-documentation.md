@@ -29,3 +29,5 @@ Thank you,
 
 ![Documentation](../assets/images/training/documentation.png)
 ![Good Document](../assets/images/training/good-document.png)
+![Document Quality](../assets/images/training/document-quality.png)
+![Data-Driven Writing](../assets/images/training/data-driven-writing.png)
