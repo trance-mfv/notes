@@ -508,10 +508,25 @@ Select tax_adjustment when prompted
 - [x] Configure SonarQube Extension in VSCode
 - [x] Set up local development environment
 - [x] Configure Git and necessary branches
-- [ ] Access to environments 
-	- [x] Test
+- [ ] Test access to environments 
+	- [ ] Testing
+		- [ ] [Heroku web-dev](https://tax-adjustment-web-dev.herokuapp.com/)
+		- [ ] [Heroku dependabot](https://tax-milestone-dependabot.herokuapp.com)
+		- [ ] [Heroku next-release](https://tax-adjustment-next-release.herokuapp.com)
 	- [ ] Staging
+		- [ ] [Diagnosis](https://diagnosis.tax-adjustment.test.mfw.work)
+		- [ ] [Tax Adjustment](https://tax-adjustment.test.mfw.work)
+		- [ ] [Tax Adjustment Employee](https://tax-adjustment.test.mfw.work/my)
+		- [ ] [Tax Adjustment Aweb](https://tax-adjustment.test.mfw.work/aweb)
 	- [ ] Production
+		- [ ] [Tax Adjustment](https://tax-adjustment.moneyforward.com/)
+- [ ] External services
+	- [ ] [PA (payroll)](https://payroll.ebisubook.co.in/ )
+	- [ ] [Smart HR(Third party service)](https://smarthr.co.jp/en/)
+	- [ ] [Navis](https://biz-admin.test.mfw.work/)
+	- [ ] [My-number](https://mynumber.test.mfw.work)
+	- [ ] [MFID](https://id.test.musubu.co.in/oauth/applications)
+
 
 ### 4. Process Familiarization
 - [x] Review team structure and roles
