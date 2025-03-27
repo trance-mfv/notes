@@ -104,7 +104,7 @@
 - Devs: Reacher, Hugo, Jeff, Key, Pat, Edgar, Asher, Vinnie, Scarlett, Axel
 
 **New Team structure (planned to apply on early April 2025)**
-![Team structure](../assets/images/tax-team-structure.png)
+![Team structure](../assets/images/training/tax-team-structure.png)
 
 ## Daily Meeting
 
@@ -170,7 +170,7 @@ Example:
 
 	- [Overall Timeline](https://moneyforward.atlassian.net/jira/software/projects/TAXW/boards/836/timeline)
 
-*Example: [JIRA - Sprint Planning Structure](../assets/images/tax-sprint-planning.png)*
+*Example: [JIRA - Sprint Planning Structure](../assets/images/training/tax-sprint-planning.png)*
 
 ## Coding Convention
 - [Coding convention](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1715634206/Code+convention)
@@ -321,7 +321,7 @@ Notify QA to conduct smoke test on the `web-dev` environment before testing on `
 
 **Backlog**
 
-![Backlog](../assets/images/tax-backlog.png)
+![Backlog](../assets/images/training/tax-backlog.png)
 
 ## Product
 
