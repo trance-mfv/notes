@@ -129,7 +129,7 @@
 
 ---
 Example: 
-- Sprint: TAX-112 (Mar-17 - Mar-28)
+- Sprint: [TAX-112 (Mar-17 - Mar-28)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786133/TAX-112+Mar+17+-+Mar+28)
 	- [Sprint Planning (Mar-17 - Mar-28)](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786133/TAX-112+Mar+17+-+Mar+28)
 		- [Tasks in TAX-Sprint 112](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786155/TAX-112+tasks)
 
@@ -154,7 +154,7 @@ Example:
 ### Implementation Workflow
 
 ```
-implement -> self test -> notify QA on JIRA ticket -> QA confirm passed -> review -> merge
+implement -> self test -> notify QA in JIRA ticket -> QA confirm passed -> review -> merge
 ```
 
 Example with dev branches :
@@ -163,16 +163,18 @@ Example with dev branches :
 implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-name>) -> notify QA (JIRA ticket) -> QA confirm passed -> review -> merge PR
 ```
 
-**Gitflow**
+### Gitflow
 
 * **Branch Types:**
-  * Milestone: `milestone/<mm-dd>` (Example: `milestone/mar-13`)
+  * Milestone: `milestone/<mm-dd>` 
+		- Example: `milestone/mar-13`
   * Feature: `[feature]/<JIRA-Ticket-ID>-<description>` 
 		- Example: `feature/TAXW-1324-disable-electric-submit`
   * Development: `develop`
   * QA: `heroku/<branch-name>` 
-		- Example: `heroku/dependabot`
-
+		1. `heroku/dependabot_deployment`
+		2. `heroku/web_dev_deployment`
+		3. `heroku/next_releases`
 
 ### Pull Request Workflow
 [Details from Reacher's messages](https://moneyforward.slack.com/archives/C08DTPV33M2/p1741750961563679)
