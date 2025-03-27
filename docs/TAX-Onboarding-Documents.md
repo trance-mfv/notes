@@ -175,9 +175,37 @@ Example:
 ## Coding Convention
 - [Coding convention](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1715634206/Code+convention)
 
-## Workflow
+## Workflows
 
-### Implementation Workflow
+### TA Process
+
+[TA Process](https://docs.google.com/presentation/d/1-nao0qZOwMiV0dQdOPQOMo2WK1uzq6M76oHKawL2kcM/edit#slide=id.g2832f0465fa_1_148)
+
+### TA Lifecycle
+
+![TA Lifecycle](../assets/images/training/ta-lifecycle.png)
+
+### Initiate New Task Workflow
+
+![Initiate New Task Workflow](../assets/images/training/initiate-task-workflow.png)
+
+### Testing Workflows
+
+**Testing on Test Environment**
+
+![Testing on Test Environment](../assets/images/training/testing-on-test-env.png)
+
+**Testing on Staging Environment**
+
+![Testing on Staging Environment](../assets/images/training/testing-on-stg-env.png)
+
+**Smoke testing on Pre-production Environment**
+
+![Smoke testing on Pre-production Environment](../assets/images/training/smoke-test-on-pre-prod-env.png)
+
+**Release testing on Production Environment**
+
+![Release testing on Production Environment](../assets/images/training/release-test-on-prod-env.png)
 
 ```
 implement -> self test -> notify QA in JIRA ticket -> QA confirm passed -> review -> merge
