@@ -1,5 +1,31 @@
 # TAX Onboarding Documents
 
+## Table of Contents
+1. [Accounts](#accounts)
+   - [SRE and Company Tools](#sre-and-company-tools)
+2. [Communication](#communication)
+3. [Team Structure](#team-structure)
+4. [Daily Meeting](#daily-meeting)
+5. [Sprint](#sprint)
+6. [Coding Convention](#coding-convention)
+7. [Workflow](#workflow)
+   - [Implementation Workflow](#implementation-workflow)
+   - [Gitflow](#gitflow)
+   - [Pull Request Workflow](#pull-request-workflow)
+   - [Impact Analysis Workflow](#impact-analysis-workflow)
+   - [Testing Workflow](#testing-workflow)
+   - [Smoke Test Workflow](#smoke-test-workflow)
+   - [JIRA Ticket](#jira-ticket)
+8. [Product](#product)
+   - [Product Overview](#product-overview)
+9. [Technical Architect](#technical-architect)
+10. [Release Plan](#release-plan)
+11. [Documentation](#documentation)
+12. [Installation](#installation)
+13. [Appendix](#appendix)
+    - [Slack Channels](#slack-channels-by-category)
+    - [Onboarding Checklists](#onboarding-checklists)
+
 ## Accounts
 
 ### SRE and Company Tools
@@ -447,4 +473,61 @@ Select tax_adjustment when prompted
 - [ ] **Datadog** - Access to Tax Adjustment board
 - [ ] **GlobalProtect** - VPN tool for company resource access
 
-### 
+## Complete Onboarding Checklist
+
+### 1. Account Setup and Access
+- [x] Request access via #contact_cio_managed-tools
+- [x] Set up Github access and clone repository
+- [x] Configure JIRA account and update display name
+- [x] Set up Confluence access
+- [x] Install and configure IDE (JetBrain/VSCode/Cursor)
+- [x] Set up Heroku access
+- [x] Configure CircleCI access
+- [x] Set up Rollbar account
+- [x] Configure Slack and update display name
+- [x] Access Kibela knowledge base
+- [x] Set up Figma account
+- [x] Configure Miro access
+- [x] Set up Google Workspace accounts
+- [x] Configure Zoom account
+- [x] Set up SonarQube access
+- [x] Configure Datadog access
+- [x] Install and configure GlobalProtect VPN
+- [x] Set up Kollabe access
+- [x] Configure TestRail access
+
+### 2. Communication Setup
+- [x] Join all required Slack channels:
+  - [x] Team channels (#mfv_ta_vn, #mfv_ta_dev_vn, #ae-ta-dev)
+  - [x] Onboarding channel (#mfv_ta_onboard)
+  - [x] Support channels (#contact_cio_managed-tools, #contact_mfv-corp-it-support)
+  - [x] Project channels (#ta_dev_all, #ta_design, #ta_core)
+
+### 3. Development Environment Setup
+- [x] Install Node.js v18.20.7
+- [x] Configure SonarQube Extension in VSCode
+- [x] Set up local development environment
+- [x] Configure Git and necessary branches
+- [ ] Access to environments 
+	- [x] Test
+	- [ ] Staging
+	- [ ] Production
+
+### 4. Process Familiarization
+- [x] Review team structure and roles
+- [x] Understand daily meeting format
+- [x] Learn sprint process and timeline
+- [ ] Study coding conventions
+- [ ] Understand workflow processes:
+  - [ ] Implementation workflow
+  - [x] Git workflow
+  - [ ] Pull request process
+  - [ ] Impact analysis process
+  - [ ] Testing workflow
+- [ ] Review JIRA ticket workflow and structure
+
+### 5. Documentation Review
+- [ ] Read technical documentation
+- [ ] Review TA System Guidebook
+- [ ] Understand product overview
+- [ ] Review external service integrations
