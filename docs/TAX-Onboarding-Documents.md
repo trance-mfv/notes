@@ -175,15 +175,13 @@ Example:
 ## Coding Convention
 - [Coding convention](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/1715634206/Code+convention)
 
-## Workflows
-
-### TA Process
+## TA Workflows
 
 [TA Process](https://docs.google.com/presentation/d/1-nao0qZOwMiV0dQdOPQOMo2WK1uzq6M76oHKawL2kcM/edit#slide=id.g2832f0465fa_1_148)
 
-### TA Lifecycle
+### TA Phrases
 
-![TA Lifecycle](../assets/images/training/ta-lifecycle.png)
+![TA Phrases](../assets/images/training/ta-phrases.png)
 
 ### Initiate New Task Workflow
 
@@ -207,15 +205,22 @@ Example:
 
 ![Release testing on Production Environment](../assets/images/training/release-test-on-prod-env.png)
 
-```
-implement -> self test -> notify QA in JIRA ticket -> QA confirm passed -> review -> merge
-```
+### JIRA Ticket Workflow:
 
-Example with dev branches :
+![Development Workflow](../assets/images/training/development-workflow.png)
 
-```
-implement (feature/TAXW-<ticket-id>-<description>) -> self test (heroku/<branch-name>) -> notify QA (JIRA ticket) -> QA confirm passed -> review -> merge PR
-```
+**Structure**
+
+    Epic
+    ├── Story
+    ├── Task
+    │   └── Sub-task
+    ├── Bug Report
+    └── Internal Bug
+
+**Backlog**
+
+![Backlog](../assets/images/training/tax-backlog.png)
 
 ### Gitflow
 
@@ -304,24 +309,6 @@ Branching strategy:
 ```
 
 Notify QA to conduct smoke test on the `web-dev` environment before testing on `production`
-
-### JIRA Ticket:
-
-**Workflow**
-    TO DO => IN PROGRESS => REVIEW (QA + PR) => DONE
-
-**Structure**
-
-    Epic
-    ├── Story
-    ├── Task
-    │   └── Sub-task
-    ├── Bug Report
-    └── Internal Bug
-
-**Backlog**
-
-![Backlog](../assets/images/training/tax-backlog.png)
 
 ## Product
 
