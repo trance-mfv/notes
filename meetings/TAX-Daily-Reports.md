@@ -2,6 +2,37 @@
 
 ## Daily Reports
 
+### 2025-03-27
+* Yesterday:
+	- Meeting:
+		- [TA] Onboarding: Sharing Session 2
+		- Logical thinking & Documentation training #2
+		- [Ask Me Anything】任意参加/voluntary participation
+	- Tasks:
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
+			- Fixed issue found
+	- New members: 
+		- Axel and Cillian are updating the Docker build for Dev 
+		- Tune and Vinz are updating installation guide README
+* Today:
+	- Meeting:
+		- [Sharing Session_PVI Healthcare Insurance 2025]
+			- [Handbook](https://drive.google.com/file/d/1gSGBxOMuYKF2PxZcu-txUCOUMVCEm-pk/view)
+		- TAX: Sprint Review
+			- [Sprint-112](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786340/TAX-Sprint+112+Review)
+		- taxw_1467 incident review meeting
+		- [TA] Onboarding: Sharing Session 3
+		- [MFV AI Community] Sharing session - DeepSeek
+	- Tasks:
+		- Review PRs: improving SonarQube issues: [TAXW-1547 to 1550 and 1558](https://github.com/moneyforward/tax_adjustment_web/pulls/phuocht-asher97)
+		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
+			- Following up with QA and PR review
+	- New members: 
+		- Axel and Cillian continue updating the Docker build for Dev 
+		- Tune and Vinz continue updating installation guide README
+	- Phoenix: [Request Access to Aweb](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2565832705/How+to+access+Aweb) of other apps: Navis, PA, SG, ERP
+
+
 ### 2025-03-26
 * Yesterday:
 	- Meeting: 
@@ -12,9 +43,20 @@
 			- Follow up with QA
 * Today:
 	- Meeting: 
-		- [TA] Onboarding: Sharing Session 1
+		- [TA] Onboarding: Sharing Session 2
+		- Logical thinking & Documentation training #2
+			- Yuki Mizutani: 
+				- Anything but death is just a scratch. in JP: Nothing but death is a scratch
+				- Be comfortable to "uncomfortable": Nothing is perfect and everything keeps changing, so I shall be able to feel comfortable to things/circumstances that normally make people feel uncomfortable.
+			- Feedback survey
+			- [Slides](https://docs.google.com/presentation/d/1LvR2zPvvLwwCVbmYNmcyUfdBL-tUxRkqD_KgQxOGdhM/edit#slide=id.g13012e9490d_0_0)
+			- [Recording](https://drive.google.com/drive/folders/1WeAZIDEfQub7A8O3hSF2OheQF7JKrdgj)
+
+		- [Ask Me Anything】任意参加/voluntary participation
 	- Tasks:
-		-
+		- [TAXW-1502] [TAXW-1450] Fix empty string My Number
+			- Following up with QA and PR review
+	- New joiners: will help to update Docker build for Dev and installation guide in README
 
 ### 2025-03-25
 * Yesterday:
