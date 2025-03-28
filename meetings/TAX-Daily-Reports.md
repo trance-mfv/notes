@@ -2,6 +2,52 @@
 
 ## Daily Reports
 
+### 2025-03-31
+* Yesterday:
+	- Meeting:
+		- [TA] Onboarding: Sharing Session 4
+		- [PRD sharing] issues list
+		- [TA Dev] Team Sync-up
+		- [TA] Dev & QA sync-up
+		- TAX: Sprint Retrospective+ 2024 KPT review
+		- [TA - Garnet team] Backlog Refinement
+		- Tech seminar (Monthly)
+	- Tasks:
+		- Review PRs: improving SonarQube issues: TAXW-1547 to 1550 
+	- New members: 
+		- Axel and Cillian continue updating the Docker build for Dev 
+		- Tune and Vinz continue updating installation guide README
+
+### 2025-03-28
+
+* Yesterday:
+	- Meeting:
+		- [TA] Onboarding: Sharing Session 3
+		- TAX: Sprint Review
+		- taxw_1467 incident review meeting
+		- [MFV AI Community] Sharing session - DeepSeek
+	- Tasks:
+		- Review PRs: improving SonarQube issues: TAXW-1547 to 1550 
+		- [TAXW-1502] [TAXW-1450] Fix empty string My Number
+			- Following up with QA
+- New members: 
+		- Axel and Cillian were updating the Docker build for Dev 
+		- Tune and Vinz were updating installation guide README
+* Today:
+	- Meeting:
+		- [TA] Onboarding: Sharing Session 4
+		- [PRD sharing] issues list
+		- [TA Dev] Team Sync-up
+		- [TA] Dev & QA sync-up
+		- TAX: Sprint Retrospective+ 2024 KPT review
+		- [TA - Garnet team] Backlog Refinement
+		- Tech seminar (Monthly)
+	- Tasks:
+		- Review PRs: improving SonarQube issues: TAXW-1547 to 1550 
+	- New members: 
+		- Axel and Cillian continue updating the Docker build for Dev 
+		- Tune and Vinz continue updating installation guide README
+
 ### 2025-03-27
 * Yesterday:
 	- Meeting:
@@ -30,7 +76,7 @@
 	- New members: 
 		- Axel and Cillian continue updating the Docker build for Dev 
 		- Tune and Vinz continue updating installation guide README
-	- Phoenix: [Request Access to Aweb](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2565832705/How+to+access+Aweb) of other apps: Navis, PA, SG, ERP
+	- Phoenix: [Request Access to Aweb](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2565832705/How+to+access+Aweb) for other apps: Navis, PA, SG, ERP
 
 
 ### 2025-03-26
