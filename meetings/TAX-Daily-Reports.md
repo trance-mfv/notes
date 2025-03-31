@@ -3,7 +3,7 @@
 ## Daily Reports
 
 ### 2025-03-31
-* Yesterday:
+* Last Friday:
 	- Meeting:
 		- [TA] Onboarding: Sharing Session 4
 		- [PRD sharing] issues list
@@ -14,9 +14,20 @@
 		- Tech seminar (Monthly)
 	- Tasks:
 		- Review PRs: improving SonarQube issues: TAXW-1547 to 1550 
-	- New members: 
-		- Axel and Cillian continue updating the Docker build for Dev 
-		- Tune and Vinz continue updating installation guide README
+
+* Last Friday:
+	- Meeting:
+		- [Garnet] Backlog Refinement
+		- [TA Dev] Sprint Planning
+			- [Sprint 113 - Tasks](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2609742003/TAX-113+tasks)
+		- [PRD sharing] issues list
+		- [TA] Onboarding: Sharing Session 5
+	- Tasks:
+		- Review PRs: improving SonarQube issues: TAXW-1549, 1588
+	- AI - Gemini: 
+		- We can utilize Google Gemini to learn and research more about the Handbook document above.
+		- Kibela Document: Customizing a Gemini Gem for the PVI Healthcare Insurance Handbook
+		- Demo: https://drive.google.com/file/d/1ZOEQnENqIGhdxUScDh2EIT_y-dQ17xMU/view?usp=drive_link
 
 ### 2025-03-28
 
@@ -38,8 +49,15 @@
 		- [TA] Onboarding: Sharing Session 4
 		- [PRD sharing] issues list
 		- [TA Dev] Team Sync-up
+			- [TA2025] Bugs and Internal issues:
+				- [Bugs](https://moneyforward.atlassian.net/browse/TAXW-1486)
+				- [Internal issues](https://moneyforward.atlassian.net/browse/TAXW-29)
 		- [TA] Dev & QA sync-up
 		- TAX: Sprint Retrospective+ 2024 KPT review
+			+ Tasks to assign:
+				- [TAXW-1134](https://moneyforward.atlassian.net/browse/TAXW-1134): https://moneyforward.atlassian.net/browse/TAXW-1665
+				- [TAXW-964](https://moneyforward.atlassian.net/browse/TAXW-964): https://moneyforward.atlassian.net/browse/TAXW-1668
+
 		- [TA - Garnet team] Backlog Refinement
 		- Tech seminar (Monthly)
 	- Tasks:
