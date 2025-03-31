@@ -22,12 +22,14 @@
 			- [Sprint 113 - Tasks](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2609742003/TAX-113+tasks)
 		- [PRD sharing] issues list
 		- [TA] Onboarding: Sharing Session 5
+			- TA Workflows: JIRA ticket workflow and Implementation workflow
 	- Tasks:
 		- Review PRs: improving SonarQube issues: TAXW-1549, 1588
 	- AI - Gemini: 
 		- We can utilize Google Gemini to learn and research more about the Handbook document above.
 		- Kibela Document: Customizing a Gemini Gem for the PVI Healthcare Insurance Handbook
 		- Demo: https://drive.google.com/file/d/1ZOEQnENqIGhdxUScDh2EIT_y-dQ17xMU/view?usp=drive_link
+	- Hugo: to review code and apply Presenter pattern as showcase to the team https://thoughtbot.com/blog/using-the-presenter-pattern-in-ruby-on-rails
 
 ### 2025-03-28
 
@@ -47,6 +49,7 @@
 * Today:
 	- Meeting:
 		- [TA] Onboarding: Sharing Session 4
+			- Sprint and TA Lifecycle
 		- [PRD sharing] issues list
 		- [TA Dev] Team Sync-up
 			- [TA2025] Bugs and Internal issues:
@@ -86,6 +89,7 @@
 			- [Sprint-112](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786340/TAX-Sprint+112+Review)
 		- taxw_1467 incident review meeting
 		- [TA] Onboarding: Sharing Session 3
+			- Team Structure and Daily Meeting
 		- [MFV AI Community] Sharing session - DeepSeek
 	- Tasks:
 		- Review PRs: improving SonarQube issues: [TAXW-1547 to 1550 and 1558](https://github.com/moneyforward/tax_adjustment_web/pulls/phuocht-asher97)
@@ -108,6 +112,7 @@
 * Today:
 	- Meeting: 
 		- [TA] Onboarding: Sharing Session 2
+			- Setting up TAXW app and communication
 		- Logical thinking & Documentation training #2
 			- Yuki Mizutani: 
 				- Anything but death is just a scratch. in JP: Nothing but death is a scratch
@@ -132,6 +137,7 @@
 * Today:
 	- Meeting: 
 		- [TA] Onboarding: Sharing Session 1
+			- Account request and setup tools
 		- MFBC Monthly All-hands video
 	- Tasks:
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
