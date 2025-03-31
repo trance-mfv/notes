@@ -49,7 +49,7 @@
 * Today:
 	- Meeting:
 		- [TA] Onboarding: Sharing Session 4
-			- Sprint and TA Lifecycle
+			- Sprint, and TA Lifecycle
 		- [PRD sharing] issues list
 		- [TA Dev] Team Sync-up
 			- [TA2025] Bugs and Internal issues:
@@ -90,6 +90,7 @@
 		- taxw_1467 incident review meeting
 		- [TA] Onboarding: Sharing Session 3
 			- Team Structure and Daily Meeting
+			 - Pull Request
 		- [MFV AI Community] Sharing session - DeepSeek
 	- Tasks:
 		- Review PRs: improving SonarQube issues: [TAXW-1547 to 1550 and 1558](https://github.com/moneyforward/tax_adjustment_web/pulls/phuocht-asher97)
