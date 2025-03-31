@@ -187,6 +187,25 @@ Example:
 
 ![Initiate New Task Workflow](../assets/images/training/initiate-task-workflow.png)
 
+### Implementation Workflow:
+- JIRA Ticket includes: 
+		+ 1 PrD ticket
+		+ 1 Dev ticket (Dev in charge - should complete on Due Date)
+		+ 1 Impact Analysis ticket (and/or Tech Doc) if applicable (Dev in charge)
+		+ 2 Test tickets
+		+ 1 Feedback ticket
+
+**To do list**
+- Dev to update status for DEV JIRA ticket
+- Dev to notify QA in main ticket to test. Update customer ticket status to "Ready for Test"
+- Dev to create PR to Test env (`heroku/web-dev`)
+- Dev to create PR to RELEASE (merged to `milestones` banches)
+- Dev to create Impact Analysis document ([template](https://docs.google.com/document/d/1NZONPoCRbjvA9-coLz3DvCta5b9g4RkUPpQG_YIbrfc/edit?usp=drive_link)) and 
+	1. store in [team's Drive](https://drive.google.com/drive/folders/1BO8snrI4aT_gG5R9TXxOmv7uvHhtDvQ1?usp=sharing). Impact Analysis template
+	2. create folder: `<JIRA-Ticket-ID>`, e.g. `TAXW-1324`
+	3. upload Impact Analysis document
+	4. update JIRA ticket with the link to the document
+
 ### Testing Workflows
 
 **Testing on Test Environment**
