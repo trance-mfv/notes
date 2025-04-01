@@ -2,6 +2,36 @@
 
 ## Daily Reports
 
+### 2025-04-02
+* Yesterday:
+	- Meeting:
+		- SG postpone release discussion
+		- Bi-weekly MFG All-hands
+		- [TA] Onboarding: Product Overview - Part 1
+	- Tasks:
+		- TAXW-1450: Fix My Number: Continue to fix the issue found during PR  Review
+
+### 2025-04-01
+* Yesterday:
+	- Meeting:
+		- [Garnet] Backlog Refinement
+		- [TA Dev] Sprint Planning
+		- [PRD sharing] issues list
+		- [TA] Onboarding: Sharing Session 5
+	- Tasks:
+		- TAXW-1450 - Fix My Number: Investigated the issue found during PR  Review
+		- PRs Review if time allows
+* Today:
+	- Meeting:
+		- SG postpone release discussion
+		- Bi-weekly MFG All-hands
+		- [TA] Onboarding: Product Overview - Part 1
+	- Tasks:
+		- TAXW-1450: Fix My Number: Continue to fix the issue found during PR  Review
+	- Review Pull Request (PR): 
+		- reviewers: xxx_ta_dev -> garnet_ta_dev
+		- reviewers: whole TA team - ta_dev_mfv_reviewers
+
 ### 2025-03-31
 * Last Friday:
 	- Meeting:
@@ -30,7 +60,10 @@
 		- Kibela Document: Customizing a Gemini Gem for the PVI Healthcare Insurance Handbook
 		- Demo: https://drive.google.com/file/d/1ZOEQnENqIGhdxUScDh2EIT_y-dQ17xMU/view?usp=drive_link
 	- Hugo: to review code and apply Presenter pattern as showcase to the team https://thoughtbot.com/blog/using-the-presenter-pattern-in-ruby-on-rails
-
+	- Axl: how to request access to Aweb of TAX?
+		- Nas: 
+			- [Thread](https://moneyforward.slack.com/archives/C07KVUEGF3J/p1742348334027869?thread_ts=1742348334.027869&cid=C07KVUEGF3J)
+			- Fai request 1 cái tren portal + aweb_tax-adjustment_stg_operator tren #contact_cio_managed-tools (e
 ### 2025-03-28
 
 * Yesterday:
