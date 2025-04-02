@@ -2,6 +2,19 @@
 
 ## Daily Reports
 
+### 2025-04-03
+* Yesterday:
+	- Meeting:
+		- MFV Monthly All-Hands
+		- [TA] Weekly Dev Sync
+	- Tasks:
+		- [TAXW-1555] The exported Payment report total PDF file is not matching with Calculation table
+			- 
+		- PR Reviews: 
+			- [#10775](https://github.com/moneyforward/tax_adjustment_web/pull/10775): Update Installation guide (README)
+			- [#10763](https://github.com/moneyforward/tax_adjustment_web/pull/10763): Update Docker setup for Dev Environment
+* Today:
+
 ### 2025-04-02
 * Yesterday:
 	- Meeting:
@@ -10,6 +23,45 @@
 		- [TA] Onboarding: Product Overview - Part 1
 	- Tasks:
 		- TAXW-1450: Fix My Number: Continue to fix the issue found during PR  Review
+* Today:
+	- Meeting:
+		- MFV Monthly All-Hands
+		- [TA] Weekly Dev Sync ![meeting note](./ta-dev-sync/20250402.md)
+			- [Meeting Note](https://docs.google.com/document/d/1WURgPhtaHIm2BjvyzPJNDOLLHdgyN-1ytz1T1ChnCC0/edit?tab=t.0#heading=h.y0kd9gvtnh7q)
+				- Notes
+					- [[FY25 1H] DevProductivity Guild GGI](https://docs.google.com/document/d/1o_A_0LO8G5b8JEvDor4KTO7JrrVatQ4J5Uc5B4ZUU7E/edit?tab=t.0#heading=h.c893hcafsign)
+					- [Lead time visualization：Project planning document](https://docs.google.com/document/d/1_sNZwbiYp81YRi1M0HwgxggXyPll5EcUNsVQI3J9gzc/edit?tab=t.0#heading=h.lhm2jbzd1g6i)
+					- [Sample of lead time report](https://docs.google.com/spreadsheets/d/191KVbaxIiT63bk6oDZCTlhuVbrOyImCGSO3DhVKKYjk/edit?gid=2070628444#gid=2070628444)
+
+					- Four keys related discussion
+						```
+						Nazmul / alam.nazmul
+						13:25
+						@Nas/dam.phu.duong
+
+						I would like to know the progress of FindyTeam+
+						We need to share the report using this template: official template.
+						(I know Sato-san from #hrs_guild_devproductivity has requested or will request soon. He may share a different report file: https://docs.google.com/spreadsheets/d/1XEc6wZ_3XS-D9y5gDG38IERPaVXJaTPEgRvdJvFMjjQ/edit?gid=1874849089#gid=1874849089)
+						You can see many report here: https://docs.google.com/spreadsheets/d/1drPtI-Mnq_rYfLy_HYSROY6A8OED5bxkh3B7k_Uez0M/edit?gid=0#gid=0 , mostly from SMB.
+						Do we have enough data to prepare the report? Or, still we need something to do with setup?
+						```
+
+					- [Productivity Measurement management Sheet](https://docs.google.com/spreadsheets/d/1drPtI-Mnq_rYfLy_HYSROY6A8OED5bxkh3B7k_Uez0M/edit?gid=0#gid=0)
+					- Steps
+						- Have knowledge on [FindyTeam+ project](https://docs.google.com/document/d/17MszQgohmbawDL1iFehUjv_1NGLS2Rc717d9_mQtihw/edit?tab=t.qj9v92ih4743#heading=h.wuttopvlfuhn).
+						- Select one or 2 capabilities.
+				- TODO:
+					- The first step is to read the "findee team plus document" to understand it.
+					- The second step is to select one or two capabilities and add comments in column I of the document.
+					- Instructions on how to configure Findi Team Plus are available in the document. Nas can assist with the configuration.
+					- The process involves learning DORA capabilities, configuring Findi, and then collecting data. Data collection will be quarterly.
+					- Nas offered to share relevant Findi documents with the team on Friday to help with understanding.
+	- Tasks:
+		- [TAXW-1555] The exported Payment report total PDF file is not matching with Calculation table
+			- Starting with
+		- PR Reviews: 
+			- [#10775](https://github.com/moneyforward/tax_adjustment_web/pull/10775): Update Installation guide (README)
+			- [#10763](https://github.com/moneyforward/tax_adjustment_web/pull/10763): Update Docker setup for Dev Environment
 
 ### 2025-04-01
 * Yesterday:
