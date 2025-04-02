@@ -1,0 +1,690 @@
+[Nazmul / alam.nazmul] 14:30:34
+So yeah, thank you, everyone. So first of all, I would like to ask one volunteer who can take the note I'm too lazy today.
+
+[Nazmul / alam.nazmul] 14:30:45
+To take the notes i didn't create it at all math retailer or trends.
+
+[Nazmul / alam.nazmul] 14:30:52
+Anyone? Just Peter. Take a note starting from today.
+
+[Nas] 14:30:55
+Then…
+
+[Nazmul / alam.nazmul] 14:30:59
+I didn't make any note yet, but I gave the So yeah, everyone can.
+
+[Nas] 14:31:07
+So I already had the meeting note for… Okay.
+
+[Nazmul / alam.nazmul] 14:31:14
+Yeah, just start opening and sharing it and uh yeah we didn't prepare anything so we'll talk and Yeah, just try to put something later maybe we will modify it
+
+[Nas] 14:31:26
+Yeah, sit where you've been.
+
+[Nazmul / alam.nazmul] 14:31:40
+Okay, so first of all, I… As we just started three scrum team.
+
+[Nazmul / alam.nazmul] 14:31:48
+Three team so from their side, of course, we have weekly bi-weekly basis TA management meeting including pdm designer kiwi.
+
+[Nazmul / alam.nazmul] 14:32:05
+Management. That's a bi-weekly.
+
+[Nazmul / alam.nazmul] 14:32:09
+But that's more details about the more about the progress of individual website keyword site pm site On the other hand, I would like to discuss in the dev side there are something which may be time to time I want to share time to time, maybe NAS stands or
+
+[Nazmul / alam.nazmul] 14:32:30
+Want to share with each other in the dev side only. So I would like to discuss weekly basis those kind of topic in this meeting that's the Maine.
+
+[Nazmul / alam.nazmul] 14:32:42
+Things and uh I'm having… weekly basis so one-one meeting with us So I would like to Stata.
+
+[Nazmul / alam.nazmul] 14:32:56
+Meeting with Tenson richer weekly basis one-one meeting Which mostly I would like to discuss more details about some more details about something related with the private
+
+[Nazmul / alam.nazmul] 14:33:14
+Our resource management or something which we don't need to discuss jointly commonly So those kind of topic, still I would like to discuss in one one meeting So that's the main topic to share in today's meeting Additional, there are a couple of things I was discussing with nas
+
+[Trance] 14:33:29
+Yes.
+
+[Nazmul / alam.nazmul] 14:33:40
+Tie a core channel in black.
+
+[Nazmul / alam.nazmul] 14:33:46
+So I think NASA already put This.
+
+[Nas] 14:33:49
+Yeah, I already put the item we just mentioned.
+
+[Nazmul / alam.nazmul] 14:33:55
+Yeah, so this First one, this is about the Deep Productivity Guild.
+
+[Nazmul / alam.nazmul] 14:34:03
+Reacher, I think, already participating in this guild, right, Richard?
+
+[Nazmul / alam.nazmul] 14:34:11
+So he knows more or less about this guild activity. The one thing I would like to get support about lead time visualization.
+
+[Nazmul / alam.nazmul] 14:34:24
+So if you have a time you can have a look in details about this document lead time visualization You can understand what is actually lead time visualization and how to calculate the lead time So currently, PDPD Along with their productivity they are trying to
+
+[Nazmul / alam.nazmul] 14:34:43
+Confirm the template how to calculate how to where to store the lead visualization This is the sample so but still it is under discussion it is not yet finalized But at least you can see from this first document the lead visualization and us can you go to the document?
+
+[Nas] 14:35:07
+This front, right?
+
+[Nazmul / alam.nazmul] 14:35:09
+Yes, next one. This one so if you go down you can go how we would like to calculate the lead time. Can you go a little down Yeah, this is one just how to calculate the number this is one thing and then for development and testing point of view
+
+[Nas] 14:35:12
+You see, yeah.
+
+[Nazmul / alam.nazmul] 14:35:36
+Can you go down little bit? Yeah this is the development area we will be responsible to calculate the development and I will discuss with the I took a calculated the test lead time also So development lead time we would like to calculate like
+
+[Nazmul / alam.nazmul] 14:35:54
+When we start any development, like when one of the following things we have like tech design started or test case has been has started preparing or the very fast code push is there for this project.
+
+[Nazmul / alam.nazmul] 14:36:12
+Then that means that particular projects Development has been started.
+
+[Nazmul / alam.nazmul] 14:36:18
+And then we would like to count the end date like this way when all the any of the Not any. All of the followings has started. One is, yeah, all the test cases has been fixed bugger has been fixed and nothing is
+
+[Nazmul / alam.nazmul] 14:36:38
+Basically, it is ready to deploy in the Staying.
+
+[Nazmul / alam.nazmul] 14:36:44
+Yeah, then.
+
+[Nas] 14:36:45
+Stacey? This means everything is… indemn and finish the 13th.
+
+[Nazmul / alam.nazmul] 14:36:52
+Penis testing and yeah, it's completely ready to deploy in stage or even in the production I mean, everything is done for this that means it's end up that particular project.
+
+[Nas] 14:37:07
+So it means we will relay the lesson it's not to the all staging, right?
+
+[Nazmul / alam.nazmul] 14:37:15
+Not in the it is not actually clearly mentioned so can define it but the thing is that it is ready to deploy They need to deploy but not define what to deploy sometime you know that ready to deploy but still
+
+[Nas] 14:37:19
+Hmm.
+
+[Nazmul / alam.nazmul] 14:37:32
+We need some time to deploy it in the production because of some limitation or some like not the time to deploy at this moment. Maybe we will deploy it next week but everything is ready.
+
+[Nazmul / alam.nazmul] 14:37:44
+So it's ready to deploy. So that means all that all the test ready environment is set up and all the test cases are fixed and no bug is there.
+
+[Nas] 14:37:56
+Hmm. Yeah, I think it seemed like the already in stacy for our sitcom when we move to seizing it's been on test kits and thesis uh the test.
+
+[Nas] 14:38:13
+Environment is ready
+
+[Trance] 14:38:19
+But right now we only deploy to station when we prepare for the release, right?
+
+[Nas] 14:38:26
+Yes.
+
+[Trance] 14:38:27
+Even if we… finish the test in the intense environment but we haven't decide to release them is still not in staging So…
+
+[Nas] 14:38:40
+Yes. This means really unstacing.
+
+[Nazmul / alam.nazmul] 14:38:43
+Yeah, something. That's why I call like ready to deploy in it.
+
+[Nas] 14:38:48
+Yeah.
+
+[Nazmul / alam.nazmul] 14:38:49
+But ready to deploy is the main thing. What to deploy is actually not defined. It's actually case by case, like a product, project by project. It depends.
+
+[Nas] 14:38:59
+Hmm.
+
+[Nazmul / alam.nazmul] 14:38:59
+But yeah, we know that every test cases has been executed and uh kind of it's ready to test, basically.
+
+[Nas] 14:39:10
+Yeah. For… Yeah, for the uh we have the good ismo for the essay Yeah, for the SE, we're already testing, finished testing on that fireman and we just on the test guy in the SEC sign, they want to postpone to the zoom yeah
+
+[Nazmul / alam.nazmul] 14:39:11
+Ready?
+
+[Nas] 14:39:30
+So actually for the development lead time it just finished in this game, yeah.
+
+[Nazmul / alam.nazmul] 14:39:39
+For example, the output of this development phase is a test ready environment and test case is ready.
+
+[Nazmul / alam.nazmul] 14:39:45
+So that means that it is ready to test.
+
+[Nas] 14:39:53
+Yeah.
+
+[Nazmul / alam.nazmul] 14:39:53
+So based on that development lead time we are now developing one template And it's still under discussion.
+
+[Nazmul / alam.nazmul] 14:40:01
+So we are going to store this data in the template And based on that we will Maybe first we will just store the data and later we will see if we can improve the development lead time for any particular case.
+
+[Nas] 14:40:23
+Yeah, did you see the templates right
+
+[Nazmul / alam.nazmul] 14:40:25
+Not this one. This is another. Yeah this is for key template.
+
+[Nas] 14:40:29
+Okay.
+
+[Nazmul / alam.nazmul] 14:40:32
+But if you go in the first document, you can see the
+
+[Nazmul / alam.nazmul] 14:40:42
+Not this one. Go to the first document.
+
+[Nazmul / alam.nazmul] 14:40:51
+Oh, no, no, no.
+
+[Nas] 14:40:52
+It's no. Yeah, you just send in just a full document too.
+
+[Nas] 14:41:01
+Oh.
+
+[Nazmul / alam.nazmul] 14:41:03
+Right.
+
+[Nas] 14:41:06
+Can you boost the link in the region? People.
+
+[Nazmul / alam.nazmul] 14:41:15
+Yeah this sample of lady time report so can you open this one
+
+[Nas] 14:41:20
+I'm just wondering. Yeah, yeah. Okay.
+
+[Nazmul / alam.nazmul] 14:41:24
+So really, it's not finalized but for example In project twice, we would like to store this lead time information.
+
+[Nazmul / alam.nazmul] 14:41:35
+And we can see that if this lead time is is really good or we need to think that we can improve this lead time or not like Development is taking much time we can reduce it or not.
+
+[Nazmul / alam.nazmul] 14:41:53
+It's a project by project, we'll think about it. So currently we'll focus on this development time capturing, but PDM side and design side they will think about storing the design and requirement lead time And the test team is basically test member will be
+
+[Nazmul / alam.nazmul] 14:42:14
+Part of our team so they will think about how they can think about how they can capture this lead time for testing.
+
+[Nas] 14:42:25
+Actually, it's the same line with As for in-depth.
+
+[Nas] 14:42:29
+Yeah, I just before in the last time i just say with you yeah which i just relying for some timeline for the project So this kayak.
+
+[Nas] 14:42:42
+We can view this one to input for the this time for example the period variation maybe yeah we have this tax time and And yeah, for implement and for testing
+
+[Nazmul / alam.nazmul] 14:42:56
+For TA, it's easier because we are following this dashboard very And it's clearly visible.
+
+[Nazmul / alam.nazmul] 14:43:08
+But we cannot make it a standardized because some of the product they are not following the data Like so… That's why this XL is still needed.
+
+[Nazmul / alam.nazmul] 14:43:21
+This is not for… But for some of the product team.
+
+[Nas] 14:43:22
+Yeah.
+
+[Nas] 14:43:28
+Yeah, I know some team only use uh git you took or yeah Notion.
+
+[Nazmul / alam.nazmul] 14:43:34
+Yes. Given that.
+
+[Nas] 14:43:36
+To manage the task.
+
+[Nazmul / alam.nazmul] 14:43:38
+Yes. For example, HRIS, though they are using Jira, but they don't have that kind of visibility Through Jira.
+
+[Nazmul / alam.nazmul] 14:43:49
+So especially for development side, still we can easily input but for PDM or designer they don't uh they don't store the data as we are stirring in data.
+
+[Nazmul / alam.nazmul] 14:44:04
+So that's actually the difficult situation for them how they will And that's why this Excel file is there.
+
+[Nazmul / alam.nazmul] 14:44:12
+Otherwise, if everyone have the same standard practice, then we can easily use that dashboard like what mass Show did.
+
+[Nas] 14:44:24
+Okay.
+
+[Nazmul / alam.nazmul] 14:44:25
+Maybe in future we don't need this Excel file. We can use from the dashboard in Zero.
+
+[Nas] 14:44:31
+Yeah, I think… we can use honestly maybe it's easy to use it Monitor.
+
+[Nazmul / alam.nazmul] 14:44:41
+Yes.
+
+[Nas] 14:44:41
+But actually… currently just for the pd or for the testing just only me to input uh if we want to defy the standard time maybe we need to pdm and qa they need to input also.
+
+[Nazmul / alam.nazmul] 14:44:59
+Yes. So… Yeah, at least we have this place to input. But for example, HRIS, They don't have that kind of arrangement in the data.
+
+[Nazmul / alam.nazmul] 14:45:10
+So you cannot input it here.
+
+[Nas] 14:45:11
+And… Yeah, I see.
+
+[Nazmul / alam.nazmul] 14:45:17
+Yeah, so that's actually the situation And second topic I was discussing with the nas Can you put the four key link?
+
+[Nazmul / alam.nazmul] 14:45:32
+Slack discussion or Maybe I can put it.
+
+[Nas] 14:45:38
+And you can.
+
+[Nazmul / alam.nazmul] 14:45:55
+So this one in the slack channel we have this
+
+[Nazmul / alam.nazmul] 14:46:02
+Discussion, right?
+
+[Nazmul / alam.nazmul] 14:46:08
+In summary.
+
+[Nas] 14:46:15
+Thank you.
+
+[Nazmul / alam.nazmul] 14:46:26
+So I think the first very first action is uh Oh.
+
+[Nas] 14:46:38
+Let me see.
+
+[Nazmul / alam.nazmul] 14:46:46
+Share my skin mass.
+
+[Nazmul / alam.nazmul] 14:46:51
+Okay. Yeah. The very first action is if you have a look this findee team plus document and try to understand what is this.
+
+[Nazmul / alam.nazmul] 14:47:02
+So this is one of the project the main target of this project is to implement a DORA core model and the reason considering DORA's core model is We would like to visualize and improve some of the characteristics of the project.
+
+[Nazmul / alam.nazmul] 14:47:20
+This is also kind of a part of lead time type of things but they have a many classification.
+
+[Nazmul / alam.nazmul] 14:47:29
+So for example. Yeah, this is one thing.
+
+[Nazmul / alam.nazmul] 14:47:37
+Dora capabilities working in a small piece Yeah.
+
+[Nazmul / alam.nazmul] 14:47:44
+So in the left panel you can left panel you can see many capabilities under climate for learning first floor First, I would like to request you to read those factor capabilities.
+
+[Nazmul / alam.nazmul] 14:48:06
+And then… think about which is which one or two is the most suitable for us to consider as the improvement.
+
+[Nazmul / alam.nazmul] 14:48:18
+Thing. So maybe uh if i wantify clearly so
+
+[Nazmul / alam.nazmul] 14:48:29
+Let me put this information there Yeah, this one.
+
+[Nazmul / alam.nazmul] 14:48:38
+So let me next steps. Like to follow is on this.
+
+[Nazmul / alam.nazmul] 14:48:49
+Yeah this find it. And then… Second step is Select.
+
+[Nazmul / alam.nazmul] 14:49:02
+Okay. One or… 2 capabilities.
+
+[Nazmul / alam.nazmul] 14:49:10
+So that's the second step and I think if you… to look at this file
+
+[Nazmul / alam.nazmul] 14:49:38
+Look at this file you can see that every team is selecting their capabilities and putting the comment in the In the… in i column
+
+[Nas] 14:49:54
+In high column, yeah.
+
+[Nazmul / alam.nazmul] 14:49:56
+I column. So, and in the first document it also mentioned that how to set up how to configure the findy team plus so that information is also there So… how to introduce Findi.
+
+[Nazmul / alam.nazmul] 14:50:20
+So please have a look that one. Try to understand.
+
+[Nazmul / alam.nazmul] 14:50:26
+Yeah, this one from this one find the team plus
+
+[Nas] 14:50:31
+This one, right?
+
+[Nazmul / alam.nazmul] 14:50:35
+This one and There is one tab, how to how to introduce finite team plus.
+
+[Nazmul / alam.nazmul] 14:50:45
+In the left right panel in the right panel you can see that one tab Third one.
+
+[Nas] 14:50:46
+Thank you.
+
+[Nazmul / alam.nazmul] 14:50:52
+Third one. Yeah. Third one, yes.
+
+[Nazmul / alam.nazmul] 14:50:58
+So you can see that how to configure find it in plus
+
+[Nazmul / alam.nazmul] 14:51:06
+This part, I think NASC can easily do. And if anything is needed.
+
+[Nazmul / alam.nazmul] 14:51:12
+Of course, so I will work on with NAS. But first of all, what is this document actually let's try to understand what is this document and then Second step is find out which area we'd like to focus from Kapabirty point of view to improve.
+
+[Nazmul / alam.nazmul] 14:51:33
+I don't want to push anything. So yeah, let's read those documents and next week let's uh let's have individual opinion which area we'd like to focus as a first step.
+
+[Nas] 14:51:50
+Yeah.
+
+[Nazmul / alam.nazmul] 14:51:51
+You know maybe when you are thinking that this area you would like to focus It may have something in your mind. What is the pros and cons? What we would like to gain So let's discuss next meeting about what's the pros and cons actually all the all the team in under hrs are not HRS, MABC in total
+
+[Nazmul / alam.nazmul] 14:52:10
+All the team has decided they are target areas of capabilities to improve.
+
+[Nazmul / alam.nazmul] 14:52:18
+I thought that Lee already configured our findee team plus based on that and i thought that Visual management has been selected but today when I was talking with the nas I found that it's just the initial configuration and based on initial configuration, we can see the dashboard.
+
+[Nazmul / alam.nazmul] 14:52:39
+But that is not enough.
+
+[Nas] 14:52:41
+Yeah, I think we just need some stuff for that's fine.
+
+[Nas] 14:52:45
+You know maybe we need to custom a bit yeah maybe for the sitting, the trend.
+
+[Nazmul / alam.nazmul] 14:52:53
+Let's… needed together.
+
+[Nazmul / alam.nazmul] 14:52:57
+Then yeah configure finding.
+
+[Nas] 14:53:00
+Yeah. Okay. Yeah, Paul.
+
+[Nazmul / alam.nazmul] 14:53:02
+And finally… configure find the you can see uh Yeah, I just put this kind of find it in plus in the in the chat.
+
+[Nas] 14:53:15
+Yeah.
+
+[Nazmul / alam.nazmul] 14:53:21
+You all have signed the account, right? Tense.
+
+[Nas] 14:53:24
+Yes. Train.
+
+[Nazmul / alam.nazmul] 14:53:26
+Don't have find the account please request in the ci tool We'll have this kind of…
+
+[Trance] 14:53:31
+Yeah, I think. I think I've seen this before.
+
+[Trance] 14:53:36
+Let me check it in my sign. Oh.
+
+[Nazmul / alam.nazmul] 14:53:36
+Okay.
+
+[Nas] 14:53:38
+You see, you mentioned… not have this account, but for Richard, I think he already had the account.
+
+[Nas] 14:53:47
+In FIDE.
+
+[Nazmul / alam.nazmul] 14:53:49
+Yeah, just make it sure that everyone has the account. If not, then, yeah.
+
+[Nazmul / alam.nazmul] 14:53:55
+Nasp support how to get the account.
+
+[Nas] 14:53:58
+Okay.
+
+[Trance] 14:53:59
+Yes, thanks.
+
+[Nazmul / alam.nazmul] 14:54:02
+In the in the report I shared earlier like here in column See?
+
+[Nas] 14:54:13
+All right.
+
+[Nazmul / alam.nazmul] 14:54:15
+In Colombia. J.
+
+[Nazmul / alam.nazmul] 14:54:21
+You can see several, yeah, go up. Yeah, more app.
+
+[Nazmul / alam.nazmul] 14:54:29
+Maybe, yeah. Any sample not sample original report And our target is to actually having this this kind of similar report.
+
+[Nas] 14:54:30
+It's and B, yeah.
+
+[Nazmul / alam.nazmul] 14:54:42
+Somebody is actually mature enough. And they have this report data, maintain from even last year they maintained the data so their data are uh definition is very much clear.
+
+[Nazmul / alam.nazmul] 14:55:01
+But I just want to share that We would like to have this kind of data.
+
+[Nas] 14:55:07
+Yeah, they have a lot of people.
+
+[Nazmul / alam.nazmul] 14:55:11
+A lot of
+
+[Nas] 14:55:14
+Thank you. For that return. Oh, yeah.
+
+[Nazmul / alam.nazmul] 14:55:17
+Yeah, if you even need help, you can ask a SMB member in Vietnam.
+
+[Nazmul / alam.nazmul] 14:55:23
+Maybe. They already implemented it so they know better than Me.
+
+[Nas] 14:55:24
+Yeah, okay.
+
+[Nas] 14:55:32
+Yeah, yeah, yeah.
+
+[Nazmul / alam.nazmul] 14:55:34
+I have just theoretical knowledge but today I have the practical knowledge And if you know who are working in SMB, if you don't know, just ask Charlie. Charlie is just a taking the charge of SMB.
+
+[Nazmul / alam.nazmul] 14:55:48
+Mfb.
+
+[Nas] 14:55:50
+Smb. Yeah, I know some… person work on the ca team yeah and that you might just say about the 5D in the mfe side so Yeah, for this one i can ask them yeah
+
+[Nazmul / alam.nazmul] 14:56:05
+Okay. Yeah, so that kind of uh that is our target so to have this kind of Adipot.
+
+[Nazmul / alam.nazmul] 14:56:14
+I found that all SMB has already implemented
+
+[Nas] 14:56:21
+Yeah. They focus a lot to the fighting.
+
+[Nazmul / alam.nazmul] 14:56:27
+Yes. Yeah, as I shared with Nas, this year, this is just uh should have in all mbc team but next year it will be kind of must-have for all mmbc team mmbc product Yeah. So let's learn this DORA capabilities and
+
+[Nazmul / alam.nazmul] 14:56:51
+What's actually this project? How to configure And then start collecting data.
+
+[Nas] 14:56:59
+Yeah. It seemed like they just collect a Yeah.
+
+[Nazmul / alam.nazmul] 14:57:06
+Three months data yeah This is quarterly basis.
+
+[Nas] 14:57:07
+Team and data in the repo. Okay.
+
+[Nazmul / alam.nazmul] 14:57:11
+And he put uh timing So that's to put the last quarter data.
+
+[Nas] 14:57:18
+Thank you.
+
+[Nazmul / alam.nazmul] 14:57:18
+But yeah, as I mentioned in the slack channel So maybe from PTVD.
+
+[Nazmul / alam.nazmul] 14:57:25
+Satoshan is sharing another Document.
+
+[Nazmul / alam.nazmul] 14:57:32
+To capture this uh data the spreadsheet.
+
+[Nazmul / alam.nazmul] 14:57:40
+Let me share again.
+
+[Nazmul / alam.nazmul] 14:57:47
+Yeah, I just put in the Zoom again.
+
+[Nas] 14:57:51
+Okay.
+
+[Nas] 14:57:55
+Yeah.
+
+[Nazmul / alam.nazmul] 14:57:56
+So this is a… also mentioned how to proceed and And this progress, if you look at the progress Second.
+
+[Nas] 14:58:06
+Of course, yeah.
+
+[Nazmul / alam.nazmul] 14:58:08
+Yeah, some of the… HRS product already start putting data And this data actually monthly basis you can see the month name is march on the top.
+
+[Nazmul / alam.nazmul] 14:58:22
+Yeah, so… If you think that the In my busy situ repo template it's a bit heavy for us to think at this moment.
+
+[Nazmul / alam.nazmul] 14:58:34
+We're going to start thinking about this template and start inputting data when like March, April and May, when the data will be inputted, maybe then we can quantify we can merge this data and put in the MMBC report template, official template.
+
+[Nas] 14:58:53
+Okay.
+
+[Nas] 14:58:59
+Some team already worked on this. Awesome.
+
+[Nazmul / alam.nazmul] 14:58:59
+Me. Let me put it also here so select to one or two capabilities and have knowledge from findee then this one.
+
+[Nazmul / alam.nazmul] 14:59:19
+This is just a supporting document i don't recommend to use this our hrs template I want to use the official template.
+
+[Nazmul / alam.nazmul] 14:59:30
+But yeah, I know the official template is uh quarterly and too much data maybe
+
+[Nas] 14:59:38
+Two months.
+
+[Nazmul / alam.nazmul] 14:59:40
+You can focus on the HRS template and if you need any further input you can ask in PDPD.
+
+[Nazmul / alam.nazmul] 14:59:48
+Or regional satoshan very well. So you can ask us a person.
+
+[Nas] 14:59:52
+Hmm.
+
+[Nazmul / alam.nazmul] 14:59:56
+Yeah, that's all I… wanted to discuss so yeah Now you can understand the meeting purpose. So this is the kind of one thing I was discussing with Nas but i think this is a we all need to discuss together
+
+[Nazmul / alam.nazmul] 15:00:11
+And then the next week, we would like to discuss about which capability we'd like to consider?
+
+[Trance] 15:00:12
+Yes.
+
+[Nazmul / alam.nazmul] 15:00:17
+I would like to discuss also our team process.
+
+[Nazmul / alam.nazmul] 15:00:23
+A little bit today we don't have time i wanted to discuss but yeah looks like we already consume our time.
+
+[Nas] 15:00:30
+Yeah, I think we can put a backlog in.
+
+[Nas] 15:00:39
+Okay. I think if you have any topic one to discuss you can put in the backlog and we can discuss in the meeting
+
+[Nazmul / alam.nazmul] 15:00:40
+Okay.
+
+[Nazmul / alam.nazmul] 15:00:48
+Yes. Okay, then that's all.
+
+[Nas] 15:00:55
+Okay, Jen and Richard. Do you have any questions?
+
+[Nazmul / alam.nazmul] 15:00:59
+Time up if you have…
+
+[Trance] 15:01:01
+Not for now. Yeah, let me get familiar with this process.
+
+[Trance] 15:01:09
+Firstly, maybe P2 those documents.
+
+[Nas] 15:01:09
+Yeah. Yeah, I think it's a lot of document and information in this meeting yeah okay in uh This Friday, I will say every twist team about 5D or anything any document yeah to help you easier to understand
+
+[Trance] 15:01:30
+Yeah. Oh, nice. Thank you.
+
+[Nas] 15:01:40
+Okay.
+
+[Trance] 15:01:42
+So…
+
+[Nas] 15:01:45
+If you don't have any concern yeah i think Yeah.
+
+[Nas] 15:01:51
+Tab so Thank you, everyone. Yeah.
+
+[Trance] 15:01:55
+Thank you. Thank you for your information
+
+[Nazmul / alam.nazmul] 15:01:55
+Thank you.
+
+[Nas] 15:01:55
+Okay, thank you. Bye
+
