@@ -26,7 +26,7 @@ Code reviews
 Onboarding activities
 
 ## Daily Status
-### 2025-04-03
+### 2025-04-02
 Axel:
 - Yesterday:
     - Tasks: 
