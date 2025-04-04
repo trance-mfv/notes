@@ -25,7 +25,7 @@
         - don't need to access to production terminal to run `rails runner`
     2. data-migrate gem (https://github.com/ilyakatz/data-migrate)
         - for data migration
-
+- daily meeting: should we need the % of the work done? because it's not possible to track and da
 - Settings gem:
     - Database cached config: https://github.com/huacnlee/rails-settings-cached, https://www.ruby-toolbox.com/projects/rails-settings-cached
     - Simple YAML config: https://github.com/rubyconfig/config, https://www.ruby-toolbox.com/projects/config
