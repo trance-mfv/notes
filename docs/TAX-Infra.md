@@ -1,10 +1,65 @@
 # TAX Infrastructure
 
-![TAX Infrastructure](./assets/images/tax-infra.jpeg)
+## Service Platform Migration
+
+- https://tax-adjustment.test.mfw.work/
+- diagnosis: https://tax-adjustment-diagnosis.test.musubu.co.in
+   - MFID_CLIENT_ID=qCyHw_hkUPtaetKJYerfVuhNjzZ9R_vJrmFByye6teo
+
+### setup accesss bastion
+Tade/phan.minh.trung - Wednesday at 16:38 - @Jeff - setup cái này nha
+
+```
+Host tax-adjustment-bastion
+    StrictHostKeyChecking no
+    UserKnownHostsFile=/dev/null
+    IdentityFile ~/.ssh/id_ed25519
+    HostName  nlb1.bastion.test.musubu.co.in
+    Port 1133
+```
+
+```
+ssh nguyen.tan.binh@tax-adjustment-bastion
+```
+
+### access to mysql workbench:
+
+```
+test-ta-rds-20250219080941889600000007.cluster-cwujgsutr2sa.ap-northeast-1.rds.amazonaws.com
+root
+dummydummydummydummy
+database name: tax_adjustment_web_staging
+```
+
+![Setup MySQL Connection via SSH Tunneling](../assets/images/ta-infra/setup-mysql-connection-via-ssh-tunel.png)
+![Setup MySQL Connection to Staging DB](../assets/images/ta-infra/setup-mysql-connection-to-staging-db.png)
+
+Jeff - Wednesday at 16:54 - @Tade/phan.minh.trung - Có 1 cái console thì làm sao sài được cho cả diagnosis và stg anh?
+Tade/phan.minh.trung - Wednesday at 16:54 - tìm cái web-diagnosis
+
+
+Jeff - Yesterday at 11:12 - Con bastion để thao tác sql, mongo, hay redis thôi nha anh. Còn muốn chạy rails c thì vào trực tiếp pod trên argocd chạy
+
+https://argocd.test.musubu.co.in/applications/stg-tax-adjustment
+
+Jeff - Yesterday at 11:31 - @Nas/dam.phu.duong - @Reacher/tran.​ngoc.​hai
+
+- Staging: tax-adjustment-web-console-0
+- Diagnosis:
+   - All Pods `tax-adjustment-web-diagnosis-xxx` can access the console
+   ![Diagnosis Argo Access To Web Console](../assets/images/ta-infra/diagnosis-argo-access-web-console.png)
+   - EX: diagnosis
+   ![Diagnosis Argo Pod](../assets/images/ta-infra/diagnosis-pod.png)
+   ![Diagnosis Argo Pod Terminal](../assets/images/ta-infra/diagnosis-pod-terminal.png)
+ 
+- Vault
+   - Link: https://vault.test.musubu.co.in/
+   - ![Vault](../assets/images/ta-infra/vault-environment-variables.png)
+ 
+## AWS Infrastructure
+![TAX Infrastructure](../assets/images/ta-infra/tax-infra.jpeg)
 
 - The infrastructure diagram shows a comprehensive AWS-based architecture with a CI/CD pipeline. Key components as the following:
-
-## AWS Infrastructure
 
 The core of your application runs in AWS with the following components:
 

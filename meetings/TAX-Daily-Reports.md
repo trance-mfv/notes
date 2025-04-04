@@ -14,6 +14,7 @@
 			- [#10775](https://github.com/moneyforward/tax_adjustment_web/pull/10775): Update Installation guide (README)
 			- [#10763](https://github.com/moneyforward/tax_adjustment_web/pull/10763): Update Docker setup for Dev Environment
 * Today:
+	- Release flow: 
 
 ### 2025-04-02
 * Yesterday:

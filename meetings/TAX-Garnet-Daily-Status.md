@@ -26,6 +26,91 @@ Code reviews
 Onboarding activities
 
 ## Daily Status
+### 2025-04-04
+Axel:
+- Yesterday:
+    - Tasks: 
+        - TAXW-1486
+            - TAXW-1134 [CS Ticket]email address switch between old and new after changing email due to the updated time being over 1 year: Was able to access aweb staging but was not able to reproduce the bug
+    - Meetings:
+        - Borderless Culture: Insights from Culture Heroes
+- Today:
+    - Tasks: 
+        - TAXW-1486
+            - TAXW-1134 [CS Ticket]email address switch between old and new after changing email due to the updated time being over 1 year: reproduce the bug and fix it
+    - Meetings:
+        - No meetings
+
+Trance:
+- Yesterday:
+    - Meetings:
+        - Borderless Culture: Insights from Culture Heroes
+    - Tasks:
+        - TAXW-1555 The exported Payment report total PDF file is not matching with Calculation table
+          Continue (30%)
+        - PR Reviews: 
+            - TAXW-1651 -  Minus input for insurance warning message
+- Today:
+    - Meetings:
+        - TA Management MTG
+        - [TA Dev] Team Sync-up
+        - Service Platform sharing
+        - Bi-weekly TA and SRE team
+    - Tasks:
+        - TAXW-1555 The exported Payment report total PDF file is not matching with Calculation table
+          Continue
+
+Edgar:
+- Yesterday:
+    - Tasks:
+        - TAXW-1477 Auto-reading paid launch
+        - TAXW-1575: Document design
+        - TAXW-1486 - Bug list 
+        - TAXW-1700: [Auto Reading Insurance] 500 error is displayed when removing employee from YETA
+    - Meetings:
+        - Borderless Culture: Insights from Culture Heroes
+- Today:
+    - Tasks:
+        - TAXW-1477 Auto-reading paid launch
+        - TAXW-1575: Document design => should be ready for review by today
+        - TAXW-1486 - Bug list 
+        - TAXW-1700: [Auto Reading Insurance] 500 error is displayed when removing employee from YETA
+    - Meetings:
+        - None
+
+Pat:
+- Yesterday:
+    - Tasks:
+        - TAXW-1486 - Bug list 
+        - TAXW-1698: [Auto reading Insurance] Can go to next step when employee Do Not press [Send image] button
+        - TAXW-1699: [Auto reading Insurance] Generate duplicate error message when employee Do Not press [Send image] button
+    - Meetings:
+        - Borderless Culture: Insights from Culture Heroes
+- Today:
+    - Tasks:
+        - TAXW-1486 - Bug list 
+        - TAXW-1698: [Auto reading Insurance]Can go to next step when employee Do Not press [Send image] button
+        - TAXW-1699: [Auto reading Insurance]Generate duplicate error message when employee Do Not press [Send image] button
+    - Meetings:
+        - None
+
+Hugo:
+- Yesterday:
+    - Tasks:
+        - TAXW-1414 Minus input for insurance premium
+            - TAXW-1629 [TAXW-1414] Technical doc - 80%
+        - PR Reviews:
+            - TAXW-1651 -  Minus input for insurance warning message
+    - Meetings:
+        - Borderless Culture: Insights from Culture Heroes
+- Today:
+    - Tasks:
+        - TAXW-1414 Minus input for insurance premium
+            - TAXW-1629 [TAXW-1414] Technical doc - Continue
+    - Meetings:
+        - FE Guild Major Sync-up
+
+
 ### 2025-04-03
 Axel:
 - Yesterday:
