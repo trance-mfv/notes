@@ -4,16 +4,16 @@
 
 | Ticket | Parent Ticket | Description | Assignee | Status |
 |--------|--------------|-------------|----------|--------|
-| TAXW-1134 | | Email address switch bug investigation | Axel | In Progress |
+| TAXW-1134 | | Email address switch bug investigation | Axel | In Progress (20%) |
 | TAXW-1450 | | Fix My Number issues | Trance | In Progress |
 | TAXW-1534 | | Employees CSV import job performance improvement | Pat | ✅ Completed |
-| TAXW-1555 | | Payment report total PDF mismatch with Calculation table | Trance | In Progress |
-| TAXW-1575 | | Document design | Edgar | In Progress (40%) |
+| TAXW-1555 | | Payment report total PDF mismatch with Calculation table | Trance | In Progress (10%) |
+| TAXW-1575 | | Document design | Edgar | In Progress (60%) |
 | TAXW-1587 | [TAXW-1477] | Tax adjustments auto-reading feature list | Edgar | ✅ Completed |
-| TAXW-1590 | [TAXW-1477] | Impact Analysis | Pat | In Progress (50%) |
+| TAXW-1590 | [TAXW-1477] | Impact Analysis | Pat | ✅ Completed |
 | TAXW-1593 | [TAXW-1477] | Employees auto-reading feature list | Edgar | ✅ Completed |
-| TAXW-1629 | [TAXW-1414] | Technical doc | Hugo | In Progress |
-| TAXW-1630 | [TAXW-1414] | Impact analysis | Hugo | In Progress |
+| TAXW-1629 | [TAXW-1414] | Technical doc | Hugo | In Progress (20%) |
+| TAXW-1630 | [TAXW-1414] | Impact analysis | Hugo | ✅ Completed |
 | TAXW-1651 | | Warning message for negative insurance amount | Hugo | ✅ Completed |
 | TAXW-1663 | | YETA deletion modal update | Edgar | ✅ Completed |
 
@@ -26,6 +26,79 @@ Code reviews
 Onboarding activities
 
 ## Daily Status
+### 2025-04-03
+Axel:
+- Yesterday:
+    - Tasks: 
+        - TAXW-1134 [CS Ticket]email address switch between old and new after changing email due to the updated time being over 1 year: Request service access permission (admin edit email) still waiting for the approval (progress: 20%)
+    - Meetings:
+        - MFV Monthly All-hands
+- Today:
+    - Tasks: 
+        - TAXW-1134 [CS Ticket]email address switch between old and new after changing email due to the updated time being over 1 year: Wait for aweb staging access approval and reproduce the bug
+    - Meetings:
+        - Borderless Culture: Insights from Culture Heroes
+
+Trance:
+- Yesterday:
+    - Meetings:
+        - MFV Monthly All-Hands
+        - [TA] Weekly Dev Sync
+    - Tasks:
+        - TAXW-1555 The exported Payment report total PDF file is not matching with Calculation table (10%)
+        - Collected context and reproduced the issue
+        - Reviewed PRs: 
+            - #10775: Update Installation guide (README)
+            - #10763: Update Docker setup for Dev Environment
+- Today:
+    - Meetings:
+        - Borderless Culture: Insights from Culture Heroes
+    - Tasks:
+        - TAXW-1555 The exported Payment report total PDF file is not matching with Calculation table - Continue
+
+Edgar:
+- Yesterday:
+    - Tasks:
+        - [TAXW-1477] Auto-reading paid launch
+        - TAXW-1575: Document design (60%)
+    - Meetings:
+        - MFV Monthly All-hands
+- Today:
+    - Tasks:
+        - [TAXW-1477] Auto-reading paid launch
+        - TAXW-1575: Document design
+    - Meetings:
+        - Borderless Culture: Insights from Culture Heroes
+
+Pat:
+- Yesterday:
+    - Off in morning
+    - Tasks:
+        - [TAXW-1414] Minus insurance input - Review PR
+        - [TAXW-1477] Auto-reading - TAXW-1590 [TAXW-1477][DEV] Impact Analysis => done
+- Today:
+    - Tasks:
+        - [TAXW-1414] Minus insurance input - Final re-check PrD then release to test ENV and start self-testing
+    - Meetings:
+        - Borderless Culture: Insights from Culture Heroes
+
+Hugo:
+- Yesterday:
+    - Tasks:
+        - Minus input for insurance premium
+        - TAXW-1630 [TAXW-1414] Impacted analysis - Done
+        - Reacher support to review
+        - TAXW-1629 [TAXW-1414] Technical doc - 20%
+    - Meetings:
+        - MFV Monthly All-hands
+- Today:
+    - Tasks:
+        - Minus input for insurance premium
+        - TAXW-1629 [TAXW-1414] Technical doc - Continue
+    - Meetings:
+        - Borderless Culture: Insights from Culture Heroes
+
+
 ### 2025-04-02
 Axel:
 - Yesterday:
@@ -152,13 +225,30 @@ Hugo:
         - TAXW-1651 Display warning message when there is any negative insurance amount - Update Rspec (Completed)
         - TAXW-1630 [TAXW-1414] Impacted analysis - 50% complete
     - Meetings:
-        - Backlog refinement
-        - Sprint planning
+        - Sprint retrospective
+        - Tech seminar
 - Today:
     - Tasks:
         - TAXW-1630 [TAXW-1414] Impacted analysis - Continue
     - Meetings:
-        - Bi-weekly all-hand video
+        - Backlog refinement
+        - Sprint planning
+
+Edgar:
+- Last day:
+    - Tasks:
+        - TAXW-1587: Display list of tax adjustments which have employees use auto-reading feature
+        - TAXW-1593: List of employees used Auto-reading feature
+        - Get PR ready to merge
+        - TAXW-1663: Update YETA deletion modal
+    - Meetings:
+        - Sprint Retrospective
+- Today:
+    - Tasks:
+        - TAXW-1575: Document design
+    - Meetings:
+        - [TA - Garnet team] Backlog Refinement
+        - Sprint Planning
 
 ### 2025-03-31
 Trance:
