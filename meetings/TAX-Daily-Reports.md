@@ -2,6 +2,35 @@
 
 ## Daily Reports
 
+### 2025-04-08
+* Yesterday:
+	- Meeting:
+		- 
+	- Tasks:
+		- 
+* Today:
+	- Meeting:
+		- 
+	- Tasks:
+		- Four key metrics:
+			- Deployment Frequency
+			- Change Lead Time (Lead Time for Changes)
+			- Change Failure Rate (Change Failure Percentage)
+			- Time to Restore Service (Failed deployment recovery time)
+		- [Lead time visualization](https://docs.google.com/document/d/1_sNZwbiYp81YRi1M0HwgxggXyPll5EcUNsVQI3J9gzc/edit?tab=t.0): 
+			Definition of lead time: 
+				- Lead time refers to the days from the start of each process to its completion. If the process includes multiple tasks, the lead time is the number of days between the beginning of the firstone task and the completion of the last task.
+				- It will be measured “end date - start date + 1”.
+				- It includes waiting days.
+				- It excludes holidays.
+			How to calculate:
+				- 
+			Example:
+				- 
+				- 
+
+
+
 ### 2025-04-03
 * Yesterday:
 	- Meeting:

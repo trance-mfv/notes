@@ -26,6 +26,84 @@ Code reviews
 Onboarding activities
 
 ## Daily Status
+### 2025-04-08
+Axel:
+- Last day:
+    - Tasks: 
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1134: [CS Ticket] Email address switch between old and new after changing email due to the updated time being over 1 year
+            - Was not able to reproduce the bug, checking external sources (navis client, navis frontend, navis backend) still searching for clues
+    - Meetings:
+        - No meetings
+- Today:
+    - Tasks: 
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1134: [CS Ticket] Email address switch between old and new after changing email due to the updated time being over 1 year
+            - Continue checking external resources (navis client, navis frontend, navis backend)
+    - Meetings:
+        - Bi-weekly MFG All-hands Video
+
+Trance:
+- Last Friday:
+    - Meetings:
+        - TA Management MTG
+        - [TA Dev] Team Sync-up
+        - Service Platform sharing
+        - Bi-weekly TA and SRE team
+    - Tasks:
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1555: The exported Payment report total PDF file is not matching with Calculation table  
+            - Working (80%)
+        - PR reviews: 
+            - TAXW-46: [Sonar - tech debts] Fix Sonar Tech Debts from March-Apr 2025
+            - TAXW-1536: [Web Plan] The plan is not updated after changing from ERP
+- Today:
+    - Meetings:
+        - Bi-weekly MFG All-hands Video
+        - Meeting with Reacher (tran.ngoc.hai) on DORA Capabilities
+    - Tasks:
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1555: The exported Payment report total PDF file is not matching with Calculation table  
+            - To finish
+        - PR reviews: following up
+            - TAXW-1680: Update postcode master data up to 31 Mar 2025 / 2025年3月31日までの郵便番号を更新する
+            - TAXW-1649: [Improvement][Monthly Payment] Change the search data in Employee Group dropdown
+
+Edgar:
+- Last day:
+    - Tickets:
+        - TAXW-1477: 保険料控除入力代行有償公開 / Auto-Reading Paid Launch
+        - TAXW-1575: [TAXW-1477][DEV] Document design 
+    - Meetings:
+        - None
+- Today:
+    - Tickets:
+        - TAXW-1477: 保険料控除入力代行有償公開 / Auto-Reading Paid Launch
+        - TAXW-1575: [TAXW-1477][DEV] Document design 
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1700: [Auto Reading Insurance] 500 error is displayed when removing employee from YETA
+    - Meetings:
+        - None
+
+Pat: 
+- Off this morning
+
+Hugo:
+- Last day:
+    - Tasks:
+        - TAXW-1414: Minus input for insurance premium
+        - TAXW-1629: [Relate TAXW-1414] Write Technical Docs - Done
+        - TAXW-1680: Update postcode master data up to 31 Mar 2025 / 2025年3月31日までの郵便番号を更新する - Done
+    - Meeting:
+        - FE Guild Major Sync-up
+- Today:
+    - Tasks:
+        - TAXW-1414: Minus input for insurance premium
+        - Follow up test case
+        - Support review PRs
+    - Meetings:
+        - Bi-weekly MFG All-hands Video
+
 ### 2025-04-04
 Axel:
 - Yesterday:
@@ -50,6 +128,16 @@ Trance:
           Continue (30%)
         - PR Reviews: 
             - TAXW-1651 -  Minus input for insurance warning message
+            - PR Fix My Number: https://moneyforward.atlassian.net/browse/TAXW-1450
+                - To test: Import with Cloud Payroll
+                    1. declaration_of_employee
+                    2. declaration_of_partner
+                    3. next_declaration_of_employee
+                    4. next_declaration_of_partner
+                    5. declaration_of_dependents
+                        - wife/husband
+                        - father/mother
+                    6. next_declaration_of_employee.next_dependents
 - Today:
     - Meetings:
         - TA Management MTG
