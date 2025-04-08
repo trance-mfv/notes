@@ -7,36 +7,69 @@ Based on the "DORA | Capabilities" excerpts, the capabilities that enable a **"C
 * **Code maintainability**
   * Makes code easy for developers to find, reuse, and change
   * Helps keep dependencies up-to-date
-  * Why this is beneficial for developers: Improving code maintainability directly addresses common pain points in software development. When code is easier to understand and modify, developers spend less time debugging and more time delivering new features or fixing bugs efficiently. Keeping dependencies up-to-date also reduces the risk of security vulnerabilities and compatibility issues, leading to a more stable and reliable codebase. This can enhance developer productivity and reduce frustration. Furthermore, it supports a "climate for learning" by making it easier for developers to learn from existing code and collaborate effectively.
+
+  ---
+  * Why this is beneficial for developers:
+    * Addresses common pain points in software development
+    * Allows developers to spend less time debugging and more time delivering features
+    * Enables more efficient bug fixing
+    * Reduces security vulnerabilities by keeping dependencies up-to-date
+    * Minimizes compatibility issues, leading to a more stable codebase
+    * Enhances overall developer productivity
+    * Reduces developer frustration
+    * Supports a "climate for learning" by making code easier to understand
+    * Facilitates better collaboration as code is more accessible
+    * Makes it easier for developers to learn from existing code
 
 * **Documentation quality**
   * Maintains accurate, well-organized, user-centric internal documentation
   * Empowers teams throughout the software development process
-  * Why this is beneficial for developers: TO BE UPDATED
+
+  ---
+  * Why this is beneficial for developers:
+    * Saves developers valuable time by providing clear answers to common questions
+    * Speeds up onboarding for new team members
+    * Reduces the need for repetitive explanations
+    * Enables developers to work more independently
+    * Helps developers make better-informed decisions
+    * Reduces time spent asking for help or digging through code
+    * Improves understanding of system behavior
+    * Increases overall productivity
+    * Reduces frustration in daily work
 
 * **Empowering teams to choose tools**
   * Allows teams to make informed decisions on tools and technologies
   * Drives more effective software delivery
+
+  ---
   * Why this is beneficial for developers: TO BE UPDATED
 
 * **Generative organizational culture**
   * Grows a generative, high-trust culture
   * Drives better organizational and software delivery performance
+
+  ---
   * Why this is beneficial for developers: TO BE UPDATED
 
 * **Job satisfaction**
   * Ensures people have the tools and resources to do their job
   * Makes good use of people's skills and abilities
-  * Why this is beneficial for developers: TO BE UPDATED
+
+  ---
+  * Why this is beneficial for developers: TO BE UPDATED  
 
 * **Learning culture**
   * Cultivates an environment that prioritizes learning
   * Directly linked to improved organizational performance
+
+  ---
   * Why this is beneficial for developers: TO BE UPDATED
 
 * **Team experimentation**
   * Builds empowered teams that can try out new ideas without external approval
   * Fosters faster innovation
+
+  ---
   * Why this is beneficial for developers: TO BE UPDATED
 
 * **Transformational leadership**
@@ -66,7 +99,15 @@ Based on the "DORA | Capabilities" excerpts, the capabilities that enable **"Fas
 * **Database change management**
   * Ensures database changes don't cause problems
   * Prevents database changes from slowing down the process
-  * Why this is beneficial for developers: TO BE UPDATED
+
+  ---
+  * Why this is beneficial for developers:
+    * Developers can confidently make database changes without fear of breaking production systems
+    * Enables easy tracking of schema changes and rolling back problematic updates
+    * Helps maintain data integrity across different environments
+    * Eliminates common database-related bottlenecks in development
+    * Reduces the stress of database deployments
+    * Allows developers to focus on building features rather than worrying about data migrations
 
 * **Deployment automation**
   * Implements best practices for deployment automation
@@ -133,7 +174,17 @@ Based on the "DORA | Capabilities" excerpts, the capabilities that enable Fast F
 * **Monitoring and observability**
   * Builds tooling to help understand and debug production systems
   * Enables proactive identification and resolution of issues in live environments
-  * Why this is beneficial for developers: TO BE UPDATED
+
+  ---
+  * Why this is beneficial for developers:
+    * Provides real-time insights into code behavior in production
+    * Makes troubleshooting faster and more effective
+    * Helps quickly pinpoint root causes of issues
+    * Enables understanding of performance bottlenecks
+    * Validates that changes work as intended in real-world conditions
+    * Reduces time spent on debugging
+    * Increases confidence in deployments
+    * Allows problems to be caught and fixed before significant user impact
 
 * **Monitoring systems to inform business decisions**
   * Improves monitoring across infrastructure, middleware, and application layers
