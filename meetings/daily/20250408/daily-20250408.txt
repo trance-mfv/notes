@@ -1,0 +1,105 @@
+[Nazmul / alam.nazmul] 09:22:34
+Ruby.
+
+[Nazmul / alam.nazmul] 09:22:49
+Can you see? So you mentioned about this.
+
+[Nas] 09:22:51
+Yes.
+
+[Nazmul / alam.nazmul] 09:23:00
+Yeah, so current version is 3.1.4. We are going to update next is spin Which person we are going to consider?
+
+[Nazmul / alam.nazmul] 09:23:10
+3.2.
+
+[Nas] 09:23:12
+Actually, no. In netflix and we just start to investigate and uh because We don't know when we upgrade to 1.2.
+
+[Nas] 09:23:24
+We have any issue? Just get any team will check and investigate for about ruby and rail industry.
+
+[Nazmul / alam.nazmul] 09:23:34
+Okay, so both of the question we don't know, but we know that this team is going to consider and confirm which version.
+
+[Nas] 09:23:41
+Yeah. Yeah, yeah.
+
+[Nazmul / alam.nazmul] 09:23:45
+I know. Okay. Okay, no problem.
+
+[Trance] 09:23:47
+I will make a plan for that. I would check out the versions and… Yeah, I will release our… the dependencies.
+
+[Trance] 09:23:58
+Make a plan for that.
+
+[Nazmul / alam.nazmul] 09:24:00
+There and that's another thing is, is there any other EOL packages we are using in our product we need to also check that part
+
+[Nas] 09:24:13
+For the dependency. Ec.
+
+[Nazmul / alam.nazmul] 09:24:15
+Other packages.
+
+[Nas] 09:24:18
+I'll never kiss. Currently, we just have the for the main focus it's just a ruby rail and not yet another thing is that… them or the library.
+
+[Nas] 09:24:33
+But for the same and library some maybe some to and apply or they just did a bk Yeah.
+
+[Nazmul / alam.nazmul] 09:24:43
+We don't know it.
+
+[Nas] 09:24:46
+Yeah, actually, we don't know because we don't know because If they don't have any tests or anything which Yeah.
+
+[Nazmul / alam.nazmul] 09:24:53
+Can we list down one Excel file all the packages we are we are using So note this then rupee rail and the corresponding ration Kind of a, yeah.
+
+[Nas] 09:25:03
+Yeah, yeah. Yeah.
+
+[Nazmul / alam.nazmul] 09:25:05
+And then someone can try to find out the information for those gems or third party libraries whether they have some UL situation or not.
+
+[Nas] 09:25:19
+For the funding, it means the Jetpacket.
+
+[Nas] 09:25:28
+Tonjet already… Because when we upgrade and not it.
+
+[Nas] 09:25:32
+Yeah we need to apply the dependency also for some dependency yeah so for the not yet I think I will ask them to list out.
+
+[Nas] 09:25:43
+But for the… Ruby and Rail, I think Gartney team can list out it because when they investigate for the ruby and rail they still need to list out on the plan.
+
+[Nazmul / alam.nazmul] 09:25:54
+Yeah.
+
+[Nazmul / alam.nazmul] 09:25:58
+Okay. Yeah, just you want to see the all the packages we are using in our tier product Yeah, let me share this.
+
+[Nazmul / alam.nazmul] 09:26:13
+One template i have it it is actually product wise.
+
+[Nazmul / alam.nazmul] 09:26:22
+Third party packet not yeah every packet is actually third party product-wise, third-party package information And yeah, corresponding evol timeline and the reason why we are using this package is Maybe there are some packages someone just included but it is not used so that is also another reason to
+
+[Nazmul / alam.nazmul] 09:26:42
+Consider that i'll share that that later. Yeah, but at the moment yeah i have i got the information.
+
+[Nazmul / alam.nazmul] 09:26:48
+Okay, then, yeah, that's all. Thank you.
+
+[Nas] 09:26:51
+Yeah, okay. We will update to you after we got information.
+
+[Nazmul / alam.nazmul] 09:26:57
+Okay, thank you.
+
+[Nas] 09:27:00
+Okay, thank you
+
