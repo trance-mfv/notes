@@ -1,0 +1,738 @@
+[Nazmul / alam.nazmul] 14:32:04
+Sorry for late.
+
+[Trance] 14:32:10
+Good afternoon.
+
+[Nazmul / alam.nazmul] 14:32:19
+Shall I?
+
+[Nazmul / alam.nazmul] 14:32:38
+Hmm. Tucson, right?
+
+[Trance] 14:32:42
+Yes.
+
+[Nazmul / alam.nazmul] 14:32:44
+Yeah, the main topic I want to discuss today is this uh Dora capabilities.
+
+[Nazmul / alam.nazmul] 14:32:50
+And if we have time, I also would like to discuss little bit about this importance point of view this one is the important one.
+
+[Trance] 14:33:06
+Yes.
+
+[Nazmul / alam.nazmul] 14:33:06
+So who is going to explain the current situation? Reacher.
+
+[Nazmul / alam.nazmul] 14:33:13
+Tense mass.
+
+[Nas] 14:33:14
+Yeah, and then we'll be spent.
+
+[Trance] 14:33:15
+Yes. Of for the DORA capabilities yesterday Richo and I has a discussion over the capabilities and today i We also review with NASA.
+
+[Nazmul / alam.nazmul] 14:33:18
+Okay. Okay.
+
+[Trance] 14:33:35
+And… We decided to pick the two capability, the Koteman and ability and document quality documentation while you need because we are developers and we work with the code base daily I think the cop maintained nobility should be the first
+
+[Trance] 14:34:01
+Priority. And when we mature with this one the whole team here.
+
+[Trance] 14:34:07
+We all have a same baseline. We can… move to another capability later on.
+
+[Trance] 14:34:16
+And for the documentation quality Yes, we… We have an incident recently and we have recently We also conduct the impact analysis and And technical documents and some issue we We also implement the document design so i think that document quality documentation quality is also
+
+[Trance] 14:34:46
+The capability that we should focus on this early stage.
+
+[Trance] 14:34:54
+Yeah, do you have any… concern or questions?
+
+[Nazmul / alam.nazmul] 14:34:54
+Hmm.
+
+[Trance] 14:34:59
+On this on these
+
+[Nazmul / alam.nazmul] 14:35:01
+Can you put the link up quote maintainability and document quality or a link
+
+[Trance] 14:35:06
+Yeah. Yes, sure, sure. Let me do that.
+
+[Trance] 14:35:10
+Right away, yeah.
+
+[Nazmul / alam.nazmul] 14:35:12
+So that we can just go there and see in future also.
+
+[Trance] 14:35:18
+Yes.
+
+[Nas] 14:35:19
+I see you already write some the reason why we choose got metinin.
+
+[Nas] 14:35:28
+I think you can put it in here, Jen.
+
+[Nazmul / alam.nazmul] 14:35:29
+Kamar.
+
+[Trance] 14:35:33
+Yes, we have a summaries of of the capabilities and we noted there
+
+[Nazmul / alam.nazmul] 14:35:40
+You have a different document you can put the link also here.
+
+[Trance] 14:35:45
+Yes, the link and the summaries. Okay.
+
+[Nazmul / alam.nazmul] 14:35:51
+These tour maintainability, good maintainability.
+
+[Trance] 14:36:03
+They are considered the core
+
+[Nazmul / alam.nazmul] 14:36:03
+What is the concern at this moment that ends up from for selecting this one
+
+[Trance] 14:36:14
+Sorry, can you say again?
+
+[Nazmul / alam.nazmul] 14:36:17
+Code maintainability. What is actually your concern about our current governmental immunity what is the problem? You can see why we need to improve it.
+
+[Trance] 14:36:20
+Yes.
+
+[Trance] 14:36:33
+Yes, I have a chance to review some PR And I find that… some new members.
+
+[Trance] 14:36:42
+New members and experienced member they they have like we should have the same baseline, same common sense of maintainability readability So if we focus on this item right now, we can like improve the those i those uh ideas or item for
+
+[Trance] 14:37:08
+For the home team. So when we have the same Common sense.
+
+[Trance] 14:37:14
+We can like we can like the cop will be better, more readable and we can reduce the mojo or the glass we can extend And they will improve our productivities in in terms of development in implementations.
+
+[Trance] 14:37:37
+Yeah, let me add some notes.
+
+[Nas] 14:37:38
+Hmm.
+
+[Nas] 14:37:42
+Yeah, SLA in the term, we have a lot of new members.
+
+[Trance] 14:37:43
+Yeah.
+
+[Nas] 14:37:49
+So…
+
+[Nazmul / alam.nazmul] 14:37:50
+But this is just a one-time situation, right?
+
+[Nas] 14:37:55
+Hmm. Yeah, I think… For that.
+
+[Trance] 14:37:59
+The other thing we can focus because this is a could maintain this is um the core capability So I think we should focus on this When will the home team?
+
+[Trance] 14:38:12
+Have the same baseline. We can move on to another cup of coffee.
+
+[Nas] 14:38:25
+But I just worry about it. How we measurable for this one and And what was the action for the team we should define for example for the document
+
+[Trance] 14:38:33
+Yeah.
+
+[Trance] 14:38:42
+That is a good question.
+
+[Nas] 14:38:44
+Yeah, for the document quality Yeah, currently we have… some accent for example we will write a technical document we will write a impact on the line, we will write a line flow check or anything But for the cost maintaining ability.
+
+[Nazmul / alam.nazmul] 14:38:50
+Okay.
+
+[Nas] 14:39:07
+Yeah. What did accent to… achieve this one and how we can measurable for us
+
+[Trance] 14:39:16
+For now. I'm sorry.
+
+[Nazmul / alam.nazmul] 14:39:16
+Actually, I'm…
+
+[Nazmul / alam.nazmul] 14:39:20
+Yeah, this is one I just find that they also have that code maintainability as they are focused upon.
+
+[Trance] 14:39:30
+Yes.
+
+[Nazmul / alam.nazmul] 14:39:30
+So.
+
+[Nazmul / alam.nazmul] 14:39:38
+Examples.
+
+[Trance] 14:39:40
+Yes.
+
+[Nazmul / alam.nazmul] 14:39:43
+Some folks of this This.
+
+[Nazmul / alam.nazmul] 14:39:48
+Department.
+
+[Trance] 14:39:51
+Yes, for the question of UNAS, At the moment, I try to review the PR of the team member if Mercer.
+
+[Trance] 14:40:03
+As much as I can. And I try to put command and and have… have people to have people to like we could improve here as much as I can. I think that some experienced a member should also do the same.
+
+[Trance] 14:40:26
+And… for the measurement Pizza.
+
+[Trance] 14:40:33
+It's a difficult question for me yeah
+
+[Trance] 14:40:39
+How can we measure?
+
+[Nazmul / alam.nazmul] 14:40:41
+For example, they just put usual like uh deployment change the lead time failure personally this is our usual count i don't know how they are measuring the code maintainability
+
+[Trance] 14:41:00
+Yeah.
+
+[Nas] 14:41:00
+Actually, on this one, I think it's not related to the court maintenance ability Yeah.
+
+[Nazmul / alam.nazmul] 14:41:06
+Yeah. I don't know. I didn't find a good example. So this is not good example anyway Yeah, anyway, so I will try to find a good example who are actually doing the The main team, yeah, this is… reduce the copy the code adding more test and history book for front end technical depth currently held
+
+[Trance] 14:41:10
+Yeah.
+
+[Nas] 14:41:13
+Yeah.
+
+[Trance] 14:41:34
+Yeah, we talk about the test automation, but this is a big task Yes, I understand.
+
+[Trance] 14:41:41
+Yeah.
+
+[Nazmul / alam.nazmul] 14:41:41
+Yeah, this documentation it's uh but point is how they are measuring it.
+
+[Nazmul / alam.nazmul] 14:41:50
+Then I put all this.
+
+[Nazmul / alam.nazmul] 14:42:06
+Anyway, let me put this one also. Yeah, I'm okay with your idea that The… mighty be…
+
+[Nazmul / alam.nazmul] 14:42:19
+Good thing to consider like good maintainability That's okay but the point is what Nas mentioned.
+
+[Trance] 14:42:37
+Hello?
+
+[Nas] 14:42:41
+Hello? Yeah, yeah, yeah, yeah.
+
+[Nazmul / alam.nazmul] 14:42:42
+Am I audible? Maybe my internet problem I see.
+
+[Trance] 14:42:43
+Yeah.
+
+[Nazmul / alam.nazmul] 14:42:50
+Can you hear me? Yeah, the thing is that the code maintainability, I completely agree that, yeah, this is always we need to improve.
+
+[Trance] 14:42:51
+Yeah. Yes.
+
+[Nas] 14:42:52
+Yeah, it's good now.
+
+[Nazmul / alam.nazmul] 14:43:03
+In every aspect but how we can measure this thing so that we need to identify On the other hand, document quality, I think it is easy to understand how to measure document quality. Easy to set up.
+
+[Nazmul / alam.nazmul] 14:43:21
+So the reason is why it is important is We have to fill up this sheet We have to write the midtime report and then we have to put this report URL in this So that we need to do.
+
+[Nazmul / alam.nazmul] 14:43:39
+So to do this one is, of course. There are two things one thing is effective for the product development team.
+
+[Nazmul / alam.nazmul] 14:43:50
+This is one thing we need to think. Which is effective.
+
+[Nazmul / alam.nazmul] 14:43:55
+From that point of view, I completely agree that James, what you mentioned that code quality or Yeah, that's very much important.
+
+[Nazmul / alam.nazmul] 14:44:04
+But on the other hand, we also need to think about how to report it.
+
+[Nazmul / alam.nazmul] 14:44:10
+From reporting perspective, if Jens has a good idea how to report it then I have no problem. But if we don't have good idea maybe it's easier. Yeah, that's why maybe you can see that many people are considering documentation quality as the
+
+[Nazmul / alam.nazmul] 14:44:25
+One of the focus point at this moment I think many people are focusing on.
+
+[Nazmul / alam.nazmul] 14:44:36
+That's my understanding. Document quality.
+
+[Nas] 14:44:40
+Yeah it's because it's easy to… too miserable and easy to adapt.
+
+[Nazmul / alam.nazmul] 14:44:46
+Monitoring of the visual management and document quality i don't know what is actually visual management will give but yeah.
+
+[Nazmul / alam.nazmul] 14:44:56
+Or this one yeah the more this is the thing I actually like but i actually like Is it possible or not? I don't know.
+
+[Nas] 14:45:08
+Hmm.
+
+[Trance] 14:45:12
+For visual management, I think we can used to lighten the jira dashboards or… something yeah
+
+[Nazmul / alam.nazmul] 14:45:22
+Hmm. Yeah, visual management, I think it is easy to visualize, but I don't know what actually the like focusing on visual management what you'd like to achieve
+
+[Nazmul / alam.nazmul] 14:45:36
+Focusing on the code maintainability. We all can understand we would like to improve the several areas in code management.
+
+[Trance] 14:45:37
+Yeah.
+
+[Nazmul / alam.nazmul] 14:45:46
+Document quality also we can understand and we can measure it But visual management, I don't know.
+
+[Nazmul / alam.nazmul] 14:45:53
+What actually the improvement we are expecting with visual management.
+
+[Nazmul / alam.nazmul] 14:46:01
+More transparency But we already can show using It might be very easy.
+
+[Nazmul / alam.nazmul] 14:46:08
+I don't know.
+
+[Trance] 14:46:11
+I'm reading how to implement visual management they have some bullet bullet point here like the use the Kanban board a story broad that's brought… It's very similar to what Jira provides.
+
+[Trance] 14:46:34
+The deployment pipeline monitor this is the dev ops Yeah, we're moving to service platform I think that we… We have some pipeline monitoring there.
+
+[Trance] 14:46:54
+Yes, we can. Select those.
+
+[Trance] 14:47:03
+If you think that we should focus on this one we can like collect some
+
+[Nazmul / alam.nazmul] 14:47:09
+No, no, no, no. That is not my point. My point is one is, of course, we need to improve the improve something this is first one.
+
+[Trance] 14:47:18
+Yes.
+
+[Nazmul / alam.nazmul] 14:47:18
+But at the same time, we also need to report it to the CTO office But if we consider code maintainability I think it's a bit difficult. I'm not sure if we really can implement it.
+
+[Nas] 14:47:23
+Okay.
+
+[Trance] 14:47:23
+Mm-hmm.
+
+[Nas] 14:47:39
+Yeah.
+
+[Nazmul / alam.nazmul] 14:47:39
+How to implement code maintain weight like faster delivery high level of stability and availability, higher coder quality how to measure hard code quality.
+
+[Nazmul / alam.nazmul] 14:47:51
+Or faster delivery so that I think it's a bit
+
+[Nazmul / alam.nazmul] 14:47:59
+Not just the abstract level.
+
+[Trance] 14:48:04
+Yeah, I got the idea, yeah.
+
+[Nazmul / alam.nazmul] 14:48:07
+One thing is, of course, we want to improve as a product development team But another thing we also need to report it.
+
+[Nazmul / alam.nazmul] 14:48:15
+From reporting point of view, as you can understand that visibility everyone is is considering this this one is the reason is maybe it's very easy.
+
+[Nazmul / alam.nazmul] 14:48:31
+Yeah, visual management is very easy to show that this is they are visual doing the visual management, but I don't like visual management because It's already there for us.
+
+[Nazmul / alam.nazmul] 14:48:45
+I think. So…
+
+[Nas] 14:48:46
+Yeah. We just have, so we don't need to do Anything further?
+
+[Nazmul / alam.nazmul] 14:48:53
+We don't need to do anything for visual management. So we can just provide this data We can just see if really we need to do anything or not and we can just report it but I will yeah inside i will not be very much happy, satisfied
+
+[Nas] 14:48:55
+Yeah, yeah.
+
+[Nazmul / alam.nazmul] 14:49:12
+With this with this one.
+
+[Nas] 14:49:16
+Yeah, I think we can source the document medicine. Document quality yeah Because currently we still focus on and we already uh We're kidding on that. Yeah.
+
+[Nazmul / alam.nazmul] 14:49:20
+The cool quality
+
+[Nas] 14:49:29
+So we can do this to the tracking, how we can improve for the After we applied some new document, for example, the technical recruitment impact analyze.
+
+[Nazmul / alam.nazmul] 14:49:31
+Hmm.
+
+[Nazmul / alam.nazmul] 14:49:48
+Hmm. I think this is a good thing to improve.
+
+[Nas] 14:49:55
+Yeah.
+
+[Nazmul / alam.nazmul] 14:49:55
+Targeting in the past. And in parallel uh What I want to suggest it it's we don't want to escape it. We would like to put it there but as a priority to But let's because we need to report it also, let's focus on the
+
+[Nazmul / alam.nazmul] 14:50:13
+Documentation quality improvement. As a first priority and let's uh think about how we can report it in a in a target way like yeah we need to put something here.
+
+[Trance] 14:50:28
+Yes.
+
+[Nazmul / alam.nazmul] 14:50:28
+Like people are doing this so we need to put something here we also need to report something like that very fast actually as fast as possible Yeah, they have set a target like 11. I don't think we can do anything by 11. So I will try to negotiate by end of
+
+[Nazmul / alam.nazmul] 14:50:47
+This month to provide some output. But first, I think let's see what we need to do for documentation quality focus my interview, capability point of view what what setup is needed for us and how we can measure this data.
+
+[Nazmul / alam.nazmul] 14:51:04
+And then let's try to peel up this this area so if you all agree then i will just remove this visual management from here And I will put this document quality there is it okay
+
+[Nas] 14:51:22
+Yeah.
+
+[Trance] 14:51:22
+Yes, so, yeah. How about the sooner queue?
+
+[Nazmul / alam.nazmul] 14:51:25
+Creature is right.
+
+[Trance] 14:51:29
+The sooner queue.
+
+[Trance] 14:51:35
+Where we detect the ghost mail or vulnerabilities, things like that.
+
+[Trance] 14:51:41
+Can we use the SONAQ to… to report our cold quality.
+
+[Nas] 14:51:48
+Good quality.
+
+[Nas] 14:51:55
+I think we can bust not Not enough.
+
+[Nas] 14:52:02
+For a symbol when they write a cost, maybe the coverage uh unit test yeah and yeah
+
+[Trance] 14:52:10
+And the role models more as well.
+
+[Nas] 14:52:15
+Get input for the the court. Good quality maybe we we need to think Yeah, more detail, huh?
+
+[Nazmul / alam.nazmul] 14:52:22
+We need to think more details the how to Yeah. Yeah.
+
+[Trance] 14:52:26
+Yes.
+
+[Nas] 14:52:27
+What we can… But we need to improve or how can we measurable yeah let's say the point we need to think.
+
+[Nas] 14:52:36
+Before we boot to this And I think for the the small relay we can think In this case.
+
+[Nazmul / alam.nazmul] 14:52:48
+Yeah, just to select one and then maybe we will work on second one.
+
+[Nazmul / alam.nazmul] 14:52:52
+So yeah, I just want to put like a document quality as the first priority maybe Later, I will break it down into another one.
+
+[Nas] 14:53:04
+Yeah.
+
+[Nazmul / alam.nazmul] 14:53:04
+Okay. Okay, so yeah, thank you, Tense, for your explanation. So I completely agree that code quality should improve continuously, but we don't know how to report it effectively. So that's why let's select the documentation quality as we are also working in. For example, I think Monix is working on some
+
+[Nazmul / alam.nazmul] 14:53:24
+Good document in Miro so those kind of documentation is also important So I think we can easily show the documentation quality data which is also effective as a development process.
+
+[Nazmul / alam.nazmul] 14:53:41
+So let's think about document quality as the first step and let's Let's think about this reporting style, how they would like to report us. And yeah, if who can take the responsibility to fill up this cheat first and then
+
+[Nazmul / alam.nazmul] 14:53:58
+Maybe NAS?
+
+[Nas] 14:53:59
+Yeah, okay. So the next step we will
+
+[Nazmul / alam.nazmul] 14:54:03
+Yeah. You will fill up this sheet so maybe if you look at payroll so Maybe Lee fill up this data for payroll.
+
+[Nas] 14:54:15
+Yeah, okay. We will feel that for this.
+
+[Nazmul / alam.nazmul] 14:54:18
+Yeah, same. We already have the documentation quality product specification event name And yeah, there is some data so we can easily talk to lee and easily can consider our case also But do you have any documentation quality improvement areas actually
+
+[Nas] 14:54:32
+Yeah.
+
+[Nazmul / alam.nazmul] 14:54:36
+So we can add that.
+
+[Nas] 14:54:36
+Okay. Yeah. Okay. I will input for the ta yeah
+
+[Nazmul / alam.nazmul] 14:54:42
+Yeah. So then Next action is a prepare report, one report, something like that. But yeah, first fill up the data of march and then we will discuss in details Later. Okay.
+
+[Nazmul / alam.nazmul] 14:55:02
+And the finished setup finally so this is already set up done right Okay.
+
+[Nas] 14:55:07
+Yeah, for my… checking with the uh The guideline? Yeah, we already set up Yeah, we already set up
+
+[Trance] 14:55:09
+Yes.
+
+[Trance] 14:55:15
+Yes. It's very easy.
+
+[Trance] 14:55:22
+Yes, I just request them. Following the guideline request, the IT and they uh they provide me access to to the 5D team.
+
+[Trance] 14:55:33
+And the projects yeah
+
+[Nas] 14:55:36
+Yeah, but that's…
+
+[Nazmul / alam.nazmul] 14:55:36
+But do we need to do anything further considering the setup guideline i find it 20 plus.
+
+[Nas] 14:55:43
+Yeah, absolutely. I just… check the setting for I'll go check and it's… We already set up… in the with the But I think for in the in the uh set up by galai, they just have the one message possible they sister
+
+[Nas] 14:56:10
+This team will have the the different setup to at that with your team yeah because i think for this one maybe uh For example, if you don't want the pointer to uh we can create a label and we can add this
+
+[Nas] 14:56:34
+To the label yeah actually for the Heidi, etc.
+
+[Nazmul / alam.nazmul] 14:56:36
+Hmm.
+
+[Nas] 14:56:41
+How you want to work to set up uh the to work with is because the Friday is very flexible
+
+[Nas] 14:56:55
+To connolly we just uh have uh focus on the phone item yeah in the development community and the lead term for 10 And Jen Felouray and… meantime to restore and on optom we just do the uh the payday.
+
+[Nazmul / alam.nazmul] 14:57:17
+Okay, we have data here.
+
+[Nas] 14:57:19
+Yeah, we already have the data. And I already report to uh checkli every Monday, yeah.
+
+[Nazmul / alam.nazmul] 14:57:28
+This data is also correct data, right?
+
+[Nas] 14:57:31
+I just correct that.
+
+[Nazmul / alam.nazmul] 14:57:35
+Okay. So that means we already have find the as per the setup guideline of Findy, right?
+
+[Nas] 14:57:41
+Yeah, but the main point is… what what you want to do with the matrix Yeah, first symbol, you want to include the lead decree the lead time.
+
+[Trance] 14:57:49
+Okay.
+
+[Nazmul / alam.nazmul] 14:57:55
+Hmm. Hmm.
+
+[Nas] 14:57:58
+How what should we do
+
+[Nas] 14:58:02
+But for the document that they just this galai to set up the team yeah and we already set up
+
+[Nazmul / alam.nazmul] 14:58:06
+One. I just guideline.
+
+[Nazmul / alam.nazmul] 14:58:10
+How to set up the findeeplus in Git. Right?
+
+[Nas] 14:58:13
+Yeah, yes.
+
+[Trance] 14:58:15
+Yes. We had already.
+
+[Nazmul / alam.nazmul] 14:58:17
+But after collecting the data, what we are going to do is Just this one, right?
+
+[Nas] 14:58:25
+Yes. What's Yeah.
+
+[Nazmul / alam.nazmul] 14:58:28
+For example this is a their timing and That's December, February, they put some data That's all. But after that with this data what we are going to do that's maybe next step.
+
+[Nas] 14:58:42
+Yeah.
+
+[Nazmul / alam.nazmul] 14:58:43
+Yeah, but anyway, so let's start collecting this data and start creating this document as part the template.
+
+[Nazmul / alam.nazmul] 14:58:50
+One is… Yeah.
+
+[Nas] 14:58:54
+Yeah, I already have the documents, not the document. I have the data for Eastman.
+
+[Nas] 14:59:01
+For the scenery. February and March.
+
+[Nazmul / alam.nazmul] 14:59:04
+Okay.
+
+[Nas] 14:59:07
+If you want, I will input.
+
+[Nazmul / alam.nazmul] 14:59:08
+And just this is much yeah you can just put this data i think they are they are collecting data from December to and then february maybe quarterly basis. I don't know.
+
+[Nas] 14:59:20
+Yeah, for the report maybe they collect by the quarter
+
+[Nazmul / alam.nazmul] 14:59:27
+Okay. Anyway, so for our case, this is the first time. So just put the first quarter report and just put the date of the March.
+
+[Nas] 14:59:34
+Yeah, okay.
+
+[Nazmul / alam.nazmul] 14:59:37
+So can you prepare the report and share with us? And let's in the core channel and then maybe we can have another meeting to review this data before 11.
+
+[Nas] 14:59:49
+E411. Before 11 December.
+
+[Nazmul / alam.nazmul] 14:59:51
+If possible.
+
+[Nas] 14:59:54
+This Friday?
+
+[Nazmul / alam.nazmul] 14:59:56
+Not possible, right? Yeah, if not possible, then it's still not possible.
+
+[Nas] 15:00:02
+Okay, we're chat. But…
+
+[Nazmul / alam.nazmul] 15:00:03
+No, no, no. If it is not possible, you should say not possible.
+
+[Nas] 15:00:09
+I think not possible.
+
+[Nazmul / alam.nazmul] 15:00:11
+Okay, that's possible. Then let's say that today Next week.
+
+[Nas] 15:00:16
+Yeah, so I just want to confirm. So the first one we reboot to the And the second we will rewrite the reports right
+
+[Nazmul / alam.nazmul] 15:00:30
+Yeah, that's the two things we will do. And before doing this third we will we would like to have a review meeting together So, yeah.
+
+[Nazmul / alam.nazmul] 15:00:40
+If we consider the best approach yeah what in my mind is uh next weekly meeting this one, right?
+
+[Nazmul / alam.nazmul] 15:00:50
+This one is 16. So I would like to review on 16 so and then if everything goes well, I will publish it on 18th in that Excel file.
+
+[Nazmul / alam.nazmul] 15:01:02
+The third step we would like to do on 18 so that's in my mind is it okay
+
+[Nas] 15:01:08
+Yeah, okay. I think in the 11, I will have the raffleson for uh youtube review and we need to discuss later
+
+[Nazmul / alam.nazmul] 15:01:14
+Hmm.
+
+[Nazmul / alam.nazmul] 15:01:18
+Yeah, that's fine. But I don't want to make it hurry. So we'd like to review it in this meeting in our next meeting. And then if everyone okay then we will publish it on 18th.
+
+[Nazmul / alam.nazmul] 15:01:31
+After this meeting. So I will talk to PDPD and the city office that you would like to take a little bit more time and we'll complete it by hopefully 18th that's uh tentative target.
+
+[Nas] 15:01:42
+Yeah.
+
+[Nazmul / alam.nazmul] 15:01:45
+Now tell me, is it possible?
+
+[Nas] 15:01:48
+Yeah, it's okay.
+
+[Nazmul / alam.nazmul] 15:01:51
+Rachel, are you okay? Listening.
+
+[Reacher] 15:01:55
+Okay.
+
+[Nas] 15:01:56
+Yeah, you're okay you will do it.
+
+[Trance] 15:01:57
+Yeah.
+
+[Reacher] 15:02:01
+We got to wait.
+
+[Nazmul / alam.nazmul] 15:02:04
+Today we are out of 10. So thank you very much. Next action is or richard will prepare the report and we'll review this on fixed in and if everything goes well, we'll publish by within 18.
+
+[Nas] 15:02:17
+Yeah. Okay.
+
+[Nazmul / alam.nazmul] 15:02:18
+And I will buy time accordingly. Thank you, Chance for your
+
