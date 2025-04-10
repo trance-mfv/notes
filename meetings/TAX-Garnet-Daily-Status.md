@@ -4,28 +4,236 @@
 
 | Ticket | Parent Ticket | Description | Assignee | Status |
 |--------|--------------|-------------|----------|--------|
-| TAXW-1134 | | Email address switch bug investigation | Axel | In Progress (20%) |
-| TAXW-1450 | | Fix My Number issues | Trance | In Progress |
+| TAXW-1134 | | Email address switch bug investigation | Axel | Transfered to Pat |
+| TAXW-1450 | | Fix My Number issues | Trance | Released |
 | TAXW-1534 | | Employees CSV import job performance improvement | Pat | ✅ Completed |
-| TAXW-1555 | | Payment report total PDF mismatch with Calculation table | Trance | In Progress (10%) |
+| TAXW-1555 | | Payment report total PDF mismatch with Calculation table | Trance | In Progress (80%) |
 | TAXW-1575 | | Document design | Edgar | In Progress (60%) |
 | TAXW-1587 | [TAXW-1477] | Tax adjustments auto-reading feature list | Edgar | ✅ Completed |
 | TAXW-1590 | [TAXW-1477] | Impact Analysis | Pat | ✅ Completed |
 | TAXW-1593 | [TAXW-1477] | Employees auto-reading feature list | Edgar | ✅ Completed |
-| TAXW-1629 | [TAXW-1414] | Technical doc | Hugo | In Progress (20%) |
+| TAXW-1629 | [TAXW-1414] | Technical doc | Hugo | ✅ Completed |
 | TAXW-1630 | [TAXW-1414] | Impact analysis | Hugo | ✅ Completed |
 | TAXW-1651 | | Warning message for negative insurance amount | Hugo | ✅ Completed |
 | TAXW-1663 | | YETA deletion modal update | Edgar | ✅ Completed |
+| TAXW-1680 | | Update postcode master data up to March 31, 2025 | Hugo | ✅ Completed |
+| TAXW-622 | | Employee Log insurance number bug fix | Axel | In Progress (50%) |
+| TAXW-964 | | Widow checkbox still ON after syncing Gender from PA | Hugo | In Progress (50%) |
+| TAXW-300 | | Blank report in side-modal when Re-Aggregation button not clicked | Trance | In Progress |
+| TAXW-1700 | | 500 error when removing employee from YETA in Auto Reading Insurance | Edgar | In Progress |
 
 ## Current Focus
 
-Bug investigations and fixes
-Impact analysis for multiple tickets
-Documentation work
-Code reviews
-Onboarding activities
+- Bug investigations and fixes (TAXW-622, TAXW-1134, TAXW-300, TAXW-1700)
+- Auto-Reading Paid Launch (TAXW-1477) and related implementation
+- Document completion and reviews
+- Technical documentation and impact analysis 
+- Payment report and calculation issues (TAXW-1555)
+- Frontend improvements and fixes
 
 ## Daily Status
+
+### 2025-04-10
+
+Axel:
+- Yesterday:
+    - Tasks: 
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1134: [CS Ticket] Email address switch between old and new after changing email due to the updated time being over 1 year
+            - Asked Garnet team for help, passed ticket to team members
+        - TAXW-622: [Legacy Bug] - Employee Log - It is recorded log with an incorrect insurance number on Employee Log when updating insurance which is XML or auto reading insurance with existing manual insurance
+            - Was able to reproduce the issue, fixing it
+    - Meetings:
+        - Cursor AI
+        - Welcome to MFV - Orientation
+- Today:
+    - Tasks: 
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-622: [Legacy Bug] - Employee Log - It is recorded log with an incorrect insurance number on Employee Log when updating insurance which is XML or auto reading insurance with existing manual insurance
+            - Fixing issue
+    - Meetings:
+        - TAX: Sprint Review
+        - [Sharing] FFP integration
+
+Trance:
+- Last day:
+    - Meetings:
+        - Sharing Cursor AI & Rules, Reliability in Sidekiq Pro
+        - Local Hiring Staff
+        - [TA] Weekly Dev Sync
+    - Tasks:
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1555: The exported Payment report total PDF file is not matching with Calculation table  
+        - TAXW-29: [TA2025] Internal issues
+        - TAXW-300: [YETA][payment_report_total_tables] - Blank report is displayed when opening side-modal if user do not click on Re-Aggreation button
+            - Discussed with Cillian for a combined fix
+        - PR reviews: followed up
+        - TAXW-46: [Sonar - tech debts] Fix Sonar Tech Debts from March-Apr 2025
+- Today:
+    - Meetings:
+        - TA Sprint Review
+        - [Sharing] FFP Integration
+        - [PRD Sharing] Issue 126
+    - Tasks:
+        - TAXW-29: [TA2025] Internal issues
+        - TAXW-300: [YETA][payment_report_total_tables] - Blank report is displayed when opening side-modal if user do not click on Re-Aggreation button
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1555: The exported Payment report total PDF file is not matching with Calculation table
+            - To create RSpec
+
+Edgar:
+- Last day:
+    - Tickets:
+        - TAXW-1477: 保険料控除入力代行有償公開 / Auto-Reading Paid Launch
+        - TAXW-1590: [TAXW-1477][DEV] Impact Analysis
+            - Cross-reviewing with Pat
+        - Auto-reading Insurance
+        - TAXW-1700: [Auto Reading Insurance] 500 error is displayed when removing employee from YETA
+    - Meetings:
+        - Sharing Cursor AI & Rules, Reliability in Sidekiq Pro
+        - [For local hiring staff] Q&A about new hybrid working policy and self claim 
+- Today:
+    - Tickets:
+        - Auto-reading Insurance
+        - TAXW-1700: [Auto Reading Insurance] 500 error is displayed when removing employee from YETA
+    - Meetings:
+        - Sprint review
+        - Feature Flag sharing
+        - Company trip 2nd kickoff
+
+Pat:
+- Last day:
+    - Tickets:
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1134: [CS Ticket] Email address switch between old and new after changing email due to the updated time being over 1 year
+    - Meetings:
+        - Sharing Cursor AI & Rules, Reliability in Sidekiq Pro
+        - [For local hiring staff] Q&A about new hybrid working policy
+- Today:
+    - Tickets:
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1134: [CS Ticket] Email address switch between old and new after changing email due to the updated time being over 1 year
+        - Review Document design of Auto reading Paid launch
+    - Meetings:
+        - TAX: Sprint Review [Sharing]
+        - FFP integration
+        - [Online] Company Trip 2025 - 2nd Kick Off 🚀
+
+Hugo:
+- Last day:
+    - Tasks:
+        - TAXW-964: TA2024_RegressionPhase2_[Dependent PDF Next Year] - The Widow check box is still ON after syncing Gender from PA (50%)
+        - Prepare demo ticket Sg linkage
+    - Meeting:
+        - Sharing Cursor AI & Rules, Reliability in Sidekiq Pro
+        - [For local hiring staff] Q&A about new hybrid working policy and self
+- Today:
+    - Tasks:
+        - TAXW-964: TA2024_RegressionPhase2_[Dependent PDF Next Year] - The Widow check box is still ON after syncing Gender from PA - Continue
+    - Meetings:
+        - Sprint review
+        - [Online] Company Trip 2025 - 2nd Kick Off 
+
+### 2025-04-09
+
+Axel:
+- Yesterday:
+    - Tasks: 
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1134: [CS Ticket] Email address switch between old and new after changing email due to the updated time being over 1 year
+            - Asked for help, still not able to reproduce the bug
+    - Meetings:
+        - Bi-weekly MFG All-hands Video
+- Today:
+    - Tasks: 
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1134: [CS Ticket] Email address switch between old and new after changing email due to the updated time being over 1 year
+            - Continue checking external resources (navis client, navis frontend, navis backend) 
+    - Meetings:
+        - Cursor AI
+        - Welcome to MFV - Orientation
+
+Trance:
+- Yesterday:
+    - Meetings:
+        - Bi-weekly MFG All-hands Video
+        - Meeting with Reacher (tran.ngoc.hai) on DORA Capabilities
+    - Tasks:
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1555: The exported Payment report total PDF file is not matching with Calculation table  
+        - TAXW-29: [TA2025] Internal issues
+        - TAXW-300: [YETA][payment_report_total_tables] - Blank report is displayed when opening side-modal if user do not click on Re-Aggreation button
+            - Reproduced and investigate the issue 
+        - PR reviews: following up
+            - TAXW-1680: Update postcode master data up to 31 Mar 2025 / 2025年3月31日までの郵便番号を更新する
+            - TAXW-1649: [Improvement][Monthly Payment] Change the search data in Employee Group dropdown
+- Today:
+    - Meetings:
+        - Sharing Cursor AI & Rules, Reliability in Sidekiq Pro
+        - [TA] Weekly Dev Sync
+    - Tasks:
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1555: The exported Payment report total PDF file is not matching with Calculation table  
+        - TAXW-29: [TA2025] Internal issues
+        - TAXW-300: [YETA][payment_report_total_tables] - Blank report is displayed when opening side-modal if user do not click on Re-Aggreation button
+            - To discuss with Cillian for a combined fix
+
+Edgar:
+- Last day:
+    - Tickets:
+        - TAXW-1477: 保険料控除入力代行有償公開 / Auto-Reading Paid Launch
+        - TAXW-1575: [TAXW-1477][DEV] Document design 
+        - Probation review: prepare & create request
+    - Meetings:
+        - Bi-weekly MFG All-hands Video
+- Today:
+    - Tickets:
+        - TAXW-1477: 保険料控除入力代行有償公開 / Auto-Reading Paid Launch
+        - TAXW-1590: [TAXW-1477][DEV] Impact Analysis
+            - Cross-reviewing with Pat
+        - Auto-reading Insurance
+        - TAXW-1649: [Improvement][Monthly Payment] Change the search data in Employee Group dropdown
+            - Update PR
+    - Meetings:
+        - Sharing Cursor AI & Rules, Reliability in Sidekiq Pro
+        - [For local hiring staff] Q&A about new hybrid working policy and self claim 
+
+Pat:
+- Last day:
+    - Off morning
+    - Tickets:
+        - Review PRs
+        - TAXW-1477: 保険料控除入力代行有償公開 / Auto-Reading Paid Launch
+        - TAXW-1590: [TAXW-1477][DEV] Impact Analysis
+    - Meetings:
+        - Bi-weekly MFG All-hands Video
+- Today:
+    - Tickets:
+        - Review Document design of Auto reading Paid launch
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-622: [Legacy Bug] - Employee Log - It is recorded log with an incorrect insurance number on Employee Log when updating insurance which is XML or auto reading insurance with existing manual insurance 
+    - Meetings:
+        - Sharing Cursor AI & Rules, Reliability in Sidekiq Pro
+        - [For local hiring staff] Q&A about new hybrid working policy
+
+Hugo:
+- Last day:
+    - Tasks:
+        - TAXW-1441: Auto change the status to Non-target when income amount over 20 million in previous work/ 前職収入金額が二千万を超えると自動的に非対象に変更
+            - Follow up & support
+        - TAXW-964: TA2024_RegressionPhase2_[Dependent PDF Next Year] - The Widow check box is still ON after syncing Gender from PA (20%)
+        - Support team member
+    - Meeting:
+        - Bi-weekly MFG All-hands Video
+- Today:
+    - Tasks:
+        - TAXW-964: TA2024_RegressionPhase2_[Dependent PDF Next Year] - The Widow check box is still ON after syncing Gender from PA - Continue
+        - Follow up my released ticket in this sprint
+    - Meetings:
+        - Sharing Cursor AI & Rules, Reliability in Sidekiq Pro
+        - [For local hiring staff] Q&A about new hybrid working policy and self
+
+
 ### 2025-04-08
 Axel:
 - Last day:
@@ -258,19 +466,17 @@ Pat:
 Hugo:
 - Yesterday:
     - Tasks:
-        - Minus input for insurance premium
-        - TAXW-1630 [TAXW-1414] Impacted analysis - Done
-        - Reacher support to review
-        - TAXW-1629 [TAXW-1414] Technical doc - 20%
+        - Minus input for insurance premium - Fixed
+        - TAXW-1630 [TAXW-1414] Impacted analysis - 90% complete
+        - TAXW-1629 [TAXW-1414] Technical doc - Started
     - Meetings:
         - MFV Monthly All-hands
 - Today:
     - Tasks:
-        - Minus input for insurance premium
+        - TAXW-1630 [TAXW-1414] Impacted analysis - Complete
         - TAXW-1629 [TAXW-1414] Technical doc - Continue
     - Meetings:
         - Borderless Culture: Insights from Culture Heroes
-
 
 ### 2025-04-02
 Axel:
