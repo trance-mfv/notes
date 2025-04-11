@@ -1,15 +1,15 @@
-# Upgrade Ruby from 3.1.4 to 3.2.4
-To upgrade Ruby from 3.1.4 to 3.2.4, follow these steps:
+# Upgrade Ruby from 3.1.4 to 3.2.8
+To upgrade Ruby from 3.1.4 to 3.2.8, follow these steps:
 
 1. Update your Ruby version in the Gemfile:
 ```Gemfile
-ruby '3.2.4'
+ruby '3.2.8'
 ```
 
 2. Update Ruby in your environment using a version manager:
-   - With rbenv: `rbenv install 3.2.4 && rbenv local 3.2.4`
-   - With RVM: `rvm install 3.2.4 && rvm use 3.2.4`
-   - With asdf: `asdf install ruby 3.2.4 && asdf local ruby 3.2.4`
+   - With rbenv: `rbenv install 3.2.8 && rbenv local 3.2.8`
+   - With RVM: `rvm install 3.2.8 && rvm use 3.2.8`
+   - With asdf: `asdf install ruby 3.2.8 && asdf local ruby 3.2.8`
 
 3. Update your dependencies:
    ```
@@ -20,84 +20,89 @@ ruby '3.2.4'
    ```
    bundle exec rspec
    ```
+# Ruby 3.1.4 to 3.2.8 Changes
 
-To list changes between Ruby 3.1.4 and 3.2.4, you can:
+## Major Features and Changes
 
-1. Review the official Ruby documentation:
-   - Ruby 3.2 release notes: https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/
-   - Subsequent point releases: check the Ruby news page
+1. **WASI-based WebAssembly Support**
+   - Ruby now runs on WebAssembly environments
+   - Reference: https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/#wasi-based-webassembly-support
 
-2. Key changes in Ruby 3.2:
-   - WASI based WebAssembly support
-   - Data types for pattern matching
-   - Improved Regexp performance with new engine (Onigmo → Regint)
-   - Improved YJIT compiler
-   - Performance improvements in garbage collection
+2. **Data Class**
+   - New built-in `Data` class for immutable value objects
+   - Reference: https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/#data-class
 
-3. For a detailed changelog, run:
-   ```
-   git clone https://github.com/ruby/ruby.git
-   cd ruby
-   git log --pretty=format:"%h - %s" v3_1_4...v3_2_4
-   ```
+3. **Regexp Engine (Onigmo → Regint)**
+   - Improved performance for regular expressions
+   - Reference: https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/#regexp-improvements
 
-# Ruby 3.1.4 to 3.2.5 Changes
+4. **YJIT Improvements**
+   - Substantial performance improvements and reduced memory usage
+   - Now enabled by default in Ruby 3.2
+   - Reference: https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/#yjit-improvements
 
-## Major Features & Changes
-
-### Ruby 3.2.0 (Major Update)
-- **WASI-based WebAssembly support**: Run Ruby in browsers and WebAssembly environments
-- **New Data class**: Immutable data-holding class for pattern matching
-- **Regexp engine upgrade**: Migrated from Onigmo to Regint with better performance
-- **YJIT improvements**: Faster warmup, reduced memory usage, stable arm64 support
-- **Improved GC performance**: More efficient object allocation and memory management
-
-### Point Releases (3.2.1-3.2.5)
-- **Security fixes**: Various CVE patches for ReDoS vulnerabilities
-- **Performance optimizations**: Continued YJIT improvements
-- **Bug fixes**: Platform-specific issues and standard library corrections
+5. **GC Improvements**
+   - Variable Width Allocation for better memory management
+   - Reference: https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/#gc-improvements
 
 ## Potential Impact Areas
 
-### Deprecations & Breaking Changes
-- `Kernel#expr`: Now warns, will be removed in 3.3
-- `Symbol#to_proc` no longer special-cases certain optimization patterns
-- Changes to `Coverage` API and behavior
-- Refinements behavior changes with method cache
+1. **Language Syntax and Semantics**
+   - Pattern matching with `Data` class
+   - `SyntaxError` for keyword arguments with non-symbol keys is now enforced
 
-### Compatibility Concerns
-- **Dependencies**: Some gems may not be compatible with 3.2.x initially
-- **YJIT-specific issues**: Potential memory usage changes with YJIT enabled
-- **C extensions**: May need recompilation or updates
+2. **Standard Library Changes**
+   - `Set` is now available without requiring it
+   - `Pathname.` new methods for path manipulation
+   - Several date/time handling improvements
+
+3. **Deprecations**
+   - `Kernel#pp` auto-loading is deprecated
+   - `Kernel#eval` without proper binding/filename arguments is deprecated
+   - `Psych.safe_load` vs `Psych.unsafe_load` changes
+
+4. **Rails Compatibility**
+   - Rails 7.0.8+ is fully compatible with Ruby 3.2
+   - Some gems in your Gemfile might need updates
+
+## Mitigation Strategies
+
+1. **Test Thoroughly**
+   - Run your entire test suite with Ruby 3.2.8
+   - Pay special attention to regexp-heavy code
+
+2. **Dependency Updates**
+   - Update all gems, particularly:
+     - `puma` (ensure you're using 5.6.5+)
+     - `mysql2` (may need updates for Ruby 3.2)
+     - `sidekiq` and `sidekiq-pro`
+
+3. **Rails Upgrade**
+   - Ensure you're on Rails 7.0.8+ for best compatibility
+
+4. **Code Changes**
+   - Update any deprecated syntax patterns
+   - Replace non-symbol keys in keyword arguments
 
 ## Reference Documentation
 
-### Official Resources
 - [Ruby 3.2.0 Release Notes](https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/)
-- [Ruby 3.2.1-3.2.5 Release Notes](https://www.ruby-lang.org/en/downloads/releases/)
-- [Ruby NEWS file](https://github.com/ruby/ruby/blob/master/NEWS.md)
+- [Ruby 3.2.1 to 3.2.8 Release Notes](https://www.ruby-lang.org/en/downloads/releases/)
+- [Ruby 3.2 Breaking Changes](https://rubyreferences.github.io/rubychanges/3.2.html)
+- [Ruby Issue Tracker](https://bugs.ruby-lang.org/projects/ruby-master/issues)
+- [Rails on Ruby 3.2 Compatibility Guide](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html)
 
-### Migration Guides
-- [Ruby on Rails Upgrade Guide](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html)
-- [JRuby Compatibility](https://github.com/jruby/jruby/wiki/Compatibility)
-
-### Testing Strategies
-- Run test suite with warnings enabled (`-W` flag)
-- Use RuboCop with `--only Migration/Ruby32` to catch deprecations
-- Implement CI tests on both Ruby versions before upgrading production
-
-
-# Releases
+### Releases
 
 [Release Notes](https://www.ruby-lang.org/en/downloads/releases/)
 [What's Changed to 3.2.8](https://github.com/ruby/ruby/releases)
 
-## Tags
-### Ruby 3.1.7 Released
+### Tags
+#### Ruby 3.1.7 Released
 
 https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/
 
-### Ruby 3.2.8 Released
+#### Ruby 3.2.8 Released
 
 https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/
 
@@ -105,6 +110,6 @@ https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/
 
 [Github compare](https://github.com/ruby/ruby/compare/v3_1_4...v3_2_8)
 
-### Security advisories: CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221
+#### Security advisories: CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221
 
 https://www.ruby-lang.org/en/news/2025/02/26/security-advisories/
