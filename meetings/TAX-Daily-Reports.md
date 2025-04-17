@@ -3,36 +3,62 @@
 ## Daily Reports
 
 ### 2025-04-08
-* Yesterday:
-	- Meeting:
-		- 
-	- Tasks:
-		- 
-* Today:
-	- Meeting:
-		- 
-	- Tasks:
-		- Four key metrics:
-			- Deployment Frequency
-			- Change Lead Time (Lead Time for Changes)
-			- Change Failure Rate (Change Failure Percentage)
-			- Time to Restore Service (Failed deployment recovery time)
-		- [Lead time visualization](https://docs.google.com/document/d/1_sNZwbiYp81YRi1M0HwgxggXyPll5EcUNsVQI3J9gzc/edit?tab=t.0): 
-			Definition of lead time: 
-				- Lead time refers to the days from the start of each process to its completion. If the process includes multiple tasks, the lead time is the number of days between the beginning of the firstone task and the completion of the last task.
-				- It will be measured “end date - start date + 1”.
-				- It includes waiting days.
-				- It excludes holidays.
-			How to calculate:
-				- 
-			Example:
-				- 
-				- 
+- Last day:
+    - Meetings:
+        - TA Management MTG
+        - [TA Dev] Team Sync-up
+        - Service Platform sharing
+        - Bi-weekly TA and SRE team
+    - Tasks:
+        - TAXW-1486: [TA2025] Bugs
+			- TAXW-1555: The exported Payment report total PDF file is not matching with Calculation table  
+				- Working (80%)
+        - PR reviews: 
+            - TAXW-46: [Sonar - tech debts] Fix Sonar Tech Debts from March-Apr 2025
+            - TAXW-1536: [Web Plan] The plan is not updated after changing from ERP
+- Today:
+    - Meetings:
+        - Bi-weekly MFG All-hands Video
+        - Meeting with Reacher (tran.ngoc.hai) on DORA Capabilities
+    - Tasks:
+        - TAXW-1486: [TA2025] Bugs
+			- TAXW-1555: The exported Payment report total PDF file is not matching with Calculation table  
+				- To finish
+        - PR reviews: following up
+            - TAXW-1680: Update postcode master data up to 31 Mar 2025 / 2025年3月31日までの郵便番号を更新する
+            - TAXW-1649: [Improvement][Monthly Payment] Change the search data in Employee Group dropdown
 
-
-
+### 2025-04-04
+- Yesterday:
+    - Meetings:
+        - Borderless Culture: Insights from Culture Heroes
+    - Tasks:
+        - TAXW-1555 The exported Payment report total PDF file is not matching with Calculation table
+          Continue (30%)
+        - PR Reviews: 
+            - TAXW-1651 -  Minus input for insurance warning message
+            - TAXW-1450 - Fix My Number: 
+                - To test: Import with Cloud Payroll
+                    1. declaration_of_employee
+                    2. declaration_of_partner
+                    3. next_declaration_of_employee
+                    4. next_declaration_of_partner
+                    5. declaration_of_dependents
+                        - wife/husband
+                        - father/mother
+                    6. next_declaration_of_employee.next_dependents
+- Today:
+    - Meetings:
+        - TA Management MTG
+        - [TA Dev] Team Sync-up
+        - Service Platform sharing
+        - Bi-weekly TA and SRE team
+    - Tasks:
+        - TAXW-1555 The exported Payment report total PDF file is not matching with Calculation table
+          Continue
+		
 ### 2025-04-03
-* Yesterday:
+- Last day:
 	- Meeting:
 		- MFV Monthly All-Hands
 		- [TA] Weekly Dev Sync
@@ -42,18 +68,18 @@
 		- PR Reviews: 
 			- [#10775](https://github.com/moneyforward/tax_adjustment_web/pull/10775): Update Installation guide (README)
 			- [#10763](https://github.com/moneyforward/tax_adjustment_web/pull/10763): Update Docker setup for Dev Environment
-* Today:
+- Today:
 	- Release flow: 
 
 ### 2025-04-02
-* Yesterday:
+- Last day:
 	- Meeting:
 		- SG postpone release discussion
 		- Bi-weekly MFG All-hands
 		- [TA] Onboarding: Product Overview - Part 1
 	- Tasks:
 		- TAXW-1450: Fix My Number: Continue to fix the issue found during PR  Review
-* Today:
+- Today:
 	- Meeting:
 		- MFV Monthly All-Hands
 		- [TA] Weekly Dev Sync ![meeting note](./ta-dev-sync/20250402.md)
@@ -94,7 +120,7 @@
 			- [#10763](https://github.com/moneyforward/tax_adjustment_web/pull/10763): Update Docker setup for Dev Environment
 
 ### 2025-04-01
-* Yesterday:
+- Last day:
 	- Meeting:
 		- [Garnet] Backlog Refinement
 		- [TA Dev] Sprint Planning
@@ -103,7 +129,7 @@
 	- Tasks:
 		- TAXW-1450 - Fix My Number: Investigated the issue found during PR  Review
 		- PRs Review if time allows
-* Today:
+- Today:
 	- Meeting:
 		- SG postpone release discussion
 		- Bi-weekly MFG All-hands
@@ -115,7 +141,7 @@
 		- reviewers: whole TA team - ta_dev_mfv_reviewers
 
 ### 2025-03-31
-* Last Friday:
+- Last day:
 	- Meeting:
 		- [TA] Onboarding: Sharing Session 4
 		- [PRD sharing] issues list
@@ -127,7 +153,7 @@
 	- Tasks:
 		- Review PRs: improving SonarQube issues: TAXW-1547 to 1550 
 
-* Last Friday:
+- Last day:
 	- Meeting:
 		- [Garnet] Backlog Refinement
 		- [TA Dev] Sprint Planning
@@ -148,7 +174,7 @@
 			- Fai request 1 cái tren portal + aweb_tax-adjustment_stg_operator tren #contact_cio_managed-tools (e
 ### 2025-03-28
 
-* Yesterday:
+- Last day:
 	- Meeting:
 		- [TA] Onboarding: Sharing Session 3
 		- TAX: Sprint Review
@@ -161,7 +187,7 @@
 - New members: 
 		- Axel and Cillian were updating the Docker build for Dev 
 		- Tune and Vinz were updating installation guide README
-* Today:
+- Today:
 	- Meeting:
 		- [TA] Onboarding: Sharing Session 4
 			- Sprint, and TA Lifecycle
@@ -185,7 +211,7 @@
 		- Tune and Vinz continue updating installation guide README
 
 ### 2025-03-27
-* Yesterday:
+- Last day:
 	- Meeting:
 		- [TA] Onboarding: Sharing Session 2
 		- Logical thinking & Documentation training #2
@@ -196,7 +222,7 @@
 	- New members: 
 		- Axel and Cillian are updating the Docker build for Dev 
 		- Tune and Vinz are updating installation guide README
-* Today:
+- Today:
 	- Meeting:
 		- [Sharing Session_PVI Healthcare Insurance 2025]
 			- [Handbook](https://drive.google.com/file/d/1gSGBxOMuYKF2PxZcu-txUCOUMVCEm-pk/view)
@@ -218,14 +244,14 @@
 
 
 ### 2025-03-26
-* Yesterday:
+- Last day:
 	- Meeting: 
 		- [TA] Onboarding: Sharing Session 1
 		- MFBC Monthly All-hands video
 	- Tasks:
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
 			- Follow up with QA
-* Today:
+- Today:
 	- Meeting: 
 		- [TA] Onboarding: Sharing Session 2
 			- Setting up TAXW app and communication
@@ -244,13 +270,13 @@
 	- New joiners: will help to update Docker build for Dev and installation guide in README
 
 ### 2025-03-25
-* Yesterday:
+- Last day:
 	- Meeting: 
 		- 1:1 with Nas
 	- Tasks:
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix empty string My Number
 			- Done Impact Analysis
-* Today:
+- Today:
 	- Meeting: 
 		- [TA] Onboarding: Sharing Session 1
 			- Account request and setup tools
@@ -274,7 +300,7 @@
 			- Question: Need a Jira ticket for this? No impact analysis and QA involvement needed?
 
 ### 2025-03-24
-* Last Friday: 
+- Last day: 
 	- Meeting: 
 		- TA Management MTG
 		- HR Solution Dept. Monthly AllHands
@@ -285,7 +311,7 @@
 			- To do Impact Analysis
 		- [TAXW-1326](https://moneyforward.atlassian.net/browse/TAXW-1326) Export PDF
 			- To do Impact Analysis
-* Today:
+- Today:
 	- Meeting: 
 		- 1:1 with Nas
 			- New Challenges for Team: Technical documentation, Impact analysis
@@ -305,14 +331,14 @@
 		- [Reference from Asher](https://docs.google.com/document/d/1LwIvqstXuTOmvUSL1MjdNlccy4v5IZOq7jXbdcj7EOQ/edit?tab=t.0#heading=h.ufmkxd1r30zc)
 
 ### 2025-03-21
-* Yesterday: 
+- Last day: 
 	- Meeting: 
 		- TA Incident Analysis - Final Result
 	- Tasks: 
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 			- Fixed specs
 	- Axel and Vinz are setting up TAXW environment
-* Today: 
+- Today: 
 	- Meeting: 
 		- [TA Management MTG](https://docs.google.com/document/d/1RD2GCG2ZdkFOVlNm8Fign_Lp0gAjLWKzt1CHMGrxF-w/edit?tab=t.0)
 			- [Impact Analysis Workflow](https://docs.google.com/document/d/18Ne7nmBAoxdjdasnIifXa3U2CscT4C6YUntHq7w4-ck/edit?tab=t.m4doym6nuu9j)
@@ -343,13 +369,13 @@
 				+ Files left in a personal Google Drive will be moved to the “retired-gws” folder after offboarding.
 
 ### 2025-03-20
-* Yesterday: 
+- Last day: 
 	- Meeting: 
 		- Engineering All Hands
 	- Tasks: 
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 			- Follow up with QA
-* Today: 
+- Today: 
 	- Meeting: 
 		- TA Incident Analysis - Final Result
 			- [Incorrect Calculation of Withholding Tax Amount (MKTBGS-726) Incident Analysis](https://miro.com/app/board/uXjVIQed0Ac=/)
@@ -362,7 +388,7 @@
 	- Git graph command: `git log --all --decorate --oneline --graph` => alias: `gloga`
 
 ### 2025-03-19
-* Yesterday: 
+- Last day: 
 	- Meeting: 
 		- Bi-weekly MFG All-hands Video
 		- [TA] Calculation Incident Analysis
@@ -371,7 +397,7 @@
 			- Completed the issues
 	- New members: Axel and Vinz having all the required accesses for the project
 
-* Today: 
+- Today: 
 	- Meeting: 
 		- Engineering All Hands
 	- Tasks: 
@@ -408,14 +434,14 @@
 		```
 
 ### 2025-03-18
-* Yesterday: 
+- Last day: 
 	- Meeting: 
 		- TAX: Sprint Planning
 	- Tasks: 
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 			- Hugo and Luna walked me through the flows of importing employee data from Cloud Payroll and CSV files
 
-* Today: 
+- Today: 
 	- Meeting: 
 		- Bi-weekly MFG All-hands Video
 		- [TA] Calculation Incident Analysis
@@ -450,7 +476,7 @@
 			- Continue working on importing employee data from Cloud Payroll and CSV files
 			
 ### 2025-03-17
-* Last Friday:
+- Last day:
 	- Meeting: 
 		- [TA Dev] Team Sync-up
 		- HR Dev. monthly meeting / HRプロダクト開発部月次MTG
@@ -459,7 +485,7 @@
 	- Tasks: 
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 
-* Today: 
+- Today: 
 	- Meeting: 
 		- TAX: [Sprint Planning](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786133/TAX-112+Mar+17+-+Mar+28)
 			- [Sprint 112 - Tasks](https://moneyforwardvietnam.atlassian.net/wiki/spaces/TA/pages/2589786155/TAX-112+tasks)
@@ -502,7 +528,7 @@
 				2. Requirement wording: "In case of inputting numeric characters but the length is not 12 characters"
 
 ### 2025-03-14
-* Yesterday:
+- Last day:
 	- Meeting:
 		- TAX: Sprint Review
 	- Tasks: 
@@ -511,7 +537,7 @@
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 			- Continued work on this
 
-* Today: 
+- Today: 
 	- Meeting: 
 		- [TA Dev] Team Sync-up
 		- HR Dev. monthly meeting / HRプロダクト開発部月次MTG
@@ -521,7 +547,7 @@
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 
 ### 2025-03-13
-* Yesterday: 
+- Last day: 
 	- Meeting:
 		- [DEV][TAXW-1409] Refactor add employee to YETA discussion
 	- Tasks:
@@ -530,7 +556,7 @@
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1502) [TAXW-1450] Fix search function based on whether My Number is registered or not
 			- Working with the issue
 
-* Today:
+- Today:
 	- Meeting:
 		- TAX: Sprint Review
 	- Tasks: 
@@ -541,13 +567,13 @@
 
 ### 2025-03-12
 
-* Yesterday:
+- Last day:
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 			- Reviewed code and refactor regarding the `municipality_ids` as Reacher's suggestion
 			- Discussed with Pat about the edge cases: the possibility when employee's municipality is not (OR is changed during the job) in the list of tax_adjustment.municipality_ids
 
-* Today: 
+- Today: 
 	- Meeting:
 		- [DEV][TAXW-1409] Refactor add employee to YETA discussion
 	- Tasks:
@@ -565,7 +591,7 @@
 
 ### 2025-03-11
 
-* Yesterday:
+- Last day:
 	- Meeting:
 		- Review TA2024 Season
 		- 1:1 with Charlie
@@ -574,7 +600,7 @@
 			- Continue working with the recalculation issue. Paired with Reacher to debug the issue
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
 
-* Today:
+- Today:
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 			- Review code and possible edge cases and refactor if needed
@@ -607,7 +633,7 @@
 
 ### 2025-03-10
 
-* Last day:
+- Last day:
 	- Meeting:
 		- TAX: Sprint Retrospective:
 		- Bi-weekly TA and SRE team meeting
@@ -615,7 +641,7 @@
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 			- Recalculation issue found by Reacher
 
-* Today:
+- Today:
 	- Meeting:
 		- Review TA2024 Season
 			- we had four incidents
@@ -634,10 +660,10 @@
 		- [TAXW-1502](https://moneyforward.atlassian.net/browse/TAXW-1450) [TAXW-1450] Fix search function based on whether My Number is registered or not
 
 ### 2025-03-07
-* Yesterday:
+- Last day:
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
-* Today:
+- Today:
 	- Meeting:
 		- TAX: Sprint Retrospective:
 			- First sprint, I've received amazing supports from the team, which helped me moving faster
@@ -660,31 +686,31 @@
 			- Issue found by Reacher: after updating the eligibility to ta_employees, specialists have to recalculate Report to make the export pdf correct
 
 ### 2025-03-06
-* Yesterday:
+- Last day:
 	- Meeting:
 		- MFV Monthly All-hands
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
-* Today:
+- Today:
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 			- Review specs
 			- Update PR
 
 ### 2025-03-05
-* Yesterday:
+- Last day:
 	- Meeting: 
 		- MFV Monthly All-hands
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
-* Today:
+- Today:
 	- Meeting:
 		- MFV Monthly All-hands
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 
 ### 2025-03-04
-* Yesterday:
+- Last day:
 	- Meeting: 
 		- Backlog Refinement Sprint 111
 		- Bi-weekly MFG All-hands Video
@@ -692,29 +718,29 @@
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 
-* Today:
+- Today:
 	- Meeting: 
 		- MFV Monthly All-hands
 	- Tasks: 
 		- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 
 ### 2025-03-04
-* Last Day:
+- Last Day:
 	- Meeting: Sprint Planning
 	- [TAXW-1500](https://moneyforward.atlassian.net/browse/TAXW-1500) Export payment_report_total_tables, the number of PDF file report is incorrect
 
-* Today:
+- Today:
 	- Meeting: 
 		- - Backlog Refinement Sprint 111
 		- Bi-weekly MFG All-hands Video
 		- Auto reading sharing
 
 ### 2025-03-03
-* Yesterday:
+- Last day:
 	- Meeting: 
 		- Tech Seminar (Bi-Monthly)
 	- Continue exploring the TAXW application and infra
-* Today:
+- Today:
 	- Meeting: Sprint Planning
 	- Tickets:
 		- [TAXW-1450](https://moneyforward.atlassian.net/browse/TAXW-1450) Fix search function based on whether My Number is registered or not
@@ -728,7 +754,7 @@
 			- Credit card number: 4111111111111111
 	
 ### 2025-02-28
-* Yesterday:
+- Last day:
 	- Meeting: 
 		- TAX: Sprint Review
 		- Onboarding Session 4 Sharing
@@ -736,7 +762,7 @@
 	- Continue reading TAX Infrastructure document:
 		- SRE Team is moving ECS to EKS for all services of the company
 		- TAX services will be migrated to EKS in the future
-* Today:
+- Today:
 	- Meeting: 
 		- Onboarding Session 5 Sharing
 			- Questions: 
@@ -791,14 +817,14 @@
 	- Continue exploring the TAXW application
 
 ### 2025-02-27
-* Yesterday:
+- Last day:
 	- Meeting: 
 		- Onboarding Session 3 Sharing
 		- Ruby Seminar: CA Team
 	- Continue exploring the TAXW application: procedure feature
 	- Fixed the issue with webpacker to run TAXW in Docker container
 	- Read TA System guide book
-* Today:
+- Today:
 	- Meeting: 
 		- TAX: Sprint Review
 		- Onboarding Session 4 Sharing
@@ -806,7 +832,7 @@
 	- Continue reading TA System guide book
 
 ### 2025-02-26
-* Yesterday:
+- Last day:
 	- Granted access to Jira, Rollbar.
 	- Meeting: 
 		- Onboarding session 2 sharing
@@ -816,7 +842,7 @@
 	- Tested the local TAXW app and its features, e.g. create a new group and create a new employee
 	- Read TA documents:
 		* Tax Adjustment Introduction: https://docs.google.com/document/d/1O1lBP7_qzlpG47l0CDX4EPUn81p-fvuYCqYsc0yVFNk/edit?tab=t.0#heading=h.ng8d1pecyn9
-* Today:
+- Today:
 	- Meeting: Onboarding Session 3 Sharing
 		+ tax_adjustment_web 
 			- Dockerfile-dev: to update node_12 to node_14
@@ -840,7 +866,7 @@
 	- Read TA System guide book
 
 ### 2025-02-25
-* Yesterday:
+- Last day:
 	- Training: Onboarding Handbook - Chapter 3
 		- Money Forward Business Company Video & Slide
 	- Catchup Onboarding Items:
@@ -866,7 +892,7 @@
 				* Request > DONE > Waiting for approval
 	- Development environment setup: running tax_adjustment_web in local machine
 
-* Today:
+- Today:
 	- Meeting: Onboarding session 2 sharing
 		- BA - external service 
 		- SmartHR - external service: Import employee data from SmartHR
@@ -881,10 +907,10 @@
 		* Product Overview document: Reacher will introduce...
 
 ### 2025-02-24
-* Yesterday:
+- Last day:
 	- Exploring the project structure
 	- Setting up local development environment with Docker
-* Today:
+- Today:
 	- Continue exploring the codebase, project structure 
 	- Continue setting up local development environment
 	- Onboarding session 2 sharing
@@ -905,24 +931,24 @@
 	- Gemini: https://gemini.google.com/app/655c6104fd094c22
 
 ### 2025-02-21
-* Yesterday: 
+- Last day: 
 	- Completed training courses: 
 		- Information Security Orientation 
 		- Technical Orientation
 	- Setting up local development environment
-* Today:
+- Today:
 	- Continue exploring the codebase, project structure 
 
 ### 2025-02-20
-* Yesterday:
+- Last day:
 	- Onboarding Session Sharing
 	- Meeting: Engineering All Hands
-* Today:
+- Today:
 	- Training: Information Security and Personal Confidential Information Protection
 	- Training: Technical Onboarding
 
 ### 2025-02-19
-* Today: 
+- Today: 
 	- Onboarding Session Sharing
 	- Meeting: Engineering All Hands
 
