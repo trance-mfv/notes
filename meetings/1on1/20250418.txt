@@ -1,0 +1,933 @@
+[Nazmul / alam.nazmul] 16:33:33
+Okay. Yeah, so yeah thank you very much, Saturns for joining us and for giving much effort to organizing the team it's a it's a kind of a our new journey We have a very small team, like a six member team and from that team we are now becoming 15 member dev side and
+
+[Trance] 16:33:34
+Yes.
+
+[Nazmul / alam.nazmul] 16:33:57
+Two accelerator three keyway around the 20 member plus pdm and also me designer. So it's becoming larger And thank you for supporting this expansion and from next a new member who is going to join.
+
+[Trance] 16:34:13
+Yeah.
+
+[Nazmul / alam.nazmul] 16:34:16
+Well, shall I introduce myself a little bit what i what i did what i did what i did what And maybe you don't know anything about me, right?
+
+[Trance] 16:34:26
+Yes.
+
+[Nazmul / alam.nazmul] 16:34:27
+Okay, so yeah. You can check my kibala but let me give the summary So I joined Moneyford in last year, September.
+
+[Nazmul / alam.nazmul] 16:34:39
+And my initial project is the same Last year, September.
+
+[Trance] 16:34:44
+Last year… Oh.
+
+[Nazmul / alam.nazmul] 16:34:48
+Yeah, not very long back just six, seven months.
+
+[Trance] 16:34:54
+Oh, but because told me that you you can speak Japanese and you can speak Do you live in Germany for a long time i thought you worked for money from work Oh, yeah.
+
+[Nazmul / alam.nazmul] 16:35:06
+Yes. Yes.
+
+[Nazmul / alam.nazmul] 16:35:10
+No. Then let me share my Scheme a bit.
+
+[Nazmul / alam.nazmul] 16:35:18
+Then discuss what I have done so far in my career
+
+[Trance] 16:35:27
+Yes, let me connect to the global protection. But I'm afraid that it will be disconnect to the meeting.
+
+[Nazmul / alam.nazmul] 16:35:37
+Can you see my skin? This is my profile. Can you see my profile?
+
+[Trance] 16:35:38
+You know… Yes.
+
+[Trance] 16:35:45
+Yes. Yeah. Yeah.
+
+[Nazmul / alam.nazmul] 16:35:48
+Right? Okay.
+
+[Trance] 16:35:51
+Yes. As CTO of nice
+
+[Nazmul / alam.nazmul] 16:35:55
+Okay. Yeah, so I have total 22 now 20 around 22 years of experience and In my previous previous company, I was working as a CTO for about 12 years and I lead around 450 engineering team when I was CEO.
+
+[Nazmul / alam.nazmul] 16:36:16
+So I joined Money Forward in this September, last September and Initially, I was in charge of TA and then another product social insurance. I was also in charge and then this December, January, I took attendance also So because of attendance and TA, we are going to have more total
+
+[Nazmul / alam.nazmul] 16:36:38
+Eight teams I just gave up social insurance.
+
+[Nazmul / alam.nazmul] 16:36:45
+And now other members that are taking care of that. And before joining Maniparod, I was working for a couple of months in this company, Amnemo as a technical consultant. This is also Japan side company But before that i was working in this BJIT group for around 17 years.
+
+[Nazmul / alam.nazmul] 16:37:04
+And I started in Bangladesh, but then I moved to Japan in 2010. So that's how I am actually in Japan for 15 years.
+
+[Nazmul / alam.nazmul] 16:37:14
+More than 50.
+
+[Trance] 16:37:15
+Wow. Oh, 15 years, not this year, as people said. Yeah, long, longer.
+
+[Trance] 16:37:22
+Wow. Wow.
+
+[Nazmul / alam.nazmul] 16:37:23
+Both in Japan in 15 years. In this company i was working as CTO, CEO, CMO And we have on-site 50s engineers and upshore 450 So that's what I was working but later on I was in charge of marketing and sales
+
+[Nazmul / alam.nazmul] 16:37:43
+So I don't keep in touch with this engineering team from 2019.
+
+[Nazmul / alam.nazmul] 16:37:50
+And that's one of the reason I joined this company and start doing the hands-on coding again in 2023.
+
+[Nazmul / alam.nazmul] 16:38:00
+So before that i was working in one of the company for four years. This company has HRS solution. I developed it from the scratch So that's my experience in HRS. But this is Bangladesh company And I have experience to develop like a generic HRS solution, mostly focusing on garments manufacturing
+
+[Nazmul / alam.nazmul] 16:38:22
+And it also has a payroll. It also has a garment manufacturing product management system So I was working in that company for four years. Before that, I started my career in this UK-based company. I started as a trainee then
+
+[Nazmul / alam.nazmul] 16:38:39
+Software engineer and then finally assistant project manager before joining this company
+
+[Trance] 16:38:45
+Yeah, you have a history
+
+[Nazmul / alam.nazmul] 16:38:48
+Not very big just one two three and this is just Great.
+
+[Trance] 16:38:55
+Why the amnemo is so short?
+
+[Nazmul / alam.nazmul] 16:39:00
+This one. This one is actually IoT company. It's also Japan-based company. You can get this company link from my kibal updates Yeah, that's a very interesting company. I just want to do the hands-on coding in node.js java or ExpressJS
+
+[Trance] 16:39:01
+Yes.
+
+[Trance] 16:39:13
+Yes.
+
+[Nazmul / alam.nazmul] 16:39:23
+And I also would like to utilize the AWS cloud services So we had the product in Java. They were using some Kotlin and Java based framework but we migrate it from Java to Node.js xp.js
+
+[Nazmul / alam.nazmul] 16:39:41
+Lambda to minimize the cost and minimize the cost to make it a little faster.
+
+[Nazmul / alam.nazmul] 16:39:48
+So yeah, that hands on things I had the experience in this company Because I was working in this position, COO, CMO for more than four or five years and i i felt like I don't want to do it anymore. I want to do coding things again. So that's why I wanted to join Company.
+
+[Trance] 16:39:48
+No.
+
+[Trance] 16:40:09
+Oh, I see. Yes. Yes. Yeah.
+
+[Nazmul / alam.nazmul] 16:40:13
+Yeah, I started in this company also to do the hands-on thing but now I don't get any any chance anytime to do the hands-on coding things at all.
+
+[Nazmul / alam.nazmul] 16:40:23
+Initially, I started reviewing the source code of uh ta when someone submitted but now it is very difficult because of many people are submitting source code.
+
+[Trance] 16:40:35
+Yes. You're a CTO Yeah, what do you think about the cook base of the TA
+
+[Nazmul / alam.nazmul] 16:40:47
+The code base up to, as I maybe mentioned in several places, they have many legacy code and many God bless God. And the problem is no one knows about this code base properly so in case of something goes wrong
+
+[Trance] 16:40:55
+Yeah.
+
+[Nazmul / alam.nazmul] 16:41:05
+Then we'll be in trouble.
+
+[Trance] 16:41:07
+Yeah, I'm very worried about that. That's one of my concerns. We have redundant code and Yeah. And like.
+
+[Nazmul / alam.nazmul] 16:41:17
+Yeah, I always talk about that thing whenever I get chance but yeah We cannot stop the current service, but we need to improve the situation in future.
+
+[Trance] 16:41:31
+Yes, yes. I think that we do it step by step yeah I understand the history of our cook base yeah We came from the payroll application and then We have a feature and then we have a feature We bring out a feature
+
+[Nazmul / alam.nazmul] 16:41:31
+Cool.
+
+[Trance] 16:41:57
+Into application, the TA application but Yes. And so many people come join in the project, but they don't have Ruby and Ruby Andrea background And yeah, so… I'm wondering why we don't have like some like code review sets and things like that to improve the qualities
+
+[Nazmul / alam.nazmul] 16:42:10
+Yeah.
+
+[Trance] 16:42:23
+The performance i sometimes i sometimes i sometimes i I found, like many write to the database but they don't graph it into a transaction is very like It's dangerous in terms of that data integrity and I think I found some like
+
+[Trance] 16:42:45
+Some code that is never reached there we try to mock them.
+
+[Trance] 16:42:52
+The taste to like cover the Sunakyu coverage. That doesn't make sense to me.
+
+[Nazmul / alam.nazmul] 16:42:57
+Yeah.
+
+[Trance] 16:43:01
+I'm a little bit worried about that. I'm trying to do the court review as much as I can every day.
+
+[Trance] 16:43:09
+I hope that I cannot change what we have done but
+
+[Nazmul / alam.nazmul] 16:43:14
+So the problem we have is that we cannot change the code because If we take it, we have to take the full responsibility that this code will be working perfectly In case of market issue happens, so it will be very disaster situation.
+
+[Trance] 16:43:19
+Yeah.
+
+[Trance] 16:43:26
+Yes.
+
+[Trance] 16:43:31
+Yes. So what I'm doing now is… for new like new object, new services I would like i would um like suggests.
+
+[Trance] 16:43:45
+But to like, we try to make it extensible so We don't cut into the own code base if it's a new feature like extend the the the current code Yeah, we add uh more functionalities and we unit test the only chance instead of only
+
+[Trance] 16:44:09
+Modify the current code base here Yeah, that's what I'm thinking now, yeah.
+
+[Nazmul / alam.nazmul] 16:44:16
+Okay, so let me… put the things which is in my mind about our meeting purpose so that you can align regularly on those purpose.
+
+[Nazmul / alam.nazmul] 16:44:33
+So first of all we have our roadmap item and we are developing projects based on the PDM site defined roadmap.
+
+[Nazmul / alam.nazmul] 16:44:44
+So… we call it roadmap Development.
+
+[Nazmul / alam.nazmul] 16:44:52
+And daily basis in the morning we hear uh the progress so I don't want to in our one-one meeting, I don't want to hear the progress But I want to hear that if there is any problem in this roadmap development
+
+[Nazmul / alam.nazmul] 16:45:13
+On ongoing roadmap developments. Problems and problems and problems Improvement.
+
+[Nazmul / alam.nazmul] 16:45:23
+Points on that considering that problem so that's what i want to discuss in our regular basis meeting.
+
+[Nazmul / alam.nazmul] 16:45:31
+So for example, in this week if you see this this problem And if you need my support to overcome this problem, I would like to hear that.
+
+[Nazmul / alam.nazmul] 16:45:42
+This is one thing and in case of already some problem happen and you sort out this problem I would like to hear that this problem happened and you sort out this problem more technically considering this roadmap development point of view.
+
+[Nazmul / alam.nazmul] 16:45:59
+That to our number. Yes, sir.
+
+[Trance] 16:46:00
+Oh. Yeah.
+
+[Trance] 16:46:03
+Yes, so. The roadmap development.
+
+[Trance] 16:46:09
+Yes. I've seen that we can start with the uh current situation we What I'm doing is I'm trying to review the code base asset the the the PR of the others members As I mentioned, and I think that we should have like a baseline
+
+[Nazmul / alam.nazmul] 16:46:34
+And…
+
+[Trance] 16:46:35
+Like the the Firstly, the code convention we we turn off many to Bakov's rules.
+
+[Trance] 16:46:47
+I understand that if we turn them on Like we have a lot of on sundoku But we have to think about improving them.
+
+[Nazmul / alam.nazmul] 16:46:53
+Build a jungle.
+
+[Trance] 16:47:01
+And then we we should like in terms of the testing i think that we should we should reduce the the mocking test like we we fake the data to pass the test it's not a good idea
+
+[Nazmul / alam.nazmul] 16:47:17
+Yeah, negative way we need to think.
+
+[Trance] 16:47:21
+And if we can… applied integration tests.
+
+[Trance] 16:47:27
+Is we like mitigate the risks. And… And it's like reduced the the error or the hidden impact Yeah.
+
+[Trance] 16:47:42
+That's what I'm thinking right now and for the data we don't we I think that we use like a we have like a data batch right for to like you know to fix the data but um I'm wondering why we don't use something like data migration team or
+
+[Trance] 16:48:11
+Strong migration strong migration, they protect the migration like When we add one more column we have to step to do that.
+
+[Trance] 16:48:22
+We have to make sure that the index were index turn off before we fill in the data turn on back after we finish them I think that we should have some something like that in for the data migration. Yeah.
+
+[Trance] 16:48:40
+Things like that yeah
+
+[Nazmul / alam.nazmul] 16:48:45
+So trends if we discuss like that way it will be just disappear between you and me.
+
+[Nazmul / alam.nazmul] 16:48:52
+And no action will be taken. But to make it more accurate action, what I want to do is that I want to follow up like regular basis with some task like list down all the problem problems related to the code base this is one thing and then find out
+
+[Nazmul / alam.nazmul] 16:49:14
+Or proposed solution of the problems.
+
+[Nazmul / alam.nazmul] 16:49:19
+I identified in the court base.
+
+[Nazmul / alam.nazmul] 16:49:23
+And then discuss this thing in the in our sync meeting with nas and implement this not only your team but also as a total TA team.
+
+[Nazmul / alam.nazmul] 16:49:37
+To follow the same solution to improve this code-based related problem.
+
+[Nazmul / alam.nazmul] 16:49:44
+So I put this in our this is our note right inside the calendar you can see this note. I put these two things with you So let's discuss when you finalize this code base in the next week Let's discuss again that document base and then we can understand
+
+[Trance] 16:49:50
+Yes.
+
+[Nazmul / alam.nazmul] 16:50:06
+Clearly what problem we are talking about.
+
+[Trance] 16:50:12
+Oh, yes. So we will discuss on this action item next uh in the next one-on-one.
+
+[Nazmul / alam.nazmul] 16:50:13
+Okay.
+
+[Nazmul / alam.nazmul] 16:50:21
+Yeah, in the next one one so currently we are discussing like barbarly. So verbal discussion will be eventually will be disappear So let's list down in a document that these are the code-based related problem you could see in DA.
+
+[Trance] 16:50:31
+Yeah.
+
+[Nazmul / alam.nazmul] 16:50:40
+And maybe you can prepare one Excel file or you can create one Jira board and put all this task in that Jira board that these are the problem you you could see in the code base And time to time maybe we will add some more in that jira board or excel file
+
+[Nazmul / alam.nazmul] 16:50:59
+Then we will discuss one by one that how we solve this code-based problem.
+
+[Nazmul / alam.nazmul] 16:51:06
+Then…
+
+[Trance] 16:51:06
+Yeah, everything at once or some for next week and some for another week.
+
+[Nazmul / alam.nazmul] 16:51:12
+Yeah, gradually we will Yeah, we cannot do it.
+
+[Trance] 16:51:13
+Week. Yeah, right.
+
+[Nazmul / alam.nazmul] 16:51:19
+Immediately maybe time to time something will come and we will put in the in the in that Excel file or something somewhere And we will discuss in this meeting In this TSYNC meeting with you recharge and us that these are the code base related problem
+
+[Nazmul / alam.nazmul] 16:51:39
+We could see and we would like to see share with all so everyone has code base related problem put it there and then push some solution what kind of solution we are thinking Then do it as a whole.
+
+[Trance] 16:51:53
+Yes.
+
+[Nazmul / alam.nazmul] 16:51:55
+Not for only your team, but for all the teams.
+
+[Trance] 16:52:01
+Yes, I'm making it, yeah. Yes, I will update you.
+
+[Trance] 16:52:08
+Next week uh yeah
+
+[Nazmul / alam.nazmul] 16:52:12
+And other than this roadmap development thing so i also would like to discuss about some ad hoc basis thing maybe time to time Like I'm asking most of the thing currently to nurse In our TA course Slack channel So…
+
+[Nazmul / alam.nazmul] 16:52:35
+You can see my slack.
+
+[Trance] 16:52:38
+Yes.
+
+[Nazmul / alam.nazmul] 16:52:40
+Slack is also visible.
+
+[Trance] 16:52:42
+Yeah, how would you… How can you keep track of all this information yeah It's too much.
+
+[Nazmul / alam.nazmul] 16:52:51
+No, not too much. So for example so this is one thing I just shared and shared in the channel this is directly i ask nas to approve the them I don't know i didn't take that if he already approved it
+
+[Nazmul / alam.nazmul] 16:53:08
+Okay, he approved it. That's good. So then this is also i ask a three parser I ask who is doing what.
+
+[Nazmul / alam.nazmul] 16:53:18
+So sometime I just ask nas Please confirm this.
+
+[Nazmul / alam.nazmul] 16:53:23
+So maybe something I am going to ask also you uh when you are However, about the full process maybe something like I think you don't know this Excel file, right?
+
+[Trance] 16:53:39
+I saw this sometime, but… we understand what is it you've used for And…
+
+[Nazmul / alam.nazmul] 16:53:43
+You don't know.
+
+[Nazmul / alam.nazmul] 16:53:49
+Yeah. Okay, so let me… cover this topic in the next meeting including not only you, I think it's the same thing need to share with the Richard.
+
+[Trance] 16:54:23
+Oh, by the way, for your concern about the plan, the upgrade plan for Ruby and Ruby and Rails, Gannet team is working on it. Let me… share you a migraine.
+
+[Trance] 16:54:38
+My graph plant. This one is… just initial plan here Yeah. Yes.
+
+[Nazmul / alam.nazmul] 16:54:46
+This one. Yeah, I have no problem with this plan. The only thing I wanted to It's taking too much time.
+
+[Trance] 16:54:50
+So…
+
+[Trance] 16:54:56
+Yes.
+
+[Trance] 16:55:02
+Tumors 10. Yeah.
+
+[Nazmul / alam.nazmul] 16:55:04
+I mean, yeah, not here So I started this This topic discussion with Nas, I think one year one month back one month back and i didn't see this chart before So my point is my point is someone should update me that this is the plan ongoing for ruby
+
+[Nazmul / alam.nazmul] 16:55:38
+Version upgrade or node.js version upgrade something like that So that was actually i i was expecting you know there is one topic here i mentioned I couldn't be able to discuss Yeah, this is EOL management.
+
+[Nazmul / alam.nazmul] 16:55:59
+This is not only for Ruby, Rail, Node.js, maybe some other other components gems might be theirs which also are subject to have EOL.
+
+[Nazmul / alam.nazmul] 16:56:13
+And I want to understand which gym or with… Packers are close to EOL and then take corrective action So this is one task. I want to assign someone I would like to see what's the progress.
+
+[Nazmul / alam.nazmul] 16:56:33
+This is not a Jira-based task but some Excel file, something is needed to understand overall all packages we are using we have back.json right we can see that all the packages from there
+
+[Trance] 16:56:34
+Yeah.
+
+[Trance] 16:56:45
+So…
+
+[Trance] 16:56:51
+Oh. So can you go back to the the expressive file that I made.
+
+[Trance] 16:56:59
+Yeah, can you go down to another seat? I tried to it's kind of in the at the bottom yeah I'm trying to list the chains and the chains And the dependency in the order for ruby and for rails is it what you're looking for?
+
+[Nazmul / alam.nazmul] 16:58:15
+This one.
+
+[Nazmul / alam.nazmul] 16:58:33
+What happened with all the pediatric?
+
+[Trance] 16:58:43
+Can I ask you one question?
+
+[Nazmul / alam.nazmul] 16:58:47
+Yeah, please.
+
+[Trance] 16:58:49
+Yes, you mentioned that it take too long. What do you mean the my schedule or something?
+
+[Trance] 16:58:59
+I want to understand so I can adjust the schedule Yes.
+
+[Nazmul / alam.nazmul] 16:59:06
+So what I wanted to say is this schedule is fine with me.
+
+[Trance] 16:59:12
+Yes.
+
+[Nazmul / alam.nazmul] 16:59:12
+But the problem is the problem is I ask this Ruby upgrade.
+
+[Nazmul / alam.nazmul] 16:59:19
+Maybe one month ago to NAS. One are…
+
+[Trance] 16:59:24
+Oh, um. Actually um I not share with me.
+
+[Trance] 16:59:31
+The week before the week before the week in the middle of the spring 113 Yes, aspirin.
+
+[Nazmul / alam.nazmul] 16:59:39
+Mm-hmm. Yeah, I understand. So that actually the slow thing I was talking about.
+
+[Trance] 16:59:43
+I'm
+
+[Trance] 16:59:48
+Yeah, last spring and last spring And because that, we are in progress of the 113 so i I could not like… allocated a resource for another task coming and ruby is a is operating is required many is required work so i
+
+[Trance] 17:00:10
+I prepare something. I prepared the the document like this document like this And we start from this sprint.
+
+[Trance] 17:00:19
+But actually, I heard about that in like Last week? Yeah.
+
+[Nazmul / alam.nazmul] 17:00:28
+So…
+
+[Trance] 17:00:28
+Sometime last week, yeah. I don't know. I don't remember exactly which day i I heard about that.
+
+[Trance] 17:00:37
+Because it's in the middle of the spring i want I wanted the Gannett team to complete the their current sprint before we can start with the upgrade ruby so We start with this one this week i mean this spring
+
+[Trance] 17:00:57
+Okay. Yes, I see.
+
+[Nazmul / alam.nazmul] 17:00:57
+Can you see my skin? Yeah, this is a attendance package.json file And from this package.json file we can understand what module we are using. For example, Node.js module we are using Not JS Webpack. And then there are some other
+
+[Nazmul / alam.nazmul] 17:01:19
+Packages maybe we are using so this is
+
+[Trance] 17:01:23
+This is a backend JSON, yes.
+
+[Nazmul / alam.nazmul] 17:01:26
+Yeah, this is a Vue.js we are using BUGS and then tsconfig we are using And… you can see there are many dependencies are there, right?
+
+[Trance] 17:01:32
+Yes.
+
+[Trance] 17:01:43
+Yes, I believe that TI also have this one.
+
+[Nazmul / alam.nazmul] 17:01:44
+So… Yeah, every project actually has this one.
+
+[Trance] 17:01:51
+Yes.
+
+[Nazmul / alam.nazmul] 17:01:51
+So my point is, for example. This component yeah this dependent file This one is current this version is it close to EOL or when is the EOL of this version?
+
+[Trance] 17:02:09
+Url of this version.
+
+[Nazmul / alam.nazmul] 17:02:14
+For example, this is Well, this is BUJS.
+
+[Trance] 17:02:19
+Yes. Yes.
+
+[Nazmul / alam.nazmul] 17:02:19
+View compiler right And this question is T512.
+
+[Trance] 17:02:24
+Oh, you mean the fixed version, right?
+
+[Nazmul / alam.nazmul] 17:02:27
+Not fixed version. So EO end up life of View.
+
+[Trance] 17:02:32
+Oh, I see, see. Me.
+
+[Nazmul / alam.nazmul] 17:02:37
+End up life of bill so end up life of view is information is here.
+
+[Nazmul / alam.nazmul] 17:02:45
+So my point is this 3.5.12 is it end up close to end up live or not
+
+[Trance] 17:02:54
+Oh, you want to list out
+
+[Nazmul / alam.nazmul] 17:02:56
+I want to list out all these dependent component mentioned here.
+
+[Trance] 17:03:03
+Yes.
+
+[Nazmul / alam.nazmul] 17:03:03
+The corresponding end up life information. So that what i mean here. I also would like to see the other packages EOL situation.
+
+[Trance] 17:03:17
+Oh, I see. I see. Yeah.
+
+[Nazmul / alam.nazmul] 17:03:20
+That actually what I want to have.
+
+[Trance] 17:03:24
+Oh, I see. Let me knock down. Yeah.
+
+[Nazmul / alam.nazmul] 17:03:27
+So that's not only what you are listing here.
+
+[Nazmul / alam.nazmul] 17:03:33
+You are listening here only the dependent thing we dependent which is related with the ruby right Yeah, of course, this is important. This is important to upgrade but that is not what is my point. My point is all the dependents
+
+[Trance] 17:03:34
+But…
+
+[Trance] 17:03:40
+Yes.
+
+[Nazmul / alam.nazmul] 17:03:49
+Dependent package as we are using for example this is These are using rel euge 5.2.8.
+
+[Nazmul / alam.nazmul] 17:03:57
+Are we close to end up life of rail UJS or not? I don't know.
+
+[Nazmul / alam.nazmul] 17:04:05
+There are many of these kind of packages we are using. So I would like to take initiative by someone to list down all the packages.
+
+[Trance] 17:04:06
+Yeah.
+
+[Nazmul / alam.nazmul] 17:04:15
+Mentioned here and then put the EOL information somewhere
+
+[Trance] 17:04:21
+Yes, when we finish, can you go back to my spreadsheet? When we finish?
+
+[Trance] 17:04:28
+We will list down you should see them in the grail change dependency Yes, we should list down all of them here.
+
+[Trance] 17:04:40
+We are not or even i can make another I can make another like a shift to keep the information separately if if you think is necessary.
+
+[Trance] 17:04:53
+But yes. This one is supposed to keep those information yeah
+
+[Nazmul / alam.nazmul] 17:05:00
+Yeah samara i i would like to say that this information like all the packages we are using in our code base and then all these packages current version and the evol target timeline
+
+[Trance] 17:05:07
+I see.
+
+[Trance] 17:05:16
+I'm sorry, Tam Light. Can you say again timeline Yes. Okay, I update the timeline.
+
+[Nazmul / alam.nazmul] 17:05:19
+P O L. E-o-l.
+
+[Nazmul / alam.nazmul] 17:05:27
+For example, Ruby E-O-L.
+
+[Nazmul / alam.nazmul] 17:05:33
+Information
+
+[Trance] 17:05:36
+Yes. The second one, the second one.
+
+[Nazmul / alam.nazmul] 17:05:38
+And…
+
+[Trance] 17:05:40
+And the fourth one forward will be on real soon.
+
+[Nazmul / alam.nazmul] 17:05:43
+So I want to see that we are using, for example, 3.1 and then there is there should be one place where I can see that 3.1 will be one expired or end by 31st of march So then if we up get 3.
+
+[Nazmul / alam.nazmul] 17:06:06
+It will be end up life will be 31st of Next year, March next year. But if we use 3.4 we are going to have Until 2028.
+
+[Nazmul / alam.nazmul] 17:06:19
+If I look at your excel file So something, some timeline is needed that okay so currently we are going to use this version But this version end up life is this.
+
+[Trance] 17:06:31
+Oh, I see. Yes.
+
+[Nazmul / alam.nazmul] 17:06:33
+So that before that someone can take initiative to upgrade that package It's not only the Ruby dependent package It's actually all the packages we are using package.json file.
+
+[Trance] 17:06:39
+Yes, I see.
+
+[Trance] 17:06:50
+Yes, I see. Yes, let me discuss with the team to see.
+
+[Nazmul / alam.nazmul] 17:06:57
+For example, this is a very important package, right? But we need to monitor whether this package is going to be end up live this version or not.
+
+[Nazmul / alam.nazmul] 17:07:07
+Buddhistap is another important package. And we are using 5.3.3. When is the end of life of bootstrap of this version? I don't know.
+
+[Trance] 17:07:19
+Yes.
+
+[Nazmul / alam.nazmul] 17:07:19
+So if I look at one place, for example, for example for here i can see that okay these are the packages i am using in my in my product and in these packages this is the end of life situation of this package
+
+[Trance] 17:07:37
+Yes. Yes.
+
+[Nazmul / alam.nazmul] 17:07:39
+So currently, we are blindly depends on someone else In Maniford will tell that, okay, you are having problem And then we are fixing it.
+
+[Trance] 17:07:50
+Yes.
+
+[Nazmul / alam.nazmul] 17:07:50
+Same like Node.js or Ruby. So I was told by someone else and then I told to Nas.
+
+[Nazmul / alam.nazmul] 17:07:58
+At NASA, we have this problem. And then we are fixing it. But before that, if we have this Excel file in place we can understand easily that, okay, this package is going to be And by this time so we need to take some action
+
+[Nazmul / alam.nazmul] 17:08:15
+Before that. Does it make sense?
+
+[Trance] 17:08:17
+Yes, I see. I note it down. Yes, this makes sense to me.
+
+[Trance] 17:08:24
+By the way, I have one question, please. Regarding the end of life We plan to upgrade to Ruby 3.3.8.
+
+[Trance] 17:08:37
+Is it okay or do you have a version for me or
+
+[Nazmul / alam.nazmul] 17:08:39
+Okay.
+
+[Nazmul / alam.nazmul] 17:08:43
+Yeah, so the target is if we can go up until 3.4 point t it is it is the best but at this moment currently if we go for 3.3.8 we have a time until 2017 2027 march So that is good enough time to take next level.
+
+[Trance] 17:09:05
+So you mean the target is 3.4, right?
+
+[Nazmul / alam.nazmul] 17:09:10
+Uh… Best practice is 3.4, but if we go for 2.3.8, I am okay
+
+[Trance] 17:09:20
+Yeah. Yeah, but I have to think about the results.
+
+[Nazmul / alam.nazmul] 17:09:25
+So you need to think about what kind of modification you need to make if you would like to go for 3.4.3.
+
+[Trance] 17:09:27
+I'm afraid of.
+
+[Trance] 17:09:34
+Yes, I will add it like uh nice to have. Is it okay for 3%?
+
+[Nazmul / alam.nazmul] 17:09:39
+Yeah, sure. So I'm not taking any, I'm not giving any pressure at this moment, but I'm asking that One thing is past Rube Vashon 3.1 is end up life already And in money forward, we already have some incident because of Ruby Vashram.
+
+[Nazmul / alam.nazmul] 17:09:58
+So I asked Kernas to immediately upgrade to 3. Something, 2.
+
+[Nazmul / alam.nazmul] 17:10:05
+That was a long back. Long back means one month. But no one took two proper action even though in manipad we had problem incident
+
+[Trance] 17:10:18
+Yeah, I think so. Yeah.
+
+[Nazmul / alam.nazmul] 17:10:20
+So this is my first thing i i was expecting but no one take immediate action Second thing is uh like i want to see all the dependent all the packages end of life information in our product.
+
+[Trance] 17:10:38
+Yes, I see. Yeah, I'm trying my best to peel it into the spicy soil you can soil You can see if you want me to list out in a specific document, let me know.
+
+[Nazmul / alam.nazmul] 17:10:40
+And…
+
+[Nazmul / alam.nazmul] 17:10:47
+Okay.
+
+[Nazmul / alam.nazmul] 17:10:53
+You can list down there that is okay. I just want to have this data somewhere.
+
+[Nazmul / alam.nazmul] 17:10:59
+And it's only you if you want to do it, it's okay but I know it will take time. There are many packages we are using, right?
+
+[Trance] 17:11:09
+Yes, it will take time, but But we can do that, yeah.
+
+[Nazmul / alam.nazmul] 17:11:14
+Okay. Okay. It's fine.
+
+[Trance] 17:11:16
+One more thing about the rail the rail version. We plan to upgrade to uh Seven point.
+
+[Trance] 17:11:28
+Just want to make sure we are in the same page.
+
+[Trance] 17:11:33
+I think that we will upgrade to 7.2.1 because it's the last version of the last version up well seven if we… upgrade to 8 point.
+
+[Trance] 17:11:49
+Is a big change. We have to prepare some prepare time for the peak season. Is it okay upgrade to 7.2.
+
+[Nazmul / alam.nazmul] 17:11:51
+Yeah, it's a bit jet.
+
+[Nazmul / alam.nazmul] 17:12:00
+It's okay but please remember that 7.2.2.1 will be end by August. August.
+
+[Trance] 17:12:08
+Yes.
+
+[Trance] 17:12:12
+But the security uh the security
+
+[Nazmul / alam.nazmul] 17:12:14
+Yeah, security support will continue next year. So that is okay but active support from the yeah maybe there will be no upgrade.
+
+[Trance] 17:12:22
+Yeah, I don't want to take risks because the peak season is it's just a few few months after
+
+[Nazmul / alam.nazmul] 17:12:27
+Hmm. Yeah, I understand. So it's okay. But in that case, next year, maybe we need to again think about the rail version upgrade.
+
+[Nazmul / alam.nazmul] 17:12:36
+Next year or maybe next year must.
+
+[Trance] 17:12:39
+Yes, I think so.
+
+[Nazmul / alam.nazmul] 17:12:42
+So that's why. You can go for 7.2.
+
+[Nazmul / alam.nazmul] 17:12:48
+But to put this information somewhere that currently we are doing 7.2 but if this end of life is 2026 august
+
+[Trance] 17:13:00
+Yes, I will. One last thing about the plan. Is it okay for you?
+
+[Nazmul / alam.nazmul] 17:13:02
+Okay.
+
+[Trance] 17:13:08
+The blend is like it's my grab plan. I haven't had a chance to to discuss deeply with The QA team, I just blame to like to start the testing
+
+[Nazmul / alam.nazmul] 17:13:20
+I need to take more and honestly speaking. So, yeah. Maybe it's better to discuss together with phonics and us Because we need the Kiwa support.
+
+[Trance] 17:13:28
+Yes. Yes.
+
+[Nazmul / alam.nazmul] 17:13:31
+As it is a major upgrade.
+
+[Trance] 17:13:34
+Yes. So the plan can be changed. Just one.
+
+[Nazmul / alam.nazmul] 17:13:38
+The plan can be changed based on the phonics and the NAS opinion. So I think it's better to arrange one meeting to review the plan Okay, then?
+
+[Trance] 17:13:43
+Yes.
+
+[Trance] 17:13:48
+Yes. Yes, we will review together.
+
+[Trance] 17:13:52
+But I just want to let you know ahead that This is not a fixed change. It's a fixed plan yeah
+
+[Nazmul / alam.nazmul] 17:13:52
+Okay.
+
+[Nazmul / alam.nazmul] 17:14:00
+Yeah, it's okay you can be yeah you know it's already in the life so far no problem so i i'm not worried but it need to be the person need to be upgraded before the peak season. So I'm not sure if peak season after the during the peak season if there is some problem happen or not
+
+[Nazmul / alam.nazmul] 17:14:17
+Because of this old version or not. Now that's my concern. So before the peak season, it must be updated.
+
+[Trance] 17:14:24
+Yes, I see.
+
+[Nazmul / alam.nazmul] 17:14:25
+Before september so that's my only request.
+
+[Trance] 17:14:29
+Before december yeah before september for october
+
+[Nazmul / alam.nazmul] 17:14:31
+Before… before actually october
+
+[Trance] 17:14:37
+But it won't take longer than June. I'm actually different. Yeah.
+
+[Trance] 17:14:44
+Yeah. Yeah.
+
+[Nazmul / alam.nazmul] 17:14:45
+Okay, then. Okay, thank you, Chance. Thank you for your time.
+
+[Trance] 17:14:51
+Thank you. Thank you. Yes, I wish.
+
+[Nazmul / alam.nazmul] 17:14:52
+Yeah, let's discuss again next week. That's one thing. So please put this kind of topic to discuss in our not file meeting notes file so that I can be prepared in advance that I am going to discuss this topic with chance this time.
+
+[Nazmul / alam.nazmul] 17:15:12
+Maybe for example in your mind, you would like to discuss about the Ruby version upgrade plan or rail version update plan So then just to put that this is the topic you would like to discuss Yes, in our 111 note.
+
+[Trance] 17:15:12
+Yes, sir.
+
+[Trance] 17:15:25
+In our one-on-one right Not yet.
+
+[Trance] 17:15:31
+I got it.
+
+[Nazmul / alam.nazmul] 17:15:32
+The one I just created and I just put our information
+
+[Trance] 17:15:39
+Yes.
+
+[Nazmul / alam.nazmul] 17:15:42
+If you look at the meeting Shall I just have one more time?
+
+[Nazmul / alam.nazmul] 17:15:51
+Can you see my skin? So this is our meeting, right?
+
+[Trance] 17:15:53
+Yes.
+
+[Nazmul / alam.nazmul] 17:15:57
+In inside our meeting you can see this note file.
+
+[Trance] 17:16:02
+Yes.
+
+[Nazmul / alam.nazmul] 17:16:03
+And this not file is actually this one. What I mentioned here.
+
+[Trance] 17:16:07
+Yes, I will fill in here uh what i That's the day.
+
+[Nazmul / alam.nazmul] 17:16:12
+You will put the something here so this is next week Next trick target discussion point But I think next week you are already in vacation.
+
+[Trance] 17:16:16
+Next week, yeah.
+
+[Nazmul / alam.nazmul] 17:16:23
+Not vacation company trip.
+
+[Trance] 17:16:27
+Yes, I'm afraid so. I'm afraid so. Yeah. We…
+
+[Nazmul / alam.nazmul] 17:16:29
+Yeah, so maybe next week I will cancel the meeting. So next, next week maybe
+
+[Trance] 17:16:36
+Yes, I'm afraid so. Maybe.
+
+[Nazmul / alam.nazmul] 17:16:40
+Okay, let's discuss someday in next week
+

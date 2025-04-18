@@ -1,3 +1,6 @@
+## 2025-04-18
+- Add EOL of every package to the `package.json` file and `Gemfile`
+
 ## 2025-04-02
 - complex implementation process: multiple test envs (heroku), reset branches, no unique development branch
 
