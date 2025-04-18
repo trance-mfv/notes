@@ -1,0 +1,534 @@
+[Nas] 14:33:37
+Respect.
+
+[Nazmul / alam.nazmul] 14:34:13
+Okay, so let's start.
+
+[Nas] 14:34:16
+Yeah, I think we can. Richard will join the room now.
+
+[Nas] 14:34:23
+Okay. For me, I just…
+
+[Nas] 14:34:32
+Yeah, from my side, I have…
+
+[Nazmul / alam.nazmul] 14:34:37
+Can you help everyone? Didn't check it, but let's review No.
+
+[Nas] 14:34:41
+Yeah. Yeah.
+
+[Nas] 14:34:47
+Yeah, absolutely. I just would uh Plus, we discussed in… Last meeting, I will boost the document quality for him.
+
+[Nas] 14:34:58
+And I just invoiced some some of the detail for the event or some of the detail on the result.
+
+[Nas] 14:35:11
+Yeah. Yeah, okay.
+
+[Nazmul / alam.nazmul] 14:35:12
+The details a little bit. Give me one minute.
+
+[Nas] 14:35:19
+Okay.
+
+[Nazmul / alam.nazmul] 14:35:19
+Document quality and then event March improved the quality.
+
+[Nazmul / alam.nazmul] 14:36:00
+I think… I'm not sure we didn't discuss about this activity about the documentation but one of the challenges is This is a common in engineering side like we don't want to create document.
+
+[Nazmul / alam.nazmul] 14:36:19
+That's kind of common. No one actually can you hear me clearly?
+
+[Nas] 14:36:25
+Yes.
+
+[Nazmul / alam.nazmul] 14:36:27
+No one actually would like to take the ownership of documentation and Even we create the document, the document is not very much good from presentation skill or documentation point of view, that's one of the challenges.
+
+[Nazmul / alam.nazmul] 14:36:43
+Usually we face in engineering side in the communication Did you face this kind of challenges when you think about the documentation so far?
+
+[Nas] 14:36:56
+Hmm. So it means we want to have the action to improve for how we can write a good document right
+
+[Nazmul / alam.nazmul] 14:37:06
+Yes, that's one of that's challenges with that action.
+
+[Nas] 14:37:13
+Hmm.
+
+[Nazmul / alam.nazmul] 14:37:16
+And another challenge is another challenge you know that phonics created one document about the functional diagram or something functional overall functional integration diagram something But the point is always document we need to maintain so that's another challenge.
+
+[Nazmul / alam.nazmul] 14:37:39
+Yeah, some of the document is gradually changing over time and the important is who is the PIC?
+
+[Nazmul / alam.nazmul] 14:37:48
+To manage that maintain the document. And keep it up to mark.
+
+[Nazmul / alam.nazmul] 14:37:54
+I think you face challenges when many new members joined in TA.
+
+[Nas] 14:37:54
+Hmm.
+
+[Nazmul / alam.nazmul] 14:38:00
+I faced this challenge in 18. When I provided some of the document.
+
+[Nazmul / alam.nazmul] 14:38:06
+And… I found out that those document is not recent.
+
+[Nazmul / alam.nazmul] 14:38:13
+There are some problem like yeah for example they cannot create mfid following the in test server following the document mentioned in et So that means the document is there, but this document has not been up to date or no one
+
+[Nazmul / alam.nazmul] 14:38:29
+Was assigned as the PIC to maintain the document. So the if this challenge you face in TA also then that means we have to take action item like Whenever we get document there should be clearly mention who is going to maintain that document.
+
+[Nazmul / alam.nazmul] 14:38:54
+If that person left the company, he must hand over this responsibility to his successor.
+
+[Nas] 14:39:03
+Yeah, I get your point. That makes sense, yeah.
+
+[Nazmul / alam.nazmul] 14:39:07
+Otherwise, document will become garbage. After something and it's no meaning just we can say we have document but this document has no meaning.
+
+[Nas] 14:39:19
+Yeah. Hmm.
+
+[Nazmul / alam.nazmul] 14:39:21
+Yeah, that's my finding when I was doing this onboarding. So that's actually one of the reason we started this onboarding project.
+
+[Nazmul / alam.nazmul] 14:39:29
+I know many documents are there, but this document is honestly not up to mark. So when we review this document, then we'll find out that, okay, this is the document.
+
+[Nazmul / alam.nazmul] 14:39:39
+No PIC to maintain, not up too much. So that's actually one of the biggest challenges in documentation.
+
+[Nas] 14:39:46
+Yeah, yeah. Yeah, that's issue actually when when I'm onboarding yeah Yeah.
+
+[Nazmul / alam.nazmul] 14:39:56
+Just to put that as a one of the result of this and the challenges.
+
+[Nazmul / alam.nazmul] 14:40:00
+What challenges do you face in documentation? Document quality this is a part of document quality in fact
+
+[Nas] 14:40:04
+Okay.
+
+[Nas] 14:40:11
+Okay, I got one point. So maybe you need to change for this one.
+
+[Nas] 14:40:19
+Yeah.
+
+[Nazmul / alam.nazmul] 14:40:26
+So that's actually the reason I was happy when we selected the documentation quality is one of the thing we would like to considered as the capabilities so we we really as hrs whole We really need to improve our our disk capabilities.
+
+[Nazmul / alam.nazmul] 14:40:44
+I think every product division should consider these capabilities and improve somehow.
+
+[Nazmul / alam.nazmul] 14:40:52
+I face these challenges everywhere. Hrs. I don't know other money for I heard that ERP, the accounting class for example smb They are very much structured and well organized in documentation point of view.
+
+[Nas] 14:40:56
+Hmm.
+
+[Nas] 14:41:14
+I think that we should have someone like the library keeper we will we manage the overall documentations.
+
+[Nazmul / alam.nazmul] 14:41:20
+Right.
+
+[Nas] 14:41:27
+Any change will go through them. And they can like like they keep like they keep the library here The document update.
+
+[Nazmul / alam.nazmul] 14:41:37
+Come back.
+
+[Nas] 14:41:40
+Rubbolina.
+
+[Nas] 14:41:47
+Yeah, I think it's the the talent for this point is maybe who will be maintaining the document Because we have a lot of the document.
+
+[Nas] 14:41:59
+Yeah, we can keep difficult to keep on up to date.
+
+[Nazmul / alam.nazmul] 14:42:07
+Yeah, so one of the ISO 9001 standard is whenever you create a document you should put appendix or you should put document maintainer role and responsibility as the footer of this document. Last slide in the appendix. Who is the owner
+
+[Nazmul / alam.nazmul] 14:42:24
+To maintain this document. So that is kind of must when you create any document So if we would like to follow that style that is also okay so whenever we create document we need to put who is the author, who is the approval, and who is the maintainer.
+
+[Nas] 14:42:27
+Hmm.
+
+[Nazmul / alam.nazmul] 14:42:44
+So this tree role is kind of uh must be present in the document.
+
+[Nas] 14:42:52
+Yeah.
+
+[Nazmul / alam.nazmul] 14:42:52
+We have author we have approval in every document if you if you see in MABC document approved in architectural guild or or even in a CTO office, there are many documents, many approved documents right So you can see that who is the approver, who is the reviewer or who is the author of this document.
+
+[Nas] 14:43:09
+Hmm.
+
+[Nazmul / alam.nazmul] 14:43:15
+But one important thing who is the maintainer of this document that is i think as a whole in MABC is missing.
+
+[Nazmul / alam.nazmul] 14:43:25
+Usually it's a shame that author will be the maintainer, but that may not be true.
+
+[Nazmul / alam.nazmul] 14:43:30
+Author may not be the maintainer of this document.
+
+[Nas] 14:43:39
+Yeah, the author or approval or the reviewer is the it's okay we can… Yeah, but for the maintenance Yeah, if you go to a site for someone to… maintenance ladder.
+
+[Nazmul / alam.nazmul] 14:43:48
+Something, but…
+
+[Nazmul / alam.nazmul] 14:43:57
+Yeah, so that's why we need version control history in the document we put the Russian history in document and we put who is updating what?
+
+[Nazmul / alam.nazmul] 14:44:08
+So usually this maintainer should assume this responsibility to update the document time to time based on the situation.
+
+[Nas] 14:44:21
+Yeah.
+
+[Nazmul / alam.nazmul] 14:44:21
+That's not only for Tia. I'm actually discussing this in a higher level so that's true for all all the document management system in Money Forward.
+
+[Nas] 14:44:32
+Yeah, yeah, yeah.
+
+[Nazmul / alam.nazmul] 14:44:34
+We just get the document we have a good approval process uh shibiyasan our our bpoe approved this document architectural document or even Nakadasan or sometime even Sudan.
+
+[Nazmul / alam.nazmul] 14:44:46
+Have a look on the document when it has been created. But that's all. After creating the document, after one year, two years, what will happen with that document?
+
+[Nazmul / alam.nazmul] 14:44:55
+It's become just a garbage.
+
+[Nas] 14:44:58
+Yeah. Actually, when we use the clone is better for us to control the version For example, in TA, we have a lot of document uh regarded to the domain knowledge.
+
+[Nas] 14:45:17
+And actually accelerators still keep you open dump year by year.
+
+[Nas] 14:45:25
+But for the Google Doc, it's difficult to to maintain all because we just For the… And we cannot search in the Google Doc.
+
+[Nazmul / alam.nazmul] 14:45:43
+Exactly. So as a tense idea, so that's like one good idea.
+
+[Nas] 14:45:44
+Yeah.
+
+[Nazmul / alam.nazmul] 14:45:50
+One is, of course, as I mentioned that ISO format is included uh author or document maintainer information but another thing is they keep in one Excel file or something one place like Liberian index and we put that this document is there and this document
+
+[Nazmul / alam.nazmul] 14:46:09
+Yeah, all the document what we have. Could be in one place.
+
+[Nazmul / alam.nazmul] 14:46:14
+With some information like author approval and maintainer.
+
+[Nazmul / alam.nazmul] 14:46:21
+So this then we can see that okay these are the all the document related with ta and this document has been created by This person And this document has been approved by this person And these documents supposed to maintain by this person if this
+
+[Nazmul / alam.nazmul] 14:46:39
+Document has not been maintained then then we someone can easily ask that person that please update this document something has been changed.
+
+[Nazmul / alam.nazmul] 14:46:49
+So we don't have this system in place. So that's the challenge we have in the document quality. So if you really think that you'd like to improve this so improve that part. We created many documents honestly speaking. So in HRS,
+
+[Nazmul / alam.nazmul] 14:47:03
+We have many recommend, but most of the documents are not, no one is taken care of.
+
+[Nas] 14:47:10
+Hmm. Yeah.
+
+[Nazmul / alam.nazmul] 14:47:12
+Yeah especially as you said in the in the in the Google Dive.
+
+[Nazmul / alam.nazmul] 14:47:15
+In the Google data, we have many documents.
+
+[Nas] 14:47:18
+Yeah. And we just put it in the folder and yeah in some maybe in the next year we we will forgot it But…
+
+[Nazmul / alam.nazmul] 14:47:30
+Yeah, I really even forgot what the comments so far i have created in money forward so after maybe one year, two years, it will be just a garbage
+
+[Nas] 14:47:40
+Yeah.
+
+[Nazmul / alam.nazmul] 14:47:42
+So just to put these challenges that there are documents, but those documents is not up to date.
+
+[Nazmul / alam.nazmul] 14:47:49
+So that means we need to take action. How to update those documents.
+
+[Nas] 14:47:55
+But I think one probably we need to clarify is… I think Nost… All of the documents need to be maintained because some document we just do any one time and maybe we can… skip it, for example for a period and we don't need to keep it
+
+[Nas] 14:48:19
+Up to date yeah but for some document maybe the domain knowledge or the workflow from TA. Yeah, maybe we need to keep it uh to that Yeah.
+
+[Nazmul / alam.nazmul] 14:48:31
+Yeah.
+
+[Nas] 14:48:34
+Yeah, that's my point because if we want on the common need to be maintained and it be difficult but uh we just select Yeah, we see the document we need to maintain which one is not Yeah.
+
+[Nazmul / alam.nazmul] 14:48:50
+Exactly. So if we can, yeah, as now uh nasa is started gathering all the document in one file as an information for onboarding so that's one place we then nas can put check all the document one by one and if some document need to be updated
+
+[Nazmul / alam.nazmul] 14:49:11
+You can mark it down.
+
+[Nas] 14:49:14
+Okay.
+
+[Nazmul / alam.nazmul] 14:49:17
+And also, when newcomer, like Trent and some other member who joined recently we can ask them if they face any problem with any of the document just to mark it and then yeah taking some giving some effort as a whole as a team
+
+[Nazmul / alam.nazmul] 14:49:35
+We can update it in future. At this time.
+
+[Nazmul / alam.nazmul] 14:49:43
+Let's collect those information. I know that these challenges is there.
+
+[Nas] 14:49:43
+Yeah.
+
+[Nazmul / alam.nazmul] 14:49:47
+I face these challenges, AT face these challenges so i didn't check with the TAT members, newcomer but yeah i i believe that they also face these challenges so just ask them what challenges which areas they face this problem And then after identifying those documents, let's take some initiative to update those documents.
+
+[Nas] 14:50:08
+Okay.
+
+[Nazmul / alam.nazmul] 14:50:11
+So that's the challenges and that's the action plan we can think about to improve the documentation.
+
+[Nazmul / alam.nazmul] 14:50:17
+At least… domain knowledge related documentation is very much important. And then we can think about some other documentation quality.
+
+[Nas] 14:50:29
+Yeah, but currently in TA, we will write a domain knowledge document in the confluent So I think we need we still keep it in the confluent because if we move to the
+
+[Nazmul / alam.nazmul] 14:50:45
+No direction so far. So yeah, I cannot tell that we are going to move it.
+
+[Nazmul / alam.nazmul] 14:50:52
+Documentation place, stories remain the same as it is. So what we are focusing at this moment two areas let let me think again so one area is documentation quality. So for example, engineers team are not so well organized or well knowledgeable about the document quality itself so they don't want to write the document
+
+[Nazmul / alam.nazmul] 14:51:23
+And they hesitate to hesitate given write the document by himself. So we need to improve that area this is document itself a quality And another quality we'd like to improve is some of the document need maintenance And we face the challenges that we face the challenges that
+
+[Nazmul / alam.nazmul] 14:51:41
+Some of the documents are not up to date. We need to consider this as another improvement area for document quality point of view.
+
+[Nazmul / alam.nazmul] 14:51:52
+That's the two things we are discussing, right? Rightness
+
+[Nas] 14:51:57
+Yes.
+
+[Nazmul / alam.nazmul] 14:52:00
+And then later think more breakdown how we can improve these two challenges.
+
+[Nazmul / alam.nazmul] 14:52:04
+For example, to improve the documentation skill we may We may organize some documentation improvement session seminar in mvv discussing with Charlie. I don't know if it is possible or not. There are many documentation course online or even many presentation skill
+
+[Nazmul / alam.nazmul] 14:52:31
+I don't know, but if we think that this is one of the challenges we are facing.
+
+[Nazmul / alam.nazmul] 14:52:37
+Engineers are not so much capable to do the documentation then we need to think how we can improve this.
+
+[Nazmul / alam.nazmul] 14:52:43
+What's the action?
+
+[Nas] 14:52:46
+Hmm.
+
+[Nas] 14:52:52
+Okay. So I will… chin hollis.
+
+[Nas] 14:52:59
+Yeah.
+
+[Nazmul / alam.nazmul] 14:52:59
+Yeah, but I'm just talking by myself. So are you all agreeing on that or it just i am pushing that this is the problem this is the challenges and it seemed to like that
+
+[Nas] 14:53:14
+Yeah, actually, he's staying for Document it's a lot of challenging.
+
+[Nas] 14:53:21
+Yeah, from the engineer side, I actually don't want to puts more effort a lot a lot of effort in the document so Yeah, I just read now we have maybe uh So I'm telling Arnie.
+
+[Nas] 14:53:37
+Plus you know we need to list out on the document in one place The second will be the maintenance and the document.
+
+[Nas] 14:53:47
+Thus, maybe either. Documentation skill yeah
+
+[Nazmul / alam.nazmul] 14:53:53
+Maybe in documentation skill there are different type of documentation we need for example presentation skill is one of the documentation scale right design document is one of the documentation skill maybe just writing some investigation report is another kind of documentation skill.
+
+[Nas] 14:54:05
+Mm-hmm.
+
+[Nazmul / alam.nazmul] 14:54:18
+So we need to break down documentation skill which type of documentation scale our engineer should improve.
+
+[Nas] 14:54:28
+Yeah, that's simple.
+
+[Nazmul / alam.nazmul] 14:54:29
+I know everything is important, but we need to set the priority. For example, no need to focus on presentation skill for everyone, right?
+
+[Nas] 14:54:39
+Yeah.
+
+[Nazmul / alam.nazmul] 14:54:39
+But maybe we need to improve the design skill for everyone or analyze this report for everyone.
+
+[Nas] 14:54:47
+Yeah, for the impact ally and the technical equipment, two document uh important for the engine time so we need to Actually, for the report i think We read… important because all of the members need to report Yeah, but… Yeah, I don't know if because for the report we have a lot of kind of report for the daily report uh
+
+[Nas] 14:55:19
+Seminary for any or the incident report. First, for the technical document and impact analyze i think it's Yeah.
+
+[Nazmul / alam.nazmul] 14:55:33
+Yeah, so I just put like one is like one important thing for to improve the documentation skill is uh template and second strategy So strategy means how to write the document right For example, there are many strategies to write a good document one is five
+
+[Nazmul / alam.nazmul] 14:55:52
+001h. Whenever you write any document you need to think about a statement is a conveying a correct information or not.
+
+[Nazmul / alam.nazmul] 14:56:04
+This is just an example there are this kind of many way to to have to to consider good documentation. The important thing is important What kind of technical, not strategy technique we should use to to prepare a particular document.
+
+[Nazmul / alam.nazmul] 14:56:32
+Yeah. So maybe this is part of trading template we can we can do as we can HRSTA, but technique strategy this is part of training Madness, I think.
+
+[Nazmul / alam.nazmul] 14:56:48
+So this part i think uh we need to discuss also with charlie that's how organization has for example department one how they can help to improve this area.
+
+[Nas] 14:57:00
+Yeah. Actually, I already joined one session for Teppan to share how to we have the good document For Amazon Sty but it is
+
+[Nazmul / alam.nazmul] 14:57:11
+Yeah. There are many style, actually.
+
+[Nas] 14:57:16
+Yeah, well, if you go to apply
+
+[Nazmul / alam.nazmul] 14:57:19
+Yeah, difficult to apply now we we are we are trying this amazon style like light everything in the document and then in the meeting start reading and giving Q&A.
+
+[Nazmul / alam.nazmul] 14:57:34
+But I'm not sure not me we are not here if it is really effective or not.
+
+[Nazmul / alam.nazmul] 14:57:42
+So there are many way yeah the amazon style is not just only documentation but also meeting style
+
+[Nas] 14:57:50
+Yeah, Ms. Stein and document uh It's Mina.
+
+[Nazmul / alam.nazmul] 14:57:55
+Deporting style.
+
+[Nas] 14:57:56
+Yeah, how, I mean, the topic is how we write a good document for example the phone and forkmast and anything yeah But after I joined the session, I think it's difficult to apply for teams
+
+[Nas] 14:58:17
+Okay. Yeah.
+
+[Nazmul / alam.nazmul] 14:58:17
+Yeah. So then another way of documentation for example we call it Conclusion description evidence and conclusion.
+
+[Nas] 14:58:32
+Yeah.
+
+[Nazmul / alam.nazmul] 14:58:33
+Yes, there are these kind of many techniques for come up with the documentation or output but it depends on the organization or type of documentation we are discussing.
+
+[Nas] 14:58:44
+Yeah.
+
+[Nazmul / alam.nazmul] 14:58:45
+So this is related with technique and strategy for which template what kind of technique we should apply to have a good document.
+
+[Nas] 14:58:58
+Yeah special for the technical document and impact NI. Actually, for the team that we already have but for the technique and study maybe we need to fight.
+
+[Nazmul / alam.nazmul] 14:59:03
+Yes.
+
+[Nas] 14:59:13
+Yeah, the format or the team that
+
+[Nazmul / alam.nazmul] 14:59:16
+So let me check the last one. So last one means
+
+[Nazmul / alam.nazmul] 14:59:25
+Yeah. Mnbc development productivity improvement.
+
+[Nazmul / alam.nazmul] 14:59:29
+Guideline.
+
+[Nas] 14:59:31
+Yeah. You see, I just… report, four.
+
+[Nas] 14:59:35
+Yeah you see for the TSI and I just put in the uh It's an ad development department.
+
+[Nas] 14:59:42
+So everybody can Chi-so.
+
+[Nas] 14:59:48
+Yeah, for this one, maybe just collect uh information yeah like i do says before we have the december we have the february And…
+
+[Nazmul / alam.nazmul] 15:00:03
+Can I put this in the mbc city office report? In the original Excel file, can I put this report link there?
+
+[Nas] 15:00:13
+I already purchased, yeah.
+
+[Nazmul / alam.nazmul] 15:00:17
+What? Put this file, another pile.
+
+[Nas] 15:00:21
+I just looked into the Sorry.
+
+[Nas] 15:00:25
+Yeah, we have a lot of documents.
+
+[Nazmul / alam.nazmul] 15:00:28
+Yeah, let me check it later. So if I need to… talk to on that topic i will call it nurse to you.
+
+[Nas] 15:00:35
+Yeah, okay. Ask me angle.
+
+[Nas] 15:00:42
+Okay.
+
+[Nazmul / alam.nazmul] 15:00:46
+Okay, I think we need to move to the next meeting.
+
+[Nas] 15:00:49
+Yeah, okay. Yeah, we will move to the okay thank you namas. They move to the meeting.
+
