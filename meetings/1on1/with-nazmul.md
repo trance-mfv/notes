@@ -1,5 +1,9 @@
 ## 2025-04-18
 - Add EOL of every package to the `package.json` file and `Gemfile`
+- Code quality:
+    - Review PRs is a factor of performance review: to encourage the team to review PRs
+    - Fix Flaky tests
+
 
 ## 2025-04-02
 - complex implementation process: multiple test envs (heroku), reset branches, no unique development branch
