@@ -2,6 +2,31 @@
 
 ## Daily Reports
 
+### 2025-04-21
+- Rails: Minor version only supported in 2 years
+
+```
+Starting with 7.2, each minor release (7.2, 8.0, etc.) is officially supported based on a fixed, yearly duration: 1 year for bug fixes and 2 years for security fixes. For example, if a theoretical 1.1.0 is released on January 1, 2023, it will receive bug and security fixes until January 1, 2024 (1 year), and then receive security fixes only until January 1, 2025 (2 years). After that, it will reach its end-of-life.
+```
+=> upgrading Rails is a frequent task
+
+- Minus Insurance:
+	- Employee side - Preview => Cannot Test
+	- auto-reading insurance => 39 cases
+	- Calculation - Negative Value => 3 cases
+	- Employee survey > View Mode - Combined new and old deduction amounts (maximum 40,000 yen) => 1 case failed
+	- Data Import Handling	-	SmartHR => 8 cases
+	- Data Export Handling	-	eLTAX XML (new + old yeta) => 20 cases 
+	- Regression Test => 6 cases + 2 skipped + 2 cannot test
+	- Copy Previous Year => 1 failed + group insurance ==> TODO
+	- Fix Bugs => PR: https://github.com/moneyforward/tax_adjustment_web/pull/10943 => DONE
+
+	- eLTAX XML => Accelerators to create eLTAX XML file
+
+	- CI build failed https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web/4648/workflows/5129ac42-7437-400c-b900-9f2231522d62/jobs/19299/tests
+- Today:
+	- TO verify eLTAX job
+
 ### 2025-04-08
 - Last day:
     - Meetings:

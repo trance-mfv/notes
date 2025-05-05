@@ -2,36 +2,301 @@
 
 ## Summary
 
-| Ticket | Parent Ticket | Description | Assignee | Status |
-|--------|--------------|-------------|----------|--------|
-| TAXW-1134 | | Email address switch bug investigation | Axel | Transfered to Pat |
-| TAXW-1450 | | Fix My Number issues | Trance | Released |
-| TAXW-1534 | | Employees CSV import job performance improvement | Pat | ✅ Completed |
-| TAXW-1555 | | Payment report total PDF mismatch with Calculation table | Trance | In Progress (80%) |
-| TAXW-1575 | | Document design | Edgar | In Progress (60%) |
-| TAXW-1587 | [TAXW-1477] | Tax adjustments auto-reading feature list | Edgar | ✅ Completed |
-| TAXW-1590 | [TAXW-1477] | Impact Analysis | Pat | ✅ Completed |
-| TAXW-1593 | [TAXW-1477] | Employees auto-reading feature list | Edgar | ✅ Completed |
-| TAXW-1629 | [TAXW-1414] | Technical doc | Hugo | ✅ Completed |
-| TAXW-1630 | [TAXW-1414] | Impact analysis | Hugo | ✅ Completed |
-| TAXW-1651 | | Warning message for negative insurance amount | Hugo | ✅ Completed |
-| TAXW-1663 | | YETA deletion modal update | Edgar | ✅ Completed |
-| TAXW-1680 | | Update postcode master data up to March 31, 2025 | Hugo | ✅ Completed |
-| TAXW-622 | | Employee Log insurance number bug fix | Axel | In Progress (50%) |
-| TAXW-964 | | Widow checkbox still ON after syncing Gender from PA | Hugo | In Progress (50%) |
-| TAXW-300 | | Blank report in side-modal when Re-Aggregation button not clicked | Trance | In Progress |
-| TAXW-1700 | | 500 error when removing employee from YETA in Auto Reading Insurance | Edgar | In Progress |
-
-## Current Focus
-
-- Bug investigations and fixes (TAXW-622, TAXW-1134, TAXW-300, TAXW-1700)
-- Auto-Reading Paid Launch (TAXW-1477) and related implementation
-- Document completion and reviews
-- Technical documentation and impact analysis 
-- Payment report and calculation issues (TAXW-1555)
-- Frontend improvements and fixes
 
 ## Daily Status
+
+### 2025-04-23
+Axel:
+- Last day:
+    - Tasks: 
+        - TAXW-1414: Minus input for insurance premium
+        - TAXW-1847: [TAXW-1414][Minus insurance] Import SmartHR - Validate invalid values
+            - Fixed incorrect error message issue
+    - Meetings:
+        - TAX: Sprint Review
+        - Bi-weekly MFG All-hands Video
+- Today:
+    - Tasks: 
+        - Note Key Features, Bug Fixes, and Breaking Changes in Ruby 3.2.0
+    - Meetings:
+        - TAX: Sprint Retrospective
+        - Engineering All Hands
+
+Edgar:
+- Last day:
+    - Tasks:
+        - TAXW-1599: Upgrade Rails
+        - TAXW-1751: [TAXW-1599] Investigate change logs and impact areas for Rails 7.2.2.1
+    - Meetings:
+        - TAX: Sprint Review
+        - Bi-weekly MFG All-hands Video
+- Today:
+    - Tasks:
+        - TAXW-1599: Upgrade Rails
+        - TAXW-1751: [TAXW-1599] Investigate change logs and impact areas for Rails 7.2.2.1
+    - Meetings:
+        - TAX: Sprint Retrospective
+        - Ruby seminar: Integrating Feature Flag Platform(FFP)
+
+Pat:
+- Last day:
+    - Tasks:
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+        - TAXW-1840: [TAXW-1414][Minus insurance] Employee Survey - Incorrect invalid amount message
+            - Execute test case: 92%
+    - Meetings:
+        - TAX: Sprint Review
+        - Bi-weekly MFG All-hands Video
+- Today:
+    - Tasks:
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+    - Meetings:
+        - TAX: Sprint Retrospective
+        - Engineering All Hands
+
+Hugo:
+- Last day:
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment
+            - Execute test cases: Done
+    - Meetings:
+        - TAX: Sprint Review
+        - Bi-weekly MFG All-hands Video
+- Today:
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment
+            - Follow up
+        - TAXW-1454: 寡婦・ひとり親判定の見直し / Review of widow/single parent status determination
+            - Fix issues:
+                - TAXW-1849: [TAXW-1454] Widow's checkbox is ON even though the condition is not satisfied
+                - TAXW-1850: [TAXW-1454] Single parent checkbox is ON even though remove dependents is child
+    - Meetings:
+        - TAX: Sprint Retrospective
+        - [TA-Garnet+] New YETA Issues Discussion
+        - 1on1 with Trance
+        - Engineering All Hands
+
+Trance:
+- Last day:
+    - Meetings:
+        - [TA] Sprint Review
+        - Bi-weekly All Hands
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment
+            - Following up
+        - TAXW-1600: Upgrade Ruby
+            - Continue
+    - PR Reviews:
+        - TAXW-1145: Improvement sync data from Navis
+        - TAXW-1704: [Add Employee] - Switch office before submitting to create employee
+        - TAXW-1840: [TAXW-1414][Minus insurance] Employee Survey - Incorrect invalid amount message
+        - TAXW-1454: 寡婦・ひとり親判定の見直し / Review of widow/single parent status determination
+- Today:
+    - Meetings:
+        - [TA][Service Platform]Bug Review
+        - TAX: Sprint Retrospective
+        - [TA-Garnet+] New YETA Issues Discussion
+        - 1on1 with Hugo
+        - Engineering All Hands
+        - Ruby Seminar (optional)
+        - [TA]Weekly Dev Sync
+        - [TA] QA & Dev sync-up
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment
+            - Following up
+
+### 2025-04-22
+Axel:
+- Last day:
+    - Tasks: 
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+        - TAXW-1772: [TAXW-1703] Test Scope: OLD YETA - Comparison page
+            - Continued executing test cases
+        - Upgrade ruby/rails
+    - Meetings:
+        - MFG Weekly Asakai
+        - [TA-Garnet] Sync-up
+- Today:
+    - Tasks: 
+        - TAXW-1414: Minus input for insurance premium
+        - TAXW-1847: [TAXW-1414][Minus insurance] Import SmartHR - Validate invalid values
+            - Fix incorrect error message issues
+        - Upgrade ruby/rails
+    - Meetings:
+        - TAX: Sprint Review
+        - Bi-weekly MFG All-hands Video
+
+Edgar:
+- Last day:
+    - Tasks:
+        - TAXW-1599: Upgrade Rails
+        - TAXW-1751: [TAXW-1599] Investigate change logs and impact areas for Rails 7.2.2.1
+            - Investigate dependencies upgrade & impact areas
+    - Meetings:
+        - [TA-Garnet] Sync-up
+- Today:
+    - Tasks:
+        - TAXW-1599: Upgrade Rails
+        - TAXW-1751: [TAXW-1599] Investigate change logs and impact areas for Rails 7.2.2.1
+    - Meetings:
+        - TAX: Sprint Review
+        - Bi-weekly MFG All-hands Video
+
+Pat:
+- Last day:
+    - Tasks:
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+        - TAXW-1762: [TAXW-1703] Test Scope: Data Import Handling
+        - TAXW-1840: [TAXW-1414][Minus insurance] Employee Survey - Incorrect invalid amount message
+    - Meetings:
+        - [TA-Garnet] Sync-up
+- Today:
+    - Tasks:
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+        - TAXW-1762: [TAXW-1703] Test Scope: Data Import Handling
+        - TAXW-1745: [TAXW-1600] Upgrade Dev Environment to Ruby 3.2.8
+    - Meetings:
+        - TAX: Sprint Review
+        - Bi-weekly MFG All-hands Video
+
+Hugo:
+- Last day:
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment
+            - Execute test cases (~84%)
+        - TAXW-1786: [TAXW-1703] Calculation Test - Insurance type - Personal pension - All types
+    - Meetings:
+        - [TA-Garnet] Sync-up
+- Today:
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment
+            - Continue (Finish)
+    - Meetings:
+        - TAX: Sprint Review
+        - Bi-weekly MFG All-hands Video
+
+Trance:
+- Last day:
+    - Meetings:
+        - [TA-Garnet] Sync-up
+        - Discuss/Planning ERP Api Changes
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment (92%)
+        - TAXW-1600: Upgrade Ruby
+            - Continue
+    - PR Reviews:
+        - TAXW-1126: [TAXW-974] [Filling setting][Part 3/4] Display the preview content as the generated XML file
+        - TAXW-1835: [TAXW-1414][Minus insurance] Edit screen - Incorrect value [Total combined old + new life insurance deduction]
+- Today:
+    - Meetings:
+        - [TA] Sprint Review
+        - Bi-weekly All Hands
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment
+            - Following up
+        - TAXW-1600: Upgrade Ruby
+            - Continue
+    - PR Reviews:
+        - TAXW-1145: Improvement sync data from Navis
+        - TAXW-1704: [Add Employee] - Switch office before submitting to create employee
+        - TAXW-1840: [TAXW-1414][Minus insurance] Employee Survey - Incorrect invalid amount message
+        - TAXW-1454: 寡婦・ひとり親判定の見直し / Review of widow/single parent status determination
+
+### 2025-04-21
+Axel:
+- Last day:
+    - Tasks: 
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+        - TAXW-1772: [TAXW-1703] Test Scope: OLD YETA - Comparison page
+            - Continued executing test cases
+    - Meetings:
+        - No meetings
+- Today:
+    - Tasks: 
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+        - TAXW-1772: [TAXW-1703] Test Scope: OLD YETA - Comparison page
+            - Continue executing test cases
+        - Upgrade ruby/rails
+    - Meetings:
+        - MFG Weekly Asakai
+        - [TA-Garnet] Sync-up
+
+Edgar:
+- Last day:
+    - Tasks:
+        - TAXW-1599: Upgrade Rails
+        - TAXW-1742: [TAXW-1599] Investigate change logs and impact areas for Rails 7.1.5.1
+            - Investigate impact areas
+    - Meetings:
+        - None
+- Today:
+    - Tasks:
+        - TAXW-1599: Upgrade Rails
+        - TAXW-1742: [TAXW-1599] Investigate change logs and impact areas for Rails 7.1.5.1
+    - Meetings:
+        - [TA-Garnet] Sync-up
+
+Pat:
+- Last day:
+    - Tasks:
+        - TAXW-1745: [TAXW-1600] Upgrade Dev Environment to Ruby 3.2.8
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+        - TAXW-1774: [TAXW-1703] Test Scope: OLD YETA - Data Export Handling
+    - Meetings:
+        - None
+- Today:
+    - Tasks:
+        - TAXW-1745: [TAXW-1600] Upgrade Dev Environment to Ruby 3.2.8
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+        - TAXW-1762: [TAXW-1703] Test Scope: Data Import Handling
+    - Meetings:
+        - [TA-Garnet] Sync-up
+
+Hugo:
+- Last day:
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment
+            - Execute test cases (~71%)
+        - TAXW-1786: [TAXW-1703] Calculation Test - Insurance type - Personal pension - All types
+        - TAXW-1842: [TAXW-1414]Warning message show when insurance amount = 0
+    - Meetings:
+        - FE Guild - 🍩 [Event] Workshop
+- Today:
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment
+        - TAXW-1741: [TAXW-1703] Test Scope: Employee Survey - Add new insurance
+    - Meetings:
+        - NEW Relationship Data discussion
+
+Trance:
+- Last day:
+    - Meetings:
+        - TA Management MTG
+        - [TA Dev] Team Sync-up
+        - Bi-weekly TA and SRE team
+        - 1on1 with Nazmul-san
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment
+        - TAXW-1763: [TAXW-1703] Test Scope: Generated PDF reports
+        - TAXW-1778: [TAXW-1703] UI Test - Employee English Screen
+        - TAXW-1780: [TAXW-1703] UI Test - Employee Survey JP and EN Screen
+        - TAXW-1757: [TAXW-1703] Test Scope: Specialist side - Add new
+        - TAXW-1758: [TAXW-1703] Test Scope: Specialist - Add new Group insurance
+        - TAXW-1759: [TAXW-1703] Test Scope: Specialist - Edit
+    - PR Reviews:
+        - TAXW-1835: [TAXW-1414][Minus insurance] Edit screen - Incorrect value [Total combined old + new life insurance deduction]
+        - TAXW-1574: [Relate-TAXW-1561] Exporting by eLTAX XML on the submit preparation screen (/prepare_electronic_filing)
+- Today:
+    - Meetings:
+        - [TA-Garnet] Sync-up
+        - Discuss/Planning ERP Api Changes
+    - Tasks:
+        - TAXW-1703: [Minus Insurance] - Execute test on TEST environment
+            - Wrapping up
+        - TAXW-1600: Upgrade Ruby
+            - Continue
+    - PR Reviews:
+        - TAXW-1126: [TAXW-974] [Filling setting][Part 3/4] Display the preview content as the generated XML file
 
 ### 2025-04-18
 Axel:
@@ -329,6 +594,102 @@ Hugo:
     - Meetings:
         - Bi-Weekly all-hands video
 
+### 2025-04-15
+Axel:
+- Last day:
+    - Tasks: 
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-622: [Legacy Bug] - Employee Log - It is recorded log with an incorrect insurance number on Employee Log when updating insurance which is XML or auto reading insurance with existing manual insurance
+            - Created a PR and asked for a review
+    - Meetings:
+        - [TA-Garnet] Backlog Review
+        - TAX: Sprint Planning
+- Today:
+    - Tasks: 
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+        - TAXW-1760: [TAXW-1703] Test Scope: Calculation
+            - Start executing test cases
+    - Meetings:
+        - Bi-weekly MFG All-hands Video
+
+Trance:
+- Last day:
+    - Meetings:
+        - TAX-Garnet Backlog Review
+        - TAX Sprint Planning
+        - Discussion on TAXW-1555 and 300
+    - Tasks:
+        - TAXW-29: [TA2025] Internal issues
+        - TAXW-300: [YETA][payment_report_total_tables] - Blank report is displayed when opening side-modal if user do not click on Re-Aggreation button
+        - TAXW-1486: [TA2025] Bugs
+        - TAXW-1555: The exported Payment report total PDF file is not matching with Calculation table  
+            - Discussed with Luna and Gwen
+        - TAXW-1600: Upgrade Ruby
+        - TAXW-1744: [TAXW-1600] Investigate change logs and impact areas for Ruby 3.2.8
+            - Started working on
+    - PR Reviews:
+        - TAXW-1700: [Auto Reading Insurance] 500 error is displayed when removing employee from YETA
+        - TAXW-622: [Legacy Bug] - Employee Log - It is recorded log with an incorrect insurance number on Employee Log when updating insurance which is XML or auto reading insurance with existing manual insurance 
+- Today:
+    - Meetings:
+        - Bi-weekly MFG All-hands Video
+        - [TA] Kick-off Auto reading improvement
+    - Tasks:
+        - TAXW-1600: Upgrade Ruby
+        - TAXW-1744: [TAXW-1600] Investigate change logs and impact areas for Ruby 3.2.8
+            - Continue working on
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+        - TAXW-1777: [TAXW-1703] UI Test - Employee Japanese Screen
+            - Start working on
+    - PR Reviews:
+        - TAXW-1536: [Web Plan] The plan is not updated after changing from ERP
+        - TAXW-622: [Legacy Bug] - Employee Log - It is recorded log with an incorrect insurance number on Employee Log when updating insurance which is XML or auto reading insurance with existing manual insurance 
+
+Edgar:
+- Last day:
+    - Tasks:
+        - TAXW-1599: Upgrade Rails
+        - TAXW-1742: [TAXW-1599] Investigate change logs and impact areas for Rails 7.1.5.1
+    - Meetings:
+        - [TA-Garnet] Backlog Review
+        - TAX: Sprint Planning
+- Today:
+    - Tasks:
+        - TAXW-1599: Upgrade Rails
+        - TAXW-1742: [TAXW-1599] Investigate change logs and impact areas for Rails 7.1.5.1
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+            - Support testing
+    - Meetings:
+        - Bi-weekly MFG All-hands Video
+
+Pat:
+- Last day:
+    - Tasks:
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+            - Deploy to test environment
+        - TAXW-1775: [TAXW-1703] Test Scope: OLD YETA - Generated PDF reports
+    - Meetings:
+        - TAX: Sprint Planning
+        - [TA-Garnet] Backlog Review
+- Today:
+    - Tasks:
+        - TAXW-1703: [DEV][TAXW-1414]Minus Insurance - Execute test on TEST environment
+        - TAXW-1775: [TAXW-1703] Test Scope: OLD YETA - Generated PDF reports
+    - Meetings:
+        - SG Plan Linkage Revison Release Schedule Coordination
+        - Bi-weekly MFG All-hands Video
+
+Hugo:
+- Last day:
+    - Off
+- Today:
+    - Tasks:
+        - TAXW-1781: [TAXW-1703] Regression Test - Restriction negative value
+        - TAXW-964: TA2024_RegressionPhase2_[Dependent PDF Next Year] - The Widow check box is still ON after syncing Gender from PA
+            - Continue
+    - Meetings:
+        - Bi-Weekly all-hands video
+        
 ### 2025-04-14
 Axel:
 - Last day:

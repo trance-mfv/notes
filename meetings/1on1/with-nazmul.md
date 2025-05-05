@@ -9,7 +9,8 @@
 - complex implementation process: multiple test envs (heroku), reset branches, no unique development branch
 
 ### Code quality:
-- Unit testing: mock is not a good practice, we should use stub instead
+- Rubocop rules should be enabled gradually
+- Unit testing: mocking ActiveRecord and associations is not a good practice, we can use factory bot to create the objects
 - No integration test: we should have integration test for the feature
 - Codebase should be improved:
     + old feature that is not being used should be cleaned up
@@ -20,8 +21,8 @@
         2. easier to understand the business logic
         3. easier to maintain
     + database operations should be encapsulated within transactions to ensure data integrity
-    + fat models
-    + fat controllers: is currently doing business logic, should be in services. callback methods are not used as a good practice.
+    + fat models: models are doing too many things
+    + fat controllers: is currently doing business logic, which should be handled in services. callback methods are not used as a good practice.
     + fat services: 
         - should be open for extension and closed for modification.
         - Problem: service object is used for everything; it's not a good practice, e.g. we should use presenter for view layer and representer for data transformation. 

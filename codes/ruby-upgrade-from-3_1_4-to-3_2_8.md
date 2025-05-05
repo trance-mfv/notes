@@ -1,4 +1,40 @@
+# Implementation 
+## Upgrade steops
+
+Check available Ruby versions:
+```
+$ rbenv install -l
+3.1.7
+3.2.8
+3.3.8
+3.4.3
+```
+
+Update `.ruby-version` file:
+```
+3.2.8
+```
+
+Update `Gemfile`:
+```
+ruby '3.2.8'
+```   
+
+```
+$ asdf current         
+Name            Version         Source                                                              Installed
+ruby            3.2.8           /Users/nguyen.tung.trang/Work/repo/tax_adjustment_web/.ruby-version true
+```
+
+```
+$ bundle install
+No version is set for command bundle
+Consider adding one of the following versions in your config file at /Users/nguyen.tung.trang/Work/repo/tax_adjustment_web/.tool-versions
+ruby 3.1.4% 
+```
+
 # Upgrade Ruby from 3.1.4 to 3.2.8
+
 To upgrade Ruby from 3.1.4 to 3.2.8, follow these steps:
 
 1. Update your Ruby version in the Gemfile:

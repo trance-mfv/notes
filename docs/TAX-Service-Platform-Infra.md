@@ -34,28 +34,40 @@ database name: tax_adjustment_web_staging
 ![Setup MySQL Connection via SSH Tunneling](../assets/images/ta-infra/setup-mysql-connection-via-ssh-tunel.png)
 ![Setup MySQL Connection to Staging DB](../assets/images/ta-infra/setup-mysql-connection-to-staging-db.png)
 
-Jeff - Wednesday at 16:54 - @Tade/phan.minh.trung - Có 1 cái console thì làm sao sài được cho cả diagnosis và stg anh?
-Tade/phan.minh.trung - Wednesday at 16:54 - tìm cái web-diagnosis
+- Jeff - Wednesday at 16:54: @Tade/phan.minh.trung 
+   - Có 1 cái console thì làm sao sài được cho cả **diagnosis** và **stg** anh?
 
+- Tade/phan.minh.trung - Wednesday at 16:54 
+   - tìm cái **web-diagnosis**
 
-Jeff - Yesterday at 11:12 - Con bastion để thao tác sql, mongo, hay redis thôi nha anh. Còn muốn chạy rails c thì vào trực tiếp pod trên argocd chạy
+- Jeff - Yesterday at 11:12 
+   - Con **bastion để thao tác sql, mongo, hay redis** thôi nha anh. 
+   - Còn muốn chạy **rails c** thì **vào trực tiếp pod trên argocd** chạy
 
-https://argocd.test.musubu.co.in/applications/stg-tax-adjustment
+**Note:** Argo `stg-tax-adjustment`: https://argocd.test.musubu.co.in/applications/stg-tax-adjustment
 
-Jeff - Yesterday at 11:31 - @Nas/dam.phu.duong - @Reacher/tran.​ngoc.​hai
+- Jeff - Yesterday at 11:31 - @Nas/dam.phu.duong - @Reacher/tran.​ngoc.​hai
 
-- Staging: tax-adjustment-web-console-0
-- Diagnosis:
-   - All Pods `tax-adjustment-web-diagnosis-xxx` can access the console
+   - Staging: tax-adjustment-web-console-0
+   
+   - Diagnosis:
+      - All Pods `tax-adjustment-web-diagnosis-xxx` can access the console
    ![Diagnosis Argo Access To Web Console](../assets/images/ta-infra/diagnosis-argo-access-web-console.png)
-   - EX: diagnosis
+   
+      - EX: diagnosis
    ![Diagnosis Argo Pod](../assets/images/ta-infra/diagnosis-pod.png)
    ![Diagnosis Argo Pod Terminal](../assets/images/ta-infra/diagnosis-pod-terminal.png)
  
-- Vault
+### Vault
    - Link: https://vault.test.musubu.co.in/
    - ![Vault](../assets/images/ta-infra/vault-environment-variables.png)
  
+### Service Platform sharing:
+- https://drive.google.com/file/d/1a373fE9VetHfkXEuvaewglt_3G4eypoK/view
+
+### Team: 
+- https://github.com/orgs/moneyforward/teams/tax_adjustment_dev_mfj_reviewers
+
 ## AWS Infrastructure
 ![TAX Infrastructure](../assets/images/ta-infra/tax-infra.jpeg)
 
