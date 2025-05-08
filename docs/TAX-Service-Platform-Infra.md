@@ -1,4 +1,160 @@
-# TAX Infrastructure
+# TAX Service Platform Infrastructure
+
+[Notes - Bi-weekly TA and Infrastructure Team](https://docs.google.com/document/d/1I-HDieq1ztIw1xZQr9RXOZhewN4jLl7-w9UyYQ-uzW8/edit?tab=t.0)
+
+## STAGING:
+
+- [Github Branch](https://github.com/moneyforward/tax_adjustment_web/pull/10628)
+
+### Domains
+- Inhouse domain: https://tax-adjustment.test.musubu.co.in 
+- Inhouse diagnosis domain: https://tax-adjustment-diagnosis.test.musubu.co.in/ 
+- Health check: https://tax-adjustment.test.musubu.co.in/healthz
+
+### Circleci workflow
+- https://app.circleci.com/pipelines/github/moneyforward/tax_adjustment_web?branch=master-to-sp 
+
+### Environments
+- [Common vars](https://github.com/moneyforward/k8s-service-manifests/blob/master/services/tax-adjustment/environments/stg/files/tax-adjustment.env)
+- [Vault secrets](https://vault.test.musubu.co.in/ui/vault/secrets/secret/kv/service-platform%2Ftax-adjustment%2Fstg/details?version=3)
+
+### ArgoCD
+- https://argocd.test.musubu.co.in/applications/stg-tax-adjustment?resource= 
+
+### Deployment services
+- [web](https://github.com/moneyforward/k8s-service-manifests/blob/master/services/tax-adjustment/base/deployment.yaml)
+- [sidekiq_cronjob](https://github.com/moneyforward/k8s-service-manifests/blob/master/services/tax-adjustment/base/deployment_sidekiq_cronjob.yaml)
+- [Sidekiq_heavyjob](https://github.com/moneyforward/k8s-service-manifests/blob/master/services/tax-adjustment/base/deployment_sidekiq_heavyjob.yaml)
+- [sidekiq_mailers](https://github.com/moneyforward/k8s-service-manifests/blob/master/services/tax-adjustment/base/deployment_sidekiq_mailers.yaml)
+
+### Datadog
+- Logs: [link](https://app.datadoghq.com/logs?query=service%3Atax-adjustment-%2A%20account_name%3Atest-service-platform-cluster&agg_m=count&agg_m_source=base&agg_t=count&cols=host%2Cservice&fromUser=true&messageDisplay=inline&refresh_mode=sliding&storage=hot&stream_sort=desc&viz=stream&from_ts=1742284594310&to_ts=1742370994310&live=true)
+- APM: 
+  - [Web](https://app.datadoghq.com/apm/traces?query=env%3Astg%20service%3Atax-adjustment-web&agg_m=count&agg_m_source=base&agg_t=count&cols=core_service%2Ccore_resource_name%2Clog_duration%2Clog_http.method%2Clog_http.status_code&fromUser=false&graphType=span_list&historicalData=true&messageDisplay=inline&query_translation_version=v0&shouldShowLegend=true&sort=desc&spanType=all&storage=hot&view=spans&start=1742372335929&end=1742373235929&paused=false)
+  - [Sidekiq-heavyjob](https://app.datadoghq.com/apm/traces?query=env%3Astg%20kube_deployment%3Atax-adjustment-sidekiq-heavyjob&agg_m=count&agg_m_source=base&agg_t=count&cols=core_service%2Ccore_resource_name%2Clog_duration%2Clog_http.method%2Clog_http.status_code&fromUser=false&graphType=span_list&historicalData=true&messageDisplay=inline&query_translation_version=v0&shouldShowLegend=true&sort=desc&spanType=all&spanViewType=metadata&storage=hot&view=spans&start=1742200881847&end=1742373681847&paused=false)
+  - [Filter by version](https://app.datadoghq.com/apm/traces?query=env%3Astg%20%40version%3Amaster-web-a2005f7acae7a51a32bef6e0329ff0c41476abed&agg_m=count&agg_m_source=base&agg_t=count&cols=core_service%2Ccore_resource_name%2Clog_duration%2Clog_http.method%2Clog_http.status_code&fromUser=false&graphType=span_list&historicalData=true&messageDisplay=inline&query_translation_version=v0&shouldShowLegend=true&sort=desc&spanType=all&spanViewType=metadata&storage=hot&view=spans&start=1742201001845&end=1742373801845&paused=false)
+
+### Rollbar
+- Same as mfv-infra
+
+### Slack channels
+- Deploy notifications: 
+  - #ta_stg_notifications
+  - #ta_prod_notifications
+
+### Access bastion
+- Access keys: https://github.com/moneyforward/bastion_ansible/pull/1569/files 
+- Config:
+```
+Host tax-adjustment-bastion
+    StrictHostKeyChecking no
+    UserKnownHostsFile=/dev/null
+    IdentityFile ~/.ssh/id_ed25519
+    HostName  nlb1.bastion.test.musubu.co.in
+    Port 1133
+```
+
+## PRODUCTION:
+
+### Login to PWS
+- Access to: MF Protected Work Space for AWS PWS
+- Article: https://moneyforward.kibe.la/notes/204989  
+
+### Setup kubectl in PWS
+- Article: https://moneyforward.kibe.la/notes/284798  
+- After logging into PWS
+- SSH to pws-bastion-lx via Tera Term
+   - Update config in pws-bastion-lx (~/.ssh/config)
+   ```
+   ServerAliveInterval 30
+
+   Host *-bastion
+      StrictHostKeyChecking no
+      UserKnownHostsFile=/dev/null
+      IdentityFile ~/.ssh/id_ed25519
+
+   Host tax-adjustment-bastion
+      ProxyCommand ssh -W vpce-0a45154df2ca64779-bivt586n.vpce-svc-0b201df3a747fb0b9.ap-northeast-1.vpce.amazonaws.com:1133 pws-tax-adjustment
+   ```
+- Ssh to PWS 
+```
+ssh pws-tax-adjustment
+```
+
+- AWS CLI - Configure SSO
+```
+$ aws configure sso --profile prod-tax-adjustment
+
+SSO start URL   		https://moneyforward.awsapps.com/start
+SSO Region  			ap-northeast-1
+CLI default client Region   	ap-northeast-1
+CLI default output format   	Hit Enter key as it is blank.
+```
+
+- AWS CLI - Login SSO
+```
+$ aws --profile prod-tax-adjustment sso login
+```
+
+- AWS CLI - Configure SSO - Service Platform Cluster Operator
+```
+$ aws configure sso --profile service-platform-cluster-operator
+
+SSO start URL   		https://moneyforward.awsapps.com/start
+SSO Region 			 ap-northeast-1
+CLI default client Region   	ap-northeast-1
+CLI default output format   	Hit Enter key as it is blank.
+SELECT: PROD-SERVICE-PLATFORM-CLUSTER
+```
+
+- AWS CLI - Update Kubeconfig - Service Platform Cluster Operator
+```
+$ aws --profile service-platform-cluster-operator eks update-kubeconfig --name prod-service-platform
+```
+
+- Then, open the .kube/config file and change the env AWS_PROFILE
+- Then, switch to the namespace `prod-tax-adjustment`
+```
+$ kubens prod-tax-adjustment
+```
+
+- Get pods of Tax Adjustment
+```
+$ kubectl get pod
+```
+
+- Enter the pod
+```
+$ kubectl exec -it tax-adjustment-web-console-0 – bash
+```
+
+
+## Access AWS Bastion
+Target: Successfully access to bastion `nguyen.tung.trang@tax-adjustment-bastion`
+
+1. Setup ssh config
+```
+# ~/.ssh/config
+
+ServerAliveInterval 30
+
+Host *-bastion
+    StrictHostKeyChecking no
+    UserKnownHostsFile=/dev/null
+    IdentityFile ~/.ssh/id_ed25519
+Host tax-adjustment-bastion
+    ProxyCommand ssh -W vpce-0a45154df2ca64779-bivt586n.vpce-svc-0b201df3a747fb0b9.ap-northeast-1.vpce.amazonaws.com:1133 pws-tax-adjustment
+```
+
+2. Access to `pws-tax-adjustment`
+```
+ssh pws-tax-adjustment
+```
+
+3. From `pws-tax-adjustment`, access to `tax-adjustment-bastion`
+```
+ssh tax-adjustment-bastion
+```
 
 ## Service Platform Migration
 
