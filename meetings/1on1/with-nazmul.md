@@ -32,7 +32,7 @@
         2. more maintainable and extensible codebase, leading to enhanced development velocity and team productivity, ultimately accelerating product delivery timelines.
     
 - Considerations for data migration: 
-    1. Gem `strong_migrations`: https://github.com/Shopify/strong_migrations
+    1. Gem `strong_migrations`: https://github.com/ankane/strong_migrations
     2. Shopify maintenance_tasks gem (https://github.com/Shopify/maintenance_tasks)
         - run migration at a admin site
         - don't need to access to production terminal to run `rails runner`
@@ -63,3 +63,7 @@
     - Consider adding buffer time between meetings (e.g., 25 or 50 minute around the meeting time)
     
 - daily meeting: should we need the % of the work done? because it's not possible to track and daily meeting is not a good place to discuss the work done.
+
+## Bottlenecks:
+- QA: decides which tickets to release while Devs have to wait for the release, which is not a good practice, and violates continuous delivery principle.
+- 

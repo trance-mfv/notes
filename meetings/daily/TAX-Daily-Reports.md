@@ -2,6 +2,15 @@
 
 ## Daily Reports
 
+### 2025-05-13
+	- Upgrade Ruby to 3.4.1, Docker image to `ruby:3.4.1-slim-bullseye`
+	- Reference: 
+		- Docker Hub: https://hub.docker.com/_/ruby
+		- Debian Hub: https://hub.docker.com/_/debian
+		- [Alpine, Slim, Bullseye, Bookworm, Noble — Differences in Docker Images Explained](https://medium.com/@faruk13/alpine-slim-bullseye-bookworm-noble-differences-in-docker-images-explained-d9aa6efa23ec)
+
+	
+
 ### 2025-04-21
 - Rails: Minor version only supported in 2 years
 
