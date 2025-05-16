@@ -1,9 +1,22 @@
+## 2025-05-15
+- Code improvements
+- Redis update (Navis)
+- CRE: Axel
+
+- Story Points estimation: different points across different teams (e.g. Amber 54 points, Garnet 50 points, Emerald 42 points)
+  - Approaches to fix:
+    - Standardize story point scale across teams
+    - Conduct joint estimation sessions with representatives from each team
+    - Create reference stories that all teams agree on for each point value
+    - Implement regular calibration meetings to ensure consistency
+    - Document estimation guidelines in a central location accessible to all teams
+- 
+
 ## 2025-04-18
 - Add EOL of every package to the `package.json` file and `Gemfile`
 - Code quality:
     - Review PRs is a factor of performance review: to encourage the team to review PRs
     - Fix Flaky tests
-
 
 ## 2025-04-02
 - complex implementation process: multiple test envs (heroku), reset branches, no unique development branch
