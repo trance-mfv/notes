@@ -1,0 +1,513 @@
+[Nazmul / alam.nazmul] 15:36:31
+Topic to be discussed, so let me share my skin again.
+
+[Trance] 15:36:35
+Yes.
+
+[Nazmul / alam.nazmul] 15:36:37
+Hmm, so we were discussing about this API, so… Nas, I checked this API again, so this is just only this… Read listing API. So, this public and partner API read… listing, or single lid.
+
+[Nazmul / alam.nazmul] 15:36:53
+Maybe read by ID, so that's actually needed. We can just easily open this API.
+
+[Nazmul / alam.nazmul] 15:37:00
+If they ask. So, I don't think it is… We don't need to care about what they are going to open, what they are going to do after opening this API.
+
+[Nazmul / alam.nazmul] 15:37:11
+By themselves, okay?
+
+[Nazmul / alam.nazmul] 15:37:16
+That is… that was your concern, right? So you are not sure what they are going to do after opening this API?
+
+[Nas] 15:37:24
+Yeah. Uh, I mean, uh, we don't know about the detail, well… what the BI, uh, what the field research is.
+
+[Nas] 15:37:33
+Computers, or what they should boot. At the input, they are actually… it's either the detail at the… PDM, uh, involved on these.
+
+[Nazmul / alam.nazmul] 15:37:43
+So, what we are going to do for this is, uh… Yeah, first, we are going to report it, like, here.
+
+[Nazmul / alam.nazmul] 15:37:54
+Oh, you have started input something already?
+
+[Nas] 15:37:58
+Uh, yes. I just had something to input.
+
+[Nazmul / alam.nazmul] 15:38:03
+Okay, so this is, uh… what do we have at this moment? And we are going to report, like.
+
+[Nazmul / alam.nazmul] 15:38:11
+Uh, what we are going to consider in the second half But then, uh, we are going to consider this 9 API, that's okay, but uh… What challenges we are going to face is PDM side and us are not synced with this API, right? Pdm site didn't tell us… maybe Harada-san or Aaron
+
+[Nazmul / alam.nazmul] 15:38:32
+Had some idea what, uh… information we need to open.
+
+[Nazmul / alam.nazmul] 15:38:36
+As an internal or public API, but they didn't share it with us, our… There is no PRD, or maybe they don't share it with the… cyto-san. So that, uh, gap… we may face.
+
+[Nazmul / alam.nazmul] 15:38:50
+This timing. So, how to achieve it? So, we will discuss a more specific… more detailed level with the Cytosan or some other PDM, and define the spec together.
+
+[Nazmul / alam.nazmul] 15:39:03
+What should be the API spec for this APIs, and then we will try to implement it with, uh, assigning, maybe.
+
+[Nazmul / alam.nazmul] 15:39:13
+2 or 3 engineerside. So that's how we would like to achieve it.
+
+[Nazmul / alam.nazmul] 15:39:18
+And, uh, yeah, necessary discussion part, maybe nothing, we just need to give the effort.
+
+[Nazmul / alam.nazmul] 15:39:24
+And, uh, yeah, we… we needed to align with PDM site. Looks like at this moment, PDM doesn't know much about this API.
+
+[Nazmul / alam.nazmul] 15:39:30
+Maybe when I was… I was discussing last time, the… she didn't know that, but now she… I mean, Saito-sani is also in charge of, uh.
+
+[Nazmul / alam.nazmul] 15:39:41
+So, I believe that she has better knowledge now.
+
+[Nazmul / alam.nazmul] 15:39:49
+Okay, so this is about the API. So please, uh… start putting something.
+
+[Nazmul / alam.nazmul] 15:39:55
+Yeah, target is clear. 9 API we need to implement by end of November.
+
+[Nazmul / alam.nazmul] 15:40:01
+Can do it or not do it, it depends on… resource privilege and clear definition of the API.
+
+[Nazmul / alam.nazmul] 15:40:09
+Ai agent. So, AI agent, that's what I was talking that, uh, we don't have much input on… in this area.
+
+[Nazmul / alam.nazmul] 15:40:17
+This is, uh, not for…
+
+[Nazmul / alam.nazmul] 15:40:22
+Let me put comments… where should I put comment in the… I think, gosh, uh…
+
+[Nazmul / alam.nazmul] 15:41:03
+Yeah, that's the point. So, we don't have much thing to discuss here, okay?
+
+[Nazmul / alam.nazmul] 15:41:07
+Let me escape this one. And the product… to this one, right? To this one.
+
+[Nazmul / alam.nazmul] 15:41:15
+Product improvement. Cottonization, reactinization, API, or test coverage, or… UT test cover is.
+
+[Nazmul / alam.nazmul] 15:41:26
+Mmm…
+
+[Nazmul / alam.nazmul] 15:41:31
+Yeah, within this next hop.
+
+[Nazmul / alam.nazmul] 15:41:42
+Okay, next up, so… What?
+
+[Nazmul / alam.nazmul] 15:41:49
+Best case… what could be possible is…
+
+[Nazmul / alam.nazmul] 15:42:03
+Maybe… a good plan.
+
+[Nazmul / alam.nazmul] 15:42:10
+Who is that? Content, back-end… separation in next.
+
+[Nazmul / alam.nazmul] 15:42:20
+By 26. That could be feasible, but at this moment, we don't have We have a couple of challenges.
+
+[Nazmul / alam.nazmul] 15:42:28
+So… which one is the challenge squad?
+
+[Liam MFV] 15:42:33
+Um, it is probably, uh, related to the… and by, uh, MF.
+
+[Liam MFV] 15:42:40
+Ui, right? Is there relevant to this point?
+
+[Nazmul / alam.nazmul] 15:42:48
+Okay. So, let me put that comment also.
+
+[Liam MFV] 15:42:54
+And I
+
+[Nas] 15:42:56
+Yeah, yeah, yeah.
+
+[Nazmul / alam.nazmul] 15:43:04
+1, then… back in the… Let's see… operation will be the first.
+
+[Nazmul / alam.nazmul] 15:43:11
+Initiation. Then… maybe Fronton… to adopt… And if UI… React… It's the next level.
+
+[Nazmul / alam.nazmul] 15:43:28
+I think I can put the number 1, this is the… Second one, we want to do.
+
+[Nazmul / alam.nazmul] 15:43:35
+And uh… We also need to… chain up the resource, train… the resource window.
+
+[Nazmul / alam.nazmul] 15:43:50
+I'm not sure for React, you also need to chain up, or we will get support from another conviction or not, that is a question, but… clean up the resource in Kotlin.
+
+[Nazmul / alam.nazmul] 15:44:05
+And then… start utilizing…
+
+[Nazmul / alam.nazmul] 15:44:16
+Back. And for a new… Small… project… to have kind of… Kinda.
+
+[Nazmul / alam.nazmul] 15:44:32
+Micro Harvest. Frame.
+
+[Nazmul / alam.nazmul] 15:44:37
+Back in the… Yeah, that's what I think… the… did I… did I discuss this thing with NAS earlier?
+
+[Nazmul / alam.nazmul] 15:44:47
+Maybe no.
+
+[Nas] 15:44:51
+Mmm… not… Because, uh, I think we can add the API automation… just test covers, because after we separate the finale name at the back end.
+
+[Nazmul / alam.nazmul] 15:44:53
+You know.
+
+[Nazmul / alam.nazmul] 15:44:58
+Okay, so…
+
+[Nas] 15:45:02
+We can, uh, have the… the… we can start, uh, yeah.
+
+[Nazmul / alam.nazmul] 15:45:05
+Yeah.
+
+[Nas] 15:45:09
+To parallel with the API automation test.
+
+[Nazmul / alam.nazmul] 15:45:22
+But all these things, I think… this, yeah, it may be too much for us. Maybe we can think how much we can do.
+
+[Nazmul / alam.nazmul] 15:45:32
+In this year. And these are the challenges we are going to face, especially our Resources doesn't have the knowledge in React or Codeling. Maybe Kotelin we can add up easily, but I'm not sure if we… Uh, the act we cannot officially.
+
+[Nazmul / alam.nazmul] 15:45:45
+But, Kotlina, I'm not sure. Yeah, it's still… still, we… we need… this timing.
+
+[Nazmul / alam.nazmul] 15:45:53
+So this year, I think we can do the planning, what's the best, how much effort is for this one, how much effort for… uh… MFUI reacting, how much effort for… This is a small project, when it's come.
+
+[Nazmul / alam.nazmul] 15:46:09
+So we can… we can think about the F mode, and then we can start in the next year, but if… If… I'm not sure if… You… you can have better visualization.
+
+[Nazmul / alam.nazmul] 15:46:22
+Then you can put some… Kotlin React Nization.
+
+[Nazmul / alam.nazmul] 15:46:27
+So this cotillinization and reactinization is… is the output of 2… And a 4.
+
+[Nas] 15:46:36
+Hmm…
+
+[Nazmul / alam.nazmul] 15:46:38
+But I don't know, 2 and 4 could be possible within this year or not, so I… I don't… We don't have the… have the technical depth target at this moment. Yes, friends?
+
+[Trance] 15:46:39
+Yes.
+
+[Trance] 15:46:48
+I…
+
+[Trance] 15:46:52
+Yes, as I know that, um, some members, they have, uh, experiences with, uh, React.
+
+[Trance] 15:46:58
+Already, yes. Um… but for Kotlin, if we have a plan for next year.
+
+[Nazmul / alam.nazmul] 15:46:59
+Yeah. I have that.
+
+[Trance] 15:47:04
+I think that we should, uh, training up, uh. Our resources from… from now.
+
+[Nazmul / alam.nazmul] 15:47:10
+This is… I just put some step-up operation, so as we have some… some front-end React knowledge, so that's why I didn't put, like, kind of training is necessary here. Maybe we can allocate the resource here.
+
+[Nazmul / alam.nazmul] 15:47:22
+So then it's possible, but I think for Kotlin, I guess we need to… training, because, uh, I just don't want to just utilize Kotlin in backend side. I would like to have kind of a strong framework, especially If possible, adopt some kind of
+
+[Trance] 15:47:28
+Yeah.
+
+[Nazmul / alam.nazmul] 15:47:41
+Latest microservice… framework in TA, and kind of start anew.
+
+[Nazmul / alam.nazmul] 15:47:49
+Something with some new project. After the separation of front and back end.
+
+[Trance] 15:47:57
+Yes.
+
+[Nas] 15:48:01
+But for the firm name, applicant separation, I think… We can start with it difficult to, uh, my right arm.
+
+[Nas] 15:48:10
+On up the pay to the… separate all the time.
+
+[Nas] 15:48:15
+In one… one year or something. Possible, yeah.
+
+[Nazmul / alam.nazmul] 15:48:18
+That… I don't have very detailed depth thinking on that, but obviously, we cannot separate the full front-end and back-end.
+
+[Nazmul / alam.nazmul] 15:48:29
+It might be too costly, so we may need to think about… I don't know, maybe we will start with a new project.
+
+[Nazmul / alam.nazmul] 15:48:36
+Or maybe we will… we will separate the front-end, back-end up some specific… common areas, and I start that.
+
+[Nas] 15:48:44
+Hmm, yes.
+
+[Nazmul / alam.nazmul] 15:48:45
+Don't know, so that is strategy, actually. We need to think and discuss time to time and define the… action plan of next year.
+
+[Nazmul / alam.nazmul] 15:48:55
+That might be the best… thing we can do within this year.
+
+[Nas] 15:49:00
+Yeah, because, uh. For my son, uh, in the… Uh, MFJ, we have a lot of, uh.
+
+[Nas] 15:49:08
+To check, separate. Uh, from Juby to the Fanana backend, same will navigate and PA also.
+
+[Nas] 15:49:14
+Yeah, but they cannot separate in one time to… So, yeah, they will migrate, uh, pay-to-pay, and they pay day, yeah.
+
+[Nazmul / alam.nazmul] 15:49:19
+Gradually, gradually.
+
+[Trance] 15:49:25
+I think that we can, uh, build, uh, some feature with Next, and Next.js, for example, and… We, uh… like, uh, we use, uh, single Scion, right? We can, like.
+
+[Trance] 15:49:41
+Um. We can, yeah, we can, like, use it along with Rails.
+
+[Nazmul / alam.nazmul] 15:49:42
+Yeah, let's not waste our time. I know that there are many discussions will happen if I bring this topic and start discussing with, uh.
+
+[Nas] 15:49:47
+Mm-mm.
+
+[Nazmul / alam.nazmul] 15:49:54
+All of you. So, there are many challenges, there are many thoughts.
+
+[Nazmul / alam.nazmul] 15:49:58
+We need to finalize that challenge and thought. So that's why we need to put some data here.
+
+[Nazmul / alam.nazmul] 15:50:02
+What challenges we can think? So, Nastly, I'm pleased, uh.
+
+[Nazmul / alam.nazmul] 15:50:08
+Coordinate internally and come up with those challenges and risks. Or… how… what we can do, Max, in this E. Hub.
+
+[Liam MFV] 15:50:18
+Jack, one thing, uh, for the timeline. 26. That's, uh, mandatory we have to, uh, to start something, uh, weekend or both outline as well.
+
+[Nazmul / alam.nazmul] 15:50:30
+This timeline is, uh… Wein 30, and actually.
+
+[Nazmul / alam.nazmul] 15:50:34
+This is the… this is the time we are going to discuss with the… management people here.
+
+[Nazmul / alam.nazmul] 15:50:41
+And, uh, the old scenario… You will be here, Liam will be here on Monday, 2nd of June.
+
+[Nazmul / alam.nazmul] 15:50:51
+And we are going to discuss With the support of Liam, with trends and Richard.
+
+[Nazmul / alam.nazmul] 15:50:59
+This day. To finalize that 100%.
+
+[Nazmul / alam.nazmul] 15:51:07
+Liam, did I be able to… Answer your question?
+
+[Liam MFV] 15:51:12
+Um, no, I mean, uh, put you back to the seat?
+
+[Liam MFV] 15:51:15
+I'm asking about, uh… the plan, expectation plan for separating the from when and back end. That's mandatory that we have to start in 20 seats, or we can draw both our plan as well.
+
+[Nazmul / alam.nazmul] 15:51:27
+We can propose our plan, so… Yeah, well, we don't have any plan to add up in TA in the second half, initially.
+
+[Liam MFV] 15:51:29
+Ah, okay, okay, got it.
+
+[Nazmul / alam.nazmul] 15:51:36
+But, uh, other teams are moving with Kotlin Agency and Recognization, and as you know, that there are some two of the VP, EO are joining, so we'd like to represent what we can do in TNT.
+
+[Nazmul / alam.nazmul] 15:51:50
+Uh, in tier point of view. So that we are going to represent. But don't be so… so aggressive We should be giving the… Uh, best… possible… figure to them.
+
+[Nazmul / alam.nazmul] 15:52:06
+And, uh, yeah, I remember that they are, uh, from… Uh, engineering side, so they would like to have this number very high, because they are not, uh.
+
+[Liam MFV] 15:52:06
+Yeah.
+
+[Nazmul / alam.nazmul] 15:52:15
+Uh, business side people. So, engineering side of BPOE, so they would like to have this… this architecture improvement in product-wise very much. On the other hand, uh.
+
+[Nazmul / alam.nazmul] 15:52:25
+There will be business side people also, so they don't like to adopt the front and back-end separation immediately, because it will not… increase the revenue, for example, but will increase the cost at this moment.
+
+[Nazmul / alam.nazmul] 15:52:43
+So, we should… in between, need to be balanced and come up with some… feasible planning or discussion, which can be open and discuss with those members.
+
+[Nazmul / alam.nazmul] 15:53:02
+But mainly, maybe NAS know that… This is basically for PA.
+
+[Nazmul / alam.nazmul] 15:53:10
+H-r-i-s? And… little bit SI.
+
+[Nazmul / alam.nazmul] 15:53:14
+Because SA already has front and back-end suppression. So, Oras, I would like to know more detail Percentage-wise for PA, how much proteinization, reactinization will be… can be target for PA, HRIS, and SI in the next year?
+
+[Nazmul / alam.nazmul] 15:53:32
+Yeah, that's the initial target. Target list is this.
+
+[Nazmul / alam.nazmul] 15:53:39
+But, as this discussion will be coming, so… He would like to… C. What next? Like, TA and AT.
+
+[Nazmul / alam.nazmul] 15:53:51
+So TN80 is kind of in the same situation. We have, uh, kind of similar architecture.
+
+[Nazmul / alam.nazmul] 15:53:56
+So, we need to… open the discussion, what we can do within the next year from within this hub?
+
+[Nazmul / alam.nazmul] 15:54:03
+From this… point of view.
+
+[Nazmul / alam.nazmul] 15:54:08
+Liam, clear? Nas, any question?
+
+[Liam MFV] 15:54:09
+Yes, Leah.
+
+[Nas] 15:54:14
+Hmm, no, yeah, just indeed, uh, maybe we just have the plan, and maybe, uh.
+
+[Nas] 15:54:20
+We can have the BOC for the applied… Secretary.
+
+[Nazmul / alam.nazmul] 15:54:25
+Honestly speaking, uh… You remembered this, right?
+
+[Nas] 15:54:32
+Yeah.
+
+[Nazmul / alam.nazmul] 15:54:34
+This is… this is the first step that… this was the first stop target.
+
+[Nazmul / alam.nazmul] 15:54:39
+But, uh, yeah, we couldn't achieve this. So, we must need to at least achieve this one in the next step.
+
+[Nas] 15:54:48
+Yeah.
+
+[Nazmul / alam.nazmul] 15:54:51
+Okay, moving to next. Organization.
+
+[Nazmul / alam.nazmul] 15:55:06
+So, basically. There are two areas.
+
+[Nazmul / alam.nazmul] 15:55:11
+What needs? If I understand correctly… lead time-rated area.
+
+[Nazmul / alam.nazmul] 15:55:19
+So Nazmul, this will be… NASMU will follow up with… Cool.
+
+[Nazmul / alam.nazmul] 15:55:25
+Their productivity goal. Richard is there, right? Their productivity guild. Yeah, so it is still one of the topics in the Dev Productivity Guild, but uh… there is no… such thing, such progress in their… the… yeah, I need to follow up this, so…
+
+[Nazmul / alam.nazmul] 15:55:44
+Eventually, that we need to… have some visual data.
+
+[Nazmul / alam.nazmul] 15:55:49
+To understand this, uh, 1, 2, 3, 4. These four items.
+
+[Nazmul / alam.nazmul] 15:55:56
+Visualization of overall development lead time completed, and then improve the implementation, lead time quality.
+
+[Nazmul / alam.nazmul] 15:56:03
+Or is it fast, this is necessary. After that, maybe we can move this one. Currently, we don't have this one, actually.
+
+[Nazmul / alam.nazmul] 15:56:12
+So, Nazmul will pass to work on lead time be through, like, Sean.
+
+[Nazmul / alam.nazmul] 15:56:19
+And, uh, this one, process… Streamline and improve SCAM.
+
+[Nazmul / alam.nazmul] 15:56:26
+Organization-wise, Urasan, our PDPD, they are thinking how to improve the overall process for SCOM, but uh… I have been discussing with NASA and also with Liam, and time to time in the In different SCAM meeting, that we need to improve this, so…
+
+[Nazmul / alam.nazmul] 15:56:44
+We have something in… in… in that. And we need to think what we would like to achieve, and What kind of challenges we are facing.
+
+[Nazmul / alam.nazmul] 15:56:57
+Process… improvement.
+
+[Nazmul / alam.nazmul] 15:57:00
+So we need to set some kind of target here. What process improvement we are thinking?
+
+[Nazmul / alam.nazmul] 15:57:12
+This one, clear. Liam, Nas, Pence, Richard.
+
+[Liam MFV] 15:57:18
+Yeah.
+
+[Nas] 15:57:23
+But for the lead time, it's still using the 5D.
+
+[Nazmul / alam.nazmul] 15:57:28
+Yeah, that's already there, so you can put that information here, that what is currently we have And, yeah, of course, we will maintain that Find D+.
+
+[Nazmul / alam.nazmul] 15:57:39
+That's, uh, will be there. Lora capitalize, uh, capabilities is also there.
+
+[Nazmul / alam.nazmul] 15:57:44
+So, those will remain there, but still… We need to think about how to improve this.
+
+[Nazmul / alam.nazmul] 15:57:54
+Is there any MMB such kind of JJI?
+
+[Nas] 15:58:00
+Yes, we say we have the CGI to improve the time.
+
+[Nazmul / alam.nazmul] 15:58:05
+Is there any progress on that GDI? No progress. Maybe no one understands, no one, no one can calculate this data.
+
+[Nas] 15:58:12
+Yeah, they just still use the… by the day, or… yeah.
+
+[Nazmul / alam.nazmul] 15:58:22
+Yeah, so, uh, you can put that, uh, expectation Here as well, as a… what we… we are going to do. Plus, these capabilities target.
+
+[Nazmul / alam.nazmul] 15:58:33
+Like, we set one capabilities already, maybe you can select another two capabilities to be… to be implemented within this… picking up.
+
+[Nazmul / alam.nazmul] 15:58:44
+Dora capabilities, right?
+
+[Nas] 15:58:48
+The capacity, yeah.
+
+[Nazmul / alam.nazmul] 15:59:07
+Put some target based on that. And then, than that, I don't… Ting, let me go quickly, so… We don't have time. I don't think we have something important, but this… this one, NASA, please check from MMP point of view, if something you would like to add for
+
+[Nazmul / alam.nazmul] 15:59:25
+This one, please share it with Liam, and we can implement… we can adopt this. So this is about the check block, all-hands communication.
+
+[Nazmul / alam.nazmul] 15:59:35
+Learning a new technology through some seminar, participating in presentation in… uh… study session or online meeting.
+
+[Nazmul / alam.nazmul] 15:59:47
+So if there is something in… besides this kind of target, so you can put that target here.
+

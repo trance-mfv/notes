@@ -1,0 +1,621 @@
+[Nazmul / alam.nazmul] 14:06:39
+Improvement tickets and Phonics, I don't know phonics query maybe some uh some something in the products query that's why she hardcoded doesn't count this one But… our listing improvement pond and phonics listing improvement point is actually product improvement point.
+
+[Nas] 14:07:03
+Yeah.
+
+[Nazmul / alam.nazmul] 14:07:05
+Even DevSight or QA side, you ever found the improvement one put it in the same place that is first thing we should do.
+
+[Nazmul / alam.nazmul] 14:07:16
+Okay, I understand. From next time, let's put the improvement thing in one place so that it doesn't matter key way or we can see in if you go in individual improvement item you can see that Who is the reporter, right?
+
+[Nas] 14:07:33
+Yeah. Yeah. For the full list on this QA, yes.
+
+[Nazmul / alam.nazmul] 14:07:34
+Yeah, we can. But that is not important for for us, actually. For leaders.
+
+[Nazmul / alam.nazmul] 14:07:48
+For engineer, maybe it's important but for leader we don't need to care that whether it is reported by Phonics or NAS or Richard or NASMO.
+
+[Nazmul / alam.nazmul] 14:07:57
+Or Saito.
+
+[Nas] 14:08:00
+Yeah. But we just make the variety for us but we need to move in one place.
+
+[Nazmul / alam.nazmul] 14:08:07
+Okay. Yeah. So next time, please correct it. But yeah, let's review the reported back from phonic so far.
+
+[Nazmul / alam.nazmul] 14:08:15
+Whereas there are two phonics?
+
+[Nazmul / alam.nazmul] 14:08:20
+Phonics has two icons one phonics.
+
+[Nas] 14:08:25
+Yes.
+
+[Nazmul / alam.nazmul] 14:08:26
+So looks like there are two phonics.
+
+[Nas] 14:08:30
+Too soon i don't know who needs it.
+
+[Nazmul / alam.nazmul] 14:08:36
+This is our products. This is it.
+
+[Nas] 14:08:40
+It's email one day the MFB sign.
+
+[Nas] 14:08:45
+It's a long time ago and this account only react to.
+
+[Nazmul / alam.nazmul] 14:08:45
+I see.
+
+[Nazmul / alam.nazmul] 14:08:50
+I see.
+
+[Nas] 14:08:51
+Yeah, maybe I decide to… new for me.
+
+[Nazmul / alam.nazmul] 14:08:55
+Okay. Anyway, so yeah, let's There are some activities set by Kiva side already, right?
+
+[Nas] 14:08:59
+What's… Yeah, let's be not the… I think this is enough for a new moment.
+
+[Nazmul / alam.nazmul] 14:09:11
+Yeah, this improvement label please add this with our improvement also
+
+[Trance] 14:09:20
+The label here, I use it to filter the list and to calculate uh the uh the percentage and the point product roadmap or book or tech depth So it's not important.
+
+[Nazmul / alam.nazmul] 14:09:37
+Hi, because…
+
+[Trance] 14:09:40
+The important thing is the important thing is I just discussed this with Nas and Phoenix and I will use the PDM request label forward to uh to mark to like to flag for to flag Any request from PDA?
+
+[Trance] 14:10:03
+For example this one this one is is a story. It's actually an epic.
+
+[Trance] 14:10:11
+A story reported by PDM. In the future, I will use this one. I will remove the the improvement uh right away Give me one second, please.
+
+[Nas] 14:10:24
+Yeah, I think for the BDM event, it's okay for you but
+
+[Nazmul / alam.nazmul] 14:10:25
+Yeah. Yeah, this one i i have some. Can you go back to the original query up for Well, yeah.
+
+[Nazmul / alam.nazmul] 14:10:36
+So what is that query can you can you check the json So this is it.
+
+[Nazmul / alam.nazmul] 14:10:42
+In improvement, improvement. Okay.
+
+[Nas] 14:10:46
+Yeah, absolutely. If I need to check for the tickets that have the label in the room.
+
+[Nazmul / alam.nazmul] 14:10:53
+So that means if we would like to use this same level so this will be automatically here right
+
+[Nas] 14:10:59
+Yeah, we should add the label integral.
+
+[Nazmul / alam.nazmul] 14:11:05
+Okay. Okay. Then just to add for our case, just add this level so then this 30 number will be increased Is it okay?
+
+[Nas] 14:11:17
+Yeah. Okay, let me just remove that.
+
+[Nas] 14:11:22
+Roadmap widget. Yeah, okay, thank you.
+
+[Trance] 14:11:23
+Yes, I just remove it.
+
+[Nas] 14:11:29
+Yeah, actually, I just saw the derivedi.
+
+[Nas] 14:11:35
+So I'm trying to know. So it's easy for to… check.
+
+[Nazmul / alam.nazmul] 14:11:50
+So…
+
+[Nas] 14:11:53
+What's that? You…
+
+[Nazmul / alam.nazmul] 14:11:55
+I found like 25 but when you are checking you see 29 white.
+
+[Nas] 14:12:05
+25.
+
+[Nazmul / alam.nazmul] 14:12:08
+Can I share my screen a little bit just to clarify?
+
+[Nas] 14:12:11
+You seem… use the old… Oh, uh… Yeah, let's data.
+
+[Nazmul / alam.nazmul] 14:12:22
+This one.
+
+[Nazmul / alam.nazmul] 14:12:27
+Not this one.
+
+[Nas] 14:12:29
+Uh this one i just I have a place for the… the CJ workflow yesterday.
+
+[Nas] 14:12:40
+Yeah, to apply the new workflow. Yeah, I just asked you to review in some Last week, some reverse ring yeah So for now, we don't have some… Yeah, we have a lot of will flow.
+
+[Nazmul / alam.nazmul] 14:12:49
+Yeah.
+
+[Nazmul / alam.nazmul] 14:13:00
+I saw it.
+
+[Nas] 14:13:01
+Yeah, I will bet this one because uh the future I mentioned is in from the phonics so i can edit it so i will give this one and update to the the meeting, no?
+
+[Nazmul / alam.nazmul] 14:13:18
+Okay. Okay, so let's start reviewing the bug one by one so Can I say this too high periodic?
+
+[Nas] 14:13:27
+Yeah, we have two varieties. Please… file.
+
+[Nas] 14:13:37
+Okay, I got this.
+
+[Nas] 14:13:47
+I see.
+
+[Nazmul / alam.nazmul] 14:13:48
+Is it from Goen?
+
+[Nazmul / alam.nazmul] 14:13:53
+Okay.
+
+[Nas] 14:13:55
+I think… it's just you can see here When we come to another third party uh if uh we have… ECU, we saw 500.
+
+[Nas] 14:14:08
+But eating is enough good behavior so for the user experience we may be so for the maybe possible for pa we can sell I get some error and you can connect with them or anything.
+
+[Nazmul / alam.nazmul] 14:14:23
+More customized error based on which API is giving the 500 error.
+
+[Nas] 14:14:29
+Yeah.
+
+[Nazmul / alam.nazmul] 14:14:33
+This is… Okay, go.
+
+[Nas] 14:14:37
+Yeah, actually, for… for a real woman.
+
+[Nas] 14:14:42
+Not the… hierarchy the high rate default on the road.
+
+[Nas] 14:14:52
+Yeah, if this is the hierarchy Phonic rebooted to the issue or the internal book or book
+
+[Nazmul / alam.nazmul] 14:15:00
+Okay, so can you start linking this ticket so uh somehow I would like to ask this one to PDM side whether we need to fix it immediately or not.
+
+[Nazmul / alam.nazmul] 14:15:11
+Because to me, it's a It's just… How should I say? If we have a user manual properly we can mention that this kind of error may occur if other service is done.
+
+[Nazmul / alam.nazmul] 14:15:27
+That's all. Yeah just to put some tag or something that we need this ticket to be reviewed by pdm
+
+[Nas] 14:15:29
+Yeah.
+
+[Nas] 14:15:40
+Okay, so… Maybe we can add the new label.
+
+[Nas] 14:15:48
+As we can yield a conform. Confirm this means we need to confirm from the pdm side or yeah is stated.
+
+[Nazmul / alam.nazmul] 14:15:50
+Yes, that's all.
+
+[Nazmul / alam.nazmul] 14:15:57
+You know, I just want to inform these two citation that these are the tickets i would like your confirmation whether we should fix it or please change the priority if we don't need to maybe put to it low priority but i don't want to change i would like us
+
+[Nazmul / alam.nazmul] 14:16:16
+To ask her to change it.
+
+[Nas] 14:16:19
+Okay, so I will not eat and send you miss it.
+
+[Nazmul / alam.nazmul] 14:16:23
+That's okay. Just to put a note somewhere.
+
+[Nas] 14:16:25
+Yeah, yeah, yeah, yeah. That's okay. I already know it.
+
+[Nazmul / alam.nazmul] 14:16:29
+Okay, then next.
+
+[Nazmul / alam.nazmul] 14:16:36
+In February, one employee, I have a two payment
+
+[Nas] 14:16:40
+And previous. I don't know.
+
+[Nazmul / alam.nazmul] 14:16:42
+I see. Yes. Maybe.
+
+[Nazmul / alam.nazmul] 14:16:48
+This is not even improvement this is kind of bug.
+
+[Nazmul / alam.nazmul] 14:16:58
+Yes, it is not a problem but yeah if application can fix it it is nice
+
+[Nas] 14:17:04
+What's the problem… we need to confirm what should we sell when we have this With…
+
+[Nazmul / alam.nazmul] 14:17:10
+Yeah, so please note it down to discuss further with PDM side so we can confirm what actually the Yeah, basically, we need to update the PRD or something.
+
+[Nas] 14:17:24
+Yeah.
+
+[Nazmul / alam.nazmul] 14:17:25
+Yeah maybe we don't have very clear PID on this particular case.
+
+[Nas] 14:17:29
+Yeah, yeah, yeah. And we journey to the confirmation.
+
+[Nazmul / alam.nazmul] 14:17:35
+Can you put this note at the same time? That is also one Just put that we need to discuss yeah this one we would like to discuss with the PDM side.
+
+[Nas] 14:17:51
+Yeah, okay.
+
+[Nazmul / alam.nazmul] 14:17:52
+It will take much time. Anyway, so just to put the URL in our notes so we will i will later confirm it with PDM side.
+
+[Nas] 14:18:03
+Yeah, yeah, yeah, yeah. I already noticed it and I send it to the confirmation.
+
+[Nazmul / alam.nazmul] 14:18:12
+Then… One more thing. So please start inviting Liam for this kind of our group discussion.
+
+[Nas] 14:18:20
+Okay.
+
+[Nazmul / alam.nazmul] 14:18:23
+Then this one. How many medium? Many medium.
+
+[Nas] 14:18:26
+And we have…
+
+[Nas] 14:18:30
+Yeah, many medium. For this one uh Yeah, let me answer.
+
+[Nas] 14:18:40
+Sla, this one in the Hmm.
+
+[Nas] 14:18:48
+Reverse it. We have the five to not on the message from the daily repok for Every day? Yeah.
+
+[Nazmul / alam.nazmul] 14:19:03
+Okay.
+
+[Nas] 14:19:05
+But I don't know who who will… check this one.
+
+[Nas] 14:19:11
+So when my way to my the MHA account.
+
+[Nas] 14:19:17
+We cannot. Access to the uh for the Google… google seat because for the security They don't have the profile for us.
+
+[Nas] 14:19:32
+Yeah, maybe we have to a different way but uh currently we can use this the related account on the the google service and add to the our our application yeah Lee also asked for the the SA team, but the student cannot support for that.
+
+[Nazmul / alam.nazmul] 14:19:46
+Hmm.
+
+[Nazmul / alam.nazmul] 14:19:53
+Welcome.
+
+[Nas] 14:20:01
+Yeah, just my concern feel is… Does anyone still unify or not?
+
+[Nas] 14:20:09
+If no one use so we don't need to to boost the effort to improve for this one.
+
+[Nas] 14:20:17
+Because we already sent the report in the select Every day?
+
+[Nas] 14:20:23
+This is just the samurai. To the uh google seat yeah
+
+[Nas] 14:20:34
+I think for the new member or new PTM, maybe they don't know BitFi also.
+
+[Nazmul / alam.nazmul] 14:20:41
+They don't know it. Maybe only arun was managing this data
+
+[Nas] 14:20:51
+I think everyone would still not do this for… Anything? I don't know… This is the requirement from who?
+
+[Nas] 14:21:03
+If they you still use they will uh mention the team because we don't go play is Nyman.
+
+[Nazmul / alam.nazmul] 14:21:14
+Nine months.
+
+[Nas] 14:21:16
+Yeah, from… September 2024.
+
+[Nas] 14:21:20
+Yeah, we moved to the MFE account to mha So at that time, we cannot deal with But we still have the report for from the cell. Yeah.
+
+[Nazmul / alam.nazmul] 14:21:37
+It is maybe you can discuss this thing also with cytosan and let him know that previously the situation is like this but currently from since ninth month we are not updating So.
+
+[Nazmul / alam.nazmul] 14:21:56
+Should we take any action or Just forget it. You forget it just own tweaks we can mark it as own tweaks.
+
+[Nas] 14:22:04
+Yeah.
+
+[Nas] 14:22:12
+Okay, NLT. Yeah, we will to another.
+
+[Nas] 14:22:19
+This one and one, two, three, four. 24 is either in blue.
+
+[Nas] 14:22:24
+The official member name it is like incorrect in some line Yeah, I see.
+
+[Nas] 14:22:33
+Or Rishwanika review. Okay, this one we…
+
+[Nas] 14:22:43
+Is it an affid member name? This one we just have the bundle west I think we move on.
+
+[Nas] 14:22:59
+Okay, we'll go to this one, this one. 84.
+
+[Nas] 14:23:06
+95a. Okay. This is a big improvement.
+
+[Nas] 14:23:13
+When just up for the team in this morning.
+
+[Nas] 14:23:19
+Yeah. In the Sit down.
+
+[Nas] 14:23:27
+The refactor is… set the default ER.
+
+[Nas] 14:23:32
+13 it means the tokyo Yeah, but in some K, the customer you can feel why they have the Tokyo either.
+
+[Nas] 14:23:44
+Is a default value. Yeah, but we… we fix it in the data by if we have the chain and it's to a big chain for us.
+
+[Nas] 14:24:02
+Actually, this one uh when already asked for rep team do we have the fog to to the week.
+
+[Nas] 14:24:17
+So from now…
+
+[Nazmul / alam.nazmul] 14:24:19
+You have to. Fix it. Pix.
+
+[Nas] 14:24:22
+Yeah, maybe we will plan to… try to fix it but uh we need still need to confirm for the behavior if we don't so before data was a So in some a lot of places.
+
+[Nazmul / alam.nazmul] 14:24:32
+Hmm.
+
+[Nas] 14:24:40
+So but for this one we can you can start to the improvement and need to confirm with dba in some case But it's in the big chain.
+
+[Nazmul / alam.nazmul] 14:24:53
+Yeah.
+
+[Nas] 14:24:56
+Okay. So this one only.
+
+[Nas] 14:25:01
+Let's uh so should we still send to Sato-san for the Mector privacy.
+
+[Nazmul / alam.nazmul] 14:25:07
+I think literally go and ask website but if we need further clarification we can ask it to go in again.
+
+[Nazmul / alam.nazmul] 14:25:19
+Can I see what Gwen said here?
+
+[Nas] 14:25:19
+Okay. Yeah, he said Vietnamese but
+
+[Nazmul / alam.nazmul] 14:25:26
+Okay. Yeah, but as he already replied, so please ask him if we have something to clarify but yeah we need to fix it
+
+[Nas] 14:25:39
+Yeah, I think they asked for the team, the PDM app for that team, I think it's maybe the Privacy? Hi.
+
+[Nas] 14:25:49
+The high variety.
+
+[Nazmul / alam.nazmul] 14:25:52
+Yeah. So from my point of view, this has higher priority than the five zero zero
+
+[Nas] 14:25:57
+Can we change it? We should act for a win.
+
+[Nazmul / alam.nazmul] 14:26:02
+We should wait for Gwen and we can give input that to gwen we think that this is higher priority than even 500.
+
+[Nas] 14:26:11
+Yeah, okay. Okay, I will ask for something.
+
+[Nas] 14:26:26
+Okay.
+
+[Nas] 14:26:32
+That the abjector column is in the toxicity minimum.
+
+[Nas] 14:26:44
+You know, peace and do not disly on the
+
+[Nazmul / alam.nazmul] 14:26:48
+Withholding sleep PDF.
+
+[Nas] 14:26:55
+Yeah, this one.
+
+[Nazmul / alam.nazmul] 14:26:59
+Is it a requirement this this is asked by PDM side or
+
+[Nas] 14:27:05
+I think this is a recent test for the QSI when they found But maybe for… this is not the… current logic so
+
+[Nazmul / alam.nazmul] 14:27:21
+Yeah, this is a sign to go in actually. So please ask him what to do.
+
+[Nazmul / alam.nazmul] 14:27:25
+What action we need to take. So you can comment here or you can ask separately to go in that what action we should check
+
+[Nas] 14:27:26
+What we do? Yeah. Bye.
+
+[Nas] 14:27:38
+Yeah, I think this may be the still the right hierarchy because before the reasoning sleep pd
+
+[Nazmul / alam.nazmul] 14:27:43
+Yes.
+
+[Nazmul / alam.nazmul] 14:27:48
+Yeah, we should fix it within within before this yearly task
+
+[Nazmul / alam.nazmul] 14:27:57
+But this is not in blue, but this is kind of bug right
+
+[Nas] 14:28:05
+If the PDM make the book But for currentists This may be the existing logic so they still don't know if they work or not.
+
+[Nazmul / alam.nazmul] 14:28:19
+To me, if it is existing logic, that means it's PRD has has to be updated means it is a pr debug requirement bug
+
+[Nas] 14:28:32
+Yeah, if you can confirm that this is the book So the root cause is the root PID missing.
+
+[Nazmul / alam.nazmul] 14:28:39
+Yeah.
+
+[Nas] 14:28:42
+But the reason we make this improvement because we we cannot find the uh Zik from the government.
+
+[Nas] 14:28:52
+This is correct or not? Yeah, to… Exu.
+
+[Nazmul / alam.nazmul] 14:28:58
+I feel like that is more important
+
+[Nas] 14:29:03
+Yeah, but…
+
+[Nazmul / alam.nazmul] 14:29:05
+Not medium it's what the medium.
+
+[Nas] 14:29:10
+Yeah, some medium maybe some medium maybe it's hierarchy but some right he seemed just a medium.
+
+[Nas] 14:29:22
+For improvement CV flow.
+
+[Nazmul / alam.nazmul] 14:29:28
+Yeah, this is Improman. This is clearly improvement. So, but the point is
+
+[Nas] 14:29:31
+Yeah.
+
+[Nas] 14:29:41
+And we…
+
+[Nazmul / alam.nazmul] 14:29:41
+And go to the select.
+
+[Nas] 14:29:46
+Let's see.
+
+[Nazmul / alam.nazmul] 14:29:47
+Is not confirmed by the PDM side whether we should update this ui So, you know, recently we are also discussing about MFPUI adaptation So from that point of view, shall we improve it as a part of mmpy So that's another discussion point.
+
+[Nazmul / alam.nazmul] 14:30:04
+So you can discuss this topic with
+
+[Nazmul / alam.nazmul] 14:30:11
+Who assigned at this moment you so you can discuss with Saito son
+
+[Nas] 14:30:16
+I know for this one.
+
+[Nas] 14:30:21
+So.
+
+[Nazmul / alam.nazmul] 14:30:23
+Maybe phonics. Yeah, I saw.
+
+[Nas] 14:30:29
+Yeah, one is the…
+
+[Nas] 14:30:36
+Yeah, this one. Funny still keep with What's icing.
+
+[Nazmul / alam.nazmul] 14:30:39
+Yes.
+
+[Nas] 14:30:46
+Uh… furnished already discussed with the handily.
+
+[Nas] 14:30:53
+Still not.
+
+[Nazmul / alam.nazmul] 14:30:54
+So then from the other side, so just ask a phonics that what's the next action he would like to take. One is discuss again with PDM side confirm about the importance of this bug if it is a low then put it mark it low
+
+[Nas] 14:31:03
+Pt.
+
+[Nas] 14:31:12
+Hmm.
+
+[Nazmul / alam.nazmul] 14:31:12
+Okay, I need to move to next meeting so Nasser, can you can you… maintain this meeting like at least a for a while.
+
+[Nazmul / alam.nazmul] 14:31:25
+To confirm that which action we need to take for individual ticket.
+
+[Nas] 14:31:30
+Yeah, I will… continue with the train and preacher.
+
+[Nas] 14:31:37
+Yeah, at least for a medium.
+
+[Nazmul / alam.nazmul] 14:31:37
+Okay. Okay. And then it's okay to let me know the summary in the in our weekly sync meeting that this is the action we are going to take for individual bug. Just review in advance and internally discuss and define some action plan for all the bugs
+
+[Nazmul / alam.nazmul] 14:31:57
+And update it in the sync meeting.
+
+[Nas] 14:32:01
+Okay.
+
+[Nazmul / alam.nazmul] 14:32:02
+Okay. Is it okay?
+
