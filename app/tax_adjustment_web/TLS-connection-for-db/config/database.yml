@@ -1,0 +1,9 @@
+# OTHER CONFIGS GO HERE...
+
+staging:
+  <<: *default
+  database: <%= ENV.fetch('DATABASE_NAME', 'tax_adjustment_web_staging') %>
+  ssl_mode: <%= ENV.fetch('DATABASE_SSLMODE', 'required') %>
+  ssl_ca: <%= ENV.fetch('DATABASE_SSL_CA', '') %>
+
+# OTHER CONFIGS GO HERE...

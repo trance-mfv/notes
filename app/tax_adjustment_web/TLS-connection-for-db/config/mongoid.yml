@@ -1,0 +1,26 @@
+
+# OTHER CONFIGS GO HERE...
+
+staging:
+  # Configure available database sessions. (required)
+  clients:
+    default:
+      # The standard MongoDB connection URI allows for easy replica set
+      # connection setup.
+      # Use environment variables or a config file to keep your
+      # credentials safe.
+      uri: 'mongodb://<%= ENV['DOCUMENTDB_USER'] %>:<%= ENV['DOCUMENTDB_PASS'] %>@<%= ENV['DOCUMENTDB_HOST'] %>:27017/<%= ENV['DOCUMENTDB_NAME'] %>?retryWrites=false&replicaSet=rs0&readPreference=secondaryPreferred'
+      # database: tax_adjustment_web_staging
+      options:
+        consistency: :strong
+        max_retries: 30
+        retry_interval: 1
+        timeout: 15
+        safe: true
+        refresh_interval: 10
+        ssl: true
+        ssl_ca_cert: "./config/rds-ca-rsa2048-g1.pem"
+  options:
+    app_name: TaxAdjustment
+
+# OTHER CONFIGS GO HERE...
