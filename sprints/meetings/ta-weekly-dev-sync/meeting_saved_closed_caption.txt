@@ -1,0 +1,603 @@
+[Nazmul / alam.nazmul] 14:33:28
+For monthly all-hands, HRS Dib Monthly All Hands. Uh, next meeting, unfortunately, is this Friday. I'm not sure if we… yeah, it's too early, we cannot actually prepare anything for next… this Friday, for monthly… HRS monthly on-hand, but so… It will be within one month, there will be another HRS monthly all-hands, but before that, we must have
+
+[Nazmul / alam.nazmul] 14:33:51
+Our division-wise JGI. So far, last time also, we had the division-wise at JGI, but that time, what happened, actually, I just came in, in this division as a new division manager.
+
+[Nazmul / alam.nazmul] 14:34:05
+Uh, previous division manager chains. Then, uh, Lee, uh, also was, uh, going to be transferred to the payroll.
+
+[Nazmul / alam.nazmul] 14:34:13
+So, that's another thing. Plus, uh, the PDM side also has many changes that time. So, uh, that division-wide GGI we prepared, but it… It was not properly synced with the MMB site. And that was the kind of very first time we are actually trying to have kind of virtual organization.
+
+[Nazmul / alam.nazmul] 14:34:34
+We'd have a kind of common GGI, but uh… yeah, for that purpose, even the Vietnam key members came here But still, there… we could see there are some gaps between the Division-wise, HRS Japan side, GGI, and department-wise, MFBG GGIs.
+
+[Nazmul / alam.nazmul] 14:34:51
+There was a gap. And because of that gap, maybe what division was JJI set, and what, uh.
+
+[Nazmul / alam.nazmul] 14:34:57
+Department team at GGI NAS and Lee said last time it was not actually 100% sync.
+
+[Nazmul / alam.nazmul] 14:35:03
+But taking this opportunity, this problem opportunity… problem as an opportunity, we would like to kind of have a… synced GZI part, both the division-wise and, uh.
+
+[Nazmul / alam.nazmul] 14:35:12
+Uh, MFB, TeamwiseJGI. So, that's… there will be no misalignment. This time. So that actually my first request, so let's prepare the slides.
+
+[Nazmul / alam.nazmul] 14:35:25
+Base DJI for presentational view, and then have a review, including PsychoSun, PDM site. Uh, they may have some topic to share. Basically, the product success areas, which should be, basically, business-level GGI.
+
+[Nazmul / alam.nazmul] 14:35:40
+Listing with them, sync with me and the MMB management side.
+
+[Nazmul / alam.nazmul] 14:35:45
+Uh, Charlie, or Dustin… plus, uh, Ora.
+
+[Nazmul / alam.nazmul] 14:35:49
+And have kind of same understanding that this is what we are going to do. Plus alpha, of course, I understand that MAP, they said there may be something additionally plus alpha. Mfv side also teamwise something additionally, as MAB-based DJI. That's okay.
+
+[Nazmul / alam.nazmul] 14:36:06
+But main media should be… kind of thing. Let's do this sync.
+
+[Liam MFV] 14:36:07
+Yeah.
+
+[Nazmul / alam.nazmul] 14:36:11
+This time, very much clearly. And after this presentation, we also have one kind of company-wide JGI Excel file.
+
+[Nazmul / alam.nazmul] 14:36:19
+Which actually man is… owner is a CEO, Suzhi-san. And, uh, it's, uh, kind of… top-down approach, so through this and create the GGI, then it's come to Komagu Sisan, who is our COO, uh, CMO, and from Komaguchuti-san, it comes to us.
+
+[Nazmul / alam.nazmul] 14:36:38
+You know, HRS level to Odasan, and from Urasan, it comes to… for me, for tax adjustment. So, let's put that… I'll share this file, uh, after having all this sync collaboration, and let's put that final data in that file.
+
+[Nazmul / alam.nazmul] 14:36:55
+Uh, and yeah, Liam, if you need any further information, input immediately, you can ask to Nas. He knows very details of all of this, or you can ask me in Slack.
+
+[Nazmul / alam.nazmul] 14:37:07
+Anytime. Yeah, that's the main priority at this moment.
+
+[Liam MFV] 14:37:10
+Yeah. Yeah. Um, for this, I, uh, and last, actually, we have a discussion on, uh.
+
+[Liam MFV] 14:37:21
+Yesterday, and uh, we… Uh, there's one up and boiler, myself and Les, uh, has confusion now, Isaac.
+
+[Liam MFV] 14:37:29
+Um, for the buying that, uh, with the included VIN, uh, MF3, CZI, but not there in the image, there's VVI.
+
+[Liam MFV] 14:37:39
+Or vice versa. How do we want to consider those points into the phone?
+
+[Liam MFV] 14:37:45
+The final ZGN.
+
+[Nazmul / alam.nazmul] 14:37:48
+So, to me, that is a kind of common GZI, which should be both for MFB, MFJ.
+
+[Nazmul / alam.nazmul] 14:37:53
+It's a no change. This common GCI, we should… we would like to present through the presentation.
+
+[Liam MFV] 14:37:55
+Hmm. Hmm.
+
+[Nazmul / alam.nazmul] 14:37:59
+Plus, when I'm going to present only MFJ site, maybe I will add some MFJ-related GGI there.
+
+[Nazmul / alam.nazmul] 14:38:06
+Similarly, when Liam, last day, you are going to present this, uh, to the MMB side, you are going to add this MMB-related JGIs.
+
+[Nazmul / alam.nazmul] 14:38:14
+Uh, plus alpha. So, make sense?
+
+[Liam MFV] 14:38:17
+Hmm. Okay, got it.
+
+[Nazmul / alam.nazmul] 14:38:21
+Especially product success point of view or overall technical strategy point of view, there should be no gap. It should be kind of same.
+
+[Nazmul / alam.nazmul] 14:38:31
+But, for example, people management point of view, training management point of view, there might be some differences, region-wise.
+
+[Nazmul / alam.nazmul] 14:38:40
+So those… those, uh… those kind of… dissimilar DGI should be addressed locally.
+
+[Nazmul / alam.nazmul] 14:38:50
+Got it, Liam?
+
+[Liam MFV] 14:38:51
+Yeah.
+
+[Nazmul / alam.nazmul] 14:38:56
+Did you agree? Do you understand what I… I'm telling.
+
+[Nas] 14:38:59
+Ah, yes.
+
+[Liam MFV] 14:39:03
+Okay. Then, uh, I will repair the wrap person, uh, and uh… We start with NAS, and uh… on the lid here.
+
+[Liam MFV] 14:39:12
+So, uh, yeah. It and brand, and with Christian, yes.
+
+[Nazmul / alam.nazmul] 14:39:15
+Yeah, just to continue… give you a more clear example, there is a product success area, right? Product success area, we have the roadmap item. So, those roadmap items, success are actually same for both MFJ, MFB side. There is no change.
+
+[Liam MFV] 14:39:22
+Yeah.
+
+[Liam MFV] 14:39:30
+Okay.
+
+[Nazmul / alam.nazmul] 14:39:30
+There is API success case. We would like to have the API. That should be kind of same, both for MFB, MFJ. There is no chance.
+
+[Nazmul / alam.nazmul] 14:39:37
+But there are some people management things, like, uh, weekly or bi-weekly basis, some kind of seminar, training, or something.
+
+[Liam MFV] 14:39:38
+Yeah.
+
+[Nazmul / alam.nazmul] 14:39:45
+Some training courses, maybe in MAB, there might be something different, and in MFJ, we don't have actually engineer, so we don't care much about those training, actually Honestly. But in MMB, you should have kind of a people management cultural thing.
+
+[Nazmul / alam.nazmul] 14:40:05
+In place, as MABJGI.
+
+[Nazmul / alam.nazmul] 14:40:11
+Okay? So those things, I usually include in MFJGGI also as a whole.
+
+[Nazmul / alam.nazmul] 14:40:20
+Like, last time, you can see also that people management things are there, cultural hero things are there.
+
+[Nazmul / alam.nazmul] 14:40:25
+But these are actually MMBJGI, which I represented always in NFJ side also.
+
+[Nazmul / alam.nazmul] 14:40:40
+Does it make sense to all, including maybe tense? This is the first time you are hearing those things?
+
+[Nazmul / alam.nazmul] 14:40:46
+And Richard, yeah, maybe you are… you are observing last time, but this is the first time you're hearing directly.
+
+[Trance] 14:40:54
+Yes. My first son.
+
+[Nas] 14:41:00
+Actually, it's difficult for… for the member, it's the first time you hear about the design.
+
+[Nas] 14:41:07
+Yeah, but maybe I will… I can explain for… uh… part of you in… say, another big thing? Yeah, might fit them be to easier for all of you to understand about it.
+
+[Nas] 14:41:21
+Zgi, how we make it, and uh… how we make it align with the, the, the… department, or with the company, or with the MFCHI, yeah.
+
+[Nazmul / alam.nazmul] 14:41:32
+Yeah, it's complicated, actually, I think. Yeah.
+
+[Liam MFV] 14:41:35
+Yeah, complicated. Yeah, company development.
+
+[Liam MFV] 14:41:41
+Yeah, this is a second, yeah.
+
+[Trance] 14:41:44
+But basically, we have to, uh. Gather information from all the team, right? Like, uh, payroll, or… SI also.
+
+[Trance] 14:41:54
+To… to consolidate them into… unified, uh, re… GGI for… from Nice Moon, Sun, to present in the meeting plan.
+
+[Nazmul / alam.nazmul] 14:42:03
+Yeah, good.
+
+[Nazmul / alam.nazmul] 14:42:09
+Yeah, so the trends, uh, what the Excel file that I shared with you as a TA, uh, with Mark TA, but it's actually HRSGI expectation.
+
+[Nazmul / alam.nazmul] 14:42:19
+From top management. So, that's actually true for social insurance, or payroll, or other product under HRS.
+
+[Trance] 14:42:21
+Yeah.
+
+[Nazmul / alam.nazmul] 14:42:30
+Yeah, it's a kind of common, but uh… For example, product success, we have, for example, 6 or 7 roadmap items to accomplish at this moment, but in case of social engine, they may have four roadmap items at this moment.
+
+[Nazmul / alam.nazmul] 14:42:44
+Something like that.
+
+[Trance] 14:42:48
+Yes. Yeah, I think I got the idea, but to dig into detail, yeah, and need some time.
+
+[Nazmul / alam.nazmul] 14:42:58
+Let's see, let's see, and uh, yeah, if everything broke, and then I am there to… Write down immediately.
+
+[Nazmul / alam.nazmul] 14:43:06
+And to represent it to the management, don't worry.
+
+[Nas] 14:43:13
+Yeah, I will explain, and, uh, maybe, uh. After Liam had the rough person, maybe he will share it with Tim, and we can discuss more to the detail, yeah.
+
+[Trance] 14:43:27
+Yeah.
+
+[Liam MFV] 14:43:30
+Okay, yeah. So, uh… anything to ask with, uh, last move?
+
+[Liam MFV] 14:43:39
+Okay, then uh…
+
+[Nas] 14:43:40
+I have just a question. Uh, for Naismo, uh. Do we have any, uh, TCI from the PDM team, or…?
+
+[Nas] 14:43:48
+Because I don't need any. Information from, uh, Sato-san.
+
+[Nazmul / alam.nazmul] 14:43:52
+So… Yeah.
+
+[Nas] 14:43:52
+Actually, in last time, we still don't have any CGI for the… from the PDM side.
+
+[Nazmul / alam.nazmul] 14:43:58
+So far, I didn't miss it, but I was discussing with other PDM also for different product purpose, for example, attendance, I have the, uh, kind of one slide, uh, high level, what they're expecting as a product roadmap item.
+
+[Nazmul / alam.nazmul] 14:44:11
+But honestly speaking, that's very, very simple. So, yeah. Well, we know our roadmap Excel file, so based on that, we'll put… as much data as possible. And I'm asking in parallel with Saitusan that to the Total roadmap item, what you put in
+
+[Nazmul / alam.nazmul] 14:44:29
+Second up, in the Excel file, it's not actually enough for the second upper the availability point of view, please put some more Roadmap item there.
+
+[Nazmul / alam.nazmul] 14:44:42
+That I'm already asking Saito-sam. So, let's see. Yeah, they don't have… they have something.
+
+[Nazmul / alam.nazmul] 14:44:49
+I know there, yeah, Nezusan and the… Yeah, last time, Kundosan, they have some, they are GGI, even in that file, the company-wise GGI file, you can see that product development.
+
+[Nazmul / alam.nazmul] 14:45:02
+Pdm product development management side, they have their GZI input there But, yeah, it's not enough.
+
+[Nas] 14:45:11
+Mmm, yeah. Because, uh, in, uh… Last year, uh, from the PDM side, I still have another item, like, for the We want to include the NOS, uh.
+
+[Nazmul / alam.nazmul] 14:45:22
+Yeah. Yeah.
+
+[Nas] 14:45:22
+Uh… poi? Yeah. Or something like that, is it related to the PDM side, and from the CS team side.
+
+[Nas] 14:45:29
+Yeah, Wes, uh… Mm-hmm.
+
+[Nazmul / alam.nazmul] 14:45:30
+Yeah, that's… that as a whole, right? But in individual product PDM point of view, they don't have anything.
+
+[Nazmul / alam.nazmul] 14:45:37
+Separately. They kind of depends on us. They just put some backlog item, and it depends on us, and we created the product development division, GGI.
+
+[Nas] 14:45:48
+Yeah, okay.
+
+[Nazmul / alam.nazmul] 14:45:51
+Yeah, they have, like, a sales target or NLP target, or… So, those targets they have.
+
+[Nazmul / alam.nazmul] 14:46:00
+As a whole.
+
+[Nas] 14:46:02
+Mm. Okay. Okay, if they have, uh… The CJI, we need to align with them if they just have the drop-off item, it's easy for us, yeah.
+
+[Nazmul / alam.nazmul] 14:46:16
+If they have roadmap items, Hythosan, for example, he will put… she will put in that Excel file, don't worry.
+
+[Nazmul / alam.nazmul] 14:46:21
+So that would be our main source of, uh… Roadmap item from PDM side.
+
+[Nas] 14:46:29
+Mm, okay
+
+[Liam MFV] 14:46:36
+Okay? Um… The next topic may be just on the update from somebody and us that we, uh, we have complete to update, uh.
+
+[Liam MFV] 14:46:46
+Productivity, measurement, people. Last month. You can have a check and let us know if anything needs to be corrected.
+
+[Liam MFV] 14:46:58
+So, uh, the next step, like, we said today.
+
+[Nazmul / alam.nazmul] 14:47:04
+One minute, I just want to open this file. I did… Okay, so productivity measure.
+
+[Liam MFV] 14:47:06
+Yeah. Yes.
+
+[Nazmul / alam.nazmul] 14:47:13
+Mmm… okay, oh, okay. So, you… You already updated this… This is done, right?
+
+[Liam MFV] 14:47:17
+Yeah.
+
+[Liam MFV] 14:47:22
+Yeah. Yes, myself and mask, a little windy. The need to gather.
+
+[Nazmul / alam.nazmul] 14:47:28
+Okay, fine. I didn't review, so let… But at least, can you put the landmark in the original Slack channel? I… Dagdu?
+
+[Liam MFV] 14:47:39
+Already. Alrighty. No.
+
+[Nazmul / alam.nazmul] 14:47:40
+Okay.
+
+[Nas] 14:47:44
+Mmm, but it seems we're still missing the, uh, dashboard for the… call 2… right.
+
+[Liam MFV] 14:47:54
+Uh, second water repocks. Yeah. Stuart not done that.
+
+[Nas] 14:47:55
+Yeah, yeah, yes.
+
+[Liam MFV] 14:48:00
+A deep pump, yeah.
+
+[Nas] 14:48:01
+We still have one report for the second quarter, yeah. Okay, but I think this is just… Yeah, it's just a report, hold on. Yeah, maybe check, check, uh… A half hour, yeah.
+
+[Nas] 14:48:16
+Just not if you have time, yeah, you can really…
+
+[Nazmul / alam.nazmul] 14:48:24
+So, yeah, specifically there is a request for Liam. So there are these kind of cross… Organization-wise request.
+
+[Nazmul / alam.nazmul] 14:48:33
+Uh, time to time. Especially this kind of survey data, or this kind of productivity improvement data.
+
+[Nazmul / alam.nazmul] 14:48:41
+Some other, uh, MMBC as a whole, they have some… organizations who are actually checking this, uh, or requesting some of the data.
+
+[Nazmul / alam.nazmul] 14:48:49
+So, I would like to request you to follow up those kind of things. We don't even… I don't know, suddenly someone is asking something.
+
+[Nazmul / alam.nazmul] 14:48:56
+And uh… Yeah, let me try to include… those… those channels, one by one, when things come.
+
+[Nazmul / alam.nazmul] 14:49:06
+But from your side, please follow up those channels. There are many this kind of things.
+
+[Liam MFV] 14:49:12
+Yeah.
+
+[Nazmul / alam.nazmul] 14:49:12
+And they're not so much organized. So far, that's what's my experience in the last one year.
+
+[Liam MFV] 14:49:18
+Yeah.
+
+[Nazmul / alam.nazmul] 14:49:18
+Am I right, Nas?
+
+[Nas] 14:49:19
+Mm, yes.
+
+[Nazmul / alam.nazmul] 14:49:23
+Sometime MABC Architect Guild asking something. Yeah, this kind of API listing thing, they are asking something.
+
+[Nazmul / alam.nazmul] 14:49:30
+Uh, yeah. So, AZLink is, NabysLink is… They are asking something, they are changing something, so we need to follow up and take immediate action some… sometime.
+
+[Nas] 14:49:40
+Yeah. Sla for the cross-team, uh… We need to take more… take more of the attention for… for… from them.
+
+[Nas] 14:49:50
+Because, uh. Maybe, actually, uh… some project we need to adapt with them, but, uh, maybe from PTM side, I don't know about it.
+
+[Nas] 14:50:02
+You see, for the technical side. Maybe nobody, uh, announced to the PDM side?
+
+[Nas] 14:50:08
+Yeah, so for the red team, this would surprise you. Uh, some tend not to follow.
+
+[Nas] 14:50:15
+From us for our sail here.
+
+[Nazmul / alam.nazmul] 14:50:19
+This one is not, this one is not.
+
+[Nas] 14:50:23
+Okay.
+
+[Liam MFV] 14:50:27
+Okay. Yeah. 10 minutes left.
+
+[Liam MFV] 14:50:31
+So that's the bit, uh… Like, you know, we have… we are going to have the G-Swap.
+
+[Liam MFV] 14:50:38
+Migration to enterprise. We'll meet up soon, and uh… When I checked the… my resident landing.
+
+[Liam MFV] 14:50:48
+It's a possibility impact is the… Do you have repository ULC.
+
+[Liam MFV] 14:50:53
+Maybe we need to update. The UL in some CICD.
+
+[Liam MFV] 14:50:58
+Totally. Nice, of course, yeah, I, uh… Auto Stone 50D+.
+
+[Liam MFV] 14:51:03
+And also, uh… After migration, the token, maybe… If we need to re-reide the token in order to get, we use somewhere else.
+
+[Liam MFV] 14:51:13
+So, uh, please have a chat. If you have time, and uh… Mr. What could be the impact to TI?
+
+[Liam MFV] 14:51:21
+In some documentation, and we will… check together and, uh, to avoid the impact when doing the operation.
+
+[Liam MFV] 14:51:30
+I'm, uh… I'm still, um… not play about the actual time they will do? Will they get the on… diversity for us are, uh, we keep it until the new responsibility migrated, or how? Let's say I'm not going to ask them.
+
+[Liam MFV] 14:51:48
+In Sky, if you have any questions, please, let me know, we can collect and ask them one time.
+
+[Nazmul / alam.nazmul] 14:51:56
+Yeah, Liam, that is a good question. So, yeah, uh, just a heads up that they are going to do this migration in the coming Timing, and I… I don't think they have a clear plan at this moment. They are now planning. So, if you have any concern, any question.
+
+[Nazmul / alam.nazmul] 14:52:12
+Please ask in that channel, uh, to James directly. That I have some query to answer.
+
+[Nazmul / alam.nazmul] 14:52:19
+And you can ask those queries there.
+
+[Liam MFV] 14:52:24
+Okay. Uh… from NAS, and then, uh, which, uh, if you have some listen also.
+
+[Liam MFV] 14:52:33
+Let me know. You can discuss, and I can collect on to ask.
+
+[Liam MFV] 14:52:37
+Uh, to clarify with… GMSI, also, yeah.
+
+[Nazmul / alam.nazmul] 14:52:41
+Yeah, honestly speaking, I don't have any concerns, so they will just do it, and if there is any… any… any kind of impact. So, for example, one… one kind of push, maybe it will be not working, and then immediately we can correct it. Or maybe, uh, our SRE team can help us to correct it.
+
+[Nazmul / alam.nazmul] 14:52:58
+So, I don't have much concern on that.
+
+[Trance] 14:53:02
+Yeah, I agree, yeah.
+
+[Nas] 14:53:04
+Yeah. I don't know, uh, what's the immigration, but, uh, I… still follow up the channel, yeah, if they have any announcement, I will check it.
+
+[Nazmul / alam.nazmul] 14:53:18
+Yeah, my suggestion, please wait for a while and see how they are making the plan, and based on the plan, let's, uh… think how we are… basically, James Miller and his team is going to support us for this migration. We basically doesn't need to do anything
+
+[Nazmul / alam.nazmul] 14:53:33
+That's my understanding. It's a PRE or CRE, uh, SRE team activity.
+
+[Trance] 14:53:43
+Yes, I think so, yes.
+
+[Liam MFV] 14:53:43
+Die, yeah.
+
+[Nazmul / alam.nazmul] 14:53:46
+Platform reliability… engineering, yeah.
+
+[Liam MFV] 14:53:49
+Platform… platform, yeah. Yeah, yeah.
+
+[Nazmul / alam.nazmul] 14:53:52
+Estari service reliability.
+
+[Trance] 14:53:56
+Then we will possibly some, like, broken in the third-party column, like, Zira or Slack.
+
+[Trance] 14:54:05
+Or something else, but, um… We should… they just, like, configurations. I think that they can handle it easily, yeah.
+
+[Liam MFV] 14:54:21
+Okay. The next point, it may be chata.
+
+[Liam MFV] 14:54:26
+For the estimation guidelines. Ganat team has, uh, tribe.
+
+[Liam MFV] 14:54:31
+And, uh, so Lee, I got, uh, feedback from entrance. And, uh, for the last try. So, thank you and Jen, for your time, and uh… Providing your feedback, and we'll consider that feedback to apply to the next person.
+
+[Liam MFV] 14:54:47
+To make this more useful and, uh. My, uh, clear for everybody using, and we can apply at all.
+
+[Liam MFV] 14:54:54
+Also team in an estimate.
+
+[Trance] 14:54:58
+Yes, actually, um… We… we want to thank you for the spreadsheets, yeah. When we break down the… the weight, the… the complexity, yeah, we… I, uh, I can feel that we, uh, we estimate it's a little bit faster.
+
+[Trance] 14:55:15
+In terms of the speed, yeah. Yeah, and… but right now, I think that we should have some, like.
+
+[Liam MFV] 14:55:19
+Hmm.
+
+[Trance] 14:55:25
+Some small improvement for the document. Like, we want everyone to use, uh, like.
+
+[Liam MFV] 14:55:29
+Boom.
+
+[Trance] 14:55:33
+The document to estimate And we sing the… we calibrate the pawn.
+
+[Trance] 14:55:40
+In the same document, instead of we… we open another application like the poker games, things like that, it takes… it takes time, and it's… it kind of distracts us from… Focusing on to… into the… the ticket and the farm, yeah.
+
+[Liam MFV] 14:55:46
+Yes. Yeah.
+
+[Liam MFV] 14:55:57
+Yeah. I, uh, I completely understood what, uh, you are trying to do and train.
+
+[Trance] 14:56:03
+Yeah, yeah.
+
+[Liam MFV] 14:56:04
+Marcel and Zepped, chat, uh… Prior to discuss what we obtain, and maybe I will… By the way to add some script to modify what is…
+
+[Trance] 14:56:16
+Yeah, yeah. Yeah, we, you know, we still were practicing, yeah.
+
+[Liam MFV] 14:56:18
+Yeah.
+
+[Trance] 14:56:21
+You know, we can improve on, um… gradually improved and, um… In the future, yeah.
+
+[Liam MFV] 14:56:26
+Yeah. Okay. Yeah, from my side, I don't have any more to put from others.
+
+[Trance] 14:56:28
+Thank you, thank you.
+
+[Liam MFV] 14:56:35
+Do you have anything? One blue at me.
+
+[Nas] 14:56:40
+For the automation guideline, I think, uh… Uh, we should say with Tim, and maybe we have the same pay, and I think for the… Amber, Tim, and Emerald team.
+
+[Nas] 14:56:50
+We will apply in the next ring too, yeah.
+
+[Liam MFV] 14:56:51
+It's okay, okay. So…
+
+[Nas] 14:56:56
+Yeah, I think we just said about the… the meaning and how we do is… And for the improvement, I think we can do later, because it's just the improvement.
+
+[Nas] 14:57:11
+For now, I think the meaning and how we… My kit is, uh… we should say.
+
+[Liam MFV] 14:57:16
+Yeah, we still have one week remaining for… this room, right? Next week will be the end, yeah, okay? We still have time, yeah.
+
+[Nas] 14:57:22
+Just… Yeah, yeah, yeah. In this, uh, in the… Uh, first of next week, because in the… Uh, next Thursday and Friday, we will have the battle of refinement.
+
+[Liam MFV] 14:57:36
+Mm, okay, okay. Okay? I don't have any, uh, mod open, everyone.
+
+[Liam MFV] 14:57:43
+Which, uh, and trend, do we have anything else you want to add?
+
+[Trance] 14:57:49
+Well, I'm good for now.
+
+[Reacher] 14:57:49
+No, for my son.
+
+[Liam MFV] 14:57:51
+Yeah. Okay, then I think, uh, you can lose the call.
+
+[Liam MFV] 14:57:57
+To die on time? We have nothing else, nothing else to discuss.
+

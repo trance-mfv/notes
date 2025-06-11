@@ -19,6 +19,28 @@
         "MYSQL_PASSWORD": "",
         "MYSQL_DATABASE": "tax_adjustment_web"
       }
+    },
+    "figma-developer-mcp": {
+      "command": "npx",
+      "args": ["-y", "figma-developer-mcp", "--stdio"],
+      "env": {
+        "FIGMA_API_KEY": "${env:FIGMA_API_KEY}"
+      }
+    },
+    "glean": {
+      "command": "npx",
+      "args": ["-y", "@gleanwork/mcp-server"],
+      "env": {
+        "GLEAN_SUBDOMAIN": "moneyforward",
+        "GLEAN_API_TOKEN": "${env:GLEAN_API_TOKEN}"
+      }
+    },
+    "mcp-atlassian": {
+      "command": "./.cursor/mcp-atlassian-wrapper.sh",
+      "args": [],
+      "options": {
+        "cwd": "."
+      }
     }
   }
 }
