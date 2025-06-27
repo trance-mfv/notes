@@ -1,3 +1,13 @@
+## 2025-04-02
+- To inform PDM side when we modify the codebase
+
+- Implementation process: to discuss with Liam and Nas!
+    - why multiple test envs (heroku)? => to discuss with Liam and Nas
+    - why reset branches
+    - the role of develop branch?
+    - dedicated test branch?
+    - tagging a release?
+
 ## 2025-05-15
 - Code improvements
 - Redis update (Navis)
@@ -10,7 +20,6 @@
     - Create reference stories that all teams agree on for each point value
     - Implement regular calibration meetings to ensure consistency
     - Document estimation guidelines in a central location accessible to all teams
-- 
 
 ## 2025-04-18
 - Add EOL of every package to the `package.json` file and `Gemfile`
