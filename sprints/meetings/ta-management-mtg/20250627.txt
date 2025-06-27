@@ -1,0 +1,915 @@
+[Nas] 09:32:25
+No, that's good.
+
+[Nazmul / alam.nazmul] 09:32:28
+Yeah.
+
+[Nas] 09:32:31
+Yep.
+
+[Nazmul / alam.nazmul] 09:32:34
+Can I check cytosan will join or not? Please.
+
+[Yoko Saito] 09:33:08
+Sorry for my late….
+
+[Nazmul / alam.nazmul] 09:33:11
+Okay, let's start.
+
+[Nas] 09:33:17
+Okay, so, uh…. First, I would like to start a, uh, related to the March checking UI.
+
+[Nas] 09:33:24
+Rule 1. So, uh, yesterday we summarized, uh, for the tickets.
+
+[Nas] 09:33:28
+And, uh, so those are an ice billows. So, uh, for the… the first one, the design enrollment to the list procedures.
+
+[Nas] 09:33:37
+We, uh, intended to use apply the feature plan, and uh….
+
+[Nas] 09:33:41
+It's pretty quiet. It's required additional form maintenance efforts. The second and the third ticket, we, uh, we….
+
+[Nas] 09:33:52
+Apply for the, uh, four-year 25…. From September, starting from September, and we see the required action to….
+
+[Nas] 09:34:02
+Need attention from BDM is, uh, to inform SR…. So check on our CSDI to check the action before September.
+
+[Nas] 09:34:11
+So, uh…. You see a data topic, I would like to….
+
+[Nas] 09:34:15
+When I'll discuss it.
+
+[Yoko Saito] 09:34:18
+Yeah, okay. So, um…. I want to confirm, uh….
+
+[Yoko Saito] 09:34:26
+It's a nursing. So, uh, you are saying that, uh, for the first one.
+
+[Yoko Saito] 09:34:30
+Um, sorry, uh…. For the first one, um….
+
+[Yoko Saito] 09:34:38
+169… 1697. Um, this is already applied to the, uh, current year.
+
+[Yoko Saito] 09:34:46
+So, uh, in the current, uh, production. So, um…. Our choices to use the, uh….
+
+[Yoko Saito] 09:34:58
+Pizza frog, or informed. Uh, ask to… ask Aaron.
+
+[Yoko Saito] 09:35:04
+The document creation team to update the feature. Is this correct? So, we have two choices.
+
+[Yoko Saito] 09:35:12
+Right?
+
+[Nazmul / alam.nazmul] 09:35:14
+Yes, Saitas, and let me explain the situation. There are 3 tickets already deployed in the production.
+
+[Nazmul / alam.nazmul] 09:35:19
+All these three tickets is actually deployed in the production. But among these.
+
+[Yoko Saito] 09:35:24
+Sorry, but you said 2 tickets? 3. Okay, yeah.
+
+[Nazmul / alam.nazmul] 09:35:27
+3 tickets. All tickets…. Already deployed in the production. They are available in the production.
+
+[Yoko Saito] 09:35:32
+Yeah.
+
+[Nazmul / alam.nazmul] 09:35:34
+But, uh, the first ticket is applied for every fiscal year.
+
+[Nazmul / alam.nazmul] 09:35:39
+So, it is… it is not… depends on, uh, this…. Er, uh, ER leaders open.
+
+[Nazmul / alam.nazmul] 09:35:46
+Things. But another two tickets depends on yearly task open situation. So.
+
+[Nazmul / alam.nazmul] 09:35:53
+Next to ticket will be only available if someone is open for yearly tasks.
+
+[Yoko Saito] 09:35:58
+Yeah.
+
+[Nazmul / alam.nazmul] 09:35:58
+So that means before September, if they update the user manual, the next two tickets has no problem.
+
+[Yoko Saito] 09:36:06
+Okay, yeah.
+
+[Nazmul / alam.nazmul] 09:36:07
+But first ticket, as it is already available for all year, and.
+
+[Nazmul / alam.nazmul] 09:36:12
+In the production, so that means there are two up…. Actually, there are 3 options.
+
+[Nazmul / alam.nazmul] 09:36:17
+One option is that…. Feature flag. Second option is update the content immediately. Third option is revert back.
+
+[Yoko Saito] 09:36:26
+Mm-hmm. Okay. Yeah, and so, uh….
+
+[Yoko Saito] 09:36:31
+For the, um, for the last two. We don't have any issues, because, um….
+
+[Yoko Saito] 09:36:38
+Um, Doug…. Document creation teams, uh, already, uh, have a plan to update.
+
+[Yoko Saito] 09:36:45
+Um, their document. After… of the….
+
+[Nazmul / alam.nazmul] 09:36:48
+Yeah.
+
+[Yoko Saito] 09:36:51
+Um, after September, so on. We already informed them that.
+
+[Nazmul / alam.nazmul] 09:36:55
+I….
+
+[Yoko Saito] 09:36:58
+The last two. So, 1708. And, uh, 1581.
+
+[Nazmul / alam.nazmul] 09:37:00
+So, uh, just to confirm, so when they are going to update the UI content in… for end user.
+
+[Yoko Saito] 09:37:05
+So, we already informed them that we will have an, uh, UI update.
+
+[Yoko Saito] 09:37:10
+Uh, for this year and, I mean, uh, after September. So, for the last two, uh, we don't have any issues here.
+
+[Nazmul / alam.nazmul] 09:37:26
+Do… do nothing?
+
+[Yoko Saito] 09:37:27
+Uh…. After September.
+
+[Yoko Saito] 09:37:31
+1st of September. Yeah.
+
+[Nazmul / alam.nazmul] 09:37:32
+Okay, first of all, then it's okay. So, uh, from 1st of September, this can be available to individuals, so if the content is updated, for example, by end of August.
+
+[Nazmul / alam.nazmul] 09:37:45
+Then no problem, no issue.
+
+[Yoko Saito] 09:37:48
+Yeah. So, uh, so the….
+
+[Yoko Saito] 09:37:52
+I think on, uh, the, the issue here is only first one.
+
+[Yoko Saito] 09:37:57
+Uh, 169… 1697. So, uh, could you open the, uh, Jira?
+
+[Nazmul / alam.nazmul] 09:37:57
+Yeah, then it…. Yes.
+
+[Nas] 09:38:07
+This one? Go ahead.
+
+[Yoko Saito] 09:38:08
+Uh, yes. Um, this is the confirmation to Le Cous. So, uh, according to this JIRA.
+
+[Yoko Saito] 09:38:15
+Uh, we have… we have changed only two UIs. Is this correct?
+
+[Nas] 09:38:22
+Yes. Actually, it was just only one page.
+
+[Yoko Saito] 09:38:26
+Okay, um, in that case, I think on, uh, we can ask, uh, the document creation team to update.
+
+[Yoko Saito] 09:38:35
+Uh, those as soon as possible. So….
+
+[Nazmul / alam.nazmul] 09:38:38
+Yeah, the reason Cytesan, I don't want to go for, uh.
+
+[Nazmul / alam.nazmul] 09:38:42
+Feature flag. Actually, as you know, that feature plug-in many issues are happening. I don't want to take chance to have another issue.
+
+[Yoko Saito] 09:38:51
+Yeah, and uh…. I don't want to, um….
+
+[Yoko Saito] 09:38:57
+Use the, uh, the effort. To just un switch….
+
+[Nazmul / alam.nazmul] 09:39:03
+Uh, any particular one.
+
+[Yoko Saito] 09:39:03
+Peter Frank. So, um, vehicles, uh, yeah, Leko-san, do you think on….
+
+[Yoko Saito] 09:39:09
+Uh, it's okay to ask on CS and on success to….
+
+[Yoko Saito] 09:39:13
+Update their documents. Materials.
+
+[Yoko Saito] 09:39:20
+Titro, so disco.
+
+[aoyama.reiko] 09:39:21
+Please update me.
+
+[aoyama.reiko] 09:39:24
+You mean you're asking me to do it, right?
+
+[aoyama.reiko] 09:39:27
+Thank you very much.
+
+[Yoko Saito] 09:39:30
+Ano corre…. Sudani.
+
+[Yoko Saito] 09:39:36
+When you guys schedule, so that it disconnect.
+
+[aoyama.reiko] 09:39:47
+Yes, that's right. If you're busy with CS, I can help replace the images.
+
+[aoyama.reiko] 09:39:53
+If I could say so.
+
+[Yoko Saito] 09:39:56
+So then we don't worry about that. I don't know. Hi, I thought, great.
+
+[Yoko Saito] 09:40:02
+Study.
+
+[aoyama.reiko] 09:40:03
+Okay.
+
+[aoyama.reiko] 09:40:07
+Cloud Study hasn't told me about it yet, but I think we should let them know at yesterday's meeting.
+
+[Yoko Saito] 09:40:13
+Okay, then, uh. We agreed that we will ask CS.
+
+[aoyama.reiko] 09:40:18
+That's right.
+
+[aoyama.reiko] 09:40:40
+Yes.
+
+[Yoko Saito] 09:40:40
+To update, uh…. The support guide.
+
+[Yoko Saito] 09:40:45
+So…. I think that's okay. I think that's okay.
+
+[Nazmul / alam.nazmul] 09:40:52
+Very much, okay.
+
+[Nas] 09:40:55
+So, we choice this solution, right? Okay.
+
+[Yoko Saito] 09:40:59
+Yes, yes?
+
+[Nas] 09:41:04
+Okay, thank you. So….
+
+[Nazmul / alam.nazmul] 09:41:08
+So, at the same time.
+
+[Nas] 09:41:10
+Yeah, okay. Um, the next topic, uh….
+
+[Nazmul / alam.nazmul] 09:41:15
+Yeah, as Reiko-san is going to discuss with the design document update, take an action document update, just at the same time.
+
+[Nazmul / alam.nazmul] 09:41:24
+Reconfirm that the number 2 and number 3, 1708, 1581. Design content will be updated before.
+
+[Nazmul / alam.nazmul] 09:41:34
+September, by end of August.
+
+[Yoko Saito] 09:41:36
+Yeah. Um, yeah.
+
+[Nazmul / alam.nazmul] 09:41:41
+Good recon pumps.
+
+[Yoko Saito] 09:41:42
+Yes, uh…. Yeah, I will confirm, but, uh, not only those, uh.
+
+[Yoko Saito] 09:41:49
+Ur is what we have, you know, auto-reading, um…. Improvement and others. So, uh, we, we already, uh, um, shared that information, but, uh, I….
+
+[Nazmul / alam.nazmul] 09:41:53
+Hi, hi, hi, hi, so let's go.
+
+[Nazmul / alam.nazmul] 09:42:01
+Yeah, just a little issue happened, so I wonder if there is, again, something, so we….
+
+[Yoko Saito] 09:42:01
+We will confirm. Again. Okay.
+
+[Yoko Saito] 09:42:06
+Yeah, okay, yeah, yeah, sure.
+
+[Nazmul / alam.nazmul] 09:42:10
+I think I smell, so….
+
+[Nas] 09:42:22
+And that's the point I would like to discuss, either related to the postponed relationship master revision.
+
+[Nas] 09:42:28
+We have just won the release, uh, last week, and we, uh, are not still aware about, uh.
+
+[Yoko Saito] 09:42:28
+Yeah.
+
+[Nas] 09:42:34
+New release timeline for, uh, for this? Do you have any information?
+
+[Yoko Saito] 09:42:38
+Yeah, okay, so, um, could you go down to the, uh, PDM section?
+
+[Yoko Saito] 09:42:44
+Yes, I…. I gave some information about this.
+
+[Yoko Saito] 09:42:50
+So, we have…. We need a PDM site.
+
+[Yoko Saito] 09:42:56
+Have decided. To cancel this….
+
+[Yoko Saito] 09:43:00
+Project. Um, I will explain the lesson. Why? So, uh, could you open the, uh, presentation here?
+
+[Yoko Saito] 09:43:14
+So, uh, this is, uh, one of the, uh, information, uh, from the, uh, HR Master.
+
+[Yoko Saito] 09:43:21
+Project. So, and then, uh, this is a relation master. Uh… contents.
+
+[Yoko Saito] 09:43:28
+So, uh, if you look at the, uh, TEA. Uh, currently, we are using husband-wife, daughter, son.
+
+[Yoko Saito] 09:43:38
+And are in our…. 1413….
+
+[Yoko Saito] 09:43:44
+Project. We have changed. Adults, husband and wife, two spouse.
+
+[Yoko Saito] 09:43:49
+And those are unsung to child. And, uh, we canceled this release.
+
+[Yoko Saito] 09:43:57
+Uh, on…. 19th of July, or 19th of June.
+
+[Yoko Saito] 09:44:05
+Uh, the issue here is that, uh…. We have two reasons.
+
+[Yoko Saito] 09:44:12
+So, uh, one is that, uh, we have an, uh, import an import, um, feature.
+
+[Yoko Saito] 09:44:19
+From PA, and export feature to, um, HRIS. As you see in this….
+
+[Yoko Saito] 09:44:29
+Uh… in this chart. Um, PA and….
+
+[Yoko Saito] 09:44:34
+Hris have a different. Content around the, uh, spouse and children.
+
+[Yoko Saito] 09:44:41
+So, um, currently, PA has husband, wife, daughter, son, uh, it got, um, it is the same as, uh, current TA.
+
+[Yoko Saito] 09:44:49
+But the, uh, for, uh, HRIS, uh, we have, uh. Different, um….
+
+[Yoko Saito] 09:44:59
+Table. So, husband, wife, and then child, but with the, um….
+
+[Yoko Saito] 09:45:04
+Um, the 6th. And so, um….
+
+[Yoko Saito] 09:45:12
+P… this project itself. Is under 3 yards.
+
+[Yoko Saito] 09:45:17
+And, uh, we… we are… we are not sure if we will cancel this project itself.
+
+[Yoko Saito] 09:45:23
+Or postpone the project. But anyway, we have already decided that.
+
+[Yoko Saito] 09:45:29
+A PA, we do not work on this project. Before August.
+
+[Yoko Saito] 09:45:36
+You know, that, uh, for TA, we need to make all of the works.
+
+[Yoko Saito] 09:45:42
+But before, uh, 1st of September, by end of August. But Pierre will not work on this.
+
+[Yoko Saito] 09:45:49
+Uh, at least before. 1st of September.
+
+[Yoko Saito] 09:45:54
+That means we need…. We need to, um….
+
+[Yoko Saito] 09:45:59
+Say…. Change this, uh, import process.
+
+[Yoko Saito] 09:46:07
+If we release this 1413. But we don't have enough time to work on this.
+
+[Yoko Saito] 09:46:16
+From now, before 1st of September. Right?
+
+[Yoko Saito] 09:46:22
+And also, we need to work on the export to HRIS.
+
+[Yoko Saito] 09:46:28
+Because we have, uh, different, uh, tables on spouse and children.
+
+[Yoko Saito] 09:46:34
+So, um, that means we need to work on those, uh, import and export features.
+
+[Yoko Saito] 09:46:39
+Before 1st of September. But we don't have enough time for this year, at least.
+
+[Yoko Saito] 09:46:46
+So, this is the… one of the reasons. Why we canceled this?
+
+[Yoko Saito] 09:46:51
+Feature, uh, 1413. This year. And another reason is that, as I said.
+
+[Yoko Saito] 09:47:01
+Are in… in this project, an HR Master project. We have not decided.
+
+[Yoko Saito] 09:47:07
+What it should be, what they…. Should be. So, our to-be has not been decided yet in the HR Master project.
+
+[Yoko Saito] 09:47:18
+So, currently, uh, CDB has an husband-wife at child abuse, um.
+
+[Yoko Saito] 09:47:25
+On gender, so female and male. Uh, but, uh….
+
+[Yoko Saito] 09:47:31
+This… this should be already considered, and uh… even PA. They are not sure if they have the same.
+
+[Yoko Saito] 09:47:40
+Our tables are CDB. Yet. Because it's, um… because we are wondering if it's meaningful or not.
+
+[Yoko Saito] 09:47:49
+So, um…. So, um….
+
+[Yoko Saito] 09:47:54
+Ta has already, say, changed it to a spouse and a child.
+
+[Yoko Saito] 09:47:58
+But we are not sure yet. If it's… if we….
+
+[Yoko Saito] 09:48:03
+You know, if we have and are the same flavor as, um, HR Master.
+
+[Yoko Saito] 09:48:09
+It's possible that we need to change this again. In future, of the, um, HR must start… HR Master project.
+
+[Yoko Saito] 09:48:19
+We release target. So, uh, this is a second reason why.
+
+[Yoko Saito] 09:48:24
+We have decided we canceled this, uh, 1413. Um, any questions?
+
+[Nazmul / alam.nazmul] 09:48:35
+Not… not questions, Saterson. So, do you think that…. There is a possibility to reuse this part of code in future, or we completely discard it.
+
+[Yoko Saito] 09:48:49
+Uh, it is possible. We will reuse the current code.
+
+[Yoko Saito] 09:48:54
+Uh, so 14141413. But we are not sure yet.
+
+[Nazmul / alam.nazmul] 09:48:59
+I'm not sure. Depends on the next level of HM Master and other discussion, and how we define the requirement.
+
+[Yoko Saito] 09:49:06
+Yeah. Yeah. So….
+
+[Nazmul / alam.nazmul] 09:49:07
+Cool. Hi.
+
+[Yoko Saito] 09:49:10
+Um, so, um, as I…. Um, commented on our meeting notes.
+
+[Yoko Saito] 09:49:19
+We need to, uh…. Maybe we recruit this.
+
+[Yoko Saito] 09:49:24
+Uh, so we will include this. Relationship name change.
+
+[Yoko Saito] 09:49:29
+In our next year, anyway. To compare it to the, uh, dependent deduction form, or HR Master.
+
+[Yoko Saito] 09:49:37
+Project. So, um, we will, uh, include this project. Uh, next year, for sure.
+
+[Yoko Saito] 09:49:43
+But we don't know how.
+
+[Nazmul / alam.nazmul] 09:49:46
+Yeah, so, yeah, we will have something similar to next year, but the point is….
+
+[Nazmul / alam.nazmul] 09:49:52
+The scope may be different, or how it will be integrated with the HMaster thing.
+
+[Nazmul / alam.nazmul] 09:49:58
+That is a complete layer. Unclear at this moment. I understood. Yeah.
+
+[Nazmul / alam.nazmul] 09:50:03
+Pleasure with us. So, Liam, and, uh, yeah, I don't know who worked on this project, so I would like to know the exact man-man.
+
+[Nazmul / alam.nazmul] 09:50:13
+When our effort we spent so far. It may be asked by management side that how much effort is wasted for this part.
+
+[Nazmul / alam.nazmul] 09:50:22
+So, please let me know how much effort has been. Has been given for this project so far, including Kiwi.
+
+[Yoko Saito] 09:50:32
+So, I think, uh, I mean, our team worked on this.
+
+[Yoko Saito] 09:50:35
+So, Rachel? And I think this… this was done by Emerald's team.
+
+[Nazmul / alam.nazmul] 09:50:38
+Me, Chip?
+
+[Nazmul / alam.nazmul] 09:50:43
+Okay. Yeah, but not only am, but I think also QA4 is there, including QA design testing.
+
+[Yoko Saito] 09:50:43
+Right?
+
+[Nazmul / alam.nazmul] 09:50:52
+Everything. So, I think, Liam, would you please, uh…. Have this, uh, PIC to come up with this information.
+
+[Nazmul / alam.nazmul] 09:51:08
+Okay?
+
+[Yoko Saito] 09:51:12
+And also, our… so this one. This one has already debarked.
+
+[Nas] 09:51:19
+And yes, we reverse in the… last… last week? Yeah, because… because in last Thursday, we only relay onsizing, and….
+
+[Yoko Saito] 09:51:23
+Oh, okay. Okay.
+
+[Nas] 09:51:31
+And repair to relate. So, uh, we already took one of the….
+
+[Yoko Saito] 09:51:34
+Okay, okay.
+
+[Nas] 09:51:39
+Uh, this brochure.
+
+[Yoko Saito] 09:51:41
+Okay, thank you very much. And then, uh, I'm….
+
+[Yoko Saito] 09:51:45
+I have some concerns about the communication to team members. Are in a literal last week.
+
+[Yoko Saito] 09:51:55
+Many developers has done some, um…. Uncomfortable feeling on this….
+
+[Yoko Saito] 09:52:01
+Cancellation, and it's reasonable. But, um, I'm….
+
+[Nazmul / alam.nazmul] 09:52:05
+It's okay, I will explain in details that are some to individual… to all the members later on.
+
+[Yoko Saito] 09:52:13
+Um, is that okay? So, you can…. So you can explain them. So are you….
+
+[Nazmul / alam.nazmul] 09:52:14
+Yeah, it's okay.
+
+[Yoko Saito] 09:52:19
+Yeah, you can explain by using that diagram, the picture. So, um….
+
+[Yoko Saito] 09:52:27
+Um, sorry about that, but um…. Thank you very much.
+
+[Nazmul / alam.nazmul] 09:52:30
+No, it's, uh, it's not only the… this particular project. There are several other impacts because of this, so….
+
+[Nazmul / alam.nazmul] 09:52:38
+Yeah, yeah, I think…. We can understand this.
+
+[Nazmul / alam.nazmul] 09:52:43
+Yeah, of course, I understand, but I think, uh, engineer…. Of course, they can understand this up-down situation may happen sometime.
+
+[Nas] 09:52:43
+Yeah. Okay.
+
+[Nazmul / alam.nazmul] 09:52:54
+Uh, just to reconfirm, so, Saito-san mentioned need to rebutt, and Nas mentioned already, so this already… actually, we didn't release it, so what is needed to rebutt, Nas? What actually rebutt already?
+
+[Nas] 09:53:09
+Rework is minimal, because in, uh, last Thursday, we only really relate.
+
+[Nas] 09:53:14
+To seizing. Yeah, it will be, uh, just one step to rotation.
+
+[Nazmul / alam.nazmul] 09:53:16
+Yes.
+
+[Nas] 09:53:19
+So we need to check out, too, the spacing. Yeah.
+
+[Nazmul / alam.nazmul] 09:53:22
+Okay. Okay, so, uh, Juanita, uh…. It stays our production release point of view, we release it to the stage, and we revert it back to the… from the esters, right?
+
+[Nas] 09:53:34
+Hmm, so this… let me just revert more.
+
+[Nazmul / alam.nazmul] 09:53:36
+And another is source code rebutt point of view, so it's….
+
+[Nazmul / alam.nazmul] 09:53:40
+That's all the repository, right?
+
+[Nas] 09:53:42
+Yeah, I think… so, I noticed…. Because to me, we did.
+
+[Nazmul / alam.nazmul] 09:53:47
+Yes, yeah, all… yeah, that is correct, and the knowledge to do anything.
+
+[Nazmul / alam.nazmul] 09:53:52
+It's not actually not already, it's…. We actually don't need to do anything.
+
+[Nas] 09:53:52
+Yeah.
+
+[Nas] 09:53:58
+Yeah, okay, I recommend this one. Yeah, we….
+
+[Nazmul / alam.nazmul] 09:54:00
+But in terms of revert in the repository, source code repository, we need to clean up the code and put this code, uh, in the, maybe.
+
+[Nazmul / alam.nazmul] 09:54:09
+Keep it in the… in another branch somewhere. So that cleanup also needed.
+
+[Nas] 09:54:12
+Yeah, yeah, yeah, yeah, we…. Yeah. We, uh, keep the cock in the, uh, feature rank, so, uh….
+
+[Nas] 09:54:21
+We can use it in next year, I think we don't waste.
+
+[Nas] 09:54:26
+A lot of time for…. Maybe just, uh, in this year, we need to, uh, update a bit.
+
+[Nas] 09:54:33
+Okay.
+
+[Nazmul / alam.nazmul] 09:54:35
+Yeah, I understand. Just to clarify that this rebutt means what and.
+
+[Nazmul / alam.nazmul] 09:54:40
+What actually we did. Societies and collections are unknown. Yeah, we don't need to take any action, actually.
+
+[Nazmul / alam.nazmul] 09:54:46
+We don't need any rebard things. But the state server, we already deployed, so we will….
+
+[Nazmul / alam.nazmul] 09:54:51
+We will return it back. Something like this. And the source code cleanup part will take a measurement.
+
+[Yoko Saito] 09:55:00
+Oh, okay, okay. And, uh, I know that someone, uh, concerned about the, uh, impact to the single parent.
+
+[Yoko Saito] 09:55:08
+Uh, we recently, uh, worked. It has an impact, but.
+
+[Yoko Saito] 09:55:12
+No need to re-bark, because we will have, um, some, um….
+
+[Yoko Saito] 09:55:18
+Product to work on this, uh, work on that, uh. This year's tax reform.
+
+[Yoko Saito] 09:55:24
+And we need to update our… this part. Anyway, so, uh, we will….
+
+[Yoko Saito] 09:55:30
+Uh, we will leave you, uh. The, um, behavior of the system in this project again. So, uh, no need to do anything at the moment.
+
+[Yoko Saito] 09:55:43
+Is that okay?
+
+[Nas] 09:55:45
+Foliage just right after he? Can you…? Yeah, yes, I just confirmed this.
+
+[Nas] 09:55:52
+Uh, because we have some relevance, uh, tests already. Handle with new relationship giant.
+
+[Nas] 09:55:59
+And so, if we re… we can show the relationship matter relations, so in this case, do we need to….
+
+[Yoko Saito] 09:56:00
+Uh… no, no, no change. No change is required to the logic.
+
+[Nas] 09:56:09
+Chen, uh, the region? Uh….
+
+[Yoko Saito] 09:56:18
+So, uh, if… if… I think on…. So, you have a testing with tires, not the, uh, son and daughter?
+
+[Nas] 09:56:26
+Yeah, yes, correct.
+
+[Yoko Saito] 09:56:29
+Um, but I think the behavior has not been changed. Right?
+
+[Nas] 09:56:34
+Behavior and not chance, but the conditions. Will be affected.
+
+[Nas] 09:56:39
+Uh, employees, single parents will be affected by the. Uh, relationship quality.
+
+[Nas] 09:56:50
+Yeah, because in this theory, we, uh…. We are ways, we will….
+
+[Yoko Saito] 09:56:59
+Okay. Yeah.
+
+[Nas] 09:57:00
+10 to the time. So, yeah, you can see. Yes. So we need to, uh, revert back.
+
+[Nas] 09:57:06
+This one, to the, uh, son or daughter? Yeah, because when….
+
+[Yoko Saito] 09:57:08
+Uh, no. No, uh, as long as this works with, uh, daughter and the sun.
+
+[Yoko Saito] 09:57:15
+That is okay, but it doesn't work for our daughter and son.
+
+[Nas] 09:57:25
+Uh, yes. Because we only train it to Chimes. Yeah.
+
+[Nazmul / alam.nazmul] 09:57:33
+And that means….
+
+[Nas] 09:57:34
+Delete, delete. To determine the single parent of middle? Because, uh, when we, uh, relation this building, we, uh, think, uh, the relationship will be released.
+
+[Nas] 09:57:48
+And we will, uh, use the residency. Not the, uh, still not out.
+
+[Yoko Saito] 09:57:53
+It's terrible, okay.
+
+[Nazmul / alam.nazmul] 09:57:53
+I understand. So, there are some relationships already we consider, considering the relationship master integration.
+
+[Nazmul / alam.nazmul] 09:58:00
+So because… as we are stopping relationship master, so we need to….
+
+[Nazmul / alam.nazmul] 09:58:05
+Update this, and uh…. We need to also work on that.
+
+[Nazmul / alam.nazmul] 09:58:10
+Not the child. Child is relationship master.
+
+[Nas] 09:58:13
+On the chart?
+
+[Yoko Saito] 09:58:17
+Okay, uh, but…. Uh, again, because we will have some update around here, because, you know, we will have some legislative update around the, uh, single parent, and then.
+
+[Yoko Saito] 09:58:31
+Widow. So…. Um, could you hold on for a second?
+
+[Yoko Saito] 09:58:37
+And then, for what? Um, then, uh, Asamusan is now creating around this.
+
+[Yoko Saito] 09:58:41
+So, uh…. I won't, uh… I will ask her.
+
+[Yoko Saito] 09:58:47
+To incorporate this part. In her PRD.
+
+[Yoko Saito] 09:58:52
+So that, um….
+
+[Yoko Saito] 09:58:57
+We need… we need not to walk. Are….
+
+[Yoko Saito] 09:59:05
+Walk several times on this mother. I mean, uh, even if you change this to, uh, daughter and son.
+
+[Yoko Saito] 09:59:12
+Uh, it's possible that, um.
+
+[Yoko Saito] 09:59:18
+It's possible that we will have another change. Um, because of this, um….
+
+[Yoko Saito] 09:59:24
+Toxicity form. So, um, I will ask Asano-san to include, uh, the requirement around this.
+
+[Yoko Saito] 09:59:30
+Uh, in… in her PLD. So, um…. Please, um….
+
+[Yoko Saito] 09:59:37
+Leave it as it is. Um, for the time being.
+
+[Nas] 09:59:41
+Hmm, okay. I will explain this, uh, to, uh, Luna, and maybe, uh, in the PD meeting, uh.
+
+[Yoko Saito] 09:59:48
+Yep. Yes?
+
+[Nas] 09:59:49
+The PDM team can, uh, research the detail. Yeah.
+
+[Yoko Saito] 09:59:54
+Yep.
+
+[Nazmul / alam.nazmul] 09:59:55
+That's funny, is it better to pause this one, also? For a while, till we… till PDM side decide how to proceed.
+
+[Nazmul / alam.nazmul] 10:00:03
+In a very clear way, revise it.
+
+[Yoko Saito] 10:00:08
+And so, what do you mean by expose?
+
+[Nazmul / alam.nazmul] 10:00:13
+Pause, not expose. Pause.
+
+[Yoko Saito] 10:00:16
+Oh…. Opposed, yes. Yes.
+
+[Nazmul / alam.nazmul] 10:00:19
+Better to pause to waste any further effort. So, after, uh….
+
+[Nazmul / alam.nazmul] 10:00:24
+Kind of refining, or…. Uh, reviewing this part.
+
+[Nazmul / alam.nazmul] 10:00:29
+Including Asano-san, maybe Luna corrected, then we will start again there.
+
+[Nazmul / alam.nazmul] 10:00:35
+Consideration to develop.
+
+[Yoko Saito] 10:00:39
+This has been already released. Right? So….
+
+[Nas] 10:00:44
+Yeah, yeah.
+
+[Yoko Saito] 10:00:44
+Yeah, so….
+
+[Nazmul / alam.nazmul] 10:00:47
+I think….
+
+[Nazmul / alam.nazmul] 10:00:52
+Then, just leave it as it is. We don't need to take any action.
+
+[Yoko Saito] 10:00:56
+No, no, no, not at the moment.
+
+[Nas] 10:01:01
+Okay, I think each time, so sorry, uh…. We can book the room, so….
+
+[Yoko Saito] 10:01:05
+Oh, yes, yeah.
+
+[Nas] 10:01:08
+Yeah, okay, just have…. 10 seconds. Uh, I have to check roadmap variety, so I will relate the meeting to discuss the detail for this one.
+
+[Nas] 10:01:18
+Uh, maybe in next week? Because for now, uh, we have a lot of blue tape, not….
+
+[Nas] 10:01:25
+Studies are really, so we need to rally. Again, yeah. So, I do….
+
+[Yoko Saito] 10:01:30
+Okay.
+
+[Nas] 10:01:31
+And we will set the meeting, and we can discuss the detail in last meeting.
+
+[Yoko Saito] 10:01:35
+Yeah, yeah, true.
+
+[Nas] 10:01:39
+Okay, thank you, everyone.
+
+[Yoko Saito] 10:01:40
+Thank you.
+
