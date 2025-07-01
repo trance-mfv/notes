@@ -1,0 +1,15 @@
+Key functional enhancements for MF TA from FY25-FY28, aimed at resolving existing issues and strengthening market leadership for companies with 300-1000 employees, include:
+
+  * **Mid-Year Year-End Tax Adjustment Support (FY25-FY26):** To enhance regulatory compliance and system competitiveness by supporting tax adjustments for situations like employee death or overseas relocation, consolidating data, and reducing operational costs.
+  * **Access Restriction Function (by Aug):** To improve data security and compliance.
+  * **AI OCR Function (FY25-FY28):** To automate the reading of insurance premium deduction certificates, eliminating manual input, reducing errors, and streamlining administrative processes.
+  * **Communication Function Enhancement (AI) for Declaration Operations (FY25-FY28):** To address the complexity of employee interactions in large companies by integrating communication tools like Slack, Teams, and LINE, and potentially utilizing AI for inquiry support.
+  * **Accessibility Support (FY25-FY28):** To ensure the system is usable for all employees, including those with visual impairments or color blindness, aligning with legal requirements and enhancing system selection criteria for large enterprises.
+  * **Survey Optimization (FY25-FY28):** To simplify and clarify year-end tax adjustment questionnaires, reducing employee stress, improving satisfaction, and minimizing declaration errors.
+  * **Enhanced Automatic Calculation Function for Housing Loan Deductions (FY25-FY28):** To simplify and automate housing loan deduction applications, especially for refinancing, reducing the burden on employees and administrators and minimizing errors.
+  * **Provision of Year-End Adjustment Guidance Function per Company (FY25-FY28):** To allow companies to set up customized guidance, rules, and contact information within the system, improving employee self-resolution rates and reducing administrative inquiries.
+  * **Provision of "Memo and Check Function" for Each Year-End Adjustment Item (FY25-FY28):** To allow employees to record notes and administrators to track confirmation status, improving accuracy and productivity for both.
+  * **Provision of "Declaration Content Confirmation Function" for Employees (FY25-FY28):** To enable employees to review their submitted year-end adjustment declarations, increasing peace of mind, reducing inquiries, and easing the burden on administrators.
+  * **Optimization of Confirmation Operations (FY25-FY28):** To streamline the review process for administrators through bulk check/approval functions and AI-driven irregular data detection, improving productivity, accuracy, and preventing individual dependency.
+  * **Deletion Process After Legal Retention Period (FY25-FY28):** To automatically purge documents that have exceeded their legal retention period, enhancing data security and compliance.
+  * **Original Forms (OCR Declaration) (FY25-FY28):** To allow employees to upload images of paper documents (e.g., life insurance premium deduction certificates) which are then automatically processed by OCR, reducing manual input and errors, and improving efficiency.
